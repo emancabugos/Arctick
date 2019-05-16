@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Simple Upload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59cae6d6-51ff-4197-b5b4-7911e5b34e06</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Simple Upload')</defaultValue>
+      <description></description>
+      <id>70b6e3c1-687c-4646-83f5-65d39e23b952</id>
+      <masked>false</masked>
+      <name>varItemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Simple Upload')</defaultValue>
+      <description></description>
+      <id>cb2a65aa-022c-411e-b179-54a1bf6e643f</id>
+      <masked>false</masked>
+      <name>varPrice</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Simple Upload')</defaultValue>
+      <description></description>
+      <id>29212876-632d-4cf1-b392-1ebb53dbd80f</id>
+      <masked>false</masked>
+      <name>varSKU</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Simple Upload')</defaultValue>
+      <description></description>
+      <id>4e5fcff5-a377-4956-949f-1b60581fe5d1</id>
+      <masked>false</masked>
+      <name>varDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Simple Upload')</defaultValue>
+      <description></description>
+      <id>83fd36cb-040b-4adf-a2f9-ba9d458ced76</id>
+      <masked>false</masked>
+      <name>varImage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Simple Upload')</defaultValue>
+      <description></description>
+      <id>963edf50-0601-483a-b12c-532980ca98ab</id>
+      <masked>false</masked>
+      <name>varQuantity</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Invite Popup</name>
+   <tag></tag>
+   <comment>Close popup
+invalid email</comment>
+   <testCaseGuid>5946a82e-3a81-48e7-abd8-ea6320effae4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Announcement</name>
+   <tag></tag>
+   <comment>Click Cancel
+delete announcement</comment>
+   <testCaseGuid>2ea5a75f-4fa4-4432-9b67-12e274e9f147</testCaseGuid>
+</TestCaseEntity>

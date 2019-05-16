@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>arcadierlogoFB</name>
+   <tag></tag>
+   <elementGuidId>585d44ee-7622-44e6-9aa7-ee42f8f663d6</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_4jhq img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>180</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-1/p200x200/10262224_197491027290533_5385004823123358248_n.png?_nc_cat=104&amp;_nc_ht=scontent-hkg3-2.xx&amp;oh=3fbe0267f7be353753f112aca2a456bd&amp;oe=5C699325</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>180</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;u_0_d&quot;)/div[@class=&quot;_qa1&quot;]/a[@class=&quot;_2dgj&quot;]/img[@class=&quot;_4jhq img&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

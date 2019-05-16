@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Item List</name>
+   <tag></tag>
+   <comment>Input on Date
+Select Date (Current Date only)
+Search Merchant
+Search Category</comment>
+   <testCaseGuid>5154f7cf-d195-4556-8dd9-fa684b91f580</testCaseGuid>
+</TestCaseEntity>

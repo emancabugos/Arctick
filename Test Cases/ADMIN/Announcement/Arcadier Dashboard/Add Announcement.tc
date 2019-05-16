@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Announcement</name>
+   <tag></tag>
+   <comment>Image Only
+Title Only
+Description only
+Hyperlink only
+All input
+for delete
+Search by title</comment>
+   <testCaseGuid>05e7c428-4002-4379-8f33-ac3ad30bd5b3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Were_On_It_Animation</name>
+   <tag></tag>
+   <elementGuidId>5d36ed8f-8d8e-40bf-83b2-e06a39db42c7</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-animation1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_TuCFohtY5EG2PnGWVmfhYQ&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;container-success&quot;]/div[@class=&quot;content-box box1&quot;]/div[@class=&quot;content-box-shadow&quot;]/div[@class=&quot;image-container&quot;]/div[@class=&quot;img-animation1&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

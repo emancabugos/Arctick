@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Item List Combination (SpaceTime)</name>
+   <tag></tag>
+   <comment>Search Merchant
+Search Category
+Stock
+Purchasability</comment>
+   <testCaseGuid>effcec5b-d4f9-4e7c-bf48-663fd1b52978</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Item List')</defaultValue>
+      <description></description>
+      <id>4a8fb092-6c6d-4800-b0a2-d38217645e00</id>
+      <masked>false</masked>
+      <name>varItemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Item List')</defaultValue>
+      <description></description>
+      <id>9b10c285-d01d-426b-82fc-c1f7aa6c68ef</id>
+      <masked>false</masked>
+      <name>varMerchant</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Item List')</defaultValue>
+      <description></description>
+      <id>4925e676-6bea-432f-aa8d-9dcc718257f1</id>
+      <masked>false</masked>
+      <name>varCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Item List')</defaultValue>
+      <description></description>
+      <id>e367baeb-a71d-4765-a754-86ac77dfc667</id>
+      <masked>false</masked>
+      <name>varPurchasability</name>
+   </variable>
+</TestCaseEntity>

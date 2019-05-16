@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Performs UI Checking for Category List</description>
+   <name>UI Verification</name>
+   <tag></tag>
+   <comment>wala pang validations para sa mga sub categories
+Validation of Button and hyperlink responsiveness</comment>
+   <testCaseGuid>749a0305-06e8-4dfb-98d8-785eb6552278</testCaseGuid>
+</TestCaseEntity>

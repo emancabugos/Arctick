@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Step3_Simple_Test</name>
+   <tag></tag>
+   <comment>Step 3
+Previous Button Test
+Select Template</comment>
+   <testCaseGuid>e6e54ad4-d5fe-4ecf-bf79-60ed32f4bb54</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_PREVIOUS_Step3</name>
+   <tag></tag>
+   <elementGuidId>6aefecce-d46b-483f-bf76-0ba56711c06d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-preview</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/masteradmin/onboard/info</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PREVIOUS</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_EubgH8pll0S9rsacEBRb6g&quot;)/div[1]/div[@class=&quot;main&quot;]/div[@class=&quot;container&quot;]/div[1]/div[@class=&quot;section-theme section&quot;]/div[@class=&quot;content-area&quot;]/div[@class=&quot;col-md-12 col-sm-12&quot;]/div[@class=&quot;btn-area text-center&quot;]/a[@class=&quot;btn btn-preview&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_price unit</name>
+   <tag></tag>
+   <elementGuidId>9ab626d1-2fad-43f4-aba5-b7037095c393</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>itmupld-srvcs-priceunit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>night</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;add-item-area&quot;)/div[@class=&quot;box-shadow&quot;]/div[@class=&quot;item-upload-service-sec&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;itmupld-srvcs-durationsec&quot;]/div[@class=&quot;itmupld-srvcs-durationlst-sec&quot;]/div[@class=&quot;itmupld-srvcs-duration-specify&quot;]/div[@class=&quot;itmupld-srvcs-priceunit&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

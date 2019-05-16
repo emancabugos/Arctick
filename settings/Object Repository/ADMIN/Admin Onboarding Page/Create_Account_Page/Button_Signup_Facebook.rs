@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Signup_Facebook</name>
+   <tag></tag>
+   <elementGuidId>b2d4b278-c88d-4fad-a8c1-3a9c73bf1692</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>obh_login_btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Sign up with Facebook</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_COGz2sDZfU2YRBhtbfx1fA&quot;)/div[1]/div[@class=&quot;obh_content&quot;]/div[@class=&quot;section_scr&quot;]/div[@class=&quot;obh-outter-signin&quot;]/div[@class=&quot;signin-default active&quot;]/div[@class=&quot;login_actions text-center&quot;]/p[2]/a[@class=&quot;obh_login_btn&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

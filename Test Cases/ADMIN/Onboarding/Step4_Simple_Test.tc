@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Step4_Simple_Test</name>
+   <tag></tag>
+   <comment>Step 3 (editable variables)
+Previous Button Test
+Input</comment>
+   <testCaseGuid>855ea597-1f3f-42d1-a03c-437133a111aa</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Katalon\\\\Image\\\\logo2.jpg'</defaultValue>
+      <description></description>
+      <id>1746c316-e775-451b-9ec0-a528eafcbe06</id>
+      <masked>false</masked>
+      <name>varLogo</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.AdminCustom</defaultValue>
+      <description></description>
+      <id>7c75a60d-2911-4684-b8fa-be1c6d17f684</id>
+      <masked>false</masked>
+      <name>varMPName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Theme</defaultValue>
+      <description></description>
+      <id>f37e0fa5-ec5b-47b7-b4d7-176ac2787d70</id>
+      <masked>false</masked>
+      <name>varSlogan</name>
+   </variable>
+   <variable>
+      <defaultValue>'+631234567890'</defaultValue>
+      <description></description>
+      <id>75075131-9fcf-4753-b661-fb470068c7f8</id>
+      <masked>false</masked>
+      <name>varContactNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.AdminEmailNotif</defaultValue>
+      <description></description>
+      <id>98268b0b-8de9-4624-9bc2-c5e0ab397550</id>
+      <masked>false</masked>
+      <name>varContactEmail</name>
+   </variable>
+</TestCaseEntity>

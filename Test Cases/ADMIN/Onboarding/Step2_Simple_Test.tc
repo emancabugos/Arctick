@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Step2_Simple_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0e463ad-6dff-48a1-8594-b4adfadcd6b0</testCaseGuid>
+   <variable>
+      <defaultValue>'Malaysia'</defaultValue>
+      <description></description>
+      <id>6154a3b9-1d18-4e1e-a363-610f9c4f8e98</id>
+      <masked>false</masked>
+      <name>varCountry</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cybersouth, Dengkil, Sepang District'</defaultValue>
+      <description></description>
+      <id>aead7a56-780b-4552-a152-85f535b9fbcd</id>
+      <masked>false</masked>
+      <name>varAddress1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Selangor, Malaysia 43800'</defaultValue>
+      <description></description>
+      <id>618181cc-c544-428b-9bb4-6dd70bcd9177</id>
+      <masked>false</masked>
+      <name>varAddress2</name>
+   </variable>
+   <variable>
+      <defaultValue>'+631234567890'</defaultValue>
+      <description></description>
+      <id>c441ba02-bc58-405e-976b-f8049281db8f</id>
+      <masked>false</masked>
+      <name>varContactNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'John'</defaultValue>
+      <description></description>
+      <id>94f7ad19-0472-44ba-9c08-3dae9b8adcd8</id>
+      <masked>false</masked>
+      <name>varFName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cabug-os'</defaultValue>
+      <description></description>
+      <id>242d7b48-9762-4450-9a52-50951ea26c95</id>
+      <masked>false</masked>
+      <name>varLName</name>
+   </variable>
+</TestCaseEntity>

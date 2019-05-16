@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload_Bespoke</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de15dd62-f0d1-43b6-a866-ce61530992ba</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ARC-5778')</defaultValue>
+      <description></description>
+      <id>fb01e25a-85ac-4bca-a644-3ec25e77be05</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/MP List')</defaultValue>
+      <description></description>
+      <id>595a5b9d-2d28-4a5b-b510-9885e7fac6c1</id>
+      <masked>false</masked>
+      <name>search</name>
+   </variable>
+</TestCaseEntity>

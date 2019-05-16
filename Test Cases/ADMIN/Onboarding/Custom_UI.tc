@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Custom_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a4386c7-da86-43c5-ae4d-e0691dc52c86</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.test.arcadier.io'</defaultValue>
+      <description></description>
+      <id>5ac892bb-04c2-4a7e-8a20-ff4fae3e2b9a</id>
+      <masked>false</masked>
+      <name>test</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.staging.arcadier.io'</defaultValue>
+      <description></description>
+      <id>38d4e11b-8ec1-40e2-a5bb-e2ef34c2abe4</id>
+      <masked>false</masked>
+      <name>staging</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.arcadier.io/masteradmin/onboard'</defaultValue>
+      <description></description>
+      <id>37389e04-09c6-4d7d-b9aa-0f8535ed1e5f</id>
+      <masked>false</masked>
+      <name>live</name>
+   </variable>
+</TestCaseEntity>

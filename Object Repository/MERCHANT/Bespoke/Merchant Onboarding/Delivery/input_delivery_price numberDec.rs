@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_delivery_price numberDec</name>
+   <tag></tag>
+   <elementGuidId>750c6a87-774f-4022-bab0-3361ab23a41d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;delivery_method&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;seller-common-box&quot;]/div[@class=&quot;item-form-group&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;delivery-outer&quot;]/div[@class=&quot;delivery-row&quot;]/div[@class=&quot;actions delivery-actions&quot;]/div[@class=&quot;surcharge-per-item&quot;]/div[@class=&quot;placeholder-group&quot;]/div[1]/input[@class=&quot;delivery_price numberDecimalOnly&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>delivery_price numberDecimalOnly</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>6</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/input</value>
+   </webElementProperties>
+</WebElementEntity>

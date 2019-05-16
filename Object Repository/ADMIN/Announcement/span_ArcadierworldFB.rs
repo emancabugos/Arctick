@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ArcadierworldFB</name>
+   <tag></tag>
+   <elementGuidId>5355f3a0-852c-4cc0-a9b8-455174a3e78c</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Arcadierworld</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_AjQ1AcfZqUKFdaoGmZvZw&quot;)/div[@class=&quot;col-sm-9 main-content ann&quot;]/div[@class=&quot;col-md-7&quot;]/div[@class=&quot;follow-sec&quot;]/div[1]/div[@class=&quot;follow-left&quot;]/div[@class=&quot;social-fb&quot;]/a[1]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

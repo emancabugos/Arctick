@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Consumer and merchant display name extra validation</description>
+   <name>ARC-5637_Edit User Settings_Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>918e3632-f1b3-472a-8bbc-5963b2a8d175</testCaseGuid>
+</TestCaseEntity>

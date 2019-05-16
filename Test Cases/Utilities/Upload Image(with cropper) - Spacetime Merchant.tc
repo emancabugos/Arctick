@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Image(with cropper) - Spacetime Merchant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>29a99162-c2f9-4020-8020-30c09651f288</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Katalon\\\\Image\\\\pic1.jpg'</defaultValue>
+      <description></description>
+      <id>69ff2ca1-5ee7-40f9-a75e-1ce76195e9af</id>
+      <masked>false</masked>
+      <name>varImagePath</name>
+   </variable>
+</TestCaseEntity>

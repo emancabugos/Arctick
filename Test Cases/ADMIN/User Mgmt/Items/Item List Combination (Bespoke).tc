@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Item List Combination (Bespoke)</name>
+   <tag></tag>
+   <comment>Search Merchant
+Search Category
+Stock
+Purchasability</comment>
+   <testCaseGuid>98022e1d-8312-4c0e-80b7-639f72d1c28b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Item List')</defaultValue>
+      <description></description>
+      <id>6a4bdfc5-ce4c-43ea-b200-443cd6ac932d</id>
+      <masked>false</masked>
+      <name>varItemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Item List')</defaultValue>
+      <description></description>
+      <id>5f745562-099d-4e36-84ef-9cf67d005069</id>
+      <masked>false</masked>
+      <name>varMerchant</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Item List')</defaultValue>
+      <description></description>
+      <id>e10e204a-a600-4007-bfc1-92ebea1fa213</id>
+      <masked>false</masked>
+      <name>varCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Item List')</defaultValue>
+      <description></description>
+      <id>4e6bb197-712a-4bca-8da0-a73c107fcce4</id>
+      <masked>false</masked>
+      <name>varStock</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Item List')</defaultValue>
+      <description></description>
+      <id>aa65bf3d-a3ff-4d05-92b6-e66b07df4e23</id>
+      <masked>false</masked>
+      <name>varPurchasability</name>
+   </variable>
+</TestCaseEntity>

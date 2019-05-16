@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Image(with cropper) -Bespoke Merchant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28977735-803a-46d0-9ec1-6d800888c047</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Katalon\\\\Image\\\\pic1.jpg'</defaultValue>
+      <description></description>
+      <id>57005161-1b5d-4064-adcd-d160995ad637</id>
+      <masked>false</masked>
+      <name>varImagePath</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>arcadierlogoTwitter</name>
+   <tag></tag>
+   <elementGuidId>24fe6244-e118-47b3-b51b-91944475d569</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ProfileAvatar-image </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://pbs.twimg.com/profile_images/734795709816311808/VzPtZFRr_400x400.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Arcadier</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-container&quot;)/div[@class=&quot;ProfileCanopy ProfileCanopy--withNav ProfileCanopy--large js-variableHeightTopBar&quot;]/div[@class=&quot;ProfileCanopy-inner&quot;]/div[@class=&quot;ProfileCanopy-header u-bgUserColor&quot;]/div[@class=&quot;AppContainer&quot;]/div[@class=&quot;ProfileCanopy-avatar&quot;]/div[@class=&quot;ProfileAvatar&quot;]/a[@class=&quot;ProfileAvatar-container u-block js-tooltip profile-picture in&quot;]/img[@class=&quot;ProfileAvatar-image&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

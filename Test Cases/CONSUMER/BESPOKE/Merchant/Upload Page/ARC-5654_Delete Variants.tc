@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Preserve variant details after a variant option is deleted</description>
+   <name>ARC-5654_Delete Variants</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c070e292-73d6-40cf-87c0-396f162d6a94</testCaseGuid>
+</TestCaseEntity>

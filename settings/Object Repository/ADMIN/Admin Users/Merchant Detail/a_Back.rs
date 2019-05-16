@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Back</name>
+   <tag></tag>
+   <elementGuidId>2c1e3f09-8ff6-4543-b379-ed9184fc4dc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;userDetailContainer&quot;)/div[@class=&quot;navigation-bar page-topnav&quot;]/a[@class=&quot;mybtn btn-back&quot;][count(. | //a[@href = '/admin/usermanager/index' and @class = 'mybtn btn-back' and (text() = 'Back' or . = 'Back')]) = count(//a[@href = '/admin/usermanager/index' and @class = 'mybtn btn-back' and (text() = 'Back' or . = 'Back')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/usermanager/index</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mybtn btn-back</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Back</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;userDetailContainer&quot;)/div[@class=&quot;navigation-bar page-topnav&quot;]/a[@class=&quot;mybtn btn-back&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

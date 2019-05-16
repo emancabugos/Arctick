@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Waiting List Invite Popup (Consumer)</name>
+   <tag></tag>
+   <comment>Click Close invite pop up
+Invite Merchant Invalid Email
+Invite Valid Email
+Invite Valid Multiple Email</comment>
+   <testCaseGuid>fd8ddb2c-4998-4da0-8c09-a9ecbe5e1f63</testCaseGuid>
+</TestCaseEntity>

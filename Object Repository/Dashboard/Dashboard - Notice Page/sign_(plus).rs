@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sign_(plus)</name>
+   <tag></tag>
+   <elementGuidId>f411d745-7d27-410c-a98d-4a50978561d1</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/images/add-plus.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;tablesaw-enhanced&quot;]/body[@class=&quot;PomeloDashboard content-cs-support announcements&quot;]/div[@class=&quot;dashboard-container&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;content-header&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;content-header-l pull-left&quot;]/a[@class=&quot;btn btn-upload light btn-big&quot;]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>

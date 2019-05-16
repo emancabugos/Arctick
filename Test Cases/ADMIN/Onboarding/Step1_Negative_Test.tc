@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Step1_Negative_Test</name>
+   <tag></tag>
+   <comment>Verify default selected value
+Verify Nothing on first drowpdown
+Verify Nothing on 2nd drowpdown
+Verify 2nd Dropdown Something Else Textbox
+Verify 3nd Dropdown Something Else Textbox
+Blank 2nd Dropdown textbox validation
+Blank 3rd Dropdown textbox validation
+Continue to Step 2</comment>
+   <testCaseGuid>dfc0f736-8b32-41d8-a5b1-f90c96ac9fd4</testCaseGuid>
+</TestCaseEntity>

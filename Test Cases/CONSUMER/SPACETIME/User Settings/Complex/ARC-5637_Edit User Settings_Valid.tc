@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Entering of valid displayname on DisplayName textfield</description>
+   <name>ARC-5637_Edit User Settings_Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d69fb2e-2052-4df0-af66-90f843e4871a</testCaseGuid>
+</TestCaseEntity>

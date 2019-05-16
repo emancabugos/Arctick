@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Service</name>
+   <tag></tag>
+   <comment>Basic Details
+Schedule
+Image</comment>
+   <testCaseGuid>d5f531ad-694a-42d5-98f7-887befc9533c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>7e31821a-85be-4db1-aac3-a4627235093d</id>
+      <masked>false</masked>
+      <name>varCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>d54349ff-702a-420b-ae7d-e90e2980a375</id>
+      <masked>false</masked>
+      <name>varServiceName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>4cd74029-a84e-4592-9488-5ab73fe8bbc3</id>
+      <masked>false</masked>
+      <name>varBookingsType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>0cff0fac-b528-45e2-b419-3961ba4846bf</id>
+      <masked>false</masked>
+      <name>varServiceDuration</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>c4958f29-f6db-4357-9c25-f0d86a1961d2</id>
+      <masked>false</masked>
+      <name>varPrice</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>d0a43824-3efd-401d-81f8-ab3704799bc3</id>
+      <masked>false</masked>
+      <name>varUnlimitedBookings</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>26f34252-8d85-4584-85e8-c76192ba10db</id>
+      <masked>false</masked>
+      <name>varBookingsPerSession</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>b78f793e-edd4-4594-a1c5-03b6d74d7307</id>
+      <masked>false</masked>
+      <name>varServiceType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>dc2f5b9a-0c92-400e-9b15-534b242cbd77</id>
+      <masked>false</masked>
+      <name>varOperation</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>0f0e16ce-e5de-4836-813a-ece8ab4b72fa</id>
+      <masked>false</masked>
+      <name>varImage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>85455428-b00c-48a5-a0a0-a5221a0f9c05</id>
+      <masked>false</masked>
+      <name>varLocation</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>1dbd6a54-823a-4df7-8ed2-4f54348d9c03</id>
+      <masked>false</masked>
+      <name>varCountry</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>a0d566ff-a7a1-4d80-9040-f208cd870182</id>
+      <masked>false</masked>
+      <name>varState</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>ef6206ea-a823-4dcc-a098-d2cfe8581adf</id>
+      <masked>false</masked>
+      <name>varCity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>c01d4819-1b90-4622-b18b-09af1357f5e7</id>
+      <masked>false</masked>
+      <name>varPostalCode</name>
+   </variable>
+</TestCaseEntity>

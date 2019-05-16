@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As Arcadier, I want to send notices to all admins</description>
+   <name>ARC-5682_UI Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb6094f3-d26d-4a82-8fed-83004d797414</testCaseGuid>
+</TestCaseEntity>

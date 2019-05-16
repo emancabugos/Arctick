@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>logo_Arcadier</name>
+   <tag></tag>
+   <elementGuidId>6e4a5755-c9ed-44d5-bc64-32cfeef55d9d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>brand-logo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;tablesaw-enhanced&quot;]/body[@class=&quot;PomeloDashboard&quot;]/div[@class=&quot;navbar navbar-inverse navbar-fixed-top&quot;]/div[@class=&quot;container-header&quot;]/div[@class=&quot;navbar-header&quot;]/div[@class=&quot;brand-logo&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

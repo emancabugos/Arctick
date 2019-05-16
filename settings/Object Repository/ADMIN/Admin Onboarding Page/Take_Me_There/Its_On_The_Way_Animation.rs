@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Its_On_The_Way_Animation</name>
+   <tag></tag>
+   <elementGuidId>0698863c-798f-448c-8340-513e55de5da8</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-animation2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_TuCFohtY5EG2PnGWVmfhYQ&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;container-success&quot;]/div[@class=&quot;content-box content-center box2&quot;]/div[@class=&quot;content-box-shadow&quot;]/div[@class=&quot;image-container&quot;]/div[@class=&quot;img-animation2&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

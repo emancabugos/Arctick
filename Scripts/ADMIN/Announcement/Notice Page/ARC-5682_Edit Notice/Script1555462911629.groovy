@@ -1,0 +1,97 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.interactions.Actions as Actions
+
+WebUI.navigateToUrl(GlobalVariable.dashboardurl)
+
+WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Login Page/logo_Arcadier'), 0)
+
+WebUI.maximizeWindow()
+
+WebUI.verifyElementPresent(findTestObject('Dashboard/Dashboard - Login Page/logo_Arcadier'), 0)
+
+WebUI.setText(findTestObject('Dashboard/Dashboard - Login Page/textfield_Email'), GlobalVariable.dashboardusername)
+
+WebUI.setText(findTestObject('Dashboard/Dashboard - Login Page/textfield_Password'), GlobalVariable.dashboardpassword)
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Login Page/button_Login'))
+
+WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - CS Support Page/link_Announcement'), 0)
+
+WebUI.click(findTestObject('Dashboard/Dashboard - CS Support Page/link_Notice'))
+
+WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Notice Page/button_Add New'), 0)
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/button_Add New'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Dashboard/Dashboard - Notice Page/popup_textfield_Title'), 'Title No Edit')
+
+WebUI.setText(findTestObject('Dashboard/Dashboard - Notice Page/popup_textfield_Hyperlink'), 'www.google.com')
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/popup_dropdown_Notice'))
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/link_News'))
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/popup_button_Upload'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/delete_button_Edit'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Dashboard/Dashboard - Notice Page/popup_textfield_Title'), 'Title With Edit')
+
+WebUI.setText(findTestObject('Dashboard/Dashboard - Notice Page/popup_textfield_Hyperlink'), 'www.facebook.com')
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/popup_dropdown_Notice'))
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/link_News'))
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/popup_button_Upload'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('Dashboard/Dashboard - Notice Page/content_Title'), 'Title With Edit')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/button_Delete'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Dashboard/Dashboard - Notice Page/label_Are you sure you want to delete this notice'), 
+    0)
+
+WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/delete_button_Delete'))
+
+WebUI.delay(3)
+
+WebUI.waitForElementClickable(findTestObject('Dashboard/Dashboard - CS Support Page/button_Logout'), 0)
+
+WebUI.click(findTestObject('Dashboard/Dashboard - CS Support Page/button_Logout'))
+
+WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Login Page/textfield_Email'), 0)
+

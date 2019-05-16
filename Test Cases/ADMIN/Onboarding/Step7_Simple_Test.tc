@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Step7_Simple_Test</name>
+   <tag></tag>
+   <comment>Step 7 (editable variables)
+Previous Button Test
+Input</comment>
+   <testCaseGuid>c170e466-4045-4ca0-8c23-3a4696c94d58</testCaseGuid>
+</TestCaseEntity>

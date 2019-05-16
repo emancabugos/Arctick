@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add a toaster message for unavailable user name error</description>
+   <name>ARC-5661_Verify on Merchant Page_Standard Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e688698-4d98-40be-938b-fe605d8d1523</testCaseGuid>
+</TestCaseEntity>

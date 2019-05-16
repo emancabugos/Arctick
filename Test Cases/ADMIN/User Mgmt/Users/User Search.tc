@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Search</name>
+   <tag></tag>
+   <comment>Merchant Search
+Consumer Search
+Admin Search</comment>
+   <testCaseGuid>84fb1fe8-bbcb-43aa-a7c6-93f41e90b182</testCaseGuid>
+</TestCaseEntity>

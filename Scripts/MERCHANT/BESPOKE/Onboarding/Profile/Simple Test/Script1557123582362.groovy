@@ -1,0 +1,43 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Profile Page/Profile/button_CHANGE'))
+
+WebUI.callTestCase(findTestCase('Utilities/Upload Image(with cropper)'), [('varImagePath') : 'C:\\\\Katalon\\\\Image\\\\jonel.png'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Profile Page/Profile/textbox_DisplayName'), 'Joneeell')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Profile Page/Profile/textbox_description'), 'FUCK BOY SA SENADO!')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Profile Page/Profile/textbox_FirstName'), 'Jonel')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Profile Page/Profile/textbox_LastName'), 'De Lima')
+
+WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Profile Page/Profile/textbox_LastName'), 
+    'value', GlobalVariable.MerchantNotif, 0)
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Profile Page/Profile/textbox_PhoneNumber'), '+6369000000')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Profile Page/Profile/textbox_SellerLocation'), 'Makati City')
+
+WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Profile Page/Profile/button_NEXT profile'), FailureHandling.CONTINUE_ON_FAILURE)
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ARC-5684_Rearrange Login Verification_Private Register_Consumer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdc446cb-1a2f-4297-af95-cd429eae47be</testCaseGuid>
+</TestCaseEntity>

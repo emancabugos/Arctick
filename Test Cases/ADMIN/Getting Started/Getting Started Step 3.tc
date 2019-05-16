@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Getting Started Step 3</name>
+   <tag></tag>
+   <comment>Step 3 Payment
+Click video tutorial
+add payment</comment>
+   <testCaseGuid>c8d27e99-e8a1-4218-b424-42bc6308f184</testCaseGuid>
+</TestCaseEntity>

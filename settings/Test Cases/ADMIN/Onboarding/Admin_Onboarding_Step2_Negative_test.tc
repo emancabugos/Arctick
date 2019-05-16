@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin_Onboarding_Step2_Negative_test</name>
+   <tag></tag>
+   <comment>Blank First Name
+Blank Last Name</comment>
+   <testCaseGuid>3ab5f607-9606-4c1d-95e1-5cf67e6c0866</testCaseGuid>
+</TestCaseEntity>

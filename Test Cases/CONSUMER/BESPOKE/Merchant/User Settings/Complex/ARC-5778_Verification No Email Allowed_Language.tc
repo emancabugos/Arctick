@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verification of No Email Allowed language</description>
+   <name>ARC-5778_Verification No Email Allowed_Language</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a5ad3c0-231f-468b-9dcc-423d1c65b97e</testCaseGuid>
+</TestCaseEntity>
