@@ -80,5 +80,3 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Toas
 WebUI.waitForElementNotVisible(findTestObject('ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_SuccessfullyAdded'), 
     0)
 
-WebUI.closeBrowser()
-
