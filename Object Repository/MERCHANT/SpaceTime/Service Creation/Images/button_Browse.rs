@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'a-browse']</value>
+         <value>//*[@id=&quot;a-browse&quot;][count(. | //*[@id = 'a-browse' and (text() = 'Browse' or . = 'Browse')]) = count(//*[@id = 'a-browse' and (text() = 'Browse' or . = 'Browse')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -62,17 +62,17 @@
       <value>400</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Browse</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;a-browse&quot;)</value>
+      <value>//*[@id=&quot;a-browse&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
