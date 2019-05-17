@@ -4,6 +4,12 @@
    <name>Register Sign_Label</name>
    <tag></tag>
    <elementGuidId>5c737ede-a08b-41f7-b13c-4c6852048460</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[@class = 'login-title' and (text() = 'REGISTER / SIGN IN' or . = 'REGISTER / SIGN IN')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>h1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

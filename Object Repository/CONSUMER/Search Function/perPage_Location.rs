@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_dropdownOpt1</name>
+   <name>perPage_Location</name>
    <tag></tag>
-   <elementGuidId>e8f8dcde-d119-4a77-abaa-a6210f9d2270</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[3]/div[2]/div[3]/div/div[1]/div[2]/div/form/div/div[8]/div/ul/li[1]/div/div[2]/input</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @name = 'dropdown-opt[]']</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>d4b3944a-86fe-42c7-9871-ad5d072d2f3a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,6 +14,34 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ui-autocomplete-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>SearchLocation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>SearchLocation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Location</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
@@ -31,24 +49,17 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>dropdown-opt[]</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>required</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contactForm&quot;)/div[@class=&quot;form-field-controler&quot;]/div[@class=&quot;opt5 custom-field-opt active&quot;]/div[@class=&quot;custom-field-form&quot;]/ul[@id=&quot;dropdown-opt-draggble&quot;]/li[@class=&quot;ui-sortable-handle&quot;]/div[@class=&quot;virtual-table&quot;]/div[@class=&quot;virtual-table-cell&quot;]/input[@class=&quot;required&quot;]</value>
+      <value>id(&quot;SearchLocation&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

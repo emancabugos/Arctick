@@ -19,3 +19,45 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.HomepageURL)
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Function/button_Search'), 0)
+
+WebUI.click(findTestObject('Time/Consumer/Register  Sign In/Register Sign_Label'))
+
+if (GlobalVariable.ConsumerAccountType == 'custom') {
+    WebUI.waitForElementVisible(findTestObject('Time/Consumer/Register  Sign In/Username_field'), 0)
+
+    WebUI.setText(findTestObject('Time/Consumer/Register  Sign In/Username_field'), GlobalVariable.CustomConsumer)
+
+    WebUI.setText(findTestObject('Time/Consumer/Register  Sign In/Password_field'), GlobalVariable.CustomPass)
+
+    WebUI.click(findTestObject('Time/Consumer/Register  Sign In/Login_button'))
+} else if (GlobalVariable.ConsumerAccountType == 'google') {
+    WebUI.click(findTestObject('ADMIN/Admin Login Page/button_Login with Google'))
+
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Login Page/Google Accounts/textbox_username'), 0)
+
+    WebUI.setText(findTestObject('ADMIN/Admin Login Page/Google Accounts/textbox_username'), GlobalVariable.AdminGoogle)
+
+    WebUI.click(findTestObject('ADMIN/Admin Login Page/Google Accounts/button_next_username'))
+
+    WebUI.delay(1)
+
+    WebUI.setText(findTestObject('ADMIN/Admin Login Page/Google Accounts/textbox_password'), GlobalVariable.GooglePass)
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('ADMIN/Admin Login Page/Google Accounts/button_next_password'))
+} else if (GlobalVariable.ConsumerAccountType == 'facebook') {
+    WebUI.click(findTestObject('ADMIN/Admin Login Page/button_Login with Facebook'))
+
+    WebUI.setText(findTestObject('ADMIN/Admin Login Page/Login Facebook/textbox_email'), GlobalVariable.AdminFacebook)
+
+    WebUI.setText(findTestObject('ADMIN/Admin Login Page/Login Facebook/textbox_password'), GlobalVariable.FacebookPass)
+
+    WebUI.click(findTestObject('ADMIN/Admin Login Page/Login Facebook/button_login'))
+}
+

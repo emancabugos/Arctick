@@ -1,54 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_dropdownOpt1</name>
+   <name>dropdown_Payment</name>
    <tag></tag>
-   <elementGuidId>e8f8dcde-d119-4a77-abaa-a6210f9d2270</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[3]/div[2]/div[3]/div/div[1]/div[2]/div/form/div/div[8]/div/ul/li[1]/div/div[2]/input</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @name = 'dropdown-opt[]']</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>593e9359-4db0-40d0-bda2-71c19c4e0665</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>class</name>
       <type>Main</type>
-      <value>text</value>
+      <value>checkout-payment-method-opt</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>SelectedGateway</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>dropdown-opt[]</value>
+      <value>PaymentMethod.SelectedGateway</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>required</value>
+      <value>PayPal
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contactForm&quot;)/div[@class=&quot;form-field-controler&quot;]/div[@class=&quot;opt5 custom-field-opt active&quot;]/div[@class=&quot;custom-field-form&quot;]/ul[@id=&quot;dropdown-opt-draggble&quot;]/li[@class=&quot;ui-sortable-handle&quot;]/div[@class=&quot;virtual-table&quot;]/div[@class=&quot;virtual-table-cell&quot;]/input[@class=&quot;required&quot;]</value>
+      <value>id(&quot;SelectedGateway&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
