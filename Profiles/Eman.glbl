@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0514SR'</initValue>
+      <initValue>'0520bespoke'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +51,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0514SR.test.arcadier.io/admin'</initValue>
+      <initValue>'0520bespoke.test.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
+<<<<<<< HEAD
       <initValue>'0401st1.test.arcadier.io/user'</initValue>
+=======
+      <initValue>'0520bespoke.test.arcadier.io/'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Arctick.git
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -66,7 +70,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>NO CAPITAL LETTERS!!!</description>
-      <initValue>'https://0514sr.test.arcadier.io/signin-stripe'</initValue>
+      <initValue>'https://0520bespoke.test.arcadier.io/signin-stripe'</initValue>
       <name>StripeConnect</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -126,7 +130,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>TEMPLATE: Bespoke, ServiceBookings(TIME), RentalGoods(TIME), SpaceRental(SPACE), RentalGoods(SPACE)</description>
-      <initValue>'SpaceRental(SPACE)'</initValue>
+      <initValue>'Bespoke'</initValue>
       <name>Template</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -72,7 +72,5 @@ WebUI.setText(findTestObject('ADMIN/Getting Started/Step 4/Invite popup/textarea
 
 WebUI.click(findTestObject('ADMIN/Getting Started/Step 4/Invite popup/input_btn-send-direct-invite'))
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Admin Logout/button_Logout'), 0)
-
-WebUI.click(findTestObject('Utilities/Admin Logout/button_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

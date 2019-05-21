@@ -47,13 +47,43 @@ WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/De
 
 WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_price'), varPrice)
 
+if (varUnlimitedBookings == 'yes') {
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Toggle/span_onoffswitch-switch'))
+} else if (varUnlimitedBookings == 'no') {
+    WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Toggle/span_onoffswitch-switch'), 
+        0)
+}
+
 WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_max bookings'), varBookingsPerSession)
+
+if (varServiceType == 'negotiation') {
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/button_ Negotiation'))
+
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/button_ Instant buy'))
+} else if (varServiceType == 'both') {
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/button_ Negotiation'))
+} else if (varServiceType == 'instant') {
+    WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/button_ Instant buy'), 
+        0)
+}
 
 WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/button_Next basic details'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Schedule')
 
-WebUI.scrollToElement(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/button_Next schedule'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'), 
+    0)
+
+if (varOperation == '24/7') {
+    WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'), 
+        0)
+} else if (varOperation == 'not 24/7') {
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/toggle_24 7'))
+}
+
+WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/button_Next schedule'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -85,8 +115,6 @@ WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/textbo
 
 WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/button_Add'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/button_Next add ons'), 0)
-
 WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/button_Next add ons'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Location')
@@ -104,7 +132,7 @@ WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/textb
 
 WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/textbox_postalcode'), varPostalCode)
 
-WebUI.scrollToElement(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/button_Upload now'), 0)
-
 WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/button_Upload now'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.comment('END')
 

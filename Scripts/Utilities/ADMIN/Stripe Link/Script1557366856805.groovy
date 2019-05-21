@@ -27,9 +27,9 @@ WebUI.maximizeWindow()
 
 WebUI.waitForElementVisible(findTestObject('Stripe Login/input_email'), 0)
 
-WebUI.setText(findTestObject('Stripe Login/input_email'), '03qabonsol@gmail.com')
+WebUI.setText(findTestObject('Stripe Login/input_email'), 'arcadierteam1@gmail.com')
 
-WebUI.setText(findTestObject('Stripe Login/input_password'), 'welcomeqa')
+WebUI.setText(findTestObject('Stripe Login/input_password'), 'welcome8')
 
 WebUI.click(findTestObject('Stripe Login/span_Sign in to your account'), FailureHandling.CONTINUE_ON_FAILURE)
 

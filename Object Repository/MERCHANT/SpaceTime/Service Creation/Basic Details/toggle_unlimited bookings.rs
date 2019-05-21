@@ -4,10 +4,16 @@
    <name>toggle_unlimited bookings</name>
    <tag></tag>
    <elementGuidId>0fb19adb-9934-40d0-b7db-a6cbb4b07f31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;timeBookingsPerSession&quot;]/div[1]/div/label</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;timeBookingsPerSession&quot;)/div[@class=&quot;itmupld-srvcs-duration-specify&quot;]/div[@class=&quot;onoffswitch&quot;]/label[@class=&quot;onoffswitch-label&quot;]/span[@class=&quot;onoffswitch-inner&quot;]</value>
+      <value>//*[@id=&quot;timeBookingsPerSession&quot;]/div[1]/div/label</value>
    </webElementProperties>
 </WebElementEntity>

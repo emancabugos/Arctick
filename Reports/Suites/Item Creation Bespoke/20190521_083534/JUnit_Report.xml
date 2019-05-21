@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Item Creation Bespoke" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="Item Creation Bespoke" tests="1" failures="0" errors="0" time="10" timestamp="2019-05-21 08:35:36" hostname="Arcadier - Arcadier-PC" id="Test Suites/Suites/Item Creation Bespoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Item Creation Bespoke\\20190521_083534"/>
+         <property name="logFiles" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Item Creation Bespoke\\20190521_083534\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Arcadier - Arcadier-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 74.0.3729.157"/>
+         <property name="hostAddress" value="10.10.31.95"/>
+         <property name="sessionId" value="80a7e57ef25c1f35c0006c5558399ee2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/MERCHANT/BESPOKE/Upload/Item Creation" classname="Test Cases/MERCHANT/BESPOKE/Upload/Item Creation" status="PASSED">
+         <system-out><![CDATA[2019-05-21 08:35:36 - [TEST_CASE][PASSED] - Test Cases/MERCHANT/BESPOKE/Upload/Item Creation: Test Cases/MERCHANT/BESPOKE/Upload/Item Creation
+
+2019-05-21 08:35:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Utilities/Header/BESPOKE/Merchant Header/linktext_Upload' is visible
+
+2019-05-21 08:35:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-21 08:35:38 - [MESSAGE][PASSED] - Object 'Object Repository/Utilities/Header/BESPOKE/Merchant Header/linktext_Upload' is visible
+
+2019-05-21 08:35:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Utilities/Header/BESPOKE/Merchant Header/linktext_Upload' is clicked on
+
+2019-05-21 08:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Utilities/Header/BESPOKE/Merchant Header/linktext_Upload' is clicked on
+
+2019-05-21 08:35:41 - [TEST_STEP][PASSED] - comment: Category
+
+2019-05-21 08:35:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/Bespoke/Upload Page/textlabel_Category(s)' is visible
+
+2019-05-21 08:35:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-21 08:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/Bespoke/Upload Page/textlabel_Category(s)' is visible
+
+2019-05-21 08:35:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MERCHANT/Bespoke/Upload Page/checkbox_cat1' is clicked on
+
+2019-05-21 08:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/MERCHANT/Bespoke/Upload Page/checkbox_cat1' is clicked on
+
+2019-05-21 08:35:41 - [TEST_STEP][PASSED] - comment: Item Name
+
+2019-05-21 08:35:41 - [TEST_STEP][PASSED] - setText: Text 'Item A' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/input_item-name'
+
+2019-05-21 08:35:42 - [MESSAGE][PASSED] - Text 'Item A' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/input_item-name'
+
+2019-05-21 08:35:42 - [TEST_STEP][PASSED] - comment: Price
+
+2019-05-21 08:35:42 - [TEST_STEP][PASSED] - setText: Text '20' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/textbox_item-price'
+
+2019-05-21 08:35:42 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/textbox_item-price'
+
+2019-05-21 08:35:42 - [TEST_STEP][PASSED] - comment: SKU
+
+2019-05-21 08:35:42 - [TEST_STEP][PASSED] - setText: Text 'ITEM000001' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/textbox_sku-field'
+
+2019-05-21 08:35:42 - [MESSAGE][PASSED] - Text 'ITEM000001' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/textbox_sku-field'
+
+2019-05-21 08:35:42 - [TEST_STEP][PASSED] - comment: Item Description
+
+2019-05-21 08:35:42 - [TEST_STEP][PASSED] - setText: Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/textarea_item-description'
+
+2019-05-21 08:35:44 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/textarea_item-description'
+
+2019-05-21 08:35:44 - [TEST_STEP][PASSED] - comment: Image
+
+2019-05-21 08:35:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MERCHANT/Bespoke/Upload Page/button_BROWSE' is clicked on
+
+2019-05-21 08:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/MERCHANT/Bespoke/Upload Page/button_BROWSE' is clicked on
+
+2019-05-21 08:35:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-05-21 08:35:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-21 08:35:45 - [TEST_STEP][PASSED] - uploadFile: File 'C:\\Katalon\\Image\\pic1.jpg' sent to object: 'Object Repository/MERCHANT/SpaceTime/Service Creation/Images/browse_img/img_upload container'
+
+2019-05-21 08:35:45 - [MESSAGE][PASSED] - File 'C:\\Katalon\\Image\\pic1.jpg' sent to object: 'Object Repository/MERCHANT/SpaceTime/Service Creation/Images/browse_img/img_upload container'
+
+2019-05-21 08:35:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MERCHANT/SpaceTime/Service Creation/Images/browse_img/button_ok' is clicked on
+
+2019-05-21 08:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/MERCHANT/SpaceTime/Service Creation/Images/browse_img/button_ok' is clicked on
+
+2019-05-21 08:35:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-05-21 08:35:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-21 08:35:46 - [TEST_STEP][PASSED] - comment: Variants & Quantity
+
+2019-05-21 08:35:46 - [TEST_STEP][PASSED] - Statement - If (varVariants == "yes"): Text 'Pink,Violet,Orange' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/Variants/textbox_choices1'
+
+2019-05-21 08:35:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MERCHANT/Bespoke/Upload Page/toggle_variant' is clicked on
+
+2019-05-21 08:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/MERCHANT/Bespoke/Upload Page/toggle_variant' is clicked on
+
+2019-05-21 08:35:46 - [TEST_STEP][PASSED] - setText: Text 'Color' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/Variants/textbox_opt1'
+
+2019-05-21 08:35:46 - [MESSAGE][PASSED] - Text 'Color' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/Variants/textbox_opt1'
+
+2019-05-21 08:35:46 - [TEST_STEP][PASSED] - setText: Text 'Pink,Violet,Orange' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/Variants/textbox_choices1'
+
+2019-05-21 08:35:47 - [MESSAGE][PASSED] - Text 'Pink,Violet,Orange' is set on object 'Object Repository/MERCHANT/Bespoke/Upload Page/Variants/textbox_choices1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-21 08:35:36 - [TEST_SUITE][PASSED] - Item Creation Bespoke: Test Cases/MERCHANT/BESPOKE/Upload/Item Creation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
