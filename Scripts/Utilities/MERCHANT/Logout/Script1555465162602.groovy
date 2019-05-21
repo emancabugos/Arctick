@@ -21,5 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'))
 
-WebUI.click(findTestObject('Utilities/Buyer Seller Logout/textlink_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Utilities/Buyer Seller Logout/linktext_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
 
