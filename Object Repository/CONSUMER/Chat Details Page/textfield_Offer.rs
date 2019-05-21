@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tab_Paypal</name>
+   <name>textfield_Offer</name>
    <tag></tag>
-   <elementGuidId>ab23be9c-4779-4d0d-877f-f52c87fe4f14</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover' and (text() = ' ' or . = ' ')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>c8a9ef02-2393-4b70-8d5c-15515c3f8460</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>seller-offer-price</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover</value>
+      <value>numbersOnlyD</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value> </value>
+      <value>OfferedPrice</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;billingModule&quot;)/div[@class=&quot;panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover&quot;]</value>
+      <value>id(&quot;OfferedPrice&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

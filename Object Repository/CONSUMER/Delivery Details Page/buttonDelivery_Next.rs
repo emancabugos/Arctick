@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tab_Paypal</name>
+   <name>buttonDelivery_Next</name>
    <tag></tag>
-   <elementGuidId>ab23be9c-4779-4d0d-877f-f52c87fe4f14</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover' and (text() = ' ' or . = ' ')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>43744d4d-ffcd-4340-8263-3a64446cdb89</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover</value>
+      <value>my-btn btn-red</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>next-tab</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> </value>
+      <value>Next</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;billingModule&quot;)/div[@class=&quot;panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover&quot;]</value>
+      <value>id(&quot;next-tab&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

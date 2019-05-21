@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Pay</name>
+   <name>main_0401ST1Email  Envelope  C</name>
    <tag></tag>
-   <elementGuidId>1d886a4c-5201-4639-a58d-034891796ecd</elementGuidId>
+   <elementGuidId>c23346bd-c585-4682-8b52-61361be1b61c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@class = 'sc-eHgmQL fJCJPv' and @ref_element = 'Object Repository/CONSUMER/Payment Details Page/Omise/popup_Omise']</value>
+         <value>//main[@class = 'Modal' and @role = 'main' and @ref_element = 'Object Repository/CONSUMER/Payment Details Page/Stripe Payment/Page_0401st1/iframe_stripe']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,41 +17,53 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>main</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sc-eHgmQL fJCJPv</value>
+      <value>Modal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>font-size</name>
+      <name>role</name>
       <type>Main</type>
-      <value>18px</value>
+      <value>main</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pay now 60.00 SGD</value>
+      <value>Email
+  Envelope
+  
+Card number
+  Credit Card
+  
+Expiry
+  Calendar
+  
+CVC
+  Lock
+  
+Remember mePay</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;OmiseCheckoutFormWrapper&quot;]/div[@class=&quot;OmiseCheckoutForm&quot;]/div[@class=&quot;OmiseCheckoutForm_body&quot;]/div[@class=&quot;OmiseCheckoutForm_container open&quot;]/div[@class=&quot;sc-gPEVay cbbTBo&quot;]/div[1]/div[@class=&quot;OmiseCheckoutForm_formItem -submit&quot;]/div[@class=&quot;OmiseCheckoutForm_checkoutButton sc-bxivhb kGUhKf&quot;]/button[@class=&quot;sc-eHgmQL fJCJPv&quot;]</value>
+      <value>id(&quot;container&quot;)/section[@class=&quot;Checkout is-desktop&quot;]/span[2]/div[@class=&quot;ModalContainer&quot;]/div[@class=&quot;Modal-animationWrapper&quot;]/main[@class=&quot;Modal&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/CONSUMER/Payment Details Page/Omise/popup_Omise</value>
+      <value>Object Repository/CONSUMER/Payment Details Page/Stripe Payment/Page_0401st1/iframe_stripe</value>
    </webElementProperties>
 </WebElementEntity>

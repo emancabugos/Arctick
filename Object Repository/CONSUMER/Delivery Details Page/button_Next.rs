@@ -4,6 +4,12 @@
    <name>button_Next</name>
    <tag></tag>
    <elementGuidId>218dc86d-5152-48de-9579-c2c620e87fcc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;btnNext&quot;)[count(. | //a[@id = 'btnNext' and (text() = 'Next' or . = 'Next')]) = count(//a[@id = 'btnNext' and (text() = 'Next' or . = 'Next')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>btnNext</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -35,7 +41,7 @@
       <value>Next</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

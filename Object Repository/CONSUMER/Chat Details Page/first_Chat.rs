@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tab_Paypal</name>
+   <name>first_Chat</name>
    <tag></tag>
-   <elementGuidId>ab23be9c-4779-4d0d-877f-f52c87fe4f14</elementGuidId>
+   <elementGuidId>99aa709e-d13a-40a9-98c2-811cd2162b6d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover' and (text() = ' ' or . = ' ')]</value>
+         <value>//div[@class = 'view-chat-ind chat-ind-self']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,20 +24,20 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover</value>
+      <value>view-chat-ind chat-ind-self</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> </value>
+      <value>hello21/05/2019 08:41 AM</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;billingModule&quot;)/div[@class=&quot;panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover&quot;]</value>
+      <value>id(&quot;page-buy-chat-offer&quot;)/div[@class=&quot;view-chat chat-active&quot;]/div[2]/div[@class=&quot;view-chat-right col-sm-7&quot;]/div[@class=&quot;view-chat-sec affix-top&quot;]/div[@class=&quot;view-chat-listsec&quot;]/div[1]/div[@class=&quot;view-chat-ind chat-ind-self&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

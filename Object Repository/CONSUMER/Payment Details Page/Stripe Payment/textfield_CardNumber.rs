@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_Email</name>
+   <name>textfield_CardNumber</name>
    <tag></tag>
-   <elementGuidId>c0c708e6-bd4f-4db7-9eae-bb7b9bc2b8f7</elementGuidId>
+   <elementGuidId>98519468-cff7-4b27-92cc-10de509a467b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,42 +18,42 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
+      <value>tel</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>Fieldset-input Textbox-control</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>6b66e2e0-785c-11e9-9c4e-a5ae269e21ca</value>
+      <value>6b684270-785c-11e9-9c4e-a5ae269e21ca</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>inputmode</name>
       <type>Main</type>
-      <value>email</value>
+      <value>numeric</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Email</value>
+      <value>MM / YY</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>email</value>
+      <value>cc-exp</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,13 +81,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;6b66e2e0-785c-11e9-9c4e-a5ae269e21ca&quot;)</value>
+      <value>id(&quot;6b684270-785c-11e9-9c4e-a5ae269e21ca&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/CONSUMER/Stripe Payment/popup_Stripe</value>
+      <value>Object Repository/CONSUMER/Payment Details Page/Stripe Payment/popup_Stripe</value>
    </webElementProperties>
 </WebElementEntity>

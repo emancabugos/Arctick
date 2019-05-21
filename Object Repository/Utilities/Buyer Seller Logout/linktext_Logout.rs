@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlink_Logout</name>
+   <name>linktext_Logout</name>
    <tag></tag>
-   <elementGuidId>1e33121f-5d70-4cd2-a45e-f925108c88b0</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @onclick = concat('$(this).closest(' , &quot;'&quot; , 'form' , &quot;'&quot; , ').submit()')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>95a5a338-e17a-4cac-9a9b-36e1ce793a2e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -38,13 +32,13 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
+      <value>Logout*</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-home  pace-done&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/ul[@class=&quot;h-dd-menu hide-me&quot;]/form[1]/li[1]/a[1]</value>
+      <value>id(&quot;videoBannerBG&quot;)/div[@class=&quot;index-mobile-header&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;pull-right&quot;]/div[@class=&quot;main-nav&quot;]/ul[@class=&quot;navigation&quot;]/li[@class=&quot;user-login dropdown hover&quot;]/ul[@class=&quot;login-nav dropdown-menu&quot;]/form[1]/li[1]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

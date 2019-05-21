@@ -45,7 +45,7 @@ WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Function/perPage_Loca
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Function/perPage_Keyword'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/image_Item'), 0)
+WebUI.click(findTestObject('CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 
@@ -57,15 +57,16 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item D
  {
     WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '')
+    WebUI.click(findTestObject('CONSUMER/Item Details Page/datepicker_Date'))
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/timepicker_Time'), '')
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '23/05/2019')
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), '')
-} 
+    WebUI.delay(1)
 
-else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time')))
- {
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/timepicker_Time'), '10:15 AM')
+
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), '2')
+} else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))) {
     WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
 
     WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '')
@@ -77,9 +78,9 @@ WebUI.delay(0.5)
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/button_BuyNow'))
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout')) == true) 
+WebUI.delay(1)
 
-{
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout')) == true) {
     WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
 
     WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Delivery1'))
@@ -87,7 +88,9 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Delive
     WebUI.delay(0.5)
 
     WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
-	
-} 
+} else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout'))) {
+    WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
+}
 
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 

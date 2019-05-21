@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_Date</name>
+   <name>textfield_Email</name>
    <tag></tag>
-   <elementGuidId>7ddf7d12-7624-4e54-afab-e1d8120d46d3</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <elementGuidId>c0c708e6-bd4f-4db7-9eae-bb7b9bc2b8f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/section/span[2]/div/div/main/form/div/div/div/div/div/div[1]/div[1]/div/div/div/fieldset/span/div/div[1]/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'email' and @class = 'Fieldset-input Textbox-control' and @placeholder = 'Email' and @autocomplete = 'email' and @ref_element = 'Object Repository/CONSUMER/Payment Details Page/Stripe Payment/main_0401ST1Email  Envelope  C']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>tel</value>
+      <value>email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,32 +38,32 @@
       <value>Fieldset-input Textbox-control</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>6b684270-785c-11e9-9c4e-a5ae269e21ca</value>
+      <value>6b66e2e0-785c-11e9-9c4e-a5ae269e21ca</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>inputmode</name>
       <type>Main</type>
-      <value>numeric</value>
+      <value>email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>MM / YY</value>
+      <value>Email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>cc-exp</value>
+      <value>email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,13 +91,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;6b684270-785c-11e9-9c4e-a5ae269e21ca&quot;)</value>
+      <value>id(&quot;6b66e2e0-785c-11e9-9c4e-a5ae269e21ca&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/CONSUMER/Stripe Payment/popup_Stripe</value>
+      <value>Object Repository/CONSUMER/Payment Details Page/Stripe Payment/popup_Stripe</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
 </WebElementEntity>

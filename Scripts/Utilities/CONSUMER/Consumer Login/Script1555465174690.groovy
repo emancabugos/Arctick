@@ -23,7 +23,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
+WebUI.maximizeWindow()
+
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Function/button_Search'), 0)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Time/Consumer/Register  Sign In/Register Sign_Label'))
 

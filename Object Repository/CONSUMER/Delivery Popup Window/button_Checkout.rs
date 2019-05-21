@@ -4,6 +4,12 @@
    <name>button_Checkout</name>
    <tag></tag>
    <elementGuidId>3d1af03d-5206-466d-bd16-6816aac7004d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'javascript:void(0);' and @class = 'itm-dtls-book-button' and (text() = 'Checkout' or . = 'Checkout')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

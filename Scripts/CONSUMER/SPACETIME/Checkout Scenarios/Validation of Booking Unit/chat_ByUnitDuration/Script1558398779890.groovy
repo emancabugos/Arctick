@@ -19,7 +19,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'))
-
-WebUI.click(findTestObject('Utilities/Buyer Seller Logout/textlink_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
-

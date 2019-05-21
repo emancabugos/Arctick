@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_cvc</name>
+   <name>textfield_Date</name>
    <tag></tag>
-   <elementGuidId>c6c66091-151d-47dd-b755-61455301e7c0</elementGuidId>
+   <elementGuidId>7ddf7d12-7624-4e54-afab-e1d8120d46d3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +21,7 @@
       <value>tel</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>6b686980-785c-11e9-9c4e-a5ae269e21ca</value>
+      <value>6b684270-785c-11e9-9c4e-a5ae269e21ca</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,25 +42,18 @@
       <value>numeric</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>4</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>CVC</value>
+      <value>MM / YY</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>off</value>
+      <value>cc-exp</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -88,13 +81,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;6b686980-785c-11e9-9c4e-a5ae269e21ca&quot;)</value>
+      <value>id(&quot;6b684270-785c-11e9-9c4e-a5ae269e21ca&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/CONSUMER/Stripe Payment/popup_Stripe</value>
+      <value>Object Repository/CONSUMER/Payment Details Page/Stripe Payment/popup_Stripe</value>
    </webElementProperties>
 </WebElementEntity>

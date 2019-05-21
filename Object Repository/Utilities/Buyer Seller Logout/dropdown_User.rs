@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tab_Paypal</name>
+   <name>dropdown_User</name>
    <tag></tag>
-   <elementGuidId>ab23be9c-4779-4d0d-877f-f52c87fe4f14</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover' and (text() = ' ' or . = ' ')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>2fd9f8ef-b5e1-45e3-897b-b3972f9d3040</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,32 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>ul</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover</value>
+      <value>login-nav dropdown-menu</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> </value>
+      <value>
+                    Purchases*
+                    Settings*
+                        Change Password
+                                            Logout*
+                </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;billingModule&quot;)/div[@class=&quot;panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover&quot;]</value>
+      <value>id(&quot;videoBannerBG&quot;)/div[@class=&quot;index-mobile-header&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;pull-right&quot;]/div[@class=&quot;main-nav&quot;]/ul[@class=&quot;navigation&quot;]/li[@class=&quot;user-login dropdown hover&quot;]/ul[@class=&quot;login-nav dropdown-menu&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

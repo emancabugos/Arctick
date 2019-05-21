@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tab_Paypal</name>
+   <name>buttonReview_Next</name>
    <tag></tag>
-   <elementGuidId>ab23be9c-4779-4d0d-877f-f52c87fe4f14</elementGuidId>
+   <elementGuidId>b1f73e17-b1a0-4b0d-aac9-17d9c65db3e3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover' and (text() = ' ' or . = ' ')]</value>
+         <value>//a[@id = 'btnNext' and (text() = 'Next' or . = 'Next')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,27 +17,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover</value>
+      <value>btnNext</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/user/checkout/select-gateway?id=33379&amp;cartitemids=53757&amp;addressid=42157</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> </value>
+      <value>Next</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;billingModule&quot;)/div[@class=&quot;panel scTrack:xpt/Merchant/platform/AP/Billing::_flow:ClickLogin hover&quot;]</value>
+      <value>id(&quot;btnNext&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

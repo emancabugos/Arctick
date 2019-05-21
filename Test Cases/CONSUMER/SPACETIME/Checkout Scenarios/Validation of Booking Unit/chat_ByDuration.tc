@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LocationKeywordDate</name>
+   <name>chat_ByDuration</name>
    <tag></tag>
    <comment>Validation on Homepage
 Verify in Search Result Page
 Verify in Item Details Page</comment>
-   <testCaseGuid>8e1c26a4-4764-4b6a-ad79-ebae8ae44054</testCaseGuid>
+   <testCaseGuid>6e63bada-eb02-41b6-b8dc-a0a76b8ce5ca</testCaseGuid>
 </TestCaseEntity>

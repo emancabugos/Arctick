@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LocationKeywordDate</name>
+   <name>checkout_ByDuration</name>
    <tag></tag>
    <comment>Validation on Homepage
 Verify in Search Result Page
 Verify in Item Details Page</comment>
-   <testCaseGuid>8e1c26a4-4764-4b6a-ad79-ebae8ae44054</testCaseGuid>
+   <testCaseGuid>bac5adff-6610-47e1-9e38-82a53a65597f</testCaseGuid>
 </TestCaseEntity>
