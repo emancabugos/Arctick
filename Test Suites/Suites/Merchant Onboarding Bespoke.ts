@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>61f283a4-558c-49f2-8ae3-d681bd438d8f</testSuiteGuid>
    <testCaseLink>
+      <guid>92a2e7bd-5e32-40fb-b47f-ee99cdc55148</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MERCHANT/BESPOKE/Onboarding/Create Account</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9bd60c08-cff7-4a4a-8e28-b5a27ce3cad2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
