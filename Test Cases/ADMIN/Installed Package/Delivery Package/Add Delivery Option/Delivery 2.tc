@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delivery 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f5f89fd-4233-43f1-b834-90432427a69e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Delivery Packages/country').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>0fdcd60e-12a0-4407-8c6d-d56a3bd05cbe</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Delivery Packages/country').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>0a622aec-a888-43b0-8c21-ec3ceefb3201</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>
