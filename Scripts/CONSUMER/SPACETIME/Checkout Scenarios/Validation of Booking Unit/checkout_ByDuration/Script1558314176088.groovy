@@ -193,5 +193,54 @@ if (GlobalVariable.payment == 'stripe') {
     WebUI.delay(0.5)
 
     WebUI.click(findTestObject('CONSUMER/Payment Details Page/Omise/button_Pay'))
+} else if (GlobalVariable.payment == 'custom') {
+    WebUI.click(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.selectOptionByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Custom Payment', true)
+
+    WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Custom Payment', 
+        true, 0)
+
+    WebUI.scrollToElement(findTestObject('CONSUMER/Payment Details Page/button_PayNow'), 0)
+
+    WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Details Page/Custom Payment/button_Accept'), 0)
+
+    WebUI.setText(findTestObject('CONSUMER/Payment Details Page/Custom Payment/textfield_Note'), 'test')
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('CONSUMER/Payment Details Page/Custom Payment/button_Accept'))
 }
+
+WebUI.waitForElementVisible(findTestObject(null), 0)
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
 
