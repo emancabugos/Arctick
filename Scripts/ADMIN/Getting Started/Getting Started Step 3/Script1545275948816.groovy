@@ -31,6 +31,10 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/span_Welcome t
 
 WebUI.verifyElementText(findTestObject('ADMIN/Getting Started/span_Welcome to Arcadier Marke'), 'Welcome to Arcadier Marketplaces!')
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 2/button_arrow'), 0)
+
+WebUI.click(findTestObject('ADMIN/Getting Started/Step 2/button_arrow'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/div_Step 3  Add your payment m'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/Getting Started/Step 3/step3_image'), 0)
@@ -59,45 +63,55 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.comment('add payment')
 
+WebUI.click(findTestObject('ADMIN/Getting Started/Step 4/button_arrow left'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/div_Add Payments'), 0)
 
 WebUI.click(findTestObject('ADMIN/Getting Started/Step 3/div_Add Payments'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/status_grey'), 0)
+WebUI.comment('Custom Payment')
 
-WebUI.verifyElementText(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/div_Not Added'), 'Not Added')
+WebUI.waitForElementVisible(findTestObject('ADMIN/Configure Payments/Custom Payment/a_Add a custom payment method'), 0)
 
-WebUI.click(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/div_Link Account'))
+WebUI.click(findTestObject('ADMIN/Configure Payments/Custom Payment/a_Add a custom payment method'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/stripe_icon'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Configure Payments/Custom Payment/input_payment-method-name'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/input_SecretKey'), 'sk_test_j30Ilbz4gtTntBTdblXHalHT')
+WebUI.setText(findTestObject('ADMIN/Configure Payments/Custom Payment/input_payment-method-name'), 'Handshake')
 
-WebUI.setText(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/input_PublicKey'), 'pk_test_9YHkrYCVufnDeLcJvdFpuV4H')
+WebUI.setText(findTestObject('ADMIN/Configure Payments/Custom Payment/textarea_custom-gateway-descri'), 'Custom Payment')
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('ADMIN/Configure Payments/Custom Payment/handshake'), 'https://cash.test.arcadier.io/payment/generatepaykey')
 
-WebUI.click(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/input_save_key'))
+WebUI.setText(findTestObject('ADMIN/Configure Payments/Custom Payment/input_redirect-endpoint-url'), 'https://cash.test.arcadier.io/paypal/index')
+
+WebUI.click(findTestObject('ADMIN/Configure Payments/Custom Payment/div_Browse'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/input_ClientId'), 'ca_9BT1yF2mtBKgHRddurb6sOc0FCehNT2w')
+WebUI.uploadFile(findTestObject('ADMIN/Configure Payments/Custom Payment/input_thumb'), 'C:\\\\Katalon\\\\Image\\\\logo1.jpg')
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Configure Payments/Custom Payment/div_btn btn-success btn-ok'), 0)
 
-WebUI.click(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/input_save_client id'))
+WebUI.click(findTestObject('ADMIN/Configure Payments/Custom Payment/div_btn btn-success btn-ok'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Configure Payments/Custom Payment/a_Save Photo'), 0)
 
-WebUI.click(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/a_Back'))
+WebUI.click(findTestObject('ADMIN/Configure Payments/Custom Payment/a_Save Photo'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/div_payment-status-color2'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Configure Payments/Custom Payment/a_Save'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/div_Im Done here'), 0)
+WebUI.click(findTestObject('ADMIN/Configure Payments/Custom Payment/a_Save'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Getting Started/Step 3/Link Stripe/div_Im Done here'))
+WebUI.waitForElementVisible(findTestObject('ADMIN/Configure Payments/Custom Payment/div_payment-status-color2'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Admin Logout/button_Logout'), 0)
+WebUI.click(findTestObject('ADMIN/Configure Payments/toggle_mandatory stripe'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Utilities/Admin Logout/button_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Getting Started/Step 3/button_im done here'), 0)
+
+WebUI.click(findTestObject('ADMIN/Getting Started/Step 3/button_im done here'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

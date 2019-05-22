@@ -58,6 +58,8 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.comment('Add Category')
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 2/div_Add Categories'), 0)
+
 WebUI.click(findTestObject('ADMIN/Getting Started/Step 2/div_Add Categories'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 2/Add Category/h1_Categories'), 0)
@@ -104,7 +106,5 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 2/Add Cat
 
 WebUI.click(findTestObject('ADMIN/Getting Started/Step 2/Add Category/div_Im Done here'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Utilities/Admin Logout/button_Logout'), 0)
-
-WebUI.click(findTestObject('Utilities/Admin Logout/button_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

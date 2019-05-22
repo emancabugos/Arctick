@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0514SR'</initValue>
+      <initValue>'0522bespoke1'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0514SR.test.arcadier.io/admin'</initValue>
+      <initValue>'0522bespoke1.test.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0514SR.test.arcadier.io/'</initValue>
+      <initValue>'0522bespoke1.test.arcadier.io/'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -65,13 +65,8 @@
       <name>StripeURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>NO CAPITAL LETTERS!!!</description>
-      <initValue>'https://0514sr.test.arcadier.io/signin-stripe'</initValue>
-      <name>StripeConnect</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description></description>
-      <initValue>'custommerchant1'</initValue>
+      <initValue>'custommerchant2'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -126,7 +121,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>TEMPLATE: Bespoke, ServiceBookings(TIME), RentalGoods(TIME), SpaceRental(SPACE), RentalGoods(SPACE)</description>
-      <initValue>'SpaceRental(SPACE)'</initValue>
+      <initValue>'Bespoke'</initValue>
       <name>Template</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

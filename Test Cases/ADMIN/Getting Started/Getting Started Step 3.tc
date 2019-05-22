@@ -5,6 +5,7 @@
    <tag></tag>
    <comment>Step 3 Payment
 Click video tutorial
-add payment</comment>
+add payment
+Custom Payment</comment>
    <testCaseGuid>c8d27e99-e8a1-4218-b424-42bc6308f184</testCaseGuid>
 </TestCaseEntity>

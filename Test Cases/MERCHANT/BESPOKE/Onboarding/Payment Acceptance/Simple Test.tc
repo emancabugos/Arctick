@@ -3,6 +3,6 @@
    <description></description>
    <name>Simple Test</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Stripe Only</comment>
    <testCaseGuid>7de77c9e-9c04-44bd-8053-e7b1c0defc8f</testCaseGuid>
 </TestCaseEntity>

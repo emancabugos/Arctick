@@ -38,8 +38,6 @@ WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Address Page/Ad
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Address Page/Address/cont_Address'), 0)
 
-WebUI.delay(2)
-
 WebUI.scrollToElement(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Address Page/Address/button_NEXT address'), 0)
 
 WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Address Page/Address/button_NEXT address'), FailureHandling.CONTINUE_ON_FAILURE)

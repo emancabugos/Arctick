@@ -4,6 +4,16 @@
    <name>button_Link Account</name>
    <tag></tag>
    <elementGuidId>e49c76be-ec10-43d1-a87d-b72de84f46b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'stripe' and @name = 'linkpayment' and (text() = '
+                                                    Link Account
+                                                ' or . = '
+                                                    Link Account
+                                                ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -55,6 +65,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;stripe&quot;)</value>
+      <value>//*[@id=&quot;59887-handshake-rxl2vqz14bu4p8za61oj&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
