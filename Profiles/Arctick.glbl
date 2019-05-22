@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0520bespoke'</initValue>
+      <initValue>'0514SR'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,16 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0520bespoke.test.arcadier.io/admin'</initValue>
+      <initValue>'0514SR.test.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-<<<<<<< HEAD
-      <initValue>'0401st1.test.arcadier.io/user'</initValue>
-=======
-      <initValue>'0520bespoke.test.arcadier.io/'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Arctick.git
+      <initValue>'0514SR.test.arcadier.io/'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -70,7 +66,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>NO CAPITAL LETTERS!!!</description>
-      <initValue>'https://0520bespoke.test.arcadier.io/signin-stripe'</initValue>
+      <initValue>'https://0514sr.test.arcadier.io/signin-stripe'</initValue>
       <name>StripeConnect</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -95,7 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'buyer0001'</initValue>
+      <initValue>'buyer1'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -130,7 +126,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>TEMPLATE: Bespoke, ServiceBookings(TIME), RentalGoods(TIME), SpaceRental(SPACE), RentalGoods(SPACE)</description>
-      <initValue>'Bespoke'</initValue>
+      <initValue>'SpaceRental(SPACE)'</initValue>
       <name>Template</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -157,10 +153,5 @@
       <description>ENTER VALUE: custom, facebook, google</description>
       <initValue>'custom'</initValue>
       <name>ConsumerAccountType</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>change this to desired payment &quot;stripe&quot; , &quot;omise&quot; or &quot;paypal&quot;</description>
-      <initValue>'omise'</initValue>
-      <name>payment</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
