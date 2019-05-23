@@ -69,3 +69,5 @@ if (varVariants == 'yes') {
     WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-quantity'), varQuantity)
 }
 
+WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_SAVE'))
+

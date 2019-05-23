@@ -19,91 +19,89 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/menulink_Installed Packages'), 0)
+WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/menulink_Installed Packages'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/icon_features'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/submenulink_Delivery Package'), 0)
+WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/button_Edit'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/submenulink_Delivery Package'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/button_AddDeliveryOption'), 0)
-
-WebUI.setText(findTestObject('ADMIN/Installed Packages/Delivery Package/textfield_Unit'), 'Kg')
-
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/button_Save'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementNotClickable(findTestObject('ADMIN/Installed Packages/Delivery Package/textfield_Unit'), 0)
-
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/button_AddDeliveryOption'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_DeliveryOptionName'), 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/button_Add Delivery Option'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textfield_DeliveryOptionName'))
+WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/button_Add Delivery Option'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_Deliversto'))
+WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/icon_delivery 2.0'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/dropdown_Country'))
+WebUI.comment('UI')
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_MinimumleadTime'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textfield_MinimumleadTime'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_MinimumleadTime'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textfield_MinimumleadTime'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_DeliveringFrom'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textfield_DeliveringFrom'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_CalculateShipping'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/radiobutton_Weight'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/radiobutton_Price'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_Price'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_Weight'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_DeliveryRate'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/column_Name'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/column_Range'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_unit'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/column_DeliveryCost'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/linktext_Cancel'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_Save'))
-
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textlabel_DeliveryRateName'), 
+WebUI.waitForElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Delivery Option Name'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textlabel_DeliveryRateName'))
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textbox_delivery option name'), 
+    0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textlabel_Range'))
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Delivers to'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/numericUpDown_RangeFrom'))
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/dd_country'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/numericUpDown_RangeTo'))
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Minimum lead time'), 
+    0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards'))
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textbox_minimum lead time'), 
+    0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textlabel_DeliveryCost'))
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Where are you delivering'), 
+    0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_DeliveryCost'))
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textbox_delivering from'), 
+    0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/button_Save'))
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Select if you would like'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/radio button_Weight (kg)'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/radio button_Price'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Delivery Rate(s)'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Name'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Range (kg)'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Delivery Cost'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/button_Add Delivery Rate'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Delivery Rate Name (Buye'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textbox_delivery rate name'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Range'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textbox_range_start'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textbox_range_end'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/radio button_Onwards'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlabel_Delivery Cost'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textbox_delivery cost'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/button_Save delivery rate'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/button_Save delivery'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery Edit/textlink_Cancel'), 0)
 
