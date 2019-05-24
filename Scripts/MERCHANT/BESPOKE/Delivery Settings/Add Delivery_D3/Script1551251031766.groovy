@@ -19,101 +19,111 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Delivery'), 0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Page_0201bp1/a_Delivery'), 0)
+WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Delivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Page_0201bp1/a_Delivery'))
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/icon_delivery settings'), 0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Delivery Settings/DeliveryOptions/button_Add Delivery Option'), 0)
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/button_Add Delivery Option'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/DeliveryOptions/button_Add Delivery Option'))
-
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/textfield_delivery option name'), 'Delivery 3')
-
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/dropdown_delivers to'))
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/a_Select all'), 0)
-
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/a_Select all'))
-
-WebUI.scrollToElement(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/textfield_minimum_time'), 0)
-
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/textfield_minimum_time'), '1 - 7 days')
-
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/textfield_delivering_from'), 'Philippines')
-
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/label_Price'))
-
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/button_ok change rates'))
-
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/button_Add Delivery Rate'))
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/Page_0201bp1/textlabel_Delivery Rate Name (Buye'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/icon_addedit'), 
     0)
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_delivery_rate'), 'hello')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textbox_delivery option name'), 
+    'Delivery 3')
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_range_start'), '1')
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/dd_coutnry'))
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_range_end'), '4')
-
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_delivery_cost'), '1.00')
-
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/button_Save_Delivery Range'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/button_Add Delivery Rate'))
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/Page_0201bp1/textlabel_Delivery Rate Name (Buye'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/text_Select all'), 
     0)
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_delivery_rate'), 'hello2')
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/text_Select all'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_range_start'), '5')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textbox_minimumLeadTime'), '1 - 7 days')
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_range_end'), '9')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textbox_deliveryFrom'), 'Philippines')
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_delivery_cost'), '1.50')
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/button_Add Delivery Rate'))
 
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/button_Save_Delivery Range'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/button_Add Delivery Rate'))
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/Page_0201bp1/textlabel_Delivery Rate Name (Buye'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textlabel_Delivery Rate Name (Buye'), 
     0)
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_delivery_rate'), 'hello3')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_rate_name'), 
+    'Rate 1')
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_range_start'), '10')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_range_start'), 
+    '1')
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_range_end'), '15')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_range_end'), 
+    '4')
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_delivery_cost'), '2')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_rate_cost'), 
+    '1.00')
 
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/button_Save_Delivery Range'))
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/button_Save rate'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/button_Add Delivery Rate'))
 
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/button_Add Delivery Rate'))
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/Page_0201bp1/textlabel_Delivery Rate Name (Buye'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textlabel_Delivery Rate Name (Buye'), 
     0)
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_delivery_rate'), 'hello4')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_rate_name'), 
+    'Rate 2')
 
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/checkbox_Onwards'))
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_range_start'), 
+    '5')
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_onwards'), '16')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_range_end'), 
+    '9')
 
-WebUI.setText(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/textfield_delivery_cost'), '2.50')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_rate_cost'), 
+    '1.50')
 
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/button_Save_Delivery Range'))
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/button_Save rate'))
 
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/Add Delivery Option/Delivery Rate/button_Save'))
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/button_Add Delivery Rate'))
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textlabel_Delivery Rate Name (Buye'), 
+    0)
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_rate_name'), 
+    'Rate 3')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_range_start'), 
+    '10')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_range_end'), 
+    '15')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_rate_cost'), 
+    '2.00')
+
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/button_Save rate'))
+
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/button_Add Delivery Rate'))
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textlabel_Delivery Rate Name (Buye'), 
+    0)
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_rate_name'), 
+    'Rate 4')
+
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/radiobutton_Onwards'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_range onwards'), 
+    '16')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/textbox_rate_cost'), 
+    '2.50')
+
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/button_Save rate'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/button_Add Delivery Option'), 0)
 
