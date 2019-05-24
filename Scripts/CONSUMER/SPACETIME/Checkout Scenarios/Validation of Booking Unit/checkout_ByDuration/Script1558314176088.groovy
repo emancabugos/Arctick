@@ -23,7 +23,11 @@ WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], Failu
 
 WebUI.comment('Validation on Homepage')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Function/button_Search'), 0)
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Function/textfield_Keyword'), 0)
+
+WebUI.setText(findTestObject('CONSUMER/Search Function/textfield_Keyword'), 'Unit and Duration')
 
 WebUI.delay(1)
 
@@ -35,13 +39,19 @@ WebUI.waitForPageLoad(0)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/image_Item'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
+rate = WebUI.getText(findTestObject('CONSUMER/Search Result Page/textlabel_SearchResultPageRate'))
 
-WebUI.waitForPageLoad(0)
+WebUI.delay(1)
+
+WebUI.click(findTestObject('CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Verify in Item Details Page')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSeller'), 0)
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Item Details Page/textlabel_ItemDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
 
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time')) == true) {
     WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
@@ -50,7 +60,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item D
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '23/05/2019')
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '23/04/2021')
 
     WebUI.delay(1)
 
@@ -66,14 +76,14 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item D
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '23/05/2019')
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '23/04/2021')
 
     WebUI.delay(1)
 
     WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), '2')
 }
 
-WebUI.delay(0.5)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/button_BuyNow'))
 
@@ -84,7 +94,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Delive
 
     WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Delivery1'))
 
-    WebUI.delay(0.5)
+    WebUI.delay(1)
 
     WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
 } else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout'))) {
@@ -102,6 +112,8 @@ WebUI.scrollToElement(findTestObject('CONSUMER/Delivery Details Page/buttonDeliv
 WebUI.click(findTestObject('CONSUMER/Delivery Details Page/buttonDelivery_Next'))
 
 WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Review Details Page/textlabel_ReviewDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Review Details Page/button_Previous'), 0)
 
@@ -203,6 +215,8 @@ if (GlobalVariable.payment == 'stripe') {
 
     WebUI.scrollToElement(findTestObject('CONSUMER/Payment Details Page/button_PayNow'), 0)
 
+    WebUI.click(findTestObject('CONSUMER/Payment Details Page/button_PayNow'), FailureHandling.CONTINUE_ON_FAILURE)
+
     WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Details Page/Custom Payment/button_Accept'), 0)
 
     WebUI.setText(findTestObject('CONSUMER/Payment Details Page/Custom Payment/textfield_Note'), 'test')
@@ -212,35 +226,34 @@ if (GlobalVariable.payment == 'stripe') {
     WebUI.click(findTestObject('CONSUMER/Payment Details Page/Custom Payment/button_Accept'))
 }
 
-WebUI.waitForElementVisible(findTestObject(null), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Thank You Page/button_PurchaseHistory'), 0)
 
-WebUI.acceptAlert()
+String invoice = WebUI.getText(findTestObject('CONSUMER/Thank You Page/textlabel_Invoice'))
 
-WebUI.acceptAlert()
+WebUI.delay(1)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('CONSUMER/Thank You Page/button_PurchaseHistory'))
 
-WebUI.acceptAlert()
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'), 0)
 
-WebUI.acceptAlert()
+WebUI.delay(1)
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('CONSUMER/Purchase History List/textfield_Search'), invoice)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('CONSUMER/Purchase History List/button_Search'))
 
-WebUI.acceptAlert()
+WebUI.waitForPageLoad(0)
 
-WebUI.acceptAlert()
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'), 0)
 
-WebUI.acceptAlert()
+WebUI.delay(1)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'))
 
-WebUI.acceptAlert()
+WebUI.waitForPageLoad(0)
 
-WebUI.acceptAlert()
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate'), 0)
 
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
+WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate'), rate, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 

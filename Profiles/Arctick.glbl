@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0514SR.test.arcadier.io/'</initValue>
+      <initValue>'0522bespoke1.test.arcadier.io/user'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -91,7 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'buyer1'</initValue>
+      <initValue>'buyer0001'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -153,5 +153,10 @@
       <description>ENTER VALUE: custom, facebook, google</description>
       <initValue>'custom'</initValue>
       <name>ConsumerAccountType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'custom'</initValue>
+      <name>payment</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

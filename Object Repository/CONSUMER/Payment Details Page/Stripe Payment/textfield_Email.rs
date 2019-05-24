@@ -100,11 +100,4 @@
       <type>Main</type>
       <value>Object Repository/CONSUMER/Payment Details Page/Stripe Payment/popup_Stripe</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element_is_shadow_root</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
 </WebElementEntity>

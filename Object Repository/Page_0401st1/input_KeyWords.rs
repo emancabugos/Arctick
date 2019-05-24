@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_Keyword</name>
+   <name>input_KeyWords</name>
    <tag></tag>
-   <elementGuidId>b4dbaeac-3b54-4907-b00b-9757abd18c42</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @id = 'KeyWords' and @name = 'KeyWords' and @placeholder = 'What are you looking for?*']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>6e154b3d-b562-4316-86b0-817d80d63392</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -66,6 +60,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;homebanner&quot;)/div[@class=&quot;section home-banner banner-slider&quot;]/div[@class=&quot;home-serach&quot;]/div[@class=&quot;search-controls both-datepicker&quot;]/input[@id=&quot;KeyWords&quot;]</value>
+      <value>id(&quot;homebanner&quot;)/div[@class=&quot;section home-banner banner-slider&quot;]/div[@class=&quot;home-serach&quot;]/div[@class=&quot;search-controls keyword-datepicker&quot;]/input[@id=&quot;KeyWords&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout 1</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page</comment>
+   <testCaseGuid>aae5fe0f-d99d-4c5e-9510-21e249175751</testCaseGuid>
+</TestCaseEntity>

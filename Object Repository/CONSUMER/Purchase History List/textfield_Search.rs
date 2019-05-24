@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_Keyword</name>
+   <name>textfield_Search</name>
    <tag></tag>
-   <elementGuidId>b4dbaeac-3b54-4907-b00b-9757abd18c42</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @id = 'KeyWords' and @name = 'KeyWords' and @placeholder = 'What are you looking for?*']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>f10395b2-d038-4c92-a3a7-89075e80ce01</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -31,41 +25,27 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>KeyWords</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-searchname</name>
-      <type>Main</type>
-      <value>spacetime-search</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>KeyWords</value>
+      <value>form-control search-item</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>What are you looking for?*</value>
+      <value>Search by name and invoice ID</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>search-item</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;homebanner&quot;)/div[@class=&quot;section home-banner banner-slider&quot;]/div[@class=&quot;home-serach&quot;]/div[@class=&quot;search-controls both-datepicker&quot;]/input[@id=&quot;KeyWords&quot;]</value>
+      <value>id(&quot;react_0HLMUB22GEMGL&quot;)/div[1]/div[@class=&quot;purchase-hist-titlesec&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;purchasehist-titlearea&quot;]/div[@class=&quot;purchase-hist-filter&quot;]/div[1]/ul[1]/li[1]/div[@class=&quot;search-group&quot;]/input[@class=&quot;form-control search-item&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

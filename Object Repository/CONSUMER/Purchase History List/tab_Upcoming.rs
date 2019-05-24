@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Checkout</name>
+   <name>tab_Upcoming</name>
    <tag></tag>
-   <elementGuidId>3d1af03d-5206-466d-bd16-6816aac7004d</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@class = 'itm-dtls-book-button' and (text() = 'Checkout' or . = 'Checkout')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>e86c26d2-b013-4a33-82b8-200bdb062c26</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,38 +14,38 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>javascript:void(0);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>itm-dtls-book-button</value>
+      <value>#purchasehist_tab_upcoming</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>data-toggle</name>
       <type>Main</type>
-      <value>mobile_buynow_btn_submit();</value>
+      <value>tab</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Checkout</value>
+      <value>Upcoming</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;booknowModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/div[@class=&quot;col-xs-6 text-right&quot;]/a[@class=&quot;itm-dtls-book-button&quot;]</value>
+      <value>id(&quot;react_0HLMUB22GEMGL&quot;)/div[1]/div[@class=&quot;purchase-hist-titlesec&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;purchasehist-titlearea&quot;]/div[@class=&quot;purchasehist-title-tab&quot;]/ul[1]/li[@class=&quot;active&quot;]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

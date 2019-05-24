@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_Keyword</name>
+   <name>dropdown_Payment</name>
    <tag></tag>
-   <elementGuidId>b4dbaeac-3b54-4907-b00b-9757abd18c42</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @id = 'KeyWords' and @name = 'KeyWords' and @placeholder = 'What are you looking for?*']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>382c7cf4-d72d-4b90-947b-914f99b6189c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,55 +11,43 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>checkout-payment-method-opt</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>KeyWords</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-searchname</name>
-      <type>Main</type>
-      <value>spacetime-search</value>
+      <value>SelectedGateway</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>KeyWords</value>
+      <value>PaymentMethod.SelectedGateway</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>What are you looking for?*</value>
+      <value>Cash on delivery
+Handshake
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;homebanner&quot;)/div[@class=&quot;section home-banner banner-slider&quot;]/div[@class=&quot;home-serach&quot;]/div[@class=&quot;search-controls both-datepicker&quot;]/input[@id=&quot;KeyWords&quot;]</value>
+      <value>id(&quot;SelectedGateway&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

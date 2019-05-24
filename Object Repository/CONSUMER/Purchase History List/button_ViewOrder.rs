@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Checkout</name>
+   <name>button_ViewOrder</name>
    <tag></tag>
-   <elementGuidId>3d1af03d-5206-466d-bd16-6816aac7004d</elementGuidId>
+   <elementGuidId>b04180c5-6971-44d2-bc9c-84e3529f3e03</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class = 'itm-dtls-book-button' and (text() = 'Checkout' or . = 'Checkout')]</value>
+         <value>//a[@href = '#' and @class = 'purhist-btn-vieworder' and (text() = 'View order' or . = 'View order')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,38 +20,31 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>javascript:void(0);</value>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>itm-dtls-book-button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>mobile_buynow_btn_submit();</value>
+      <value>purhist-btn-vieworder</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Checkout</value>
+      <value>View order</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;booknowModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/div[@class=&quot;col-xs-6 text-right&quot;]/a[@class=&quot;itm-dtls-book-button&quot;]</value>
+      <value>id(&quot;purchasehist_tab_upcoming&quot;)/div[@class=&quot;purchase-hist-tbl-row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;purchase-hist-tbl-inner&quot;]/div[@class=&quot;purhist-status-col&quot;]/div[@class=&quot;purhist-status-btnsec&quot;]/a[@class=&quot;purhist-btn-vieworder&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
