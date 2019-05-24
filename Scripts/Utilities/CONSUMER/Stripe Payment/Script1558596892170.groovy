@@ -21,11 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Stripe Payment/Pay now'))
 
-WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.focus(findTestObject('Utilities/Stripe Payment/email'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.sendKeys(findTestObject('Utilities/Stripe Payment/email'), 'arcadierteam@gmail.com')
-
-WebUI.setText(findTestObject('Utilities/Stripe Payment/card number'), '4242 4242 4242 4242')
 

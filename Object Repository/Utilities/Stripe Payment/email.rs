@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input</value>
+         <value>//input[count(. | //*[@id = 'cf3f76b0-7dbb-11e9-83b0-63814e4e228f']) = count(//*[@id = 'cf3f76b0-7dbb-11e9-83b0-63814e4e228f'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

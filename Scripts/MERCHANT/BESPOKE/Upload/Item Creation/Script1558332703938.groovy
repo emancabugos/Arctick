@@ -71,3 +71,5 @@ if (varVariants == 'yes') {
 
 WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_SAVE'))
 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Your Items/button_Upload'), 0)
+
