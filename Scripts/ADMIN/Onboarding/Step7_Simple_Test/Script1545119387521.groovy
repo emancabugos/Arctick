@@ -41,7 +41,7 @@ WebUI.comment('Input')
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency'), GlobalVariable.Currency, 
     false)
 
-WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'), '98')
+WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'), '69')
 
 WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7'), FailureHandling.CONTINUE_ON_FAILURE)
 

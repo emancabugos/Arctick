@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_usermenu</name>
+   <tag></tag>
+   <elementGuidId>b04207cd-f308-42f5-b5e7-8d3ef9902fca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;videoBannerBG&quot;]/div[1]/div/div[2]/div/ul/li[10]/a[1]/i</value>
+   </webElementProperties>
+</WebElementEntity>

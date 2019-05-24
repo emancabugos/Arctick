@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.Server)
 
 WebUI.maximizeWindow()
 
-if (GlobalVariable.AdminAccount == 'custom') {
+if (GlobalVariable.AdminAccountType == 'custom') {
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account'))
 
     WebUI.verifyElementPresent(findTestObject('ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'), 
@@ -38,7 +38,7 @@ if (GlobalVariable.AdminAccount == 'custom') {
     WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'), GlobalVariable.CustomPass)
 
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up'))
-} else if (GlobalVariable.AdminAccount == 'google') {
+} else if (GlobalVariable.AdminAccountType == 'google') {
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Signup_Google'))
 
     WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Google_Username'), GlobalVariable.AdminGoogle)
@@ -52,7 +52,7 @@ if (GlobalVariable.AdminAccount == 'custom') {
     WebUI.delay(1)
 
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Google_Next'))
-} else if (GlobalVariable.AdminAccount == 'facebook') {
+} else if (GlobalVariable.AdminAccountType == 'facebook') {
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Signup_Facebook'))
 
     WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Facebook_Email'), GlobalVariable.AdminFacebook)

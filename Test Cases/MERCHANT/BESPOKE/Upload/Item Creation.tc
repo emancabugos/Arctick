@@ -3,7 +3,13 @@
    <description></description>
    <name>Item Creation</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Category
+Item Name
+Price
+SKU
+Item Description
+Image
+Variants &amp; Quantity</comment>
    <testCaseGuid>73a19c7a-6b4e-41c1-8eca-65a3887c7120</testCaseGuid>
    <variable>
       <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>

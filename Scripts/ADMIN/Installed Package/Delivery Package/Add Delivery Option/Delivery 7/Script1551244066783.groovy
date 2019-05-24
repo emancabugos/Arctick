@@ -19,15 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/menulink_Installed Packages'), 0)
+WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/menulink_Installed Packages'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/icon_features'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/submenulink_Delivery Package'), 0)
-
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/submenulink_Delivery Package'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/button_Edit'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/button_AddDeliveryOption'), 0)
 
@@ -76,8 +74,6 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Pa
 WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/z_Warning/button_Okay'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
-
-WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_DeliveryRateName'), 
     0)

@@ -4,7 +4,7 @@
    <name>Item Creation Bespoke</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-05-21T08:35:34</lastRun>
+   <lastRun>2019-05-22T15:27:54</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -93,9 +93,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9fcc7c8a-c076-42d3-874d-efe57f7a2d04</guid>
+      <guid>ce0eb2e1-1199-49f9-a170-b069359d7262</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
+      <testCaseId>Test Cases/Utilities/MERCHANT/bespoke_logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

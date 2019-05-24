@@ -19,13 +19,51 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control'), 0)
 
 WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/icon_features'), 0)
 
-WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/button_Edit (1)'))
+WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/button_Edit'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/icon_delivery 2.0'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/textlabel_Delivery 2.0'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/icon_delivery 2'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/textlabel_Would you like to activate d'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/textlabel_Delivery will be available v'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/textlabel_Delivery will be available v'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/textlabel_Define weight unit used'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/textbox_weight unit'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/button_edit weight'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/textlabel_MARKETPLACE DEFAULT DELIVERY'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/icon_info'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/textlabel_Delivery will be available v (1)'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/button_Add Delivery Option'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/textlabel_Name'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List/textlabel_Delivers To'), 
+    0)
 

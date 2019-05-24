@@ -19,20 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('Stripe Only')
+WebUI.comment('Custom Payment')
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Payment Acceptance/button_Link Account'))
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Stripe/a_Skip this account form'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Custom Payment/textlabel_No account linked yet'), 
     0)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Stripe/a_Skip this account form'))
+WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Custom Payment/button_Link Account'))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Stripe/Verified/div_verified-icon'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Custom Payment/popuptext_Custom Payment'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Stripe/Verified/span_Verified'), 
+WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Custom Payment/button_Okay'))
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Custom Payment/icon_verified'), 
     0)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Payment Acceptance/button_NEXT payment'))
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/Custom Payment/textalbel_Verified'), 
+    0)
+
+WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Payment/button_SAVE'))
 
