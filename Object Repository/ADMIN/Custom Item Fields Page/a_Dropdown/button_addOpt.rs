@@ -4,6 +4,12 @@
    <name>button_addOpt</name>
    <tag></tag>
    <elementGuidId>c2e46117-cfc2-4418-8412-076ded7dcd8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;contactForm&quot;)/div[@class=&quot;form-field-controler&quot;]/div[@class=&quot;opt5 custom-field-opt active&quot;]/div[@class=&quot;custom-field-form&quot;]/div[@class=&quot;add-option-area&quot;]/a[1]/i[@class=&quot;icon icon-addopt&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

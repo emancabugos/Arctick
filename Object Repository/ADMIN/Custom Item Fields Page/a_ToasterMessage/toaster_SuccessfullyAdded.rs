@@ -4,6 +4,12 @@
    <name>toaster_SuccessfullyAdded</name>
    <tag></tag>
    <elementGuidId>9a60b72e-bd96-454f-821e-98203dbc1c49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'toast-message' and (text() = 'Custom field was successfully saved.' or . = 'Custom field was successfully saved.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

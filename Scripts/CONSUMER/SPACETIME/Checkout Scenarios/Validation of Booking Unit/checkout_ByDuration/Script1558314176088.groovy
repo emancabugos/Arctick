@@ -67,7 +67,8 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item D
     WebUI.setText(findTestObject('CONSUMER/Item Details Page/timepicker_Time'), '10:15 AM')
 
     WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), '2')
-} else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))) {
+} else if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time')) == false)
+ {
     WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
 
     WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
@@ -208,10 +209,10 @@ if (GlobalVariable.payment == 'stripe') {
 } else if (GlobalVariable.payment == 'custom') {
     WebUI.click(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.selectOptionByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Custom Payment', true)
+    WebUI.selectOptionByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Handshake', true)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Custom Payment', 
-        true, 0)
+    WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Handshake', true, 
+        0)
 
     WebUI.scrollToElement(findTestObject('CONSUMER/Payment Details Page/button_PayNow'), 0)
 
@@ -252,8 +253,8 @@ WebUI.click(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate'), rate, 
+WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), rate, 
     FailureHandling.CONTINUE_ON_FAILURE)
 

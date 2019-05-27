@@ -6,4 +6,11 @@
    <comment>Search on Homepage
 Search Result Page</comment>
    <testCaseGuid>aae5fe0f-d99d-4c5e-9510-21e249175751</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Consumer/Review Details Page/textlabel_TotalCost')</defaultValue>
+      <description></description>
+      <id>17f84811-ffe1-46f8-92b0-129ebb128616</id>
+      <masked>false</masked>
+      <name>total1</name>
+   </variable>
 </TestCaseEntity>

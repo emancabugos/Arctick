@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_PurchaseHistoryDetailsRate_U</name>
+   <tag></tag>
+   <elementGuidId>0959a9a4-c3f0-4b63-b738-8195f006e2fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[1]/div/div/div[4]/div/div[2]/div[3]/div/div[2]/div[4]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;MyPrintDiv&quot;)/div[@class=&quot;purhstdtls-content-sec&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;purhstdtls-col-sec&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;purhstdtls-delvry-sec&quot;]/div[@class=&quot;purhstdtls-delvry-timesec&quot;]/div[5]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SGD $50.00 / Unit 1 per hour</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MyPrintDiv&quot;)/div[@class=&quot;purhstdtls-content-sec&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;purhstdtls-col-sec&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;purhstdtls-delvry-sec&quot;]/div[@class=&quot;purhstdtls-delvry-timesec&quot;]/div[5]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

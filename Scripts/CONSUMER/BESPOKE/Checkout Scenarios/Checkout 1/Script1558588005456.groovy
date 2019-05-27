@@ -91,20 +91,10 @@ WebUI.waitForPageLoad(0)
 
 WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Review Details Page/dropdown_SelectDeliveryMethod'), 0)
 
-WebUI.selectOptionByValue(findTestObject('Bespoke/Consumer/Review Details Page/dropdown_SelectDeliveryMethod'), 'Admin Delivery 4 (SGD $15.00)', 
-    true)
+WebUI.click(findTestObject('Bespoke/Consumer/Review Details Page/dropdown_SelectDeliveryMethod'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyOptionSelectedByValue(findTestObject('Bespoke/Consumer/Review Details Page/dropdown_SelectDeliveryMethod'), 
-    'Admin Delivery 4 (SGD $15.00)', true, 0)
+WebUI.selectOptionByIndex(findTestObject('Bespoke/Consumer/Review Details Page/dropdown_SelectDeliveryMethod'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-String subtotal = WebUI.getText(findTestObject('Object Repository/Bespoke/Consumer/Review Details Page/textlabel_SubTotal'))
+WebUI.delay(1)
 
-String deliverycost = WebUI.getText(findTestObject('Object Repository/Bespoke/Consumer/Review Details Page/textlabel_DeliveryCost'))
-
-int total = subtotal + deliverycost()
-
-WebUI.verifyElementText(findTestObject('Object Repository/Bespoke/Consumer/Review Details Page/textlabel_TotalCost'), total, 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-println(total)
 
