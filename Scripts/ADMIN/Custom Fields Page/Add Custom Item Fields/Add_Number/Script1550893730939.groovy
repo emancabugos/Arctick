@@ -52,11 +52,5 @@ WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Number/textfield_m
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_SuccessfullyAdded'), 
-    0)
-
-WebUI.waitForElementNotVisible(findTestObject('ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_SuccessfullyAdded'), 
-    0)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/menulink_Content Mgmt.'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
 

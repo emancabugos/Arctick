@@ -4,10 +4,16 @@
    <name>div_payment-status-color2</name>
    <tag></tag>
    <elementGuidId>f3bd340c-769f-4ed5-90b1-cb3ae99c9200</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tbLanguageRow&quot;]/tr[5]/td[3]/div[1]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbLanguageRow&quot;)/tr[4]/td[3]/div[@class=&quot;payment-status-color2&quot;]</value>
+      <value>//*[@id=&quot;tbLanguageRow&quot;]/tr[5]/td[3]/div[1]</value>
    </webElementProperties>
 </WebElementEntity>

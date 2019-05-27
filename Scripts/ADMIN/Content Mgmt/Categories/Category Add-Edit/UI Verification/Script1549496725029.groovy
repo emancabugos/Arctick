@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'), 0)
 
 WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'))
@@ -51,11 +49,11 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category/textfield_B
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category/button_Browse'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category/textlabel_Use either paid imagesroyalt'))
-
 WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category/textlabel_Description(-Optional'))
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category/textfield_category_description'))
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category/button_Save'))
+
+WebUI.click(findTestObject('ADMIN/Categories/Category/button_Close'))
 

@@ -6,13 +6,21 @@
    <elementGuidId>e86a682f-ae83-48e7-92fb-241f8b65c9f0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[9]/div/ul/li[2]/div/div[2]/input</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[3]/div[2]/div[3]/div/div[1]/div[2]/div/form/div/div[8]/div/ul/li[2]/div/div[2]/input</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[9]/div/ul/li[2]/div/div[2]/input</value>
+   </webElementProperties>
 </WebElementEntity>

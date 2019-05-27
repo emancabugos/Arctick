@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'), 0)
 
 WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'))
@@ -33,25 +31,38 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/butto
 
 WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Delete'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/delete pop-up/textlabel_Are you sure you want to d'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/delete pop-up/textlabel_Are you sure you want to d'), 
+    0)
 
 WebUI.click(findTestObject('ADMIN/Categories/Category/delete pop-up/button_close'))
 
 WebUI.comment('insert here verification')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Delete'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/delete pop-up/textlabel_Are you sure you want to d'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/delete pop-up/textlabel_Are you sure you want to d'), 
+    0)
 
 WebUI.click(findTestObject('ADMIN/Categories/Category/delete pop-up/button_cancel'))
 
 WebUI.comment('insert validation here')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Delete'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/delete pop-up/textlabel_Are you sure you want to d'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/delete pop-up/textlabel_Are you sure you want to d'), 
+    0)
 
 WebUI.click(findTestObject('ADMIN/Categories/Category/delete pop-up/button_okay'))
 
 WebUI.comment('insert validation here')
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/delete pop-up/Success delete Toaster/div_SuccessCategory successful'), 
+    0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Categories/Category/delete pop-up/Success delete Toaster/div_SuccessCategory successful'), 
+    0)
 

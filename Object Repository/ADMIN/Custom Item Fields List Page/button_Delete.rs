@@ -4,6 +4,12 @@
    <name>button_Delete</name>
    <tag></tag>
    <elementGuidId>202f1263-8df5-40d6-8f79-5d1937a0435b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;customIds_138424&quot;]/div/div[5]/div/a[2]/i</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;customIds_134313&quot;)/div[@class=&quot;custom-list-box&quot;]/div[@class=&quot;field-action&quot;]/div[@class=&quot;row-action&quot;]/a[@class=&quot;delete-cat&quot;]/i[@class=&quot;icon icon-delete&quot;]</value>
+      <value>//*[@id=&quot;customIds_138424&quot;]/div/div[5]/div/a[2]/i</value>
    </webElementProperties>
 </WebElementEntity>
