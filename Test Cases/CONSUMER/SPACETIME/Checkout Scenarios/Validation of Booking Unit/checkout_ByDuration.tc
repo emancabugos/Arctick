@@ -7,4 +7,39 @@
 Verify in Search Result Page
 Verify in Item Details Page</comment>
    <testCaseGuid>bac5adff-6610-47e1-9e38-82a53a65597f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5a0138e5-f92e-4019-b566-743268d8023c</id>
+      <masked>false</masked>
+      <name>searchItem</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e2f81096-242d-4750-b8f6-15eeab3a3e13</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cdd0dc3a-376e-42f0-9dda-383ac4809475</id>
+      <masked>false</masked>
+      <name>time</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>078eeca0-f541-49fe-977a-298789307995</id>
+      <masked>false</masked>
+      <name>unit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3ba9c559-2f61-4eab-8e7d-ddfe13cef29e</id>
+      <masked>false</masked>
+      <name>duration</name>
+   </variable>
 </TestCaseEntity>

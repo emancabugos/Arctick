@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Decline</name>
+   <tag></tag>
+   <elementGuidId>b5a7b8d8-4048-47be-8b0c-8d24667f0ca7</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cht-offer-declinebtn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Decline</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-buy-chat-offer&quot;)/div[@class=&quot;view-chat chat-active&quot;]/div[@class=&quot;view-chat-left col-sm-5&quot;]/div[@class=&quot;view-chat-left-inner&quot;]/div[1]/div[@class=&quot;section-chat chat-pricing&quot;]/div[3]/div[@class=&quot;chat-offer-buysec chat-offer-buypurbtndesk&quot;]/div[@class=&quot;text-center&quot;]/a[@class=&quot;cht-offer-declinebtn&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

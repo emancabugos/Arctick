@@ -27,7 +27,7 @@ WebUI.waitForPageLoad(0)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Function/textfield_Keyword'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Search Function/textfield_Keyword'), 'Unit and Duration')
+WebUI.setText(findTestObject('CONSUMER/Search Function/textfield_Keyword'), findTestData(null).getValue(1, 1))
 
 WebUI.delay(1)
 
@@ -60,15 +60,15 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item D
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '23/04/2021')
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), findTestData(null).getValue(1, 1))
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/timepicker_Time'), '10:15 AM')
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/timepicker_Time'), findTestData(null).getValue(1, 1))
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), '2')
-} else if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time')) == false)
- {
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), findTestData(null).getValue(1, 1))
+} else if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time')) == 
+false) {
     WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
 
     WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
@@ -77,11 +77,11 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item D
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '23/04/2021')
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), findTestData(null).getValue(1, 1))
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), '2')
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), findTestData(null).getValue(1, 1))
 }
 
 WebUI.delay(1)
@@ -253,7 +253,8 @@ WebUI.click(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), rate, 
     FailureHandling.CONTINUE_ON_FAILURE)

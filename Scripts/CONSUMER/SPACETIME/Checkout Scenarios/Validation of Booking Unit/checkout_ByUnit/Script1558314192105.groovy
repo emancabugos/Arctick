@@ -83,6 +83,8 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item D
     WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Unit'), '2')
 }
 
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Unit'), '2')
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/button_BuyNow'))
