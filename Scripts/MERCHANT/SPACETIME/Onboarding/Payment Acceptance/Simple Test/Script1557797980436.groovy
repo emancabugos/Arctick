@@ -19,22 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('Payment')
-
-WebUI.waitForElementPresent(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/logo_stripe'), 0)
-
-WebUI.verifyElementText(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/textalbel_No account linked yet'), 
-    'No account linked yet')
-
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/button_Link Account'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/textlink_Skip'), 0)
-
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/textlink_Skip'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/icon_verified'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/textalbel_Verified'), 0)
-
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/button_Next payment'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.comment('Custom Payment')
 

@@ -30,9 +30,16 @@ WebUI.click(findTestObject('MERCHANT/SpaceTime/Listing Page/button_Add listings'
 
 WebUI.comment('Basic Details')
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/checkbox_cat1'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_search cat'), 0)
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/checkbox_cat1'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_search cat'), varCategory)
+
+if (varCategory == 'Category 1') {
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Toggle/span_onoffswitch-switch'))
+} else if (varUnlimitedBookings == 'no') {
+    WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Toggle/span_onoffswitch-switch'), 
+        0)
+}
 
 WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_service name'), varServiceName)
 

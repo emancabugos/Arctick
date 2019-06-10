@@ -19,14 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/menulink_Content Mgmt.'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/menulink_Content Mgmt.'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/submenulink_Custom Fields'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/submenulink_Custom Fields'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), FailureHandling.STOP_ON_FAILURE)
@@ -41,9 +33,6 @@ WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Date / Time picker', 
     false)
-
-not_run: WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 
-    'Date / Time picker', false, 0)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_DateTimePicker/togglebutton_timeneeded'), 0)
 

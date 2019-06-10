@@ -30,15 +30,3 @@ WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/submenulink_Custo
 boolean S1 = WebUI.verifyElementPresent(findTestObject('Object Repository/ADMIN/Custom Item Fields List Page/button_Delete'), 
     0)
 
-while (S1 == true) {
-    WebUI.click(findTestObject('Object Repository/ADMIN/Custom Item Fields List Page/button_Delete'))
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/a_Delete Popup/button_Okay'), 0)
-
-    WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_Delete Popup/button_Okay'), 0)
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_Delete'), 0)
-
-    WebUI.waitForElementNotVisible(findTestObject('ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_Delete'), 0)
-}
-

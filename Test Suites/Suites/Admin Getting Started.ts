@@ -4,6 +4,7 @@
    <name>Admin Getting Started</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-06-10T07:56:37</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
