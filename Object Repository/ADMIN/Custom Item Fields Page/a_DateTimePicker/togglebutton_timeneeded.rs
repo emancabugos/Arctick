@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//*[@id=&quot;contactForm&quot;]/div/div[11]/div/div[2]/div/label/span[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;contactForm&quot;]/div/div[10]/div/div[2]/div/label/span[2]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,6 +28,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1549265856579</value>
+      <value>//*[@id=&quot;contactForm&quot;]/div/div[10]/div/div[2]/div/label/span[2]</value>
    </webElementProperties>
 </WebElementEntity>

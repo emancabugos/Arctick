@@ -6,13 +6,21 @@
    <elementGuidId>35e45ad0-3834-4f63-a83c-50c15d700bda</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[3]/div[2]/div[4]/div/div[1]/div[2]/div/form/div/div[8]/div/ul/li[5]/div/div[2]/input</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;dropdown-opt-draggble&quot;]/li[5]/div/div[2]/input</value>
+   </webElementProperties>
 </WebElementEntity>

@@ -54,4 +54,9 @@ WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategorie
 WebUI.delay(1)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), FailureHandling.STOP_ON_FAILURE)
+<<<<<<< HEAD
+=======
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
+>>>>>>> branch 'master' of https://github.com/emancabugos/Arctick.git
 

@@ -29,6 +29,12 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/span_Welcome t
 
 WebUI.verifyElementText(findTestObject('ADMIN/Getting Started/span_Welcome to Arcadier Marke'), 'Welcome to Arcadier Marketplaces!')
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 4/step2_arrow'), 0)
+
+WebUI.click(findTestObject('ADMIN/Getting Started/Step 4/step2_arrow'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('ADMIN/Getting Started/Step 4/step3_arrow'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 4/div_Step 4  Invite your mercha'), 0)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 4/step4_image'), 0)

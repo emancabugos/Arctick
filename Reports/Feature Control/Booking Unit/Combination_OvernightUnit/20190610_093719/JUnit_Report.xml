@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Combination_OvernightUnit" time="217" tests="17" failures="0" errors="0">
+   <testsuite name="Combination_OvernightUnit" tests="17" failures="0" errors="0" time="217" timestamp="2019-06-10 09:37:21" hostname="Arcadier - Arcadier-PC" id="Test Suites/Feature Control/Booking Unit/Combination_OvernightUnit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Feature Control\\Booking Unit\\Combination_OvernightUnit\\20190610_093719"/>
+         <property name="logFiles" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Feature Control\\Booking Unit\\Combination_OvernightUnit\\20190610_093719\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Arcadier - Arcadier-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="10.10.31.95"/>
+         <property name="sessionId" value="21ec3d67b95a977d2d07be6c8147553c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/ADMIN/Admin Login" classname="Test Cases/Utilities/ADMIN/Admin Login" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:37:21 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-06-10 09:37:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-06-10 09:37:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-10 09:37:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-06-10 09:37:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-10 09:37:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://0610SR.test.arcadier.io/admin' successfully
+
+2019-06-10 09:37:23 - [MESSAGE][PASSED] - Navigate to 'http://0610SR.test.arcadier.io/admin' successfully
+
+2019-06-10 09:37:23 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-10 09:37:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-10 09:37:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:23 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-10 09:37:23 - [TEST_STEP][PASSED] - setText: Text '0610SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-10 09:37:23 - [MESSAGE][PASSED] - Text '0610SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-10 09:37:23 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-10 09:37:23 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-10 09:37:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-10 09:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/01Add_perNight" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/01Add_perNight" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:37:25 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/01Add_perNight: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/01Add_perNight
+
+2019-06-10 09:37:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:37:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:37:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:37:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:37:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:37:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:37:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:37:28 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:37:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:37:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:37:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:37:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:37:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:30 - [TEST_STEP][PASSED] - setText: Text 'Night 1' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:37:31 - [MESSAGE][PASSED] - Text 'Night 1' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:37:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:37:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:37:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:37:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:37:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:37:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:37:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:37:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:37:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:37:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:37:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:37:35 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:37:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/02Add_perNightWeek" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/02Add_perNightWeek" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:37:41 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/02Add_perNightWeek: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/02Add_perNightWeek
+
+2019-06-10 09:37:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:37:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:41 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:37:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:37:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:37:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:41 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:37:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:37:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:37:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:37:42 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:37:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:37:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:37:43 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:37:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:43 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:37:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:44 - [TEST_STEP][PASSED] - setText: Text 'Night 2' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:37:44 - [MESSAGE][PASSED] - Text 'Night 2' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:37:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:37:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:37:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:37:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:37:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:37:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:37:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:37:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:37:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:37:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:37:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:37:49 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:37:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/03Add_perNightMonth" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/03Add_perNightMonth" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:37:54 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/03Add_perNightMonth: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/03Add_perNightMonth
+
+2019-06-10 09:37:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:37:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:37:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:37:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:37:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:37:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:37:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:37:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:56 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:37:56 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:37:56 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:37:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:37:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:37:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:37:57 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:37:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:58 - [TEST_STEP][PASSED] - setText: Text 'Night 3' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:37:58 - [MESSAGE][PASSED] - Text 'Night 3' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:37:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:37:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:37:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:38:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:38:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:38:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:38:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:38:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:38:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:38:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:38:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:38:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:38:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:38:03 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:38:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:08 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/04Add_perNightCustom" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/04Add_perNightCustom" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:38:08 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/04Add_perNightCustom: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/04Add_perNightCustom
+
+2019-06-10 09:38:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:38:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:38:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:38:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:38:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:38:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:38:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:38:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:38:10 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:38:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:38:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:38:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:11 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:38:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:12 - [TEST_STEP][PASSED] - setText: Text 'Night 4' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:38:12 - [MESSAGE][PASSED] - Text 'Night 4' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:38:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:38:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:38:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:38:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:38:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:38:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:38:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:16 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:38:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:38:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:16 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:38:16 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/05Add_NightWeek" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/05Add_NightWeek" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:38:22 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/05Add_NightWeek: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/05Add_NightWeek
+
+2019-06-10 09:38:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:38:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:38:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:38:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:38:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:23 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:38:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:38:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:38:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:38:24 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:38:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:38:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:38:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:25 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:38:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:26 - [TEST_STEP][PASSED] - setText: Text 'Night 6' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:38:26 - [MESSAGE][PASSED] - Text 'Night 6' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:38:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:38:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:38:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:38:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:38:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:38:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:38:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:38:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:38:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:38:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:38:30 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:38:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/06Add_NightMonth" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/06Add_NightMonth" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:38:36 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/06Add_NightMonth: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/06Add_NightMonth
+
+2019-06-10 09:38:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:38:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:38:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:38:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:38:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:38:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:38:38 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:38:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:38:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:38:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:38:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:39 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:38:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:40 - [TEST_STEP][PASSED] - setText: Text 'Night 6' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:38:40 - [MESSAGE][PASSED] - Text 'Night 6' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:38:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:38:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:38:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:41 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:38:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:38:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:38:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:38:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:38:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:38:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:44 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:38:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:38:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:38:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:44 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:38:44 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:38:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/07Add_NightCustom" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/07Add_NightCustom" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:38:50 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/07Add_NightCustom: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/07Add_NightCustom
+
+2019-06-10 09:38:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:38:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:50 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:38:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:38:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:38:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:38:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:38:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:38:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:38:52 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:38:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:38:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:38:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:38:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:53 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:38:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:54 - [TEST_STEP][PASSED] - setText: Text 'Night 7' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:38:54 - [MESSAGE][PASSED] - Text 'Night 7' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:38:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:38:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:38:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:38:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:38:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:38:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:38:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:38:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:38:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:38:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:38:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:38:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:38:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:38:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:38:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:38:58 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:38:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/08Add_WeekMonth" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/08Add_WeekMonth" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:39:04 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/08Add_WeekMonth: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/08Add_WeekMonth
+
+2019-06-10 09:39:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:39:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:39:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:39:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:39:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:05 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:39:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:39:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:39:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:39:06 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:39:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:39:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:39:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:39:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:39:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:08 - [TEST_STEP][PASSED] - setText: Text 'Night 8' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:39:08 - [MESSAGE][PASSED] - Text 'Night 8' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:39:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:39:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:39:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:39:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:39:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:39:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:39:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:39:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:39:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:39:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:39:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:39:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:39:12 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:39:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:18 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/09Add_WeekCustom" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/09Add_WeekCustom" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:39:18 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/09Add_WeekCustom: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/09Add_WeekCustom
+
+2019-06-10 09:39:18 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:39:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:39:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:39:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:39:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:39:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:39:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:39:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:39:20 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:39:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:39:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:39:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:39:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:39:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:22 - [TEST_STEP][PASSED] - setText: Text 'Night 9' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:39:22 - [MESSAGE][PASSED] - Text 'Night 9' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:39:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:39:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:39:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:39:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:39:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:39:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:39:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:39:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:39:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:39:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:39:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:39:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:39:26 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:39:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:32 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/10Add_MonthCustom" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/10Add_MonthCustom" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:39:32 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/10Add_MonthCustom: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/10Add_MonthCustom
+
+2019-06-10 09:39:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:39:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:32 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:39:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:39:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:39:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:39:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:39:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:39:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:39:34 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:39:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:39:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:39:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:39:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:39:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:35 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:39:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:36 - [TEST_STEP][PASSED] - setText: Text 'Night 10' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:39:36 - [MESSAGE][PASSED] - Text 'Night 10' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:39:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:39:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:39:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:39:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:39:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:39:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:39:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:39:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:39:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:39:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:39:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:39:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:39:40 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:39:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/11Add_NightWeekMonth" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/11Add_NightWeekMonth" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:39:46 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/11Add_NightWeekMonth: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/11Add_NightWeekMonth
+
+2019-06-10 09:39:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:39:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:39:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:39:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:39:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:39:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:39:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:39:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:48 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:39:48 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:39:48 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:39:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:39:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:39:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:39:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:50 - [TEST_STEP][PASSED] - setText: Text 'Night 11' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:39:50 - [MESSAGE][PASSED] - Text 'Night 11' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:39:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:39:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:39:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:39:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:39:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:39:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:39:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:39:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:39:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:39:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:39:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:39:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:39:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:39:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:39:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:39:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:39:55 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:39:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/12Add_NightMonthCustom" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/12Add_NightMonthCustom" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:40:00 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/12Add_NightMonthCustom: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/12Add_NightMonthCustom
+
+2019-06-10 09:40:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:40:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:40:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:40:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:40:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:40:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:40:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:40:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:40:02 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:40:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:40:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:40:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:40:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:04 - [TEST_STEP][PASSED] - setText: Text 'Night 12' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:40:05 - [MESSAGE][PASSED] - Text 'Night 12' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:40:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:40:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:40:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:40:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:40:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:40:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:40:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:40:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:40:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:40:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:40:09 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:40:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:14 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/13Add_WeekMonthCustom" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/13Add_WeekMonthCustom" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:40:15 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/13Add_WeekMonthCustom: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/13Add_WeekMonthCustom
+
+2019-06-10 09:40:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:40:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:40:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:40:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:40:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:40:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:16 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:40:16 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:40:16 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:40:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:40:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:40:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:40:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:18 - [TEST_STEP][PASSED] - setText: Text 'Night 13' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:40:19 - [MESSAGE][PASSED] - Text 'Night 13' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:40:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:40:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:40:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:40:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:40:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:40:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:40:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:40:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:40:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:40:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:40:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:40:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:40:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:40:23 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:40:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/14Add_WeekCustomNight" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/14Add_WeekCustomNight" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:40:29 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/14Add_WeekCustomNight: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/14Add_WeekCustomNight
+
+2019-06-10 09:40:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:40:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:40:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:40:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:40:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:40:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:40:31 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:40:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:40:31 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:40:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:40:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:40:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:32 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:40:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:33 - [TEST_STEP][PASSED] - setText: Text 'Night 14' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:40:34 - [MESSAGE][PASSED] - Text 'Night 14' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:40:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:40:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:40:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:35 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:40:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:40:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:40:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:40:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:40:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:40:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:40:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:40:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:40:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:40:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:40:38 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:40:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/15Add_allNightService" classname="Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/15Add_allNightService" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:40:44 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/15Add_allNightService: Test Cases/ADMIN/Features Control/Booking Unit/Combination/Overnight/15Add_allNightService
+
+2019-06-10 09:40:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:40:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:44 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is visible
+
+2019-06-10 09:40:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:40:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Advance Search/a_Features Control' is clicked on
+
+2019-06-10 09:40:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:40:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:45 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is visible
+
+2019-06-10 09:40:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_Edit' is clicked on
+
+2019-06-10 09:40:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:40:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:45 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit' is visible
+
+2019-06-10 09:40:45 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:40:45 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit' is visible
+
+2019-06-10 09:40:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/button_AddBookingUnit' is clicked on
+
+2019-06-10 09:40:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:40:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textlabel_AddNewBookingUnit' is visible
+
+2019-06-10 09:40:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:47 - [TEST_STEP][PASSED] - setText: Text 'Night 15' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:40:48 - [MESSAGE][PASSED] - Text 'Night 15' is set on object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/textfield_UnitName'
+
+2019-06-10 09:40:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_toggle' is clicked on
+
+2019-06-10 09:40:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:40:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is visible
+
+2019-06-10 09:40:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_Night' is clicked on
+
+2019-06-10 09:40:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightWeek' is clicked on
+
+2019-06-10 09:40:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightMonth' is clicked on
+
+2019-06-10 09:40:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/checkbox_NightCustom' is clicked on
+
+2019-06-10 09:40:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Add New Booking Unit/button_Save' is clicked on
+
+2019-06-10 09:40:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-10 09:40:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-10 09:40:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/topbutton_Save' is clicked on
+
+2019-06-10 09:40:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:40:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is visible
+
+2019-06-10 09:40:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Booking Unit/a_Save Popup/button_Save' is clicked on
+
+2019-06-10 09:40:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:40:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' is visible
+
+2019-06-10 09:40:52 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)
+
+2019-06-10 09:40:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Features Control/Booking Unit/a_ToasterMessage/toaster_SaveSuccessfully' located by 'By.xpath: //div[@class = 'toast toast-success' and (text() = 'Save successfully' or . = 'Save successfully')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Utilities/ADMIN/Admin Logout" classname="Test Cases/Utilities/ADMIN/Admin Logout" status="PASSED">
+         <system-out><![CDATA[2019-06-10 09:40:58 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Logout: Test Cases/Utilities/ADMIN/Admin Logout
+
+2019-06-10 09:40:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-06-10 09:40:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 09:40:58 - [MESSAGE][PASSED] - Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-06-10 09:40:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on
+
+2019-06-10 09:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-10 09:37:21 - [TEST_SUITE][PASSED] - Combination_OvernightUnit: Test Cases/Utilities/ADMIN/Admin Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

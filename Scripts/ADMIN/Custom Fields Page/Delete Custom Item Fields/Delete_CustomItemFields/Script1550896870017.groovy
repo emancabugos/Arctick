@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/menulink_Content Mgmt.'), 0)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/menulink_Content Mgmt.'), FailureHandling.STOP_ON_FAILURE)
@@ -29,25 +27,6 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/s
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/submenulink_Custom Fields'), FailureHandling.STOP_ON_FAILURE)
 
-boolean S1 = WebUI.waitForElementVisible(findTestObject(null), 0)
-
 boolean S1 = WebUI.verifyElementPresent(findTestObject('Object Repository/ADMIN/Custom Item Fields List Page/button_Delete'), 
     0)
-
-while (S1 == true) {
-    WebUI.delay(2)
-
-    WebUI.click(findTestObject('Object Repository/ADMIN/Custom Item Fields List Page/button_Delete'))
-
-    WebUI.delay(2)
-
-    WebUI.verifyElementPresent(findTestObject('ADMIN/Custom Item Fields List Page/a_Delete Popup/textlabel_Delete'), 
-        0)
-
-    WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_Delete Popup/button_Okay'), 0)
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_Delete'), 0)
-
-    WebUI.waitForElementNotVisible(findTestObject('ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_Delete'), 0)
-}
 

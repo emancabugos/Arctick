@@ -19,45 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.AdminURL)
-
-WebUI.maximizeWindow()
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Login/Admin Login/txtbox_username'), 0)
-
-if (GlobalVariable.AdminAccount == 'custom') {
-    WebUI.setText(findTestObject('ADMIN/Admin Login/Admin Login/txtbox_username'), GlobalVariable.AdminCustom)
-
-    WebUI.setText(findTestObject('ADMIN/Admin Login/Admin Login/txtbox_password'), GlobalVariable.CustomPass)
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Login/Admin Login/txtbox_username'), 0)
-
-    WebUI.click(findTestObject('ADMIN/Admin Login/Admin Login/btn_signin'))
-} else if (GlobalVariable.AdminAccount == 'google') {
-    WebUI.click(findTestObject('ADMIN/Admin Login/Admin Login/a_Login with Google'))
-
-    WebUI.setText(findTestObject('ADMIN/Admin Login/Admin Login/Google Login/input_identifier'), GlobalVariable.AdminGoogle)
-
-    WebUI.click(findTestObject('ADMIN/Admin Login/Admin Login/Google Login/span_Susunod'))
-
-    WebUI.delay(1)
-
-    WebUI.setText(findTestObject('ADMIN/Admin Login/Admin Login/Google Login/input_password'), GlobalVariable.GooglePass)
-
-    WebUI.delay(1)
-
-    WebUI.click(findTestObject('ADMIN/Admin Login/Admin Login/Google Login/span_Susunod'))
-} else if (GlobalVariable.AdminAccount == 'facebook') {
-    WebUI.click(findTestObject('ADMIN/Admin Login/Admin Login/a_Login with Facebook'))
-
-    WebUI.setText(findTestObject('ADMIN/Admin Login/Admin Login/Facebook Login/input_email'), GlobalVariable.AdminFacebook)
-
-    WebUI.setText(findTestObject('ADMIN/Admin Login/Admin Login/Facebook Login/input_pass'), GlobalVariable.FacebookPass)
-
-    WebUI.click(findTestObject('ADMIN/Admin Login/Admin Login/Facebook Login/button_Log In'))
-}
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo'), 0)
 

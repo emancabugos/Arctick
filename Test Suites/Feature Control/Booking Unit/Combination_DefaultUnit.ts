@@ -4,7 +4,11 @@
    <name>Combination_DefaultUnit</name>
    <tag></tag>
    <isRerun>false</isRerun>
+<<<<<<< HEAD
    <lastRun>2019-05-28T14:01:30</lastRun>
+=======
+   <lastRun>2019-06-10T09:28:47</lastRun>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Arctick.git
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

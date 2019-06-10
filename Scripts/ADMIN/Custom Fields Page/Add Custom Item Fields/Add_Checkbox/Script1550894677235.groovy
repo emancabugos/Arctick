@@ -82,6 +82,7 @@ WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Default/bu
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
+<<<<<<< HEAD
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), FailureHandling.STOP_ON_FAILURE)
 
@@ -129,4 +130,6 @@ WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/textfield
 WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option5'), 'Checkbox 5')
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), FailureHandling.STOP_ON_FAILURE)
+=======
+>>>>>>> branch 'master' of https://github.com/emancabugos/Arctick.git
 

@@ -34,9 +34,6 @@ WebUI.delay(2)
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Date / Time picker', 
     false)
 
-not_run: WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 
-    'Date / Time picker', false, 0)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_DateTimePicker/togglebutton_timeneeded'), 0)
 
 WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'), 'Date / Time')
@@ -65,4 +62,9 @@ WebUI.delay(1)
 WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), 0)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), FailureHandling.STOP_ON_FAILURE)
+<<<<<<< HEAD
+=======
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
+>>>>>>> branch 'master' of https://github.com/emancabugos/Arctick.git
 

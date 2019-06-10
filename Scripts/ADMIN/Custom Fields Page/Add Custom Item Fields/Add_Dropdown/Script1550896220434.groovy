@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+<<<<<<< HEAD
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), FailureHandling.STOP_ON_FAILURE)
@@ -85,6 +86,8 @@ WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Default/bu
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), FailureHandling.STOP_ON_FAILURE)
 
+=======
+>>>>>>> branch 'master' of https://github.com/emancabugos/Arctick.git
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), FailureHandling.STOP_ON_FAILURE)
@@ -99,6 +102,7 @@ WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Drop Down', false)
 
+<<<<<<< HEAD
 not_run: WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 
     'Drop Down', false, 0)
 
@@ -111,6 +115,9 @@ WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/togglebutton
 WebUI.delay(0)
 
 WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt'), 0)
+=======
+WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'), 'Drop Down')
+>>>>>>> branch 'master' of https://github.com/emancabugos/Arctick.git
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt'), FailureHandling.STOP_ON_FAILURE)
 
@@ -152,4 +159,9 @@ WebUI.delay(1)
 WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), 0)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), FailureHandling.STOP_ON_FAILURE)
+<<<<<<< HEAD
+=======
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
+>>>>>>> branch 'master' of https://github.com/emancabugos/Arctick.git
 

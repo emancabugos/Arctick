@@ -11,8 +11,16 @@
       </entry>
       <entry>
          <key>BASIC</key>
+         <value>//div[8]/div/ul/li[2]/div/div[2]/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[8]/div/ul/li[2]/div/div[2]/input</value>
+   </webElementProperties>
 </WebElementEntity>

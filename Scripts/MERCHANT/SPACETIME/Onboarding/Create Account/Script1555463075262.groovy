@@ -27,6 +27,13 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), 0)
 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), 3, FailureHandling.CONTINUE_ON_FAILURE) == 
+true) {
+    WebUI.click(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
+} else {
+    WebUI.verifyElementPresent(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), 0)
+}
+
 WebUI.click(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/button_create-account'), FailureHandling.STOP_ON_FAILURE)

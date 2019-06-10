@@ -7,7 +7,8 @@
 Schedule
 Image
 Add Ons
-Location</comment>
+Location
+END</comment>
    <testCaseGuid>d5f531ad-694a-42d5-98f7-887befc9533c</testCaseGuid>
    <variable>
       <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>

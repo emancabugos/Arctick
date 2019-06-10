@@ -23,8 +23,6 @@ WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHand
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Announcement/a_Announcement'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Announcement/i_sm-submenu submenu-icon6'), 0)
-
 WebUI.verifyElementText(findTestObject('ADMIN/Announcement/h1_Announcements'), 'Announcements')
 
 WebUI.verifyElementText(findTestObject('ADMIN/Announcement/h4_Notice'), 'Notice')
@@ -140,6 +138,8 @@ WebUI.closeWindowIndex(1)
 WebUI.delay(1)
 
 WebUI.switchToWindowIndex(0)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ADMIN/Admin Permission/Admin Activity Log/a_Logout'))
 

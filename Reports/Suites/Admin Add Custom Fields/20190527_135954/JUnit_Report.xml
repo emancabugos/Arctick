@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin Add Custom Fields" time="192" tests="13" failures="0" errors="0">
+   <testsuite name="Admin Add Custom Fields" tests="13" failures="0" errors="0" time="192" timestamp="2019-05-27 13:59:57" hostname="Arcadier - Arcadier-PC" id="Test Suites/Suites/Admin Add Custom Fields">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Add Custom Fields\\20190527_135954"/>
+         <property name="logFiles" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Add Custom Fields\\20190527_135954\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Arcadier - Arcadier-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="10.10.31.95"/>
+         <property name="sessionId" value="f912d58d04e0ea049492dcdbe1240f08"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Checkbox" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Checkbox" status="PASSED">
+         <system-out><![CDATA[2019-05-27 13:59:58 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Checkbox: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Checkbox
+
+2019-05-27 13:59:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/menulink_Content Mgmt.' is visible
+
+2019-05-27 13:59:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:00:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/menulink_Content Mgmt.' is visible
+
+2019-05-27 14:00:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/menulink_Content Mgmt.' is clicked on
+
+2019-05-27 14:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/menulink_Content Mgmt.' is clicked on
+
+2019-05-27 14:00:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/submenulink_Custom Fields' is visible
+
+2019-05-27 14:00:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:00:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/submenulink_Custom Fields' is visible
+
+2019-05-27 14:00:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/submenulink_Custom Fields' is clicked on
+
+2019-05-27 14:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/submenulink_Custom Fields' is clicked on
+
+2019-05-27 14:00:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:00:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:00:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:00:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:00:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:00:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:00:05 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:00:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:00:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:00:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:00:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:00:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:00:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:00:08 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Checkbox' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:00:08 - [MESSAGE][PASSED] - All options with label 'Checkbox' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:00:08 - [TEST_STEP][NOT_RUN] - verifyOptionSelectedByLabel: NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:00:08 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:00:08 - [TEST_STEP][PASSED] - setText: Text 'Checkbox' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:00:08 - [MESSAGE][PASSED] - Text 'Checkbox' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:00:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option1' is visible
+
+2019-05-27 14:00:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option1' is visible
+
+2019-05-27 14:00:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/button_addoption' is clicked on
+
+2019-05-27 14:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/button_addoption' is clicked on
+
+2019-05-27 14:00:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option3' is visible
+
+2019-05-27 14:00:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option3' is visible
+
+2019-05-27 14:00:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/button_addoption' is clicked on
+
+2019-05-27 14:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/button_addoption' is clicked on
+
+2019-05-27 14:00:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option4' is visible
+
+2019-05-27 14:00:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option4' is visible
+
+2019-05-27 14:00:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/button_addoption' is clicked on
+
+2019-05-27 14:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/button_addoption' is clicked on
+
+2019-05-27 14:00:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option5' is visible
+
+2019-05-27 14:00:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option5' is visible
+
+2019-05-27 14:00:08 - [TEST_STEP][PASSED] - setText: Text 'Checkbox 1' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option1'
+
+2019-05-27 14:00:09 - [MESSAGE][PASSED] - Text 'Checkbox 1' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option1'
+
+2019-05-27 14:00:09 - [TEST_STEP][PASSED] - setText: Text 'Checkbox 2' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option2'
+
+2019-05-27 14:00:09 - [MESSAGE][PASSED] - Text 'Checkbox 2' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option2'
+
+2019-05-27 14:00:09 - [TEST_STEP][PASSED] - setText: Text 'Checkbox 3' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option3'
+
+2019-05-27 14:00:10 - [MESSAGE][PASSED] - Text 'Checkbox 3' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option3'
+
+2019-05-27 14:00:10 - [TEST_STEP][PASSED] - setText: Text 'Checkbox 4' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option4'
+
+2019-05-27 14:00:10 - [MESSAGE][PASSED] - Text 'Checkbox 4' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option4'
+
+2019-05-27 14:00:10 - [TEST_STEP][PASSED] - setText: Text 'Checkbox 5' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option5'
+
+2019-05-27 14:00:11 - [MESSAGE][PASSED] - Text 'Checkbox 5' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option5'
+
+2019-05-27 14:00:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:00:11 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_SuccessfullyAdded' located by 'By.xpath: //div[(text() = 'Custom field was successfully saved.' or . = 'Custom field was successfully saved.')]' not found
+
+2019-05-27 14:00:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:00:44 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_SuccessfullyAdded' located by 'By.xpath: //div[(text() = 'Custom field was successfully saved.' or . = 'Custom field was successfully saved.')]' not found
+
+2019-05-27 14:00:44 - [TEST_STEP][PASSED] - waitForElementNotVisible: Web element with id: 'Object Repository/ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_SuccessfullyAdded' located by 'By.xpath: //div[(text() = 'Custom field was successfully saved.' or . = 'Custom field was successfully saved.')]' not found
+
+2019-05-27 14:00:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:19 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/ADMIN/Custom Item Fields Page/a_ToasterMessage/toaster_SuccessfullyAdded' located by 'By.xpath: //div[(text() = 'Custom field was successfully saved.' or . = 'Custom field was successfully saved.')]' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_DateTime" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_DateTime" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:01:19 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_DateTime: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_DateTime
+
+2019-05-27 14:01:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:01:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:01:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:01:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:01:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:01:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:01:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:01:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:01:24 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Date / Time picker' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:01:24 - [MESSAGE][PASSED] - All options with label 'Date / Time picker' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:01:24 - [TEST_STEP][NOT_RUN] - verifyOptionSelectedByLabel: NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:01:24 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:01:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_DateTimePicker/togglebutton_timeneeded' is visible
+
+2019-05-27 14:01:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_DateTimePicker/togglebutton_timeneeded' is visible
+
+2019-05-27 14:01:24 - [TEST_STEP][PASSED] - setText: Text 'Date / Time' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:01:25 - [MESSAGE][PASSED] - Text 'Date / Time' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:01:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:01:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Dropdown" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Dropdown" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:01:28 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Dropdown: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Dropdown
+
+2019-05-27 14:01:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:01:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:01:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:31 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:01:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:01:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:01:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:01:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:01:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:01:33 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Drop Down' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:01:33 - [MESSAGE][PASSED] - All options with label 'Drop Down' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:01:33 - [TEST_STEP][NOT_RUN] - verifyOptionSelectedByLabel: NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:01:33 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:01:33 - [TEST_STEP][PASSED] - setText: Text 'Drop Down' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:01:33 - [MESSAGE][PASSED] - Text 'Drop Down' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:01:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt1' is visible
+
+2019-05-27 14:01:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt1' is visible
+
+2019-05-27 14:01:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt' is clicked on
+
+2019-05-27 14:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt' is clicked on
+
+2019-05-27 14:01:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt3' is visible
+
+2019-05-27 14:01:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt3' is visible
+
+2019-05-27 14:01:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt' is clicked on
+
+2019-05-27 14:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt' is clicked on
+
+2019-05-27 14:01:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt4' is visible
+
+2019-05-27 14:01:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt4' is visible
+
+2019-05-27 14:01:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt' is clicked on
+
+2019-05-27 14:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt' is clicked on
+
+2019-05-27 14:01:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt5' is visible
+
+2019-05-27 14:01:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt5' is visible
+
+2019-05-27 14:01:34 - [TEST_STEP][PASSED] - setText: Text 'Dropdown 1' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt1'
+
+2019-05-27 14:01:35 - [MESSAGE][PASSED] - Text 'Dropdown 1' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt1'
+
+2019-05-27 14:01:35 - [TEST_STEP][PASSED] - setText: Text 'Dropdown 2' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt2'
+
+2019-05-27 14:01:35 - [MESSAGE][PASSED] - Text 'Dropdown 2' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt2'
+
+2019-05-27 14:01:35 - [TEST_STEP][PASSED] - setText: Text 'Dropdown 3' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt3'
+
+2019-05-27 14:01:36 - [MESSAGE][PASSED] - Text 'Dropdown 3' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt3'
+
+2019-05-27 14:01:36 - [TEST_STEP][PASSED] - setText: Text 'Dropdown 4' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt4'
+
+2019-05-27 14:01:36 - [MESSAGE][PASSED] - Text 'Dropdown 4' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt4'
+
+2019-05-27 14:01:36 - [TEST_STEP][PASSED] - setText: Text 'Dropdown 5' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt5'
+
+2019-05-27 14:01:37 - [MESSAGE][PASSED] - Text 'Dropdown 5' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt5'
+
+2019-05-27 14:01:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:01:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:40 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Email" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Email" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:01:40 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Email: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Email
+
+2019-05-27 14:01:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:40 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:01:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:01:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:01:42 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:01:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:01:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:01:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:01:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:01:45 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Email' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:01:46 - [MESSAGE][PASSED] - All options with label 'Email' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:01:46 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel: All options with label 'Email' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:01:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:47 - [MESSAGE][PASSED] - All options with label 'Email' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:01:47 - [TEST_STEP][PASSED] - setText: Text 'Email Address' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:01:48 - [MESSAGE][PASSED] - Text 'Email Address' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:01:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:01:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:50 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_EmbedVideo" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_EmbedVideo" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:01:50 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_EmbedVideo: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_EmbedVideo
+
+2019-05-27 14:01:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:01:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:01:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:01:53 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:01:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:01:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:01:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:01:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:01:55 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Embed Video' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:01:55 - [MESSAGE][PASSED] - All options with label 'Embed Video' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:01:55 - [TEST_STEP][NOT_RUN] - verifyOptionSelectedByLabel: NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:01:55 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:01:55 - [TEST_STEP][PASSED] - setText: Text 'Video' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:01:56 - [MESSAGE][PASSED] - Text 'Video' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:01:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:01:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_HyperlinkURL" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_HyperlinkURL" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:01:58 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_HyperlinkURL: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_HyperlinkURL
+
+2019-05-27 14:01:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:01:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:01:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:00 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:02:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:02:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:02:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:02:03 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Hyperlink / URL' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:03 - [MESSAGE][PASSED] - All options with label 'Hyperlink / URL' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:03 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel: All options with label 'Hyperlink / URL' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:04 - [MESSAGE][PASSED] - All options with label 'Hyperlink / URL' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:04 - [TEST_STEP][PASSED] - setText: Text 'URL' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:04 - [MESSAGE][PASSED] - Text 'URL' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Location" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Location" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:02:08 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Location: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Location
+
+2019-05-27 14:02:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:10 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:10 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:02:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:02:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:02:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:02:13 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Location' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:13 - [MESSAGE][PASSED] - All options with label 'Location' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:13 - [TEST_STEP][NOT_RUN] - verifyOptionSelectedByLabel: NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:02:13 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:02:13 - [TEST_STEP][PASSED] - setText: Text 'Location' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:13 - [MESSAGE][PASSED] - Text 'Location' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:16 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_PDF" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_PDF" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:02:16 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_PDF: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_PDF
+
+2019-05-27 14:02:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:18 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:02:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:02:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:02:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:02:21 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'PDF File' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:21 - [MESSAGE][PASSED] - All options with label 'PDF File' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:21 - [TEST_STEP][NOT_RUN] - verifyOptionSelectedByLabel: NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:02:21 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:02:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_PDF File/textlabel_PDFFile' is visible
+
+2019-05-27 14:02:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_PDF File/textlabel_PDFFile' is visible
+
+2019-05-27 14:02:21 - [TEST_STEP][PASSED] - setText: Text 'Document' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:21 - [MESSAGE][PASSED] - Text 'Document' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Number" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Number" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:02:24 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Number: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Number
+
+2019-05-27 14:02:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:25 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:27 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:02:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:02:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:02:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:02:29 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Number' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:29 - [MESSAGE][PASSED] - All options with label 'Number' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:29 - [TEST_STEP][NOT_RUN] - verifyOptionSelectedByLabel: NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:02:29 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyOptionSelectedByLabel
+
+2019-05-27 14:02:29 - [TEST_STEP][PASSED] - setText: Text 'Number' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:30 - [MESSAGE][PASSED] - Text 'Number' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:30 - [TEST_STEP][PASSED] - setText: Text '0' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Number/textfield_minimum'
+
+2019-05-27 14:02:30 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Number/textfield_minimum'
+
+2019-05-27 14:02:30 - [TEST_STEP][PASSED] - setText: Text '9999' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Number/textfield_maximum'
+
+2019-05-27 14:02:30 - [MESSAGE][PASSED] - Text '9999' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Number/textfield_maximum'
+
+2019-05-27 14:02:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Percentage" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Percentage" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:02:33 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Percentage: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Percentage
+
+2019-05-27 14:02:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:02:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:02:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:02:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:02:38 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Percentage' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:38 - [MESSAGE][PASSED] - All options with label 'Percentage' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:38 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel: All options with label 'Percentage' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:39 - [MESSAGE][PASSED] - All options with label 'Percentage' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:39 - [TEST_STEP][PASSED] - setText: Text 'Percentage' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:40 - [MESSAGE][PASSED] - Text 'Percentage' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:43 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:02:43 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield
+
+2019-05-27 14:02:43 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:43 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:45 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:02:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:02:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:02:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:02:48 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Text Field' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:48 - [MESSAGE][PASSED] - All options with label 'Text Field' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:48 - [TEST_STEP][PASSED] - setText: Text 'Textfield' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:48 - [MESSAGE][PASSED] - Text 'Textfield' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield for Delete" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield for Delete" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:02:51 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield for Delete: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield for Delete
+
+2019-05-27 14:02:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:02:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:54 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:02:54 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:02:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:02:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:02:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:02:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:02:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:02:56 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Text Field' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:57 - [MESSAGE][PASSED] - All options with label 'Text Field' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:02:57 - [TEST_STEP][PASSED] - setText: Text 'Textfield For Delete' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:57 - [MESSAGE][PASSED] - Text 'Textfield For Delete' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:02:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:02:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:02:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:03:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield For Edit" classname="Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield For Edit" status="PASSED">
+         <system-out><![CDATA[2019-05-27 14:03:00 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield For Edit: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield For Edit
+
+2019-05-27 14:03:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:03:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:03:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:03:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is clicked on
+
+2019-05-27 14:03:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:03:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:03:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is visible
+
+2019-05-27 14:03:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-05-27 14:03:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:03:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-27 14:03:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' is clicked on
+
+2019-05-27 14:03:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-27 14:03:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 14:03:05 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Text Field' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:03:05 - [MESSAGE][PASSED] - All options with label 'Text Field' are selected in object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype' 
+
+2019-05-27 14:03:05 - [TEST_STEP][PASSED] - setText: Text 'Textfield For Edit' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:03:06 - [MESSAGE][PASSED] - Text 'Textfield For Edit' is set on object 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'
+
+2019-05-27 14:03:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Custom Item Fields Page/a_Default/button_Save1' is clicked on
+
+2019-05-27 14:03:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible
+
+2019-05-27 14:03:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 14:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Item Fields List Page/button_Add Field' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-27 13:59:57 - [TEST_SUITE][PASSED] - Admin Add Custom Fields: Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield For Edit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

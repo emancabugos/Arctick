@@ -4,10 +4,16 @@
    <name>arcadierlogoFB</name>
    <tag></tag>
    <elementGuidId>585d44ee-7622-44e6-9aa7-ee42f8f663d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;u_0_d&quot;]/div/div/div/a/div</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -28,7 +34,7 @@
       <value>180</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
@@ -42,10 +48,10 @@
       <value>180</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;u_0_d&quot;)/div[@class=&quot;_qa1&quot;]/a[@class=&quot;_2dgj&quot;]/img[@class=&quot;_4jhq img&quot;]</value>
+      <value>//*[@id=&quot;u_0_d&quot;]/div/div/div/a/div</value>
    </webElementProperties>
 </WebElementEntity>
