@@ -27,7 +27,7 @@ WebUI.waitForPageLoad(0)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Function/textfield_Keyword'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Search Function/textfield_Keyword'), findTestData(null).getValue(1, 1))
+WebUI.setText(findTestObject('CONSUMER/Search Function/textfield_Keyword'), searchItem)
 
 WebUI.delay(1)
 
@@ -60,13 +60,13 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item D
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), findTestData(null).getValue(1, 1))
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), date)
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/timepicker_Time'), findTestData(null).getValue(1, 1))
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/timepicker_Time'), time)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), findTestData(null).getValue(1, 1))
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), duration)
 } else if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time')) == 
 false) {
     WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
@@ -77,11 +77,11 @@ false) {
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), findTestData(null).getValue(1, 1))
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), date)
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), findTestData(null).getValue(1, 1))
+    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), duration)
 }
 
 WebUI.delay(1)
@@ -258,4 +258,6 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History Details/te
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), rate, 
     FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()
 
