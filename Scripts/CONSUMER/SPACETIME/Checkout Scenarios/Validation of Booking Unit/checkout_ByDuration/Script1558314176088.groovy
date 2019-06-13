@@ -93,11 +93,29 @@ WebUI.delay(1)
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout')) == true) {
     WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
 
-    WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Delivery1'))
+    if (delivery == 'delivery1'){
+		
+		WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Delivery1'))
+	}
+	
+	else if (delivery == 'delivery2'){
+		
+		WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Delivery2'))
+	}
+	
+	else if (delivery == 'pickup1'){
+		
+		WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_PickUp1'))
+	}
+	
+	else if (delivery == 'pickup2'){
+		
+		WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_PickUp2'))
+	}
 
-    WebUI.delay(1)
-
-    WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
+   
+	WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
+	
 } else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout'))) {
     WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 }

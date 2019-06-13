@@ -42,4 +42,11 @@ Verify in Item Details Page</comment>
       <masked>false</masked>
       <name>duration</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>617d1fae-8911-4b58-a7d0-c51694937329</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
 </TestCaseEntity>

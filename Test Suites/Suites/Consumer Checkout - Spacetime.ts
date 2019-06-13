@@ -54,5 +54,11 @@
          <value>duration</value>
          <variableId>3ba9c559-2f61-4eab-8e7d-ddfe13cef29e</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>02298f1d-e146-435a-809c-0867861e8086</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>delivery</value>
+         <variableId>617d1fae-8911-4b58-a7d0-c51694937329</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
