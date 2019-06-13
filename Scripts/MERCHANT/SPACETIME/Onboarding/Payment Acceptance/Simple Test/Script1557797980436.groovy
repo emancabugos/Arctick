@@ -21,3 +21,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Custom Payment')
 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/Custom Payment/textlabel_Payment Method'), 
+    0)
+
+WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/Custom Payment/button_Link Account'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/Custom Payment/textlabel_Custom Payment'), 
+    0)
+
+WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/Custom Payment/button_Okay'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/Custom Payment/icon_verified'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/Custom Payment/textlabel_Verified'), 
+    0)
+
+WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Payment Acceptance/Custom Payment/button_Next payment'), FailureHandling.CONTINUE_ON_FAILURE)
+

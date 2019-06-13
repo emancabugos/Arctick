@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Merchant Add Service,Chrome 74.0.3729.169,,2019-06-11 15:38:01,2019-06-11 15:38:09,8.876s,ERROR
+,,,,,,
+Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service,Chrome 74.0.3729.169,,2019-06-11 15:38:01,2019-06-11 15:38:09,8.441s,ERROR
+waitForElementVisible,Chrome 74.0.3729.169,,2019-06-11 15:38:01,2019-06-11 15:38:03,1.087s,PASSED
+click,Chrome 74.0.3729.169,,2019-06-11 15:38:03,2019-06-11 15:38:04,1.420s,PASSED
+waitForElementVisible,Chrome 74.0.3729.169,,2019-06-11 15:38:04,2019-06-11 15:38:04,0.050s,PASSED
+click,Chrome 74.0.3729.169,,2019-06-11 15:38:04,2019-06-11 15:38:06,1.621s,PASSED
+comment,Chrome 74.0.3729.169,,2019-06-11 15:38:06,2019-06-11 15:38:06,0.031s,PASSED
+waitForElementVisible,Chrome 74.0.3729.169,,2019-06-11 15:38:06,2019-06-11 15:38:06,0.363s,PASSED
+setText,Chrome 74.0.3729.169,,2019-06-11 15:38:06,2019-06-11 15:38:07,0.846s,PASSED
+comment,Chrome 74.0.3729.169,,2019-06-11 15:38:07,2019-06-11 15:38:07,0.002s,PASSED
+"Statement - If (varCategory == ""Category 19"")",Chrome 74.0.3729.169,,2019-06-11 15:38:07,2019-06-11 15:38:07,0.163s,PASSED
+setText,Chrome 74.0.3729.169,,2019-06-11 15:38:07,2019-06-11 15:38:08,0.707s,PASSED
+setText,Chrome 74.0.3729.169,,2019-06-11 15:38:08,2019-06-11 15:38:09,1.338s,PASSED
+selectOptionByLabel,Chrome 74.0.3729.169,,2019-06-11 15:38:09,2019-06-11 15:38:09,0.160s,PASSED
+comment,Chrome 74.0.3729.169,,2019-06-11 15:38:09,2019-06-11 15:38:09,0.001s,PASSED
+"Statement - If (varServiceDuration == ""hour"")",Chrome 74.0.3729.169,,2019-06-11 15:38:09,2019-06-11 15:38:09,0.001s,PASSED
+"Statement - Else If (varServiceDuration == ""day"")",Chrome 74.0.3729.169,,2019-06-11 15:38:09,2019-06-11 15:38:09,0.001s,PASSED
+"Statement - Else If (varServiceDuration == ""week"")",Chrome 74.0.3729.169,,2019-06-11 15:38:09,2019-06-11 15:38:09,0.000s,PASSED
+"Statement - Else If (varServiceDuration == ""month"")",Chrome 74.0.3729.169,,2019-06-11 15:38:09,2019-06-11 15:38:09,0.000s,PASSED
+"Statement - Else If (varServiceDuration == ""custom"")",Chrome 74.0.3729.169,,2019-06-11 15:38:09,2019-06-11 15:38:09,0.045s,PASSED

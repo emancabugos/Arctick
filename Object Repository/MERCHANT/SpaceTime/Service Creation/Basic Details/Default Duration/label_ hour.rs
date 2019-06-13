@@ -4,10 +4,16 @@
    <name>label_ hour</name>
    <tag></tag>
    <elementGuidId>62c34459-fc99-4886-b607-9abc31fcc742</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div/div/label</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,17 +27,17 @@
       <value>serviceDurationHour</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> / hour </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-item-area&quot;)/div[@class=&quot;box-shadow&quot;]/div[@class=&quot;item-upload-service-sec&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;itmupld-srvcs-durationsec&quot;]/div[@class=&quot;itmupld-srvcs-durationlst-sec&quot;]/div[@class=&quot;itmupld-srvcs-duration-ind&quot;]/div[@class=&quot;addon-checkbox-sec&quot;]/label[1]</value>
+      <value>//div[2]/div/div/label</value>
    </webElementProperties>
 </WebElementEntity>

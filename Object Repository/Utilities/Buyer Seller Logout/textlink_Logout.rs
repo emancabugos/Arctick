@@ -7,27 +7,27 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '#' and @onclick = concat('$(this).closest(' , &quot;'&quot; , 'form' , &quot;'&quot; , ').submit()')]</value>
+         <value>//*[@id=&quot;videoBannerBG&quot;]/div[1]/div/div[2]/div/ul/li[7]/ul/form/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
@@ -41,10 +41,10 @@
       <value>Logout</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-home  pace-done&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/ul[@class=&quot;h-dd-menu hide-me&quot;]/form[1]/li[1]/a[1]</value>
+      <value>//*[@id=&quot;videoBannerBG&quot;]/div[1]/div/div[2]/div/ul/li[7]/ul/form/li/a</value>
    </webElementProperties>
 </WebElementEntity>

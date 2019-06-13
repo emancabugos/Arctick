@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Merchant Add Service,Chrome 74.0.3729.169,,2019-06-11 15:53:20,2019-06-11 15:53:29,8.873s,ERROR
+,,,,,,
+Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service,Chrome 74.0.3729.169,,2019-06-11 15:53:21,2019-06-11 15:53:29,8.526s,ERROR
+waitForElementVisible,Chrome 74.0.3729.169,,2019-06-11 15:53:21,2019-06-11 15:53:22,0.989s,PASSED
+click,Chrome 74.0.3729.169,,2019-06-11 15:53:22,2019-06-11 15:53:24,1.394s,PASSED
+waitForElementVisible,Chrome 74.0.3729.169,,2019-06-11 15:53:24,2019-06-11 15:53:24,0.350s,PASSED
+click,Chrome 74.0.3729.169,,2019-06-11 15:53:24,2019-06-11 15:53:26,2.115s,PASSED
+comment,Chrome 74.0.3729.169,,2019-06-11 15:53:26,2019-06-11 15:53:26,0.011s,PASSED
+waitForElementVisible,Chrome 74.0.3729.169,,2019-06-11 15:53:26,2019-06-11 15:53:26,0.078s,PASSED
+setText,Chrome 74.0.3729.169,,2019-06-11 15:53:26,2019-06-11 15:53:27,0.556s,PASSED
+comment,Chrome 74.0.3729.169,,2019-06-11 15:53:27,2019-06-11 15:53:27,0.003s,PASSED
+"Statement - If (varCategory == ""Category 19"")",Chrome 74.0.3729.169,,2019-06-11 15:53:27,2019-06-11 15:53:27,0.145s,PASSED
+setText,Chrome 74.0.3729.169,,2019-06-11 15:53:27,2019-06-11 15:53:28,0.724s,PASSED
+setText,Chrome 74.0.3729.169,,2019-06-11 15:53:28,2019-06-11 15:53:29,1.399s,PASSED
+selectOptionByLabel,Chrome 74.0.3729.169,,2019-06-11 15:53:29,2019-06-11 15:53:29,0.148s,PASSED
+comment,Chrome 74.0.3729.169,,2019-06-11 15:53:29,2019-06-11 15:53:29,0.001s,PASSED
+"Statement - If (varServiceDuration == ""hour"")",Chrome 74.0.3729.169,,2019-06-11 15:53:29,2019-06-11 15:53:29,0.001s,PASSED
+"Statement - Else If (varServiceDuration == ""day"")",Chrome 74.0.3729.169,,2019-06-11 15:53:29,2019-06-11 15:53:29,0.000s,PASSED
+"Statement - Else If (varServiceDuration == ""week"")",Chrome 74.0.3729.169,,2019-06-11 15:53:29,2019-06-11 15:53:29,0.001s,PASSED
+"Statement - Else If (varServiceDuration == ""month"")",Chrome 74.0.3729.169,,2019-06-11 15:53:29,2019-06-11 15:53:29,0.041s,PASSED

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Merchant Add Service" time="7" tests="0" failures="0" errors="10">
+   <testsuite name="Merchant Add Service" tests="0" failures="0" errors="10" time="7" timestamp="2019-06-10 13:31:46" hostname="Arcadier - Arcadier-PC" id="Test Suites/Suites/Merchant Add Service">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Merchant Add Service\\20190610_133145"/>
+         <property name="logFiles" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Merchant Add Service\\20190610_133145\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Arcadier - Arcadier-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="10.10.31.95"/>
+         <property name="sessionId" value="21ec3d67b95a977d2d07be6c8147553c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" classname="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" status="ERROR">
+         <error type="ERROR" message="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2019-06-10 13:31:47 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-06-10 13:31:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 13:31:48 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:48 - [TEST_STEP][PASSED] - click: Finding Test Object with id 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19']]></system-out>
+         <system-err><![CDATA[2019-06-10 13:31:47 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" classname="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" status="ERROR">
+         <error type="ERROR" message="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2019-06-10 13:31:48 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-06-10 13:31:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 13:31:49 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:49 - [TEST_STEP][PASSED] - click: Finding Test Object with id 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19']]></system-out>
+         <system-err><![CDATA[2019-06-10 13:31:48 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" classname="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" status="ERROR">
+         <error type="ERROR" message="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2019-06-10 13:31:49 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-06-10 13:31:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 13:31:49 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:49 - [TEST_STEP][PASSED] - click: Finding Test Object with id 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19']]></system-out>
+         <system-err><![CDATA[2019-06-10 13:31:49 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" classname="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" status="ERROR">
+         <error type="ERROR" message="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2019-06-10 13:31:49 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-06-10 13:31:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 13:31:49 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:49 - [TEST_STEP][PASSED] - click: Finding Test Object with id 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19']]></system-out>
+         <system-err><![CDATA[2019-06-10 13:31:49 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" classname="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" status="ERROR">
+         <error type="ERROR" message="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2019-06-10 13:31:50 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-06-10 13:31:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 13:31:50 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:50 - [TEST_STEP][PASSED] - click: Finding Test Object with id 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19']]></system-out>
+         <system-err><![CDATA[2019-06-10 13:31:50 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" classname="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" status="ERROR">
+         <error type="ERROR" message="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2019-06-10 13:31:50 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-06-10 13:31:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 13:31:51 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:51 - [TEST_STEP][PASSED] - click: Finding Test Object with id 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19']]></system-out>
+         <system-err><![CDATA[2019-06-10 13:31:50 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" classname="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" status="ERROR">
+         <error type="ERROR" message="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2019-06-10 13:31:51 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-06-10 13:31:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 13:31:52 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:52 - [TEST_STEP][PASSED] - click: Finding Test Object with id 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19']]></system-out>
+         <system-err><![CDATA[2019-06-10 13:31:51 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" classname="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" status="ERROR">
+         <error type="ERROR" message="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2019-06-10 13:31:52 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-06-10 13:31:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 13:31:52 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:52 - [TEST_STEP][PASSED] - click: Finding Test Object with id 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19']]></system-out>
+         <system-err><![CDATA[2019-06-10 13:31:52 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" classname="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" status="ERROR">
+         <error type="ERROR" message="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2019-06-10 13:31:52 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-06-10 13:31:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 13:31:53 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:53 - [TEST_STEP][PASSED] - click: Finding Test Object with id 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19']]></system-out>
+         <system-err><![CDATA[2019-06-10 13:31:52 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" classname="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service" status="ERROR">
+         <error type="ERROR" message="Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2019-06-10 13:31:53 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2019-06-10 13:31:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-10 13:31:54 - [MESSAGE][PASSED] - Object 'Object Repository/MERCHANT/SpaceTime/Listing Page/header_Your Services' is visible
+
+2019-06-10 13:31:54 - [TEST_STEP][PASSED] - click: Finding Test Object with id 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19']]></system-out>
+         <system-err><![CDATA[2019-06-10 13:31:53 - [TEST_CASE][ERROR] - Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-10 13:31:46 - [TEST_SUITE][ERROR] - Merchant Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-out>
+      <system-err><![CDATA[2019-06-10 13:31:46 - [TEST_SUITE][ERROR] - Merchant Add Service: Test Cases/MERCHANT/SPACETIME/Service Creation/Add Service FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+   </testsuite>
+</testsuites>

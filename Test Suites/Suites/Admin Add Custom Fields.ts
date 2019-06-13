@@ -4,7 +4,7 @@
    <name>Admin Add Custom Fields</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-10T09:03:34</lastRun>
+   <lastRun>2019-06-13T14:30:51</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,19 +14,19 @@
    <testCaseLink>
       <guid>bb7aebf2-3dcc-44e9-8f69-7a70110414a7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1403eab1-07fe-4865-b0fd-6a18f86e28f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Checkbox</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bd8be599-5787-49d8-963d-099edec57db3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_DateTime</testCaseId>
    </testCaseLink>
    <testCaseLink>

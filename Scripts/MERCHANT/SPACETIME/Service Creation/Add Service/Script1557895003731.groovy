@@ -34,23 +34,47 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/
 
 WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_search cat'), varCategory)
 
-if (varCategory == 'Category 1') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Toggle/span_onoffswitch-switch'))
-} else if (varUnlimitedBookings == 'no') {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Toggle/span_onoffswitch-switch'), 
-        0)
+WebUI.comment('Select Category')
+
+if (varCategory == 'Category 19') {
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19'))
+} else if (varCategory == 'Category 20') {
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat20'), 0)
 }
 
 WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_service name'), varServiceName)
 
 WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_description'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/dropdown_booking type'))
-
 WebUI.selectOptionByLabel(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/dropdown_booking type'), varBookingsType, 
     false)
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ day'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.comment('Service Duration')
+
+if (varServiceDuration == 'hour') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ hour'), 
+        0)
+} else if (varServiceDuration == 'day') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ day'), 
+        0)
+
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ day'), FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varServiceDuration == 'week') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ week'), 
+        0)
+
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ week'), FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varServiceDuration == 'month') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ month'), 
+        0)
+
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ month'), 0)
+} else if (varServiceDuration == 'custom') {
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_custom'), 
+        0)
+
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_custom'), 0)
+}
 
 WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_price'), varPrice)
 

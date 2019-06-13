@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Admin Add Custom Fields,Chrome 74.0.3729.169,,2019-06-13 14:30:53,2019-06-13 14:31:00,6.535s,INCOMPLETE
+,,,,,,
+Test Cases/Utilities/ADMIN/Admin Login,Chrome 74.0.3729.169,,2019-06-13 14:30:54,2019-06-13 14:31:00,5.798s,PASSED
+openBrowser,Chrome 74.0.3729.169,,2019-06-13 14:30:54,2019-06-13 14:30:56,1.742s,PASSED
+maximizeWindow,Chrome 74.0.3729.169,,2019-06-13 14:30:56,2019-06-13 14:30:56,0.089s,PASSED
+navigateToUrl,Chrome 74.0.3729.169,,2019-06-13 14:30:56,2019-06-13 14:30:57,0.909s,PASSED
+"Statement - If (AdminAccountType == ""custom"")",Chrome 74.0.3729.169,,2019-06-13 14:30:57,2019-06-13 14:31:00,2.621s,PASSED
+,,,,,,
+Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Checkbox,Chrome 74.0.3729.169,,2019-06-13 14:31:00,2019-06-13 14:31:00,0.044s,PASSED

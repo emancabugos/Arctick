@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin Getting Started" time="488" tests="2" failures="3" errors="0">
+   <testsuite name="Admin Getting Started" tests="2" failures="3" errors="0" time="488" timestamp="2019-06-13 14:19:41" hostname="Arcadier - Arcadier-PC" id="Test Suites/Suites/Admin Getting Started">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939"/>
+         <property name="logFiles" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560406835989.png, C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560406992077.png, C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560407068108.png, C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560407101142.png, C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560407135569.png, C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560407150118.png"/>
+         <property name="hostName" value="Arcadier - Arcadier-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="10.10.31.95"/>
+         <property name="sessionId" value="f88f99898c083bdebc11f996d722568d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/Getting Started/Getting Started Step 1" classname="Test Cases/ADMIN/Getting Started/Getting Started Step 1" status="PASSED">
+         <system-out><![CDATA[2019-06-13 14:19:42 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Getting Started/Getting Started Step 1: Test Cases/ADMIN/Getting Started/Getting Started Step 1
+
+2019-06-13 14:19:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Utilities/ADMIN/Admin Login' successfully
+
+2019-06-13 14:19:42 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-06-13 14:19:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-06-13 14:19:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-13 14:19:47 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-06-13 14:19:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-13 14:19:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://0613SR.test.arcadier.io/admin' successfully
+
+2019-06-13 14:19:51 - [MESSAGE][PASSED] - Navigate to 'http://0613SR.test.arcadier.io/admin' successfully
+
+2019-06-13 14:19:51 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:19:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-13 14:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:19:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-13 14:19:52 - [TEST_STEP][PASSED] - setText: Text '0613SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-13 14:19:52 - [MESSAGE][PASSED] - Text '0613SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-13 14:19:52 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-13 14:19:52 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-13 14:19:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:19:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/ADMIN/Admin Login' successfully
+
+2019-06-13 14:19:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is visible
+
+2019-06-13 14:19:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:19:57 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is visible
+
+2019-06-13 14:19:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is clicked on
+
+2019-06-13 14:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is clicked on
+
+2019-06-13 14:19:58 - [TEST_STEP][PASSED] - comment: Getting Started Step 1 UI
+
+2019-06-13 14:19:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' is visible
+
+2019-06-13 14:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:19:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' is visible
+
+2019-06-13 14:19:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' are matched.
+
+2019-06-13 14:19:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' are matched.
+
+2019-06-13 14:19:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/p_Get your marketplace up and' are matched.
+
+2019-06-13 14:19:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/p_Get your marketplace up and' are matched.
+
+2019-06-13 14:19:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/div_How to get your first tran' are matched.
+
+2019-06-13 14:19:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/div_How to get your first tran' are matched.
+
+2019-06-13 14:19:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/monitor_img' is present
+
+2019-06-13 14:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/monitor_img' is present
+
+2019-06-13 14:19:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/div_Step 1  Customise' are matched.
+
+2019-06-13 14:19:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/div_Step 1  Customise' are matched.
+
+2019-06-13 14:19:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/p_Make the marketplace yours w' are matched.
+
+2019-06-13 14:19:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/p_Make the marketplace yours w' are matched.
+
+2019-06-13 14:19:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/monitor_img' is present
+
+2019-06-13 14:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/monitor_img' is present
+
+2019-06-13 14:19:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/div_Start Customising' is present
+
+2019-06-13 14:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/div_Start Customising' is present
+
+2019-06-13 14:19:59 - [TEST_STEP][PASSED] - comment: Click Learn More
+
+2019-06-13 14:19:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/video_tutorial' is clicked on
+
+2019-06-13 14:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/video_tutorial' is clicked on
+
+2019-06-13 14:20:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:20:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:20:01 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2019-06-13 14:20:01 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-06-13 14:20:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 1/h1_Arcadiers Landing Page Feat' is visible
+
+2019-06-13 14:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 1/h1_Arcadiers Landing Page Feat' is visible
+
+2019-06-13 14:20:04 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2019-06-13 14:20:04 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-06-13 14:20:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:20:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:20:05 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2019-06-13 14:20:05 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-06-13 14:20:05 - [TEST_STEP][PASSED] - comment: Click Start Customising
+
+2019-06-13 14:20:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/div_Start Customising' is clicked on
+
+2019-06-13 14:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/div_Start Customising' is clicked on
+
+2019-06-13 14:20:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 1/h1_General' is visible
+
+2019-06-13 14:20:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:20:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 1/h1_General' is visible
+
+2019-06-13 14:20:08 - [TEST_STEP][PASSED] - uploadFile: File 'C:\\Katalon\\Image\\favicon1.png' sent to object: 'Object Repository/ADMIN/Getting Started/Step 1/input_favicon_1'
+
+2019-06-13 14:20:08 - [MESSAGE][PASSED] - File 'C:\\Katalon\\Image\\favicon1.png' sent to object: 'Object Repository/ADMIN/Getting Started/Step 1/input_favicon_1'
+
+2019-06-13 14:20:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 1/p_Favicon Uploaded' is visible
+
+2019-06-13 14:20:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:20:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 1/p_Favicon Uploaded' is visible
+
+2019-06-13 14:20:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 1/p_Favicon Uploaded' are matched.
+
+2019-06-13 14:20:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 1/p_Favicon Uploaded' are matched.
+
+2019-06-13 14:20:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 1/span_Save' is clicked on
+
+2019-06-13 14:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 1/span_Save' is clicked on
+
+2019-06-13 14:20:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 1/Success Toaster Message/div_SuccessYour favicon was su' is visible
+
+2019-06-13 14:20:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:20:10 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 1/Success Toaster Message/div_SuccessYour favicon was su' is visible
+
+2019-06-13 14:20:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 1/Success Toaster Message/div_Your favicon was successfu' are matched.
+
+2019-06-13 14:20:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 1/Success Toaster Message/div_Your favicon was successfu' are matched.
+
+2019-06-13 14:20:10 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Getting Started/Step 1/Success Toaster Message/div_SuccessYour favicon was su' located by 'By.xpath: //div[(text() = 'Success!Your favicon was successfully saved.' or . = 'Success!Your favicon was successfully saved.')]' is not present after '30' second(s)
+
+2019-06-13 14:20:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:20:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Getting Started/Step 1/Success Toaster Message/div_SuccessYour favicon was su' located by 'By.xpath: //div[(text() = 'Success!Your favicon was successfully saved.' or . = 'Success!Your favicon was successfully saved.')]' is not present after '30' second(s)
+
+2019-06-13 14:20:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on
+
+2019-06-13 14:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Getting Started/Getting Started Step 2" classname="Test Cases/ADMIN/Getting Started/Getting Started Step 2" status="FAILED">
+         <failure type="FAILED" message="Unable to wait for object 'Object Repository/ADMIN/Getting Started/Step 2/Video Object/yt-formatted-string_How to Add' to be visible (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9779c38be6ae3655c3a26db2fffce7db
+*** Element info: {Using=xpath, value=//*[@id=&quot;container&quot;]/h1/yt-formatted-string[count(. | //*[(text() = 'How to Add, Edit and Delete Categories &amp; Subcategories' or . = 'How to Add, Edit and Delete Categories &amp; Subcategories')]) = count(//*[(text() = 'How to Add, Edit and Delete Categories &amp; Subcategories' or . = 'How to Add, Edit and Delete Categories &amp; Subcategories')])]})"/>
+         <system-out><![CDATA[2019-06-13 14:20:16 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Getting Started/Getting Started Step 2: Test Cases/ADMIN/Getting Started/Getting Started Step 2 FAILED because (of) Unable to wait for object 'Object Repository/ADMIN/Getting Started/Step 2/Video Object/yt-formatted-string_How to Add' to be visible (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9779c38be6ae3655c3a26db2fffce7db
+*** Element info: {Using=xpath, value=//*[@id="container"]/h1/yt-formatted-string[count(. | //*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')]) = count(//*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')])]})
+
+2019-06-13 14:20:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Utilities/ADMIN/Admin Login' successfully
+
+2019-06-13 14:20:17 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-06-13 14:20:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-06-13 14:20:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-13 14:20:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-13 14:20:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-06-13 14:20:21 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-13 14:20:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://0613SR.test.arcadier.io/admin' successfully
+
+2019-06-13 14:20:24 - [MESSAGE][PASSED] - Navigate to 'http://0613SR.test.arcadier.io/admin' successfully
+
+2019-06-13 14:20:24 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:20:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-13 14:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:20:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-13 14:20:24 - [TEST_STEP][PASSED] - setText: Text '0613SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-13 14:20:25 - [MESSAGE][PASSED] - Text '0613SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-13 14:20:25 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-13 14:20:25 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-13 14:20:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:20:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/ADMIN/Admin Login' successfully
+
+2019-06-13 14:20:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is visible
+
+2019-06-13 14:20:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:20:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is visible
+
+2019-06-13 14:20:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is clicked on
+
+2019-06-13 14:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is clicked on
+
+2019-06-13 14:20:29 - [TEST_STEP][PASSED] - comment: Getting Started Step 2
+
+2019-06-13 14:20:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:20:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/div_Step 2  Add your categorie' is visible
+
+2019-06-13 14:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/div_Step 2  Add your categorie' is visible
+
+2019-06-13 14:20:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 2/div_Step 2  Add your categorie' are matched.
+
+2019-06-13 14:20:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 2/div_Step 2  Add your categorie' are matched.
+
+2019-06-13 14:20:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Step 2/step2_image' is present
+
+2019-06-13 14:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/step2_image' is present
+
+2019-06-13 14:20:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 2/p_Fill your marketplace with c' are matched.
+
+2019-06-13 14:20:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 2/p_Fill your marketplace with c' are matched.
+
+2019-06-13 14:20:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Step 2/div_Add Categories' is present
+
+2019-06-13 14:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/div_Add Categories' is present
+
+2019-06-13 14:20:30 - [TEST_STEP][PASSED] - comment: Click video tutorial
+
+2019-06-13 14:20:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/step2_video' is clicked on
+
+2019-06-13 14:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/step2_video' is clicked on
+
+2019-06-13 14:20:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:20:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:20:32 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2019-06-13 14:20:32 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-06-13 14:20:32 - [TEST_STEP][FAILED] - waitForElementVisible: Unable to wait for object 'Object Repository/ADMIN/Getting Started/Step 2/Video Object/yt-formatted-string_How to Add' to be visible (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9779c38be6ae3655c3a26db2fffce7db
+*** Element info: {Using=xpath, value=//*[@id="container"]/h1/yt-formatted-string[count(. | //*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')]) = count(//*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')])]})
+
+2019-06-13 14:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:21:47 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/ADMIN/Getting Started/Step 2/Video Object/yt-formatted-string_How to Add' to be visible (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9779c38be6ae3655c3a26db2fffce7db
+*** Element info: {Using=xpath, value=//*[@id="container"]/h1/yt-formatted-string[count(. | //*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')]) = count(//*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')])]})
+[[ATTACHMENT|C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560406835989.png]]
+
+2019-06-13 14:21:47 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2019-06-13 14:21:47 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-06-13 14:21:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:21:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:21:48 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2019-06-13 14:21:49 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-06-13 14:21:49 - [TEST_STEP][PASSED] - comment: Add Category
+
+2019-06-13 14:21:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/div_Add Categories' is visible
+
+2019-06-13 14:21:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/div_Add Categories' is visible
+
+2019-06-13 14:21:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/div_Add Categories' is clicked on
+
+2019-06-13 14:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/div_Add Categories' is clicked on
+
+2019-06-13 14:21:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/h1_Categories' is visible
+
+2019-06-13 14:21:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:21:50 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/h1_Categories' is visible
+
+2019-06-13 14:21:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/a_Add a Category' is clicked on
+
+2019-06-13 14:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/a_Add a Category' is clicked on
+
+2019-06-13 14:21:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/input_category_name' is visible
+
+2019-06-13 14:21:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/input_category_name' is visible
+
+2019-06-13 14:21:51 - [TEST_STEP][PASSED] - setText: Text 'Category 1' is set on object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/input_category_name'
+
+2019-06-13 14:21:51 - [MESSAGE][PASSED] - Text 'Category 1' is set on object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/input_category_name'
+
+2019-06-13 14:21:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/div_Browse' is clicked on
+
+2019-06-13 14:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/div_Browse' is clicked on
+
+2019-06-13 14:21:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:21:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:21:52 - [TEST_STEP][PASSED] - uploadFile: File 'C:\\Katalon\\Image\\pic1.jpg' sent to object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/input_thumb'
+
+2019-06-13 14:21:52 - [MESSAGE][PASSED] - File 'C:\\Katalon\\Image\\pic1.jpg' sent to object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/input_thumb'
+
+2019-06-13 14:21:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/div_btn btn-success btn-ok' is visible
+
+2019-06-13 14:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/div_btn btn-success btn-ok' is visible
+
+2019-06-13 14:21:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/div_btn btn-success btn-ok' is clicked on
+
+2019-06-13 14:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/div_btn btn-success btn-ok' is clicked on
+
+2019-06-13 14:21:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/a_Add Photo' is visible
+
+2019-06-13 14:21:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/a_Add Photo' is visible
+
+2019-06-13 14:21:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/a_Add Photo' is clicked on
+
+2019-06-13 14:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/a_Add Photo' is clicked on
+
+2019-06-13 14:21:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/input_btnSaveParentCategory' is visible
+
+2019-06-13 14:21:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/input_btnSaveParentCategory' is visible
+
+2019-06-13 14:21:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:21:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:21:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/input_btnSaveParentCategory' is clicked on
+
+2019-06-13 14:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Pop Up Window/input_btnSaveParentCategory' is clicked on
+
+2019-06-13 14:21:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Success Toaster/div_SuccessCategory was succes' is visible
+
+2019-06-13 14:21:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:21:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Success Toaster/div_SuccessCategory was succes' is visible
+
+2019-06-13 14:21:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Success Toaster/div_Category was successfully' are matched.
+
+2019-06-13 14:21:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Success Toaster/div_Category was successfully' are matched.
+
+2019-06-13 14:21:56 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Success Toaster/div_SuccessCategory was succes' located by 'By.xpath: //div[(text() = 'Success!Category was successfully saved.' or . = 'Success!Category was successfully saved.')]' is not present after '30' second(s)
+
+2019-06-13 14:21:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:01 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/Success Toaster/div_SuccessCategory was succes' located by 'By.xpath: //div[(text() = 'Success!Category was successfully saved.' or . = 'Success!Category was successfully saved.')]' is not present after '30' second(s)
+
+2019-06-13 14:22:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/div_Im Done here' is visible
+
+2019-06-13 14:22:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/div_Im Done here' is visible
+
+2019-06-13 14:22:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/div_Im Done here' is clicked on
+
+2019-06-13 14:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/div_Im Done here' is clicked on
+
+2019-06-13 14:22:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-06-13 14:22:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-13 14:22:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Utilities/ADMIN/Admin Logout' successfully
+
+2019-06-13 14:22:04 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Logout: Test Cases/Utilities/ADMIN/Admin Logout
+
+2019-06-13 14:22:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-06-13 14:22:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:04 - [MESSAGE][PASSED] - Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-06-13 14:22:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on
+
+2019-06-13 14:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on
+
+2019-06-13 14:22:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/ADMIN/Admin Logout' successfully]]></system-out>
+         <system-err><![CDATA[2019-06-13 14:20:16 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Getting Started/Getting Started Step 2: Test Cases/ADMIN/Getting Started/Getting Started Step 2 FAILED because (of) Unable to wait for object 'Object Repository/ADMIN/Getting Started/Step 2/Video Object/yt-formatted-string_How to Add' to be visible (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9779c38be6ae3655c3a26db2fffce7db
+*** Element info: {Using=xpath, value=//*[@id="container"]/h1/yt-formatted-string[count(. | //*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')]) = count(//*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')])]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Getting Started/Getting Started Step 3" classname="Test Cases/ADMIN/Getting Started/Getting Started Step 3" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 4/button_arrow left' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: b5215bc31df894a14410cf99bf957085)"/>
+         <system-out><![CDATA[2019-06-13 14:22:05 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Getting Started/Getting Started Step 3: Test Cases/ADMIN/Getting Started/Getting Started Step 3 FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 4/button_arrow left' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: b5215bc31df894a14410cf99bf957085)
+
+2019-06-13 14:22:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Utilities/ADMIN/Admin Login' successfully
+
+2019-06-13 14:22:05 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-06-13 14:22:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-06-13 14:22:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-13 14:22:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-13 14:22:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-06-13 14:22:10 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-13 14:22:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://0613SR.test.arcadier.io/admin' successfully
+
+2019-06-13 14:22:14 - [MESSAGE][PASSED] - Navigate to 'http://0613SR.test.arcadier.io/admin' successfully
+
+2019-06-13 14:22:14 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:22:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-13 14:22:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-13 14:22:14 - [TEST_STEP][PASSED] - setText: Text '0613SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-13 14:22:14 - [MESSAGE][PASSED] - Text '0613SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-13 14:22:14 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-13 14:22:14 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-13 14:22:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:22:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/ADMIN/Admin Login' successfully
+
+2019-06-13 14:22:18 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is visible
+
+2019-06-13 14:22:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:18 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is visible
+
+2019-06-13 14:22:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is clicked on
+
+2019-06-13 14:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is clicked on
+
+2019-06-13 14:22:21 - [TEST_STEP][PASSED] - comment: Step 3 Payment
+
+2019-06-13 14:22:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' is visible
+
+2019-06-13 14:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' is visible
+
+2019-06-13 14:22:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' are matched.
+
+2019-06-13 14:22:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' are matched.
+
+2019-06-13 14:22:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/button_arrow' is visible
+
+2019-06-13 14:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/button_arrow' is visible
+
+2019-06-13 14:22:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/button_arrow' is clicked on
+
+2019-06-13 14:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/button_arrow' is clicked on
+
+2019-06-13 14:22:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 3/div_Step 3  Add your payment m' is visible
+
+2019-06-13 14:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 3/div_Step 3  Add your payment m' is visible
+
+2019-06-13 14:22:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Step 3/step3_image' is present
+
+2019-06-13 14:22:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 3/step3_image' is present
+
+2019-06-13 14:22:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 3/div_Step 3  Add your payment m' is visible
+
+2019-06-13 14:22:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 3/div_Step 3  Add your payment m' is visible
+
+2019-06-13 14:22:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 3/p_Make sure to set up your pay' are matched.
+
+2019-06-13 14:22:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 3/p_Make sure to set up your pay' are matched.
+
+2019-06-13 14:22:22 - [TEST_STEP][PASSED] - comment: Click video tutorial
+
+2019-06-13 14:22:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 3/step 3_video' is visible
+
+2019-06-13 14:22:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:22:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 3/step 3_video' is visible
+
+2019-06-13 14:22:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 3/step 3_video' is clicked on
+
+2019-06-13 14:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 3/step 3_video' is clicked on
+
+2019-06-13 14:22:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:22:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:22:23 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2019-06-13 14:22:23 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-06-13 14:22:23 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/ADMIN/Getting Started/Step 3/yt-formatted-string_Payments H' located by 'By.xpath: //yt-formatted-string[(text() = 'Payments: How to Make It Mandatory for Sellers to Connect to Stripe and/or Paypal' or . = 'Payments: How to Make It Mandatory for Sellers to Connect to Stripe and/or Paypal')]' not found
+
+2019-06-13 14:22:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:23:10 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/ADMIN/Getting Started/Step 3/yt-formatted-string_Payments H' located by 'By.xpath: //yt-formatted-string[(text() = 'Payments: How to Make It Mandatory for Sellers to Connect to Stripe and/or Paypal' or . = 'Payments: How to Make It Mandatory for Sellers to Connect to Stripe and/or Paypal')]' not found
+
+2019-06-13 14:23:10 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2019-06-13 14:23:10 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-06-13 14:23:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:23:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:23:11 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2019-06-13 14:23:11 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-06-13 14:23:11 - [TEST_STEP][PASSED] - comment: add payment
+
+2019-06-13 14:23:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 4/button_arrow left' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: b5215bc31df894a14410cf99bf957085)
+
+2019-06-13 14:23:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 4/button_arrow left' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: b5215bc31df894a14410cf99bf957085)
+[[ATTACHMENT|C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560406992077.png]]
+
+2019-06-13 14:23:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 3/div_Add Payments' is visible
+
+2019-06-13 14:23:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:23:12 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 3/div_Add Payments' is visible
+
+2019-06-13 14:23:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 3/div_Add Payments' is clicked on
+
+2019-06-13 14:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 3/div_Add Payments' is clicked on
+
+2019-06-13 14:23:14 - [TEST_STEP][PASSED] - comment: Custom Payment
+
+2019-06-13 14:23:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Add a custom payment method' is visible
+
+2019-06-13 14:23:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:23:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Add a custom payment method' is visible
+
+2019-06-13 14:23:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Add a custom payment method' is clicked on
+
+2019-06-13 14:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Add a custom payment method' is clicked on
+
+2019-06-13 14:23:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Configure Payments/Custom Payment/input_payment-method-name' is visible
+
+2019-06-13 14:23:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:23:17 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Configure Payments/Custom Payment/input_payment-method-name' is visible
+
+2019-06-13 14:23:17 - [TEST_STEP][PASSED] - setText: Text 'Handshake' is set on object 'Object Repository/ADMIN/Configure Payments/Custom Payment/input_payment-method-name'
+
+2019-06-13 14:23:17 - [MESSAGE][PASSED] - Text 'Handshake' is set on object 'Object Repository/ADMIN/Configure Payments/Custom Payment/input_payment-method-name'
+
+2019-06-13 14:23:17 - [TEST_STEP][PASSED] - setText: Text 'Custom Payment' is set on object 'Object Repository/ADMIN/Configure Payments/Custom Payment/textarea_custom-gateway-descri'
+
+2019-06-13 14:23:17 - [MESSAGE][PASSED] - Text 'Custom Payment' is set on object 'Object Repository/ADMIN/Configure Payments/Custom Payment/textarea_custom-gateway-descri'
+
+2019-06-13 14:23:17 - [TEST_STEP][PASSED] - setText: Text 'https://cash.test.arcadier.io/payment/generatepaykey' is set on object 'Object Repository/ADMIN/Configure Payments/Custom Payment/handshake'
+
+2019-06-13 14:23:18 - [MESSAGE][PASSED] - Text 'https://cash.test.arcadier.io/payment/generatepaykey' is set on object 'Object Repository/ADMIN/Configure Payments/Custom Payment/handshake'
+
+2019-06-13 14:23:18 - [TEST_STEP][PASSED] - setText: Text 'https://cash.test.arcadier.io/paypal/index' is set on object 'Object Repository/ADMIN/Configure Payments/Custom Payment/input_redirect-endpoint-url'
+
+2019-06-13 14:23:19 - [MESSAGE][PASSED] - Text 'https://cash.test.arcadier.io/paypal/index' is set on object 'Object Repository/ADMIN/Configure Payments/Custom Payment/input_redirect-endpoint-url'
+
+2019-06-13 14:23:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/div_Browse' is clicked on
+
+2019-06-13 14:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/div_Browse' is clicked on
+
+2019-06-13 14:23:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:23:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:23:20 - [TEST_STEP][PASSED] - uploadFile: File 'C:\\Katalon\\Image\\logo1.jpg' sent to object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/input_thumb'
+
+2019-06-13 14:23:20 - [MESSAGE][PASSED] - File 'C:\\Katalon\\Image\\logo1.jpg' sent to object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/input_thumb'
+
+2019-06-13 14:23:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Configure Payments/Custom Payment/div_btn btn-success btn-ok' is visible
+
+2019-06-13 14:23:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Configure Payments/Custom Payment/div_btn btn-success btn-ok' is visible
+
+2019-06-13 14:23:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/div_btn btn-success btn-ok' is clicked on
+
+2019-06-13 14:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/div_btn btn-success btn-ok' is clicked on
+
+2019-06-13 14:23:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Save Photo' is visible
+
+2019-06-13 14:23:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Save Photo' is visible
+
+2019-06-13 14:23:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Save Photo' is clicked on
+
+2019-06-13 14:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Save Photo' is clicked on
+
+2019-06-13 14:23:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Save' is visible
+
+2019-06-13 14:23:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:23:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Save' is visible
+
+2019-06-13 14:23:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Save' is clicked on
+
+2019-06-13 14:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Configure Payments/Custom Payment/a_Save' is clicked on
+
+2019-06-13 14:23:21 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/ADMIN/Configure Payments/Custom Payment/div_payment-status-color2' located by 'By.xpath: //*[@id="tbLanguageRow"]/tr[5]/td[3]/div[1]' not found
+
+2019-06-13 14:23:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:23:56 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/ADMIN/Configure Payments/Custom Payment/div_payment-status-color2' located by 'By.xpath: //*[@id="tbLanguageRow"]/tr[5]/td[3]/div[1]' not found
+
+2019-06-13 14:23:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/ADMIN/Configure Payments/toggle_mandatory stripe' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Configure Payments/toggle_mandatory stripe' located by 'By.xpath: //*[@id="tbLanguageRow"]/tr[1]/td[2]/div/label/span[2]' not found)
+
+2019-06-13 14:24:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ADMIN/Configure Payments/toggle_mandatory stripe' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Configure Payments/toggle_mandatory stripe' located by 'By.xpath: //*[@id="tbLanguageRow"]/tr[1]/td[2]/div/label/span[2]' not found)
+[[ATTACHMENT|C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560407068108.png]]
+
+2019-06-13 14:24:28 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Getting Started/Step 3/button_im done here' located by 'By.xpath: //*[@id="NextFinishOnboard"]' not found
+
+2019-06-13 14:24:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:25:01 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Getting Started/Step 3/button_im done here' located by 'By.xpath: //*[@id="NextFinishOnboard"]' not found
+[[ATTACHMENT|C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560407101142.png]]
+
+2019-06-13 14:25:01 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 3/button_im done here' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Getting Started/Step 3/button_im done here' located by 'By.xpath: //*[@id="NextFinishOnboard"]' not found)
+
+2019-06-13 14:25:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 3/button_im done here' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Getting Started/Step 3/button_im done here' located by 'By.xpath: //*[@id="NextFinishOnboard"]' not found)
+[[ATTACHMENT|C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560407135569.png]]
+
+2019-06-13 14:25:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:25:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:25:37 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Utilities/ADMIN/Admin Logout' successfully
+
+2019-06-13 14:25:37 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Logout: Test Cases/Utilities/ADMIN/Admin Logout
+
+2019-06-13 14:25:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-06-13 14:25:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:25:37 - [MESSAGE][PASSED] - Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-06-13 14:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on
+
+2019-06-13 14:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on
+
+2019-06-13 14:25:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/ADMIN/Admin Logout' successfully]]></system-out>
+         <system-err><![CDATA[2019-06-13 14:22:05 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Getting Started/Getting Started Step 3: Test Cases/ADMIN/Getting Started/Getting Started Step 3 FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 4/button_arrow left' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: b5215bc31df894a14410cf99bf957085)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Getting Started/Getting Started Step 4" classname="Test Cases/ADMIN/Getting Started/Getting Started Step 4" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 4/step3_arrow' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: c773fcc44f3958c26cedd93d7980acb9)"/>
+         <system-out><![CDATA[2019-06-13 14:25:38 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Getting Started/Getting Started Step 4: Test Cases/ADMIN/Getting Started/Getting Started Step 4 FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 4/step3_arrow' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: c773fcc44f3958c26cedd93d7980acb9)
+
+2019-06-13 14:25:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Utilities/ADMIN/Admin Login' successfully
+
+2019-06-13 14:25:39 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-06-13 14:25:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-06-13 14:25:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-13 14:25:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-13 14:25:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-06-13 14:25:43 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-13 14:25:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://0613SR.test.arcadier.io/admin' successfully
+
+2019-06-13 14:25:44 - [MESSAGE][PASSED] - Navigate to 'http://0613SR.test.arcadier.io/admin' successfully
+
+2019-06-13 14:25:44 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:25:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-13 14:25:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:25:44 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-13 14:25:44 - [TEST_STEP][PASSED] - setText: Text '0613SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-13 14:25:45 - [MESSAGE][PASSED] - Text '0613SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-13 14:25:45 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-13 14:25:45 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-13 14:25:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:25:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/ADMIN/Admin Login' successfully
+
+2019-06-13 14:25:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is clicked on
+
+2019-06-13 14:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Arcadier_image link' is clicked on
+
+2019-06-13 14:25:49 - [TEST_STEP][PASSED] - comment: Step 3 Invite Merchant
+
+2019-06-13 14:25:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' is visible
+
+2019-06-13 14:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' is visible
+
+2019-06-13 14:25:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' are matched.
+
+2019-06-13 14:25:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/span_Welcome to Arcadier Marke' are matched.
+
+2019-06-13 14:25:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 4/step2_arrow' is visible
+
+2019-06-13 14:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 4/step2_arrow' is visible
+
+2019-06-13 14:25:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 4/step2_arrow' is clicked on
+
+2019-06-13 14:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 4/step2_arrow' is clicked on
+
+2019-06-13 14:25:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 4/step3_arrow' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: c773fcc44f3958c26cedd93d7980acb9)
+
+2019-06-13 14:25:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 4/step3_arrow' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: c773fcc44f3958c26cedd93d7980acb9)
+[[ATTACHMENT|C:\\Users\\Arcadier\\git\\Arctick\\Reports\\Suites\\Admin Getting Started\\20190613_141939\\1560407150118.png]]
+
+2019-06-13 14:25:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 4/div_Step 4  Invite your mercha' is visible
+
+2019-06-13 14:25:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 4/div_Step 4  Invite your mercha' is visible
+
+2019-06-13 14:26:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 4/step4_image' is visible
+
+2019-06-13 14:26:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 4/step4_image' is visible
+
+2019-06-13 14:26:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 4/p_Get your merchants on board' is visible
+
+2019-06-13 14:26:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 4/p_Get your merchants on board' is visible
+
+2019-06-13 14:26:19 - [TEST_STEP][PASSED] - comment: Click video tutorial
+
+2019-06-13 14:26:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 4/Step4_video tutorial' is visible
+
+2019-06-13 14:26:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 4/Step4_video tutorial' is visible
+
+2019-06-13 14:26:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 4/Step4_video tutorial' is clicked on
+
+2019-06-13 14:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 4/Step4_video tutorial' is clicked on
+
+2019-06-13 14:26:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:26:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:26:20 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2019-06-13 14:26:21 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-06-13 14:26:21 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/ADMIN/Getting Started/Step 4/yt-formatted-string_Sellers Ov' located by 'By.xpath: //yt-formatted-string[(text() = 'Sellers: Overview, How to start inviting or ban sellers' or . = 'Sellers: Overview, How to start inviting or ban sellers')]' not found
+
+2019-06-13 14:26:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:26:52 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/ADMIN/Getting Started/Step 4/yt-formatted-string_Sellers Ov' located by 'By.xpath: //yt-formatted-string[(text() = 'Sellers: Overview, How to start inviting or ban sellers' or . = 'Sellers: Overview, How to start inviting or ban sellers')]' not found
+
+2019-06-13 14:26:52 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2019-06-13 14:26:52 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-06-13 14:26:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-06-13 14:26:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-13 14:26:53 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2019-06-13 14:26:53 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-06-13 14:26:53 - [TEST_STEP][PASSED] - comment: invite merchant
+
+2019-06-13 14:26:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 4/div_Start Inviting' is visible
+
+2019-06-13 14:26:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 4/div_Start Inviting' is visible
+
+2019-06-13 14:27:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 4/div_Start Inviting' is clicked on
+
+2019-06-13 14:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 4/div_Start Inviting' is clicked on
+
+2019-06-13 14:27:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 4/user page/h1_Users' is visible
+
+2019-06-13 14:27:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 4/user page/h1_Users' is visible
+
+2019-06-13 14:27:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Step 4/user page/div_Invite Merchant' is present
+
+2019-06-13 14:27:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 4/user page/div_Invite Merchant' is present
+
+2019-06-13 14:27:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 4/user page/div_Invite Merchant' is clicked on
+
+2019-06-13 14:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 4/user page/div_Invite Merchant' is clicked on
+
+2019-06-13 14:27:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 4/Invite popup/div_Invite your sellers to onb' is visible
+
+2019-06-13 14:27:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 4/Invite popup/div_Invite your sellers to onb' is visible
+
+2019-06-13 14:27:06 - [TEST_STEP][PASSED] - setText: Text 'arcadierteam1@gmail.com' is set on object 'Object Repository/ADMIN/Getting Started/Step 4/Invite popup/textarea_invite-sellers-email-'
+
+2019-06-13 14:27:07 - [MESSAGE][PASSED] - Text 'arcadierteam1@gmail.com' is set on object 'Object Repository/ADMIN/Getting Started/Step 4/Invite popup/textarea_invite-sellers-email-'
+
+2019-06-13 14:27:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 4/Invite popup/input_btn-send-direct-invite' is clicked on
+
+2019-06-13 14:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 4/Invite popup/input_btn-send-direct-invite' is clicked on
+
+2019-06-13 14:27:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Utilities/ADMIN/Admin Logout' successfully
+
+2019-06-13 14:27:07 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Logout: Test Cases/Utilities/ADMIN/Admin Logout
+
+2019-06-13 14:27:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-06-13 14:27:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-06-13 14:27:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on
+
+2019-06-13 14:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on
+
+2019-06-13 14:27:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/ADMIN/Admin Logout' successfully]]></system-out>
+         <system-err><![CDATA[2019-06-13 14:25:38 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Getting Started/Getting Started Step 4: Test Cases/ADMIN/Getting Started/Getting Started Step 4 FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Getting Started/Step 4/step3_arrow' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: c773fcc44f3958c26cedd93d7980acb9)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Getting Started/Quick Links" classname="Test Cases/ADMIN/Getting Started/Quick Links" status="PASSED">
+         <system-out><![CDATA[2019-06-13 14:27:08 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Getting Started/Quick Links: Test Cases/ADMIN/Getting Started/Quick Links
+
+2019-06-13 14:27:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Utilities/ADMIN/Admin Login' successfully
+
+2019-06-13 14:27:08 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-06-13 14:27:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-06-13 14:27:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-13 14:27:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-13 14:27:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-06-13 14:27:13 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-13 14:27:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://0613SR.test.arcadier.io/admin' successfully
+
+2019-06-13 14:27:15 - [MESSAGE][PASSED] - Navigate to 'http://0613SR.test.arcadier.io/admin' successfully
+
+2019-06-13 14:27:15 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:27:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-13 14:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:15 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-06-13 14:27:15 - [TEST_STEP][PASSED] - setText: Text '0613SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-13 14:27:15 - [MESSAGE][PASSED] - Text '0613SR' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-06-13 14:27:15 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-13 14:27:15 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-06-13 14:27:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-06-13 14:27:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/ADMIN/Admin Login' successfully
+
+2019-06-13 14:27:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is visible
+
+2019-06-13 14:27:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is visible
+
+2019-06-13 14:27:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:20 - [TEST_STEP][PASSED] - comment: Category Page
+
+2019-06-13 14:27:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_category' is present
+
+2019-06-13 14:27:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_category' is present
+
+2019-06-13 14:27:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Manage Categories  Sub-categ' is present
+
+2019-06-13 14:27:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Manage Categories  Sub-categ' is present
+
+2019-06-13 14:27:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_category' is clicked on
+
+2019-06-13 14:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_category' is clicked on
+
+2019-06-13 14:27:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/category_icon1' is visible
+
+2019-06-13 14:27:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/category_icon1' is visible
+
+2019-06-13 14:27:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/h1_Categories' are matched.
+
+2019-06-13 14:27:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 2/Add Category/h1_Categories' are matched.
+
+2019-06-13 14:27:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:21 - [TEST_STEP][PASSED] - comment: Custom Field Page
+
+2019-06-13 14:27:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom field' is present
+
+2019-06-13 14:27:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom field' is present
+
+2019-06-13 14:27:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Add more fields for your lis' is present
+
+2019-06-13 14:27:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Add more fields for your lis' is present
+
+2019-06-13 14:27:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom field' is clicked on
+
+2019-06-13 14:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom field' is clicked on
+
+2019-06-13 14:27:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Field/image1' is visible
+
+2019-06-13 14:27:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:23 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Field/image1' is visible
+
+2019-06-13 14:27:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Custom Field/h1_Custom Item Fields' are matched.
+
+2019-06-13 14:27:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Custom Field/h1_Custom Item Fields' are matched.
+
+2019-06-13 14:27:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:24 - [TEST_STEP][PASSED] - comment: General Page
+
+2019-06-13 14:27:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_general' is present
+
+2019-06-13 14:27:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_general' is present
+
+2019-06-13 14:27:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Customise logo homepage favi' is present
+
+2019-06-13 14:27:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Customise logo homepage favi' is present
+
+2019-06-13 14:27:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_general' is clicked on
+
+2019-06-13 14:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_general' is clicked on
+
+2019-06-13 14:27:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Step 1/image1' is visible
+
+2019-06-13 14:27:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:25 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Step 1/image1' is visible
+
+2019-06-13 14:27:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 1/h1_General' are matched.
+
+2019-06-13 14:27:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Getting Started/Step 1/h1_General' are matched.
+
+2019-06-13 14:27:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:27 - [TEST_STEP][PASSED] - comment: Custom Domain Page
+
+2019-06-13 14:27:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom domain' is present
+
+2019-06-13 14:27:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom domain' is present
+
+2019-06-13 14:27:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Custom domain  SSL' is present
+
+2019-06-13 14:27:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Custom domain  SSL' is present
+
+2019-06-13 14:27:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_(Starter  Above only)' is present
+
+2019-06-13 14:27:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_(Starter  Above only)' is present
+
+2019-06-13 14:27:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom domain' is clicked on
+
+2019-06-13 14:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom domain' is clicked on
+
+2019-06-13 14:27:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Domain/image1' is visible
+
+2019-06-13 14:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Domain/image1' is visible
+
+2019-06-13 14:27:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Custom Domain/h1_Custom Domain' are matched.
+
+2019-06-13 14:27:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Custom Domain/h1_Custom Domain' are matched.
+
+2019-06-13 14:27:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:31 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:31 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:31 - [TEST_STEP][PASSED] - comment: External Link Page
+
+2019-06-13 14:27:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_external links' is present
+
+2019-06-13 14:27:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:31 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_external links' is present
+
+2019-06-13 14:27:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Add your custom hyperlinks' is present
+
+2019-06-13 14:27:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:31 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Add your custom hyperlinks' is present
+
+2019-06-13 14:27:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_external links' is clicked on
+
+2019-06-13 14:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_external links' is clicked on
+
+2019-06-13 14:27:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/External Links/i_icon icon-hyperlink' is visible
+
+2019-06-13 14:27:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/External Links/i_icon icon-hyperlink' is visible
+
+2019-06-13 14:27:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/External Links/h1_External Links' are matched.
+
+2019-06-13 14:27:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/External Links/h1_External Links' are matched.
+
+2019-06-13 14:27:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:34 - [TEST_STEP][PASSED] - comment: Private Marketplace
+
+2019-06-13 14:27:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_private marketplace' is present
+
+2019-06-13 14:27:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_private marketplace' is present
+
+2019-06-13 14:27:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Control who accesses your ma' is present
+
+2019-06-13 14:27:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Control who accesses your ma' is present
+
+2019-06-13 14:27:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_private marketplace' is clicked on
+
+2019-06-13 14:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_private marketplace' is clicked on
+
+2019-06-13 14:27:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Private Settings/image1' is visible
+
+2019-06-13 14:27:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/image1' is visible
+
+2019-06-13 14:27:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Private Settings/h1_Restricted Access Setting' are matched.
+
+2019-06-13 14:27:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Private Settings/h1_Restricted Access Setting' are matched.
+
+2019-06-13 14:27:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:37 - [TEST_STEP][PASSED] - comment: Custom Code Page
+
+2019-06-13 14:27:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom code' is present
+
+2019-06-13 14:27:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom code' is present
+
+2019-06-13 14:27:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Input custom codes' is present
+
+2019-06-13 14:27:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Input custom codes' is present
+
+2019-06-13 14:27:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_(Basic  Above only)' is present
+
+2019-06-13 14:27:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_(Basic  Above only)' is present
+
+2019-06-13 14:27:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom code' is clicked on
+
+2019-06-13 14:27:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_custom code' is clicked on
+
+2019-06-13 14:27:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Custom Code/i_icon icon-htmltag' is visible
+
+2019-06-13 14:27:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:39 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Custom Code/i_icon icon-htmltag' is visible
+
+2019-06-13 14:27:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Custom Code/h1_Custom Code' are matched.
+
+2019-06-13 14:27:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Custom Code/h1_Custom Code' are matched.
+
+2019-06-13 14:27:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:40 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:40 - [TEST_STEP][PASSED] - comment: Payment Config
+
+2019-06-13 14:27:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_payment' is present
+
+2019-06-13 14:27:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:40 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_payment' is present
+
+2019-06-13 14:27:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Add  manage Payment Methods' is present
+
+2019-06-13 14:27:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:40 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Add  manage Payment Methods' is present
+
+2019-06-13 14:27:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_payment' is clicked on
+
+2019-06-13 14:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_payment' is clicked on
+
+2019-06-13 14:27:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Configure Payments/i_icon icon-creditcard' is visible
+
+2019-06-13 14:27:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Configure Payments/i_icon icon-creditcard' is visible
+
+2019-06-13 14:27:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Configure Payments/h1_Payments' are matched.
+
+2019-06-13 14:27:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Configure Payments/h1_Payments' are matched.
+
+2019-06-13 14:27:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:43 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:43 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:43 - [TEST_STEP][PASSED] - comment: Invite Merchant
+
+2019-06-13 14:27:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_invie merchant' is present
+
+2019-06-13 14:27:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:43 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_invie merchant' is present
+
+2019-06-13 14:27:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Manage  invite merchants' is present
+
+2019-06-13 14:27:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:43 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_Manage  invite merchants' is present
+
+2019-06-13 14:27:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_invie merchant' is clicked on
+
+2019-06-13 14:27:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_invie merchant' is clicked on
+
+2019-06-13 14:27:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Users/i_icon icon-users' is visible
+
+2019-06-13 14:27:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:44 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Users/i_icon icon-users' is visible
+
+2019-06-13 14:27:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Admin Users/h1_Users' are matched.
+
+2019-06-13 14:27:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Admin Users/h1_Users' are matched.
+
+2019-06-13 14:27:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:45 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:45 - [TEST_STEP][PASSED] - comment: Subscription Page
+
+2019-06-13 14:27:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_subscription' is present
+
+2019-06-13 14:27:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/img_subscription' is present
+
+2019-06-13 14:27:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_View Subscription' is present
+
+2019-06-13 14:27:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/p_View Subscription' is present
+
+2019-06-13 14:27:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_subscription' is clicked on
+
+2019-06-13 14:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Quicklinks/img_subscription' is clicked on
+
+2019-06-13 14:27:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Subscription/i_icon icon-doller' is visible
+
+2019-06-13 14:27:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:48 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Subscription/i_icon icon-doller' is visible
+
+2019-06-13 14:27:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Subscription/h1_Subscription' are matched.
+
+2019-06-13 14:27:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Subscription/h1_Subscription' are matched.
+
+2019-06-13 14:27:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_Logo' is clicked on
+
+2019-06-13 14:27:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-13 14:27:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Getting Started/Quicklinks/span_Quick Links' is visible
+
+2019-06-13 14:27:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Permission/Admin Activity Log/a_Logout' is clicked on
+
+2019-06-13 14:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Permission/Admin Activity Log/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-13 14:19:41 - [TEST_SUITE][FAILED] - Admin Getting Started: Test Cases/ADMIN/Getting Started/Getting Started Step 2 FAILED because (of) Unable to wait for object 'Object Repository/ADMIN/Getting Started/Step 2/Video Object/yt-formatted-string_How to Add' to be visible (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9779c38be6ae3655c3a26db2fffce7db
+*** Element info: {Using=xpath, value=//*[@id="container"]/h1/yt-formatted-string[count(. | //*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')]) = count(//*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')])]})]]></system-out>
+      <system-err><![CDATA[2019-06-13 14:19:41 - [TEST_SUITE][FAILED] - Admin Getting Started: Test Cases/ADMIN/Getting Started/Getting Started Step 2 FAILED because (of) Unable to wait for object 'Object Repository/ADMIN/Getting Started/Step 2/Video Object/yt-formatted-string_How to Add' to be visible (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-PC', ip: '10.10.31.95', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Arcadier\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9779c38be6ae3655c3a26db2fffce7db
+*** Element info: {Using=xpath, value=//*[@id="container"]/h1/yt-formatted-string[count(. | //*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')]) = count(//*[(text() = 'How to Add, Edit and Delete Categories & Subcategories' or . = 'How to Add, Edit and Delete Categories & Subcategories')])]})]]></system-err>
+   </testsuite>
+</testsuites>

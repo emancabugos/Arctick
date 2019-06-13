@@ -34,4 +34,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/MERCHANT/BESPOKE/Onboarding/Payment Acceptance/Simple Test</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d7c31f1f-d9b4-404b-9db0-02c1e785d4b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MERCHANT/BESPOKE/Onboarding/Delivery/Simple Test</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>52dfe54e-17ef-4fd4-b489-5727a0509927</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

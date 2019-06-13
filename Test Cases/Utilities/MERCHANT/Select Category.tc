@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae253ea9-16d5-414e-8c68-25c10615398f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>2316a577-a03c-409d-b62c-7fb205bccdee</id>
+      <masked>false</masked>
+      <name>varCategory</name>
+   </variable>
+</TestCaseEntity>
