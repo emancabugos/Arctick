@@ -60,16 +60,16 @@
       <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Location</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8bc520f8-5d8c-4a22-b83e-9d45ed60528d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_PDF</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>492350c8-6aad-463a-8ef1-68e5a3f9eff5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Number</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8bc520f8-5d8c-4a22-b83e-9d45ed60528d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_PDF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>157cadc3-51b7-4536-a26d-24f97318e6d6</guid>
@@ -78,10 +78,10 @@
       <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Percentage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e12fd204-8414-469f-a0a9-86fca02da281</guid>
+      <guid>9bcdd6f9-a426-421b-b24a-1ba2eabfba8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_TextEditor</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>318cb0c4-607e-49cd-8c20-9c3349755b8c</guid>
@@ -94,6 +94,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield For Edit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e12fd204-8414-469f-a0a9-86fca02da281</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Custom Fields Page/Add Custom Item Fields/Add_Textfield</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f29e7c73-8fa7-47b9-81cf-633fce4aec92</guid>

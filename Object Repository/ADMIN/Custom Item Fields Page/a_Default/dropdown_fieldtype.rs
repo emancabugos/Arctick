@@ -7,39 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//select[@id = 'field-type' and @class = 'field-type-sect' and (text() = '
-                                            Select a type of field
-                                            Text Field
-                                            Hyperlink / URL
-                                            Email
-                                            Percentage
-                                            Number
-                                            Checkbox
-                                            Drop Down
-                                            Location
-                                            Date / Time picker
-                                            PDF File
-                                            Embed Video
-                                        ' or . = '
-                                            Select a type of field
-                                            Text Field
-                                            Hyperlink / URL
-                                            Email
-                                            Percentage
-                                            Number
-                                            Checkbox
-                                            Drop Down
-                                            Location
-                                            Date / Time picker
-                                            PDF File
-                                            Embed Video
-                                        ')]</value>
+         <value>//*[@id = 'field-type']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -60,14 +34,14 @@
       <value>field-type</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>field-type-sect</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

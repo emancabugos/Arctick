@@ -25,43 +25,25 @@ WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 0)
 
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'))
-
-WebUI.delay(2)
-
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Date / Time picker', 
     false)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_DateTimePicker/togglebutton_timeneeded'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'), 'Date / Time')
+WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'), 'Date / Time Mandatory')
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/linktext_SelectAll'), 
     0)
 
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_1'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_1'))
-
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_2'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_2'))
-
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_3'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_3'))
+WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/linktext_SelectAll'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/button_Save'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save2'), 0)
 
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
 

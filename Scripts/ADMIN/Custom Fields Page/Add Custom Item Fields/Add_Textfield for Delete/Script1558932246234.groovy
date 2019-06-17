@@ -25,12 +25,6 @@ WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 0)
 
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'))
-
-WebUI.delay(2)
-
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Text Field', false)
 
 WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'), 'Textfield For Delete')

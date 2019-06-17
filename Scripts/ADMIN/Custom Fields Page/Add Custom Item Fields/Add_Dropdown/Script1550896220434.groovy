@@ -25,12 +25,6 @@ WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 0)
 
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'))
-
-WebUI.delay(2)
-
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Drop Down', false)
 
 WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'), 'Dropdown Mandatory')
@@ -63,94 +57,18 @@ WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield
 
 WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt5'), 'Select 5')
 
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'), 0)
-
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/linktext_SelectAll'), 
     0)
 
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_6'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_6'))
+WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/linktext_SelectAll'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/button_Save'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save2'), 0)
 
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 0)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'))
-
-WebUI.delay(2)
-
-WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Drop Down', false)
-
-WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Drop Down', 
-    false, 0)
-
-WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'), 'Dropdown Non-Mandatory')
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt1'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/togglebutton_mandatory'))
-
-WebUI.delay(0)
-
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt'), 0)
-
-WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'), 'Drop Down')
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt3'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt4'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt5'), 0)
-
-WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt1'), 'Select 1')
-
-WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt2'), 'Select 2')
-
-WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt3'), 'Select 3')
-
-WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt4'), 'Select 4')
-
-WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt5'), 'Select 5')
-
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/linktext_SelectAll'), 
-    0)
-
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_6'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_6'))
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/button_Save'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.scrollToElement(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
 

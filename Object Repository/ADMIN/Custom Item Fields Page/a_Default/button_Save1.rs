@@ -4,24 +4,30 @@
    <name>button_Save1</name>
    <tag></tag>
    <elementGuidId>00901863-7838-4e16-8799-56b1425b41e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;saveCustomfield&quot;]/a[count(. | //*[@class = 'btn-blue btn-custom-field-add-save' and (text() = 'Save' or . = 'Save')]) = count(//*[@class = 'btn-blue btn-custom-field-add-save' and (text() = 'Save' or . = 'Save')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -35,10 +41,10 @@
       <value>Save</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;saveCustomfield&quot;)/a[@class=&quot;btn-blue btn-custom-field-add-save&quot;]</value>
+      <value>//*[@id=&quot;saveCustomfield&quot;]/a</value>
    </webElementProperties>
 </WebElementEntity>
