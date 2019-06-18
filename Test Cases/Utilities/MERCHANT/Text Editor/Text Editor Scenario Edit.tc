@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Text Editor Scenario</name>
+   <name>Text Editor Scenario Edit</name>
    <tag></tag>
    <comment>Input Text
 Paste as plain text
@@ -20,5 +20,5 @@ Increase Indent
 Number List
 Bulleted List
 Bulleted List</comment>
-   <testCaseGuid>72d43768-6799-4634-b90b-80ea665806de</testCaseGuid>
+   <testCaseGuid>24d19587-0b21-4b4c-962c-d584bec2c490</testCaseGuid>
 </TestCaseEntity>

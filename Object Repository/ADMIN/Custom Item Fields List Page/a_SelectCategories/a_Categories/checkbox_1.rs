@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[3]/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[2]/ul/li[1]/label</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;pcateglist&quot;]/li[1]/label</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,6 +28,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1557897221640</value>
+      <value>//*[@id=&quot;pcateglist&quot;]/li[1]/label</value>
    </webElementProperties>
 </WebElementEntity>

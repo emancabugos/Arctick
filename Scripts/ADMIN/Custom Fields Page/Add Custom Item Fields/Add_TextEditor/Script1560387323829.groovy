@@ -27,8 +27,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Defa
 
 WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'), 'Text Editor Mandatory')
 
-WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Formatted Text Editor', 
-    false)
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Text Editor', false)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'))
 

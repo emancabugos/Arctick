@@ -59,10 +59,12 @@ WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/linktext_SelectAll'), 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/searchbox_Category'), 
     0)
 
-WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/linktext_SelectAll'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/searchbox_Category'), 'Category 6')
+
+WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_6'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/button_Save'), FailureHandling.STOP_ON_FAILURE)
 

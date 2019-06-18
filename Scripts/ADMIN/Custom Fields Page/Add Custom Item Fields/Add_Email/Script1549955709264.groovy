@@ -25,8 +25,6 @@ WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 0)
 
-WebUI.waitForPageLoad(0)
-
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Email', false)
 
 WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Default/textfield_fieldname'), 'Email Address Mandatory')
@@ -41,6 +39,8 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/a
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/linktext_SelectAll'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/button_Save'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_Save2'), 0)
 

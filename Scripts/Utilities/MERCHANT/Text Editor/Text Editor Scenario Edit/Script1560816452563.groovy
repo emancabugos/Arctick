@@ -158,3 +158,9 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Text Editor Icon/a_Justify
 
 WebUI.click(findTestObject('Utilities/Text Editor Icon/a_Justify'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.comment('Styles')
+
+WebUI.waitForElementVisible(findTestObject('Utilities/Text Editor Icon/span_Styles'), 0)
+
+WebUI.selectOptionByIndex(findTestObject('Utilities/Text Editor Icon/span_Styles'), 3)
+
