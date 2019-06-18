@@ -5,6 +5,8 @@
    <tag></tag>
    <comment>Basic Details
 Select Category
+Service Duration
+Price
 Schedule
 Image
 Add Ons
@@ -84,6 +86,13 @@ END</comment>
    <variable>
       <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
       <description></description>
+      <id>afafabb9-c57c-4bc9-9c38-47d782685b7d</id>
+      <masked>false</masked>
+      <name>varAddons</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
       <id>85455428-b00c-48a5-a0a0-a5221a0f9c05</id>
       <masked>false</masked>
       <name>varLocation</name>
@@ -115,5 +124,19 @@ END</comment>
       <id>c01d4819-1b90-4622-b18b-09af1357f5e7</id>
       <masked>false</masked>
       <name>varPostalCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>8887c500-5e90-4fdc-8d35-60bb6a7b1630</id>
+      <masked>false</masked>
+      <name>varSpecifyDuration</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>cac93dd6-1c9a-4dbc-aca9-422bb51badc7</id>
+      <masked>false</masked>
+      <name>varDuration</name>
    </variable>
 </TestCaseEntity>

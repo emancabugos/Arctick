@@ -121,6 +121,24 @@
          <value>POSTAL CODE</value>
          <variableId>c01d4819-1b90-4622-b18b-09af1357f5e7</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>2722fb3c-8f59-408e-9d5e-c7eeac472cb2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ADD ONS</value>
+         <variableId>afafabb9-c57c-4bc9-9c38-47d782685b7d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8887c500-5e90-4fdc-8d35-60bb6a7b1630</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cac93dd6-1c9a-4dbc-aca9-422bb51badc7</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>68db0f98-806d-4942-bd0d-54f76d1c5afe</guid>

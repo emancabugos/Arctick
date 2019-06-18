@@ -6,6 +6,8 @@
    <comment>Input Text
 Paste as plain text
 Paste from word
+Undo
+Redo
 Select All
 Bold
 Italic
@@ -19,6 +21,10 @@ Decrease Indent
 Increase Indent
 Number List
 Bulleted List
-Bulleted List</comment>
+Bulleted List
+block quote
+Center
+Right
+Justify</comment>
    <testCaseGuid>72d43768-6799-4634-b90b-80ea665806de</testCaseGuid>
 </TestCaseEntity>

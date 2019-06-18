@@ -6,11 +6,19 @@
    <elementGuidId>c6e85f04-4b17-403f-b210-be032546630b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;add-item-area&quot;]/div/div[5]/div/div[1]/div[2]/div[1]/div[4]/label</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//div[4]/label[count(. | //*[@id = 'itmupld-srcs-duation4']) = count(//*[@id = 'itmupld-srcs-duation4'])]</value>
+         <value>//*[@id=&quot;add-item-area&quot;]/div/div[5]/div/div[1]/div[2]/div[1]/div[4]/label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,13 +46,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[4]/label</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>itmupld-srcs-duation4</value>
+      <value>//*[@id=&quot;add-item-area&quot;]/div/div[5]/div/div[1]/div[2]/div[1]/div[4]/label</value>
    </webElementProperties>
 </WebElementEntity>

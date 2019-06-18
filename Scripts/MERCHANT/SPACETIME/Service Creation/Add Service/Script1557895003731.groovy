@@ -54,29 +54,52 @@ WebUI.comment('Service Duration')
 if (varServiceDuration == 'hour') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ hour'), 
         0)
+
+    WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_price'), varPrice)
 } else if (varServiceDuration == 'day') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ day'), 
         0)
 
     WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ day'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_price'), varPrice)
 } else if (varServiceDuration == 'week') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ week'), 
         0)
 
     WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ week'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_price'), varPrice)
 } else if (varServiceDuration == 'month') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ month'), 
         0)
 
     WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ month'), 0)
+
+    WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_price'), varPrice)
 } else if (varServiceDuration == 'custom') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_custom'), 
         0)
 
     WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_custom'), 0)
-}
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_price'), varPrice)
+    if (varSpecifyDuration == 'min') {
+        WebUI.selectOptionByLabel(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/dropdown_custom duration'), 
+            'minute(s)', false)
+    } else if (varSpecifyDuration == 'hour') {
+        WebUI.selectOptionByLabel(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/dropdown_custom duration'), 
+            'hour(s)', false)
+    } else if (varSpecifyDuration == 'day') {
+        WebUI.selectOptionByLabel(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/dropdown_custom duration'), 
+            'day(s)', false)
+    }
+    
+    WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/number-duration'), 
+        varDuration)
+
+    WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/textbox_price custom'), 
+        varPrice)
+}
 
 if (varUnlimitedBookings == 'yes') {
     WebUI.delay(1)
@@ -140,11 +163,21 @@ WebUI.comment('Add Ons')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/textbox_add on name'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/textbox_add on name'), 'Extra Service')
+if (varAddons == 'yes') {
+    WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/textbox_add on name'), 'Extra Service')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/textbox_surcharge'), '20')
+    WebUI.comment('Location')
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/button_Add'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/textbox_surcharge'), '20')
+
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/button_Add'), FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varAddons == 'no') {
+    WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/textbox_add on name'), 0)
+}
+
+WebUI.comment('Custom Fields')
+
+WebUI.callTestCase(findTestCase('MERCHANT/SPACETIME/Service Creation/Custom Field Input'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Add Ons/button_Next add ons'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -164,6 +197,8 @@ WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/textb
 WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/textbox_postalcode'), varPostalCode)
 
 WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/button_Upload now'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Listing Page/button_Add listings'), 0)
 
 WebUI.comment('END')
 
