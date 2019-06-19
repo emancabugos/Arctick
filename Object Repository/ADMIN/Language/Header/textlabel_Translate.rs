@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_Translate</name>
+   <name>textlabel_Translate</name>
    <tag></tag>
    <elementGuidId>5edd1476-1ba4-4b48-ab65-7c33ae331a96</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

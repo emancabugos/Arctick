@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Language</name>
+   <name>textlabel_Language</name>
    <tag></tag>
    <elementGuidId>2369d2c8-2d58-4491-8236-9be9037cf703</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

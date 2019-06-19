@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_btn btn-grey modal-good-</name>
+   <name>button_Cancel</name>
    <tag></tag>
    <elementGuidId>7a7bc29e-4e72-4180-a3a9-afad897edbac</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

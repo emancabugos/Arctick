@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Try to keep the number of</name>
+   <name>textlabel_Reminder</name>
    <tag></tag>
    <elementGuidId>7baab2b1-a570-430b-83e4-7201726bf7ba</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

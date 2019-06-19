@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Page</name>
+   <name>textlabel_Page</name>
    <tag></tag>
    <elementGuidId>c4a4805b-09e3-4182-bf6c-aa1346db4a4d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

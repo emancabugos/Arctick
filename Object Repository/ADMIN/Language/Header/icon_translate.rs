@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_icon icon-words</name>
+   <name>icon_translate</name>
    <tag></tag>
    <elementGuidId>42916140-6a75-4eb9-beb8-759286eef312</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

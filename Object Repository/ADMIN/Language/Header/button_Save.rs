@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_btn btn-blue</name>
+   <name>button_Save</name>
    <tag></tag>
    <elementGuidId>3afb0f13-ac22-472c-8613-eda78c2fcbf5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

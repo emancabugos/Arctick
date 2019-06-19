@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_(Source is editable)</name>
+   <name>linktext_SourceEditable</name>
    <tag></tag>
    <elementGuidId>3f9c59a2-9d0f-4ec5-9b98-1485274de1d0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
