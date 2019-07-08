@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Listing Page/header_Your Services'), 0)
 
@@ -74,14 +75,14 @@ if (varServiceDuration == 'hour') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ month'), 
         0)
 
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ month'), 0)
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_ month'), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/textbox_price'), varPrice)
 } else if (varServiceDuration == 'custom') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_custom'), 
         0)
 
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_custom'), 0)
+    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/label_custom'), FailureHandling.CONTINUE_ON_FAILURE)
 
     if (varSpecifyDuration == 'min') {
         WebUI.selectOptionByLabel(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/dropdown_custom duration'), 
@@ -94,12 +95,22 @@ if (varServiceDuration == 'hour') {
             'day(s)', false)
     }
     
-    WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/number-duration'), 
-        varDuration)
+    def element = WebUiCommonHelper.findWebElement(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/number-duration1'), 
+        30)
 
+    if (varDuration == '150') {
+        WebUI.executeJavaScript('arguments[0].value=\'150\';', Arrays.asList(element))
+    } else if (varDuration == '23') {
+        WebUI.executeJavaScript('arguments[0].value=\'28\';', Arrays.asList(element))
+    } else if (varDuration == '28') {
+        WebUI.executeJavaScript('arguments[0].value=\'28\';', Arrays.asList(element))
+    }
+    
     WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/textbox_price custom'), 
         varPrice)
 }
+
+WebUI.comment('Unlimited Bookings')
 
 if (varUnlimitedBookings == 'yes') {
     WebUI.delay(1)
@@ -134,10 +145,22 @@ if (varOperation == '24/7') {
     WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'), 
         0)
 } else if (varOperation == 'not 24/7') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/toggle_24 7'))
+    WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'), '')
+
+    if (varSchedule == '9AM - 5PM') {
+        WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/Operating Hours/mon_st'), '')
+    } else if (varSchedule == '7AM - 10PM') {
+        WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'))
+    } else if (varSchedule == '2PM - 11AM') {
+        WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'))
+    }
 }
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/select_st_date'), '25/12/2019')
+
+WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/select_en_date'), '31/12/2019')
+
+WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/button_Block this datetime'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/button_Next schedule'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -150,6 +173,8 @@ WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/button_Br
 WebUI.delay(1)
 
 WebUI.uploadFile(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/img_upload container'), varImage)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
 

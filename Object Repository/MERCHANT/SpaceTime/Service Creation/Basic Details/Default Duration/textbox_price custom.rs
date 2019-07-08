@@ -4,17 +4,23 @@
    <name>textbox_price custom</name>
    <tag></tag>
    <elementGuidId>d3e4ecb5-4881-47fb-b2c1-401ee60c2de4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;add-item-area&quot;]/div/div[5]/div/div[1]/div[2]/div[3]/div[1]/input</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -49,7 +55,7 @@
       <value>min_srvcs_speci</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -63,10 +69,10 @@
       <value>15</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;itmupld_srvcs_specify1&quot;)</value>
+      <value>//*[@id=&quot;add-item-area&quot;]/div/div[5]/div/div[1]/div[2]/div[3]/div[1]/input</value>
    </webElementProperties>
 </WebElementEntity>

@@ -4,7 +4,7 @@
    <name>Merchant Add Service</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-11T16:00:10</lastRun>
+   <lastRun>2019-06-19T13:47:09</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -128,16 +128,22 @@
          <variableId>afafabb9-c57c-4bc9-9c38-47d782685b7d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>2722fb3c-8f59-408e-9d5e-c7eeac472cb2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SPECIFY DURATION</value>
          <variableId>8887c500-5e90-4fdc-8d35-60bb6a7b1630</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>2722fb3c-8f59-408e-9d5e-c7eeac472cb2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Duration</value>
          <variableId>cac93dd6-1c9a-4dbc-aca9-422bb51badc7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2722fb3c-8f59-408e-9d5e-c7eeac472cb2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SCHEDULE</value>
+         <variableId>24af321c-14f7-4286-85fa-0bd65467f5c6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

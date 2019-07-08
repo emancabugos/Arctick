@@ -6,10 +6,11 @@
    <comment>Basic Details
 Select Category
 Service Duration
-Price
+Unlimited Bookings
 Schedule
 Image
 Add Ons
+Custom Fields
 Location
 END</comment>
    <testCaseGuid>d5f531ad-694a-42d5-98f7-887befc9533c</testCaseGuid>
@@ -138,5 +139,12 @@ END</comment>
       <id>cac93dd6-1c9a-4dbc-aca9-422bb51badc7</id>
       <masked>false</masked>
       <name>varDuration</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>24af321c-14f7-4286-85fa-0bd65467f5c6</id>
+      <masked>false</masked>
+      <name>varSchedule</name>
    </variable>
 </TestCaseEntity>
