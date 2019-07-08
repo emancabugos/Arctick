@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>logo_marketplace</name>
+   <tag></tag>
+   <elementGuidId>30858dc2-6b40-43bb-b730-f5d5d5d5a719</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://ci6.googleusercontent.com/proxy/30aB4E0MKm4ybc9DXs4QtUdIsG3Hdf44cuWorNcPyLyR6s0I9pnMHWbXjFZtgwoN1NAhZ_V7qUVDQWdprq1tdKM9KzKmrneuLrKbiIPzmjpFeqjbdg1xAWaMn_D2L9-1OqEu63P7UvTogdDWuHcNUibI9K5amPncqf0lIojE=s0-d-e1-ft#https://0705st1.test.arcadier.io/userdata/0705st1.test.arcadier.io/images/logo-0705st1.test.arcadier.io.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>CToWUd</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:ni&quot;)/div[1]/div[2]/div[2]/div[2]/a[1]/img[@class=&quot;CToWUd&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
