@@ -3,13 +3,7 @@
    <description></description>
    <name>linktext_subject</name>
    <tag></tag>
-   <elementGuidId>9543c37f-753a-475e-90ff-35c7fdad80d6</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[4]/div[1]/div/table/tbody/tr[1]/td[6]/div/div/div[2]/span/span</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>5899f85d-d380-4e84-8a4f-dc8404bbd8dd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -31,41 +25,41 @@
       <matchCondition>equals</matchCondition>
       <name>data-thread-id</name>
       <type>Main</type>
-      <value>#thread-f:1638203072646028520</value>
+      <value>#thread-f:1638473271075183179</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-legacy-thread-id</name>
       <type>Main</type>
-      <value>16bc1103d7051ce8</value>
+      <value>16bd06c250689a4b</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-legacy-last-message-id</name>
       <type>Main</type>
-      <value>16bc1103d7051ce8</value>
+      <value>16bd06c250689a4b</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-legacy-last-non-draft-message-id</name>
       <type>Main</type>
-      <value>16bc1103d7051ce8</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Change password request</value>
+      <value>16bd06c250689a4b</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You have a new order!</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[4]/div[1]/div/table/tbody/tr[1]/td[6]/div/div/div[2]/span/span</value>
+      <value>id(&quot;:mu&quot;)/span[@class=&quot;bqe&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

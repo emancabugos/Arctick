@@ -4,6 +4,12 @@
    <name>linktext_subject</name>
    <tag></tag>
    <elementGuidId>6bc1dc73-3cc2-4044-b330-6c0764b1b613</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[4]/div[1]/div/table/tbody/tr/td[6]/div/div/div[2]/span/span[count(. | //span[(text() = 'Update your payment settings!' or . = 'Update your payment settings!')]) = count(//span[(text() = 'Update your payment settings!' or . = 'Update your payment settings!')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -56,10 +62,10 @@
       <value>Update your payment settings!</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;:12s&quot;)/span[@class=&quot;bqe&quot;]</value>
+      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[4]/div[1]/div/table/tbody/tr/td[6]/div/div/div[2]/span/span</value>
    </webElementProperties>
 </WebElementEntity>
