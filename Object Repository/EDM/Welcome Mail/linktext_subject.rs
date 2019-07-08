@@ -3,17 +3,17 @@
    <description></description>
    <name>linktext_subject</name>
    <tag></tag>
-   <elementGuidId>da8443f2-8321-41da-bb34-74877dd83357</elementGuidId>
+   <elementGuidId>d568db68-a86b-47f3-ae86-9179f973edc9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[4]/div[1]/div/table/tbody/tr/td[6]/div/div/div[2]/span/span[count(. | //span[@data-legacy-last-message-id = '16bc0d552b5d5aec' and (text() = 'Marketplace Account Suspended' or . = 'Marketplace Account Suspended')]) = count(//span[@data-legacy-last-message-id = '16bc0d552b5d5aec' and (text() = 'Marketplace Account Suspended' or . = 'Marketplace Account Suspended')])]</value>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[4]/div[1]/div/table/tbody/tr/td[6]/div/div/div[2]/span[count(. | //*[(text() = 'Welcome to 0705st1!' or . = 'Welcome to 0705st1!')]) = count(//*[(text() = 'Welcome to 0705st1!' or . = 'Welcome to 0705st1!')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -22,50 +22,43 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>bqe</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>data-thread-id</name>
       <type>Main</type>
-      <value>#thread-f:1638199023906937580</value>
+      <value>#thread-f:1638193871056546687</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-legacy-thread-id</name>
       <type>Main</type>
-      <value>16bc0d552b5d5aec</value>
+      <value>16bc08a56d8c2b7f</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-legacy-last-message-id</name>
       <type>Main</type>
-      <value>16bc0d552b5d5aec</value>
+      <value>16bc08a56d8c2b7f</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-legacy-last-non-draft-message-id</name>
       <type>Main</type>
-      <value>16bc0d552b5d5aec</value>
+      <value>16bc08a56d8c2b7f</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Marketplace Account Suspended</value>
+      <value>Welcome to 0705st1!</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[4]/div[1]/div/table/tbody/tr/td[6]/div/div/div[2]/span/span</value>
+      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[4]/div[1]/div/table/tbody/tr/td[6]/div/div/div[2]/span</value>
    </webElementProperties>
 </WebElementEntity>
