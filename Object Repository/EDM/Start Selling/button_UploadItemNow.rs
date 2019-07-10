@@ -4,6 +4,12 @@
    <name>button_UploadItemNow</name>
    <tag></tag>
    <elementGuidId>b0cea42d-a151-472a-a442-6b4d2aea5e55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[3]/div[3]/div/div[2]/div[2]/div[2]/div[4]/a[count(. | //a[(text() = 'UPLOAD ITEMS NOW!' or . = 'UPLOAD ITEMS NOW!')]) = count(//a[(text() = 'UPLOAD ITEMS NOW!' or . = 'UPLOAD ITEMS NOW!')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -42,10 +48,10 @@
       <value>UPLOAD ITEMS NOW!</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;:mc&quot;)/div[2]/div[2]/div[2]/div[4]/a[1]</value>
+      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[3]/div[3]/div/div[2]/div[2]/div[2]/div[4]/a</value>
    </webElementProperties>
 </WebElementEntity>

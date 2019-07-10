@@ -4,6 +4,12 @@
    <name>linktext_subject</name>
    <tag></tag>
    <elementGuidId>da8443f2-8321-41da-bb34-74877dd83357</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[4]/div[1]/div/table/tbody/tr/td[6]/div/div/div[2]/span/span[count(. | //span[@data-legacy-last-message-id = '16bc0d552b5d5aec' and (text() = 'Marketplace Account Suspended' or . = 'Marketplace Account Suspended')]) = count(//span[@data-legacy-last-message-id = '16bc0d552b5d5aec' and (text() = 'Marketplace Account Suspended' or . = 'Marketplace Account Suspended')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +41,7 @@
       <value>16bc0d552b5d5aec</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-legacy-last-message-id</name>
       <type>Main</type>
@@ -56,10 +62,10 @@
       <value>Marketplace Account Suspended</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;:36&quot;)/span[@class=&quot;bqe&quot;]</value>
+      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[4]/div[1]/div/table/tbody/tr/td[6]/div/div/div[2]/span/span</value>
    </webElementProperties>
 </WebElementEntity>

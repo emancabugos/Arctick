@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image_Item</name>
+   <tag></tag>
+   <elementGuidId>17360d3b-c535-4466-bed4-a53a19379ea2</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://ci4.googleusercontent.com/proxy/JaB_qbA-f9q8Aq2J6TRJXOCGGC3MVENRbknoZ1w1fGkMyWOBS3oNC22GDJZFyrb63SArFdZItwKe6ZGlZhRzMI6dXy0HzjtShPf6s56WgO0jHMnfm4QNioTlsdR2PMfYDJYD1f23mfVF=s0-d-e1-ft#https://0705st1.test.arcadier.io/images/items/item-60264-636981665883448303-tt8YYc.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>CToWUd a6T</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:or&quot;)/div[2]/div[2]/div[2]/div[5]/table[1]/tbody[1]/tr[1]/td[1]/img[@class=&quot;CToWUd a6T&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

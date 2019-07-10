@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ViewOrders</name>
+   <tag></tag>
+   <elementGuidId>c61c348c-0b39-4355-9b43-8d5504d682f0</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW7z01BLCPmbN-2FVMVYEkzquK2BTwYVwMZrvS3ceGmpZq6vVkX6EZL79gAZ23qP6wY7xL1UXu5xWkL-2BW3m2zZ4vgV5ii1wEis369Lga3NGI-2Bl33qaVUZ9AhgCFU-2FRvp-2Bks4A-3D-3D_je-2BWIVAdi0DaYiCsStP2G6xS235tvBa1K2-2Bo-2BU6BtKiWEq1BNE8ShoIkGNDAYtlHuke6Xl4ljslQpGzl8lbRWJvQ-2BRAVqMYV8FXkFdcsddZRm1-2FD1FqM23lK4RI44lF3QjcuB3ZsUU0nmBvdvRI-2BInirXU-2BgA9vNtr1WqDxXG3rOXpvFDI15edA4CmbSvDzFf2uRv-2FZ9iPfaeJ-2BAQQPu2Zs4eIU2Md0O3vDCKXaqSxQ-3D</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-saferedirecturl</name>
+      <type>Main</type>
+      <value>https://www.google.com/url?q=https://u2507958.ct.sendgrid.net/wf/click?upn%3DllNWqR-2FTpI64syuC183dW7z01BLCPmbN-2FVMVYEkzquK2BTwYVwMZrvS3ceGmpZq6vVkX6EZL79gAZ23qP6wY7xL1UXu5xWkL-2BW3m2zZ4vgV5ii1wEis369Lga3NGI-2Bl33qaVUZ9AhgCFU-2FRvp-2Bks4A-3D-3D_je-2BWIVAdi0DaYiCsStP2G6xS235tvBa1K2-2Bo-2BU6BtKiWEq1BNE8ShoIkGNDAYtlHuke6Xl4ljslQpGzl8lbRWJvQ-2BRAVqMYV8FXkFdcsddZRm1-2FD1FqM23lK4RI44lF3QjcuB3ZsUU0nmBvdvRI-2BInirXU-2BgA9vNtr1WqDxXG3rOXpvFDI15edA4CmbSvDzFf2uRv-2FZ9iPfaeJ-2BAQQPu2Zs4eIU2Md0O3vDCKXaqSxQ-3D&amp;source=gmail&amp;ust=1562659382502000&amp;usg=AFQjCNFisUHZPlp3ypp8b2eWoeOFJg14Xw</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VIEW ORDERS</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:ni&quot;)/div[2]/div[2]/div[2]/div[7]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>
