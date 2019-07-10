@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>upgrade_growth</name>
+   <tag></tag>
+   <elementGuidId>fe1ea7aa-f1ac-4e1a-98a1-c906e5d36cc9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[3]/div[3]/div[3]/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[3]/div[3]/div[3]/div/a/span</value>
+   </webElementProperties>
+</WebElementEntity>

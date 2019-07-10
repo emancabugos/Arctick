@@ -4,7 +4,7 @@
    <name>Admin Getting Started</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-13T14:19:39</lastRun>
+   <lastRun>2019-07-09T07:56:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,19 +14,19 @@
    <testCaseLink>
       <guid>d5aaea8f-e9fc-443e-8b48-7a1310f79bf2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Getting Started/Getting Started Step 1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8709ab84-1182-4cb2-b229-3f52be84cc59</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Getting Started/Getting Started Step 2</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>195c435f-0200-4b6d-b20b-c29ed0d9a040</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Getting Started/Getting Started Step 3</testCaseId>
    </testCaseLink>
    <testCaseLink>

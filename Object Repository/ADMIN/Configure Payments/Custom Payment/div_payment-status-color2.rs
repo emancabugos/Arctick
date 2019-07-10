@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;tbLanguageRow&quot;]/tr[5]/td[3]/div[1]</value>
+         <value>//*[@id=&quot;tbLanguageRow&quot;]/tr[4]/td[3]/div[1][count(. | //*[@class = 'payment-status-color2']) = count(//*[@class = 'payment-status-color2'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;tbLanguageRow&quot;]/tr[5]/td[3]/div[1]</value>
+      <value>//*[@id=&quot;tbLanguageRow&quot;]/tr[4]/td[3]/div[1]</value>
    </webElementProperties>
 </WebElementEntity>

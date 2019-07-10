@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Subscribed</name>
+   <tag></tag>
+   <comment>Billing
+Payment Page</comment>
+   <testCaseGuid>3d520d66-5d5b-4375-816c-4c44e1c6bd14</testCaseGuid>
+</TestCaseEntity>

@@ -191,5 +191,5 @@ WebUI.click(findTestObject('ADMIN/Getting Started/Step 2/Arcadier_Marketplaces_L
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Quicklinks/span_Quick Links'), 0)
 
-WebUI.click(findTestObject('ADMIN/Admin Permission/Admin Activity Log/a_Logout'))
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
