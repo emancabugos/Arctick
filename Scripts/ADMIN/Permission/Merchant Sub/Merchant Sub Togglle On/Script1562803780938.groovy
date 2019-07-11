@@ -19,9 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Merchant Sub Accounts/sidemenu_Permission'), 0)
 
-WebUI.navigateToUrl('gmail.com')
+WebUI.click(findTestObject('ADMIN/Admin Merchant Sub Accounts/sidemenu_Permission'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Merchant Sub Accounts/sidemenu_Merchant Sub-Accounts'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Merchant Sub Accounts/sidemenu_Merchant Sub-Accounts'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Merchant Sub Accounts/toggle_'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Merchant Sub Accounts/toggle_'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.refresh()
 
