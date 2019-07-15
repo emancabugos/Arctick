@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+welcomeMail,Chrome 75.0.3770.100,,2019-07-11 13:01:38,2019-07-11 13:02:30,51.834s,FAILED
+,,,,,,
+Test Cases/Utilities/ADMIN/Admin Login,Chrome 75.0.3770.100,,2019-07-11 13:01:38,2019-07-11 13:01:49,10.771s,PASSED
+openBrowser,Chrome 75.0.3770.100,,2019-07-11 13:01:39,2019-07-11 13:01:42,3.200s,PASSED
+maximizeWindow,Chrome 75.0.3770.100,,2019-07-11 13:01:42,2019-07-11 13:01:43,1.277s,PASSED
+navigateToUrl,Chrome 75.0.3770.100,,2019-07-11 13:01:43,2019-07-11 13:01:46,2.501s,PASSED
+"Statement - If (AdminAccountType == ""custom"")",Chrome 75.0.3770.100,,2019-07-11 13:01:46,2019-07-11 13:01:49,3.432s,PASSED
+,,,,,,
+Test Cases/ADMIN/EDM Verification/Admin/admin_WelcomeMail,Chrome 75.0.3770.100,,2019-07-11 13:01:49,2019-07-11 13:01:54,4.752s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:01:49,2019-07-11 13:01:49,0.056s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-11 13:01:49,2019-07-11 13:01:50,0.120s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:01:50,2019-07-11 13:01:50,0.864s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-11 13:01:50,2019-07-11 13:01:51,0.683s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:01:51,2019-07-11 13:01:51,0.073s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-11 13:01:51,2019-07-11 13:01:51,0.289s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:01:51,2019-07-11 13:01:51,0.066s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-11 13:01:51,2019-07-11 13:01:52,0.689s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:01:52,2019-07-11 13:01:52,0.083s,PASSED
+Statement - greetings = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Hi)),Chrome 75.0.3770.100,,2019-07-11 13:01:52,2019-07-11 13:01:52,0.181s,PASSED
+getText,Chrome 75.0.3770.100,,2019-07-11 13:01:52,2019-07-11 13:01:53,0.077s,PASSED
+Statement - welcome = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Welcome to marketplace)),Chrome 75.0.3770.100,,2019-07-11 13:01:53,2019-07-11 13:01:53,0.055s,PASSED
+Statement - content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_We hope that you enjoy s)),Chrome 75.0.3770.100,,2019-07-11 13:01:53,2019-07-11 13:01:53,0.063s,PASSED
+Statement - login = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Your login ID is)),Chrome 75.0.3770.100,,2019-07-11 13:01:53,2019-07-11 13:01:53,0.064s,PASSED
+Statement - button = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Start shopping)),Chrome 75.0.3770.100,,2019-07-11 13:01:53,2019-07-11 13:01:53,0.043s,PASSED
+Statement - regards = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Regards)),Chrome 75.0.3770.100,,2019-07-11 13:01:53,2019-07-11 13:01:53,0.045s,PASSED
+writeToExcel.welcomeMail.getwelcomeMail,Chrome 75.0.3770.100,,2019-07-11 13:01:53,2019-07-11 13:01:54,0.892s,PASSED
+writeToExcel.welcomeMail.getwelcomeMail,Chrome 75.0.3770.100,,2019-07-11 13:01:54,2019-07-11 13:01:54,0.051s,PASSED
+writeToExcel.welcomeMail.getwelcomeMail,Chrome 75.0.3770.100,,2019-07-11 13:01:54,2019-07-11 13:01:54,0.052s,PASSED
+writeToExcel.welcomeMail.getwelcomeMail,Chrome 75.0.3770.100,,2019-07-11 13:01:54,2019-07-11 13:01:54,0.039s,PASSED
+writeToExcel.welcomeMail.getwelcomeMail,Chrome 75.0.3770.100,,2019-07-11 13:01:54,2019-07-11 13:01:54,0.029s,PASSED
+writeToExcel.welcomeMail.getwelcomeMail,Chrome 75.0.3770.100,,2019-07-11 13:01:54,2019-07-11 13:01:54,0.039s,PASSED
+,,,,,,
+Test Cases/Utilities/ADMIN/Admin Logout,Chrome 75.0.3770.100,,2019-07-11 13:01:54,2019-07-11 13:01:55,0.775s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:01:54,2019-07-11 13:01:54,0.107s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-11 13:01:54,2019-07-11 13:01:55,0.493s,PASSED
+,,,,,,
+Test Cases/ADMIN/EDM Verification/Verification/Welcome Mail,Chrome 75.0.3770.100,,2019-07-11 13:01:55,2019-07-11 13:02:30,35.086s,FAILED
+navigateToUrl,Chrome 75.0.3770.100,,2019-07-11 13:01:55,2019-07-11 13:01:58,3.465s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:01:58,2019-07-11 13:01:58,0.078s,PASSED
+setText,Chrome 75.0.3770.100,,2019-07-11 13:01:58,2019-07-11 13:01:59,0.321s,PASSED
+sendKeys,Chrome 75.0.3770.100,,2019-07-11 13:01:59,2019-07-11 13:01:59,0.103s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:01:59,2019-07-11 13:01:59,0.569s,PASSED
+setText,Chrome 75.0.3770.100,,2019-07-11 13:01:59,2019-07-11 13:02:00,0.206s,PASSED
+sendKeys,Chrome 75.0.3770.100,,2019-07-11 13:02:00,2019-07-11 13:02:00,0.095s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:02:00,2019-07-11 13:02:25,25.239s,PASSED
+setText,Chrome 75.0.3770.100,,2019-07-11 13:02:25,2019-07-11 13:02:26,0.584s,PASSED
+sendKeys,Chrome 75.0.3770.100,,2019-07-11 13:02:26,2019-07-11 13:02:26,0.100s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:02:26,2019-07-11 13:02:26,0.612s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-11 13:02:26,2019-07-11 13:02:26,0.178s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:02:26,2019-07-11 13:02:27,0.840s,PASSED
+verifyElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:02:27,2019-07-11 13:02:27,0.085s,PASSED
+verifyElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:02:27,2019-07-11 13:02:27,0.074s,PASSED
+verifyElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:02:27,2019-07-11 13:02:27,0.086s,PASSED
+verifyElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:02:27,2019-07-11 13:02:28,0.042s,PASSED
+verifyElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:02:28,2019-07-11 13:02:28,0.078s,PASSED
+verifyElementVisible,Chrome 75.0.3770.100,,2019-07-11 13:02:28,2019-07-11 13:02:28,0.145s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-11 13:02:28,2019-07-11 13:02:29,1.015s,FAILED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-11 13:02:29,2019-07-11 13:02:29,0.109s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-11 13:02:29,2019-07-11 13:02:29,0.109s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-11 13:02:29,2019-07-11 13:02:29,0.353s,FAILED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-11 13:02:29,2019-07-11 13:02:29,0.050s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-11 13:02:29,2019-07-11 13:02:30,0.377s,FAILED

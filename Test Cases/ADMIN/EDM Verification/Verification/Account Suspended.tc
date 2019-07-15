@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Account Suspended</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bb1d788-cfe4-4d5c-b958-af448095543a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8942d542-6f9a-4128-82cc-e9899cc4012b</id>
+      <masked>false</masked>
+      <name>greetings</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d9be389a-1b29-4b77-8d06-071ce1162235</id>
+      <masked>false</masked>
+      <name>content</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>21afc58c-ceba-4f4e-9c26-f0b99533faed</id>
+      <masked>false</masked>
+      <name>regards</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3fe71311-b9c1-49d7-a858-da55c38afe5a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

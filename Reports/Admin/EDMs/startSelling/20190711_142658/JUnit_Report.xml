@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="startSelling" time="67" tests="3" failures="1" errors="0">
+   <testsuite name="startSelling" tests="3" failures="1" errors="0" time="67" timestamp="2019-07-11 14:26:59" hostname="April - April-PC" id="Test Suites/Admin/EDMs/startSelling">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\startSelling\\20190711_142658"/>
+         <property name="logFiles" value="C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\startSelling\\20190711_142658\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\startSelling\\20190711_142658\\1562826485953.png, C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\startSelling\\20190711_142658\\1562826486508.png"/>
+         <property name="hostName" value="April - April-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="10.10.31.97"/>
+         <property name="sessionId" value="e5669a05df39060b4c59288d722f8122"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/ADMIN/Admin Login" classname="Test Cases/Utilities/ADMIN/Admin Login" status="PASSED">
+         <system-out><![CDATA[2019-07-11 14:27:00 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-07-11 14:27:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-07-11 14:27:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-11 14:27:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-07-11 14:27:04 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-11 14:27:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://0705st1.test.arcadier.io/admin' successfully
+
+2019-07-11 14:27:07 - [MESSAGE][PASSED] - Navigate to 'http://0705st1.test.arcadier.io/admin' successfully
+
+2019-07-11 14:27:07 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-07-11 14:27:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-07-11 14:27:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-07-11 14:27:07 - [TEST_STEP][PASSED] - setText: Text '0705st1' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-07-11 14:27:07 - [MESSAGE][PASSED] - Text '0705st1' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-07-11 14:27:07 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-07-11 14:27:07 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-07-11 14:27:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-07-11 14:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/EDM Verification/Admin/admin_StartSelling" classname="Test Cases/ADMIN/EDM Verification/Admin/admin_StartSelling" status="PASSED">
+         <system-out><![CDATA[2019-07-11 14:27:13 - [TEST_CASE][PASSED] - Test Cases/ADMIN/EDM Verification/Admin/admin_StartSelling: Test Cases/ADMIN/EDM Verification/Admin/admin_StartSelling
+
+2019-07-11 14:27:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2019-07-11 14:27:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:27:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2019-07-11 14:27:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2019-07-11 14:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2019-07-11 14:27:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2019-07-11 14:27:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:27:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2019-07-11 14:27:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2019-07-11 14:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2019-07-11 14:27:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Language/Edit Text/button_EmailNotifications' is visible
+
+2019-07-11 14:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:27:15 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/Edit Text/button_EmailNotifications' is visible
+
+2019-07-11 14:27:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Language/Edit Text/button_EmailNotifications' is clicked on
+
+2019-07-11 14:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/Edit Text/button_EmailNotifications' is clicked on
+
+2019-07-11 14:27:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Edit Text/Spacetime/EDMs/textlink_Welcome Mail' is visible
+
+2019-07-11 14:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:27:15 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Spacetime/EDMs/textlink_Welcome Mail' is visible
+
+2019-07-11 14:27:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Edit Text/Spacetime/EDMs/textlink_Start Selling' is clicked on
+
+2019-07-11 14:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Spacetime/EDMs/textlink_Start Selling' is clicked on
+
+2019-07-11 14:27:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/dd_Homepage' is visible
+
+2019-07-11 14:27:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:27:16 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/dd_Homepage' is visible
+
+2019-07-11 14:27:16 - [TEST_STEP][PASSED] - Statement - greetings = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Start Selling/textlabel_Hi)): Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Start Selling/textlabel_Hi' is: 'Hi'
+
+2019-07-11 14:27:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Start Selling/textlabel_Hi' is: 'Hi'
+
+2019-07-11 14:27:16 - [TEST_STEP][PASSED] - Statement - content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Start Selling/textlabel_We are excited to have y)): Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Start Selling/textlabel_We are excited to have y' is: 'We are excited to have you onboard! We look forward to you filling up your store with lots and lots of items!'
+
+2019-07-11 14:27:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Start Selling/textlabel_We are excited to have y' is: 'We are excited to have you onboard! We look forward to you filling up your store with lots and lots of items!'
+
+2019-07-11 14:27:16 - [TEST_STEP][PASSED] - Statement - button = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Start Selling/textlabel_UPLOAD ITEMS NOW)): Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Start Selling/textlabel_UPLOAD ITEMS NOW' is: 'UPLOAD ITEMS NOW!'
+
+2019-07-11 14:27:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Start Selling/textlabel_UPLOAD ITEMS NOW' is: 'UPLOAD ITEMS NOW!'
+
+2019-07-11 14:27:16 - [TEST_STEP][PASSED] - Statement - regards = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Start Selling/textlabel_Regards)): Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Start Selling/textlabel_Regards' is: 'Regards'
+
+2019-07-11 14:27:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Start Selling/textlabel_Regards' is: 'Regards'
+
+2019-07-11 14:27:16 - [TEST_STEP][PASSED] - writeToExcel.startselling.getstartSelling: writeToExcel.startselling.getstartSelling is PASSED
+
+2019-07-11 14:27:17 - [MESSAGE][PASSED] - writeToExcel.startselling.getstartSelling is PASSED
+
+2019-07-11 14:27:17 - [TEST_STEP][PASSED] - writeToExcel.startselling.getstartSelling: writeToExcel.startselling.getstartSelling is PASSED
+
+2019-07-11 14:27:17 - [MESSAGE][PASSED] - writeToExcel.startselling.getstartSelling is PASSED
+
+2019-07-11 14:27:17 - [TEST_STEP][PASSED] - writeToExcel.startselling.getstartSelling: writeToExcel.startselling.getstartSelling is PASSED
+
+2019-07-11 14:27:17 - [MESSAGE][PASSED] - writeToExcel.startselling.getstartSelling is PASSED
+
+2019-07-11 14:27:17 - [TEST_STEP][PASSED] - writeToExcel.startselling.getstartSelling: writeToExcel.startselling.getstartSelling is PASSED
+
+2019-07-11 14:27:17 - [MESSAGE][PASSED] - writeToExcel.startselling.getstartSelling is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Utilities/ADMIN/Admin Logout" classname="Test Cases/Utilities/ADMIN/Admin Logout" status="PASSED">
+         <system-out><![CDATA[2019-07-11 14:27:17 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Logout: Test Cases/Utilities/ADMIN/Admin Logout
+
+2019-07-11 14:27:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-07-11 14:27:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:27:17 - [MESSAGE][PASSED] - Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-07-11 14:27:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on
+
+2019-07-11 14:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/EDM Verification/Verification/Start Selling" classname="Test Cases/ADMIN/EDM Verification/Verification/Start Selling" status="FAILED">
+         <failure type="FAILED" message="Actual text 'Hi Mio,' and expected text 'Hi' of test object 'Object Repository/EDM/Start Selling/textlabel_greetings' are NOT matched."/>
+         <system-out><![CDATA[2019-07-11 14:27:18 - [TEST_CASE][FAILED] - Test Cases/ADMIN/EDM Verification/Verification/Start Selling: Test Cases/ADMIN/EDM Verification/Verification/Start Selling FAILED because (of) Actual text 'Hi Mio,' and expected text 'Hi' of test object 'Object Repository/EDM/Start Selling/textlabel_greetings' are NOT matched.
+
+2019-07-11 14:27:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.gmail.com' successfully
+
+2019-07-11 14:27:22 - [MESSAGE][PASSED] - Navigate to 'http://www.gmail.com' successfully
+
+2019-07-11 14:27:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EDM/Gmail Page/textfield_username' is visible
+
+2019-07-11 14:27:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:27:22 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Gmail Page/textfield_username' is visible
+
+2019-07-11 14:27:22 - [TEST_STEP][PASSED] - setText: Text 'taylorallison820@gmail.com' is set on object 'Object Repository/EDM/Gmail Page/textfield_username'
+
+2019-07-11 14:27:22 - [MESSAGE][PASSED] - Text 'taylorallison820@gmail.com' is set on object 'Object Repository/EDM/Gmail Page/textfield_username'
+
+2019-07-11 14:27:22 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_username'
+
+2019-07-11 14:27:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_username'
+
+2019-07-11 14:27:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EDM/Gmail Page/textfield_password' is visible
+
+2019-07-11 14:27:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:27:23 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Gmail Page/textfield_password' is visible
+
+2019-07-11 14:27:23 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd_820' is set on object 'Object Repository/EDM/Gmail Page/textfield_password'
+
+2019-07-11 14:27:23 - [MESSAGE][PASSED] - Text 'P@ssw0rd_820' is set on object 'Object Repository/EDM/Gmail Page/textfield_password'
+
+2019-07-11 14:27:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_password'
+
+2019-07-11 14:27:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_password'
+
+2019-07-11 14:27:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EDM/Gmail Page/textfield_searchbar' is visible
+
+2019-07-11 14:27:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:28:03 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Gmail Page/textfield_searchbar' is visible
+
+2019-07-11 14:28:03 - [TEST_STEP][PASSED] - setText: Text 'Welcome to, 0705st1! We look forward ' is set on object 'Object Repository/EDM/Gmail Page/textfield_searchbar'
+
+2019-07-11 14:28:03 - [MESSAGE][PASSED] - Text 'Welcome to, 0705st1! We look forward ' is set on object 'Object Repository/EDM/Gmail Page/textfield_searchbar'
+
+2019-07-11 14:28:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_searchbar'
+
+2019-07-11 14:28:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_searchbar'
+
+2019-07-11 14:28:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EDM/Start Selling/linktext_subject' is visible
+
+2019-07-11 14:28:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:28:04 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Start Selling/linktext_subject' is visible
+
+2019-07-11 14:28:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EDM/Start Selling/linktext_subject' is clicked on
+
+2019-07-11 14:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/EDM/Start Selling/linktext_subject' is clicked on
+
+2019-07-11 14:28:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EDM/Start Selling/logo_marketplace' is visible
+
+2019-07-11 14:28:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 14:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Start Selling/logo_marketplace' is visible
+
+2019-07-11 14:28:05 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Start Selling/logo_marketplace' is visible
+
+2019-07-11 14:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Start Selling/logo_marketplace' is visible
+
+2019-07-11 14:28:05 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Start Selling/textlabel_greetings' is visible
+
+2019-07-11 14:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Start Selling/textlabel_greetings' is visible
+
+2019-07-11 14:28:05 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Start Selling/textlabel_content' is visible
+
+2019-07-11 14:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Start Selling/textlabel_content' is visible
+
+2019-07-11 14:28:05 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Start Selling/button_UploadItemNow' is visible
+
+2019-07-11 14:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Start Selling/button_UploadItemNow' is visible
+
+2019-07-11 14:28:05 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Start Selling/textlabel_regards' is visible
+
+2019-07-11 14:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Start Selling/textlabel_regards' is visible
+
+2019-07-11 14:28:05 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Hi Mio,' and expected text 'Hi' of test object 'Object Repository/EDM/Start Selling/textlabel_greetings' are NOT matched.
+
+2019-07-11 14:28:06 - [MESSAGE][FAILED] - Actual text 'Hi Mio,' and expected text 'Hi' of test object 'Object Repository/EDM/Start Selling/textlabel_greetings' are NOT matched.
+[[ATTACHMENT|C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\startSelling\\20190711_142658\\1562826485953.png]]
+
+2019-07-11 14:28:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/EDM/Start Selling/textlabel_content' are matched.
+
+2019-07-11 14:28:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EDM/Start Selling/textlabel_content' are matched.
+
+2019-07-11 14:28:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/EDM/Start Selling/button_UploadItemNow' are matched.
+
+2019-07-11 14:28:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EDM/Start Selling/button_UploadItemNow' are matched.
+
+2019-07-11 14:28:06 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Regards,
+0705st1' and expected text 'Regards' of test object 'Object Repository/EDM/Start Selling/textlabel_regards' are NOT matched.
+
+2019-07-11 14:28:06 - [MESSAGE][FAILED] - Actual text 'Regards,
+0705st1' and expected text 'Regards' of test object 'Object Repository/EDM/Start Selling/textlabel_regards' are NOT matched.
+[[ATTACHMENT|C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\startSelling\\20190711_142658\\1562826486508.png]]]]></system-out>
+         <system-err><![CDATA[2019-07-11 14:27:18 - [TEST_CASE][FAILED] - Test Cases/ADMIN/EDM Verification/Verification/Start Selling: Test Cases/ADMIN/EDM Verification/Verification/Start Selling FAILED because (of) Actual text 'Hi Mio,' and expected text 'Hi' of test object 'Object Repository/EDM/Start Selling/textlabel_greetings' are NOT matched.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-11 14:26:59 - [TEST_SUITE][FAILED] - startSelling: Test Cases/ADMIN/EDM Verification/Verification/Start Selling FAILED because (of) Actual text 'Hi Mio,' and expected text 'Hi' of test object 'Object Repository/EDM/Start Selling/textlabel_greetings' are NOT matched.]]></system-out>
+      <system-err><![CDATA[2019-07-11 14:26:59 - [TEST_SUITE][FAILED] - startSelling: Test Cases/ADMIN/EDM Verification/Verification/Start Selling FAILED because (of) Actual text 'Hi Mio,' and expected text 'Hi' of test object 'Object Repository/EDM/Start Selling/textlabel_greetings' are NOT matched.]]></system-err>
+   </testsuite>
+</testsuites>

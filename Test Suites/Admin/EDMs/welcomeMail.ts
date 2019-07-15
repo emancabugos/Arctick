@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>welcomeMail</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-07-11T13:01:36</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d7c27840-39e0-4423-a0fc-22147901149a</testSuiteGuid>
+   <testCaseLink>
+      <guid>fe5dcb35-3f25-41c0-bbb3-013604d941c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b75dba44-d872-4d4a-9391-c42149856143</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/EDM Verification/Admin/admin_WelcomeMail</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bddabe4f-7669-4450-8c85-e5428460709f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f20160c-3fca-4368-b03f-2bc1055e8858</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/EDM Verification/Verification/Welcome Mail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>028fc136-601e-4073-b65a-0c835bfe77df</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ADMIN/EDMs/welcomemail</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>028fc136-601e-4073-b65a-0c835bfe77df</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>greetings</value>
+         <variableId>b79667cd-14f2-4ac2-8baf-4ca37811af83</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>028fc136-601e-4073-b65a-0c835bfe77df</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>welcome</value>
+         <variableId>8b4f5e2a-2bc6-4726-8815-b9062d9e3543</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>028fc136-601e-4073-b65a-0c835bfe77df</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>content</value>
+         <variableId>98a0d3dc-16cb-49e7-8b5e-a4a50ff1c617</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>028fc136-601e-4073-b65a-0c835bfe77df</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>login</value>
+         <variableId>0ffadd91-35a4-4efa-8f02-f492035c10d3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>028fc136-601e-4073-b65a-0c835bfe77df</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>button</value>
+         <variableId>8d414e84-07f3-46f7-a742-cfe673156db8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>028fc136-601e-4073-b65a-0c835bfe77df</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>regards</value>
+         <variableId>74342421-c23f-4d07-9ad0-c893cfd9360f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

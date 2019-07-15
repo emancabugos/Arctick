@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>linktext_negotiating</name>
+   <tag></tag>
+   <elementGuidId>5d9cd590-02d4-4983-80f8-489999676d2e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW3kY12V-2FihtBYYdozv5Tb5W1gFYzEszOZIdHwauwRWpHjGSR2pCU1Wdg2Ft-2B-2FX43aZI80QO91Y9oeOSEU2Sf2Y6vi7torjXOmKQJfHCVM22EjEXNf2CwCH1kgLsLw77U5f2VYUx2XQqtxQCM6W12TXVZR4LmXG63F2N2oH8ub1EhHzGyD7Djt81NwnnU4f1tEQ-3D-3D_OAQ4iIHwr000BAjM8fM-2BAFgCyy8fridlzCQkQq0rLT8Z6GN40skVLV9HE1sekc7J4GIjgRM-2Fq9riqr1hVsBfoj9eb8SALF9e2B-2Ff3PvBrqGicYnMrXC9kEmuHVV00Fcpmlo8bhLAWkxdWVwI0BU9dSxJE1f2Wk980PnYcIZrJZl-2FUe-2BZVSMRaoAAt4nYPuUVQ98MpnyRLliH-2BRpj66SJQqCYFyLlf3aqgnNhHubIr5w-3D</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-saferedirecturl</name>
+      <type>Main</type>
+      <value>https://www.google.com/url?q=https://u2507958.ct.sendgrid.net/wf/click?upn%3DllNWqR-2FTpI64syuC183dW3kY12V-2FihtBYYdozv5Tb5W1gFYzEszOZIdHwauwRWpHjGSR2pCU1Wdg2Ft-2B-2FX43aZI80QO91Y9oeOSEU2Sf2Y6vi7torjXOmKQJfHCVM22EjEXNf2CwCH1kgLsLw77U5f2VYUx2XQqtxQCM6W12TXVZR4LmXG63F2N2oH8ub1EhHzGyD7Djt81NwnnU4f1tEQ-3D-3D_OAQ4iIHwr000BAjM8fM-2BAFgCyy8fridlzCQkQq0rLT8Z6GN40skVLV9HE1sekc7J4GIjgRM-2Fq9riqr1hVsBfoj9eb8SALF9e2B-2Ff3PvBrqGicYnMrXC9kEmuHVV00Fcpmlo8bhLAWkxdWVwI0BU9dSxJE1f2Wk980PnYcIZrJZl-2FUe-2BZVSMRaoAAt4nYPuUVQ98MpnyRLliH-2BRpj66SJQqCYFyLlf3aqgnNhHubIr5w-3D&amp;source=gmail&amp;ust=1562807163195000&amp;usg=AFQjCNE--5z--R55UPcUAzp3R_57b1XNkQ</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click here to continue negotiating.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[3]/div[3]/div/div[2]/div[2]/div[2]/p[3]/a</value>
+   </webElementProperties>
+</WebElementEntity>

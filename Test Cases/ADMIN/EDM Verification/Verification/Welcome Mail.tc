@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Welcome Mail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf639379-9013-400a-9ce1-8a15a5b33c36</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b79667cd-14f2-4ac2-8baf-4ca37811af83</id>
+      <masked>false</masked>
+      <name>greetings</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b4f5e2a-2bc6-4726-8815-b9062d9e3543</id>
+      <masked>false</masked>
+      <name>welcome</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>98a0d3dc-16cb-49e7-8b5e-a4a50ff1c617</id>
+      <masked>false</masked>
+      <name>content</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ffadd91-35a4-4efa-8f02-f492035c10d3</id>
+      <masked>false</masked>
+      <name>login</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d414e84-07f3-46f7-a742-cfe673156db8</id>
+      <masked>false</masked>
+      <name>button</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74342421-c23f-4d07-9ad0-c893cfd9360f</id>
+      <masked>false</masked>
+      <name>regards</name>
+   </variable>
+</TestCaseEntity>

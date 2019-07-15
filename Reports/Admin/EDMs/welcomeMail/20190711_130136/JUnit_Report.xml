@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="welcomeMail" time="51" tests="3" failures="1" errors="0">
+   <testsuite name="welcomeMail" tests="3" failures="1" errors="0" time="51" timestamp="2019-07-11 13:01:38" hostname="April - April-PC" id="Test Suites/Admin/EDMs/welcomeMail">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\welcomeMail\\20190711_130136"/>
+         <property name="logFiles" value="C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\welcomeMail\\20190711_130136\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\welcomeMail\\20190711_130136\\1562821348918.png, C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\welcomeMail\\20190711_130136\\1562821349526.png, C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\welcomeMail\\20190711_130136\\1562821349936.png"/>
+         <property name="hostName" value="April - April-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="10.10.31.97"/>
+         <property name="sessionId" value="d8a67908d3f149a0c406fa8c3ae7f1cd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/ADMIN/Admin Login" classname="Test Cases/Utilities/ADMIN/Admin Login" status="PASSED">
+         <system-out><![CDATA[2019-07-11 13:01:38 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-07-11 13:01:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-07-11 13:01:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-11 13:01:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-07-11 13:01:43 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-11 13:01:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://0705st1.test.arcadier.io/admin' successfully
+
+2019-07-11 13:01:46 - [MESSAGE][PASSED] - Navigate to 'http://0705st1.test.arcadier.io/admin' successfully
+
+2019-07-11 13:01:46 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-07-11 13:01:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-07-11 13:01:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:01:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username' is visible
+
+2019-07-11 13:01:46 - [TEST_STEP][PASSED] - setText: Text '0705st1' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-07-11 13:01:46 - [MESSAGE][PASSED] - Text '0705st1' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_username'
+
+2019-07-11 13:01:46 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-07-11 13:01:46 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login/Admin Login/txtbox_password'
+
+2019-07-11 13:01:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on
+
+2019-07-11 13:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login/Admin Login/btn_signin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/EDM Verification/Admin/admin_WelcomeMail" classname="Test Cases/ADMIN/EDM Verification/Admin/admin_WelcomeMail" status="PASSED">
+         <system-out><![CDATA[2019-07-11 13:01:49 - [TEST_CASE][PASSED] - Test Cases/ADMIN/EDM Verification/Admin/admin_WelcomeMail: Test Cases/ADMIN/EDM Verification/Admin/admin_WelcomeMail
+
+2019-07-11 13:01:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2019-07-11 13:01:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:01:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2019-07-11 13:01:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2019-07-11 13:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2019-07-11 13:01:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2019-07-11 13:01:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:01:50 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2019-07-11 13:01:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2019-07-11 13:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2019-07-11 13:01:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Language/Edit Text/button_EmailNotifications' is visible
+
+2019-07-11 13:01:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/Edit Text/button_EmailNotifications' is visible
+
+2019-07-11 13:01:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Language/Edit Text/button_EmailNotifications' is clicked on
+
+2019-07-11 13:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/Edit Text/button_EmailNotifications' is clicked on
+
+2019-07-11 13:01:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Edit Text/Spacetime/EDMs/textlink_Welcome Mail' is visible
+
+2019-07-11 13:01:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Spacetime/EDMs/textlink_Welcome Mail' is visible
+
+2019-07-11 13:01:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Edit Text/Spacetime/EDMs/textlink_Welcome Mail' is clicked on
+
+2019-07-11 13:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Spacetime/EDMs/textlink_Welcome Mail' is clicked on
+
+2019-07-11 13:01:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/dd_Homepage' is visible
+
+2019-07-11 13:01:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/dd_Homepage' is visible
+
+2019-07-11 13:01:52 - [TEST_STEP][PASSED] - Statement - greetings = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Hi)): Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Hi' is: 'Hi'
+
+2019-07-11 13:01:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Hi' is: 'Hi'
+
+2019-07-11 13:01:52 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Welcome to' is: 'Welcome to'
+
+2019-07-11 13:01:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Welcome to' is: 'Welcome to'
+
+2019-07-11 13:01:53 - [TEST_STEP][PASSED] - Statement - welcome = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Welcome to marketplace)): Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Welcome to marketplace' is: 'Welcome to marketplace!'
+
+2019-07-11 13:01:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Welcome to marketplace' is: 'Welcome to marketplace!'
+
+2019-07-11 13:01:53 - [TEST_STEP][PASSED] - Statement - content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_We hope that you enjoy s)): Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_We hope that you enjoy s' is: 'We hope that you enjoy shopping at marketplace as much as we enjoy bringing you new content!'
+
+2019-07-11 13:01:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_We hope that you enjoy s' is: 'We hope that you enjoy shopping at marketplace as much as we enjoy bringing you new content!'
+
+2019-07-11 13:01:53 - [TEST_STEP][PASSED] - Statement - login = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Your login ID is)): Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Your login ID is' is: 'Your login ID is'
+
+2019-07-11 13:01:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Your login ID is' is: 'Your login ID is'
+
+2019-07-11 13:01:53 - [TEST_STEP][PASSED] - Statement - button = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Start shopping)): Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Start shopping' is: 'Start shopping'
+
+2019-07-11 13:01:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Start shopping' is: 'Start shopping'
+
+2019-07-11 13:01:53 - [TEST_STEP][PASSED] - Statement - regards = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Regards)): Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Regards' is: 'Regards'
+
+2019-07-11 13:01:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Edit Text/Spacetime/Welcome Mail/textlabel_Regards' is: 'Regards'
+
+2019-07-11 13:01:53 - [TEST_STEP][PASSED] - writeToExcel.welcomeMail.getwelcomeMail: writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [MESSAGE][PASSED] - writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [TEST_STEP][PASSED] - writeToExcel.welcomeMail.getwelcomeMail: writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [MESSAGE][PASSED] - writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [TEST_STEP][PASSED] - writeToExcel.welcomeMail.getwelcomeMail: writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [MESSAGE][PASSED] - writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [TEST_STEP][PASSED] - writeToExcel.welcomeMail.getwelcomeMail: writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [MESSAGE][PASSED] - writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [TEST_STEP][PASSED] - writeToExcel.welcomeMail.getwelcomeMail: writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [MESSAGE][PASSED] - writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [TEST_STEP][PASSED] - writeToExcel.welcomeMail.getwelcomeMail: writeToExcel.welcomeMail.getwelcomeMail is PASSED
+
+2019-07-11 13:01:54 - [MESSAGE][PASSED] - writeToExcel.welcomeMail.getwelcomeMail is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Utilities/ADMIN/Admin Logout" classname="Test Cases/Utilities/ADMIN/Admin Logout" status="PASSED">
+         <system-out><![CDATA[2019-07-11 13:01:54 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Logout: Test Cases/Utilities/ADMIN/Admin Logout
+
+2019-07-11 13:01:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-07-11 13:01:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/Utilities/Admin Logout/button_Logout' is visible
+
+2019-07-11 13:01:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on
+
+2019-07-11 13:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Utilities/Admin Logout/button_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/EDM Verification/Verification/Welcome Mail" classname="Test Cases/ADMIN/EDM Verification/Verification/Welcome Mail" status="FAILED">
+         <failure type="FAILED" message="Actual text 'Hi seller0001,' and expected text 'Hi' of test object 'Object Repository/EDM/Welcome Mail/textlabel_greetings' are NOT matched."/>
+         <system-out><![CDATA[2019-07-11 13:01:55 - [TEST_CASE][FAILED] - Test Cases/ADMIN/EDM Verification/Verification/Welcome Mail: Test Cases/ADMIN/EDM Verification/Verification/Welcome Mail FAILED because (of) Actual text 'Hi seller0001,' and expected text 'Hi' of test object 'Object Repository/EDM/Welcome Mail/textlabel_greetings' are NOT matched.
+
+2019-07-11 13:01:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.gmail.com' successfully
+
+2019-07-11 13:01:58 - [MESSAGE][PASSED] - Navigate to 'http://www.gmail.com' successfully
+
+2019-07-11 13:01:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EDM/Gmail Page/textfield_username' is visible
+
+2019-07-11 13:01:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:01:58 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Gmail Page/textfield_username' is visible
+
+2019-07-11 13:01:58 - [TEST_STEP][PASSED] - setText: Text 'taylorallison820@gmail.com' is set on object 'Object Repository/EDM/Gmail Page/textfield_username'
+
+2019-07-11 13:01:59 - [MESSAGE][PASSED] - Text 'taylorallison820@gmail.com' is set on object 'Object Repository/EDM/Gmail Page/textfield_username'
+
+2019-07-11 13:01:59 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_username'
+
+2019-07-11 13:01:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_username'
+
+2019-07-11 13:01:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EDM/Gmail Page/textfield_password' is visible
+
+2019-07-11 13:01:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:01:59 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Gmail Page/textfield_password' is visible
+
+2019-07-11 13:01:59 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd_820' is set on object 'Object Repository/EDM/Gmail Page/textfield_password'
+
+2019-07-11 13:02:00 - [MESSAGE][PASSED] - Text 'P@ssw0rd_820' is set on object 'Object Repository/EDM/Gmail Page/textfield_password'
+
+2019-07-11 13:02:00 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_password'
+
+2019-07-11 13:02:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_password'
+
+2019-07-11 13:02:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EDM/Gmail Page/textfield_searchbar' is visible
+
+2019-07-11 13:02:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:02:25 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Gmail Page/textfield_searchbar' is visible
+
+2019-07-11 13:02:25 - [TEST_STEP][PASSED] - setText: Text 'Welcome to 0705st1! Welcome to marketplace ' is set on object 'Object Repository/EDM/Gmail Page/textfield_searchbar'
+
+2019-07-11 13:02:26 - [MESSAGE][PASSED] - Text 'Welcome to 0705st1! Welcome to marketplace ' is set on object 'Object Repository/EDM/Gmail Page/textfield_searchbar'
+
+2019-07-11 13:02:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_searchbar'
+
+2019-07-11 13:02:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EDM/Gmail Page/textfield_searchbar'
+
+2019-07-11 13:02:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EDM/Welcome Mail/linktext_subject' is visible
+
+2019-07-11 13:02:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:02:26 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Welcome Mail/linktext_subject' is visible
+
+2019-07-11 13:02:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EDM/Welcome Mail/linktext_subject' is clicked on
+
+2019-07-11 13:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/EDM/Welcome Mail/linktext_subject' is clicked on
+
+2019-07-11 13:02:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EDM/Welcome Mail/logo_Marketplace' is visible
+
+2019-07-11 13:02:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 13:02:27 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Welcome Mail/logo_Marketplace' is visible
+
+2019-07-11 13:02:27 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Welcome Mail/textlabel_greetings' is visible
+
+2019-07-11 13:02:27 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Welcome Mail/textlabel_greetings' is visible
+
+2019-07-11 13:02:27 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Welcome Mail/textlabel_welcome' is visible
+
+2019-07-11 13:02:27 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Welcome Mail/textlabel_welcome' is visible
+
+2019-07-11 13:02:27 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Welcome Mail/textlabel_content' is visible
+
+2019-07-11 13:02:27 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Welcome Mail/textlabel_content' is visible
+
+2019-07-11 13:02:27 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Welcome Mail/textlabel_login' is visible
+
+2019-07-11 13:02:28 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Welcome Mail/textlabel_login' is visible
+
+2019-07-11 13:02:28 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Welcome Mail/button_StartShopping' is visible
+
+2019-07-11 13:02:28 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Welcome Mail/button_StartShopping' is visible
+
+2019-07-11 13:02:28 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EDM/Welcome Mail/textlabel_regards' is visible
+
+2019-07-11 13:02:28 - [MESSAGE][PASSED] - Object 'Object Repository/EDM/Welcome Mail/textlabel_regards' is visible
+
+2019-07-11 13:02:28 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Hi seller0001,' and expected text 'Hi' of test object 'Object Repository/EDM/Welcome Mail/textlabel_greetings' are NOT matched.
+
+2019-07-11 13:02:29 - [MESSAGE][FAILED] - Actual text 'Hi seller0001,' and expected text 'Hi' of test object 'Object Repository/EDM/Welcome Mail/textlabel_greetings' are NOT matched.
+[[ATTACHMENT|C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\welcomeMail\\20190711_130136\\1562821348918.png]]
+
+2019-07-11 13:02:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/EDM/Welcome Mail/textlabel_welcome' are matched.
+
+2019-07-11 13:02:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EDM/Welcome Mail/textlabel_welcome' are matched.
+
+2019-07-11 13:02:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/EDM/Welcome Mail/textlabel_content' are matched.
+
+2019-07-11 13:02:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EDM/Welcome Mail/textlabel_content' are matched.
+
+2019-07-11 13:02:29 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Your login ID is seller0001.' and expected text 'Your login ID is' of test object 'Object Repository/EDM/Welcome Mail/textlabel_login' are NOT matched.
+
+2019-07-11 13:02:29 - [MESSAGE][FAILED] - Actual text 'Your login ID is seller0001.' and expected text 'Your login ID is' of test object 'Object Repository/EDM/Welcome Mail/textlabel_login' are NOT matched.
+[[ATTACHMENT|C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\welcomeMail\\20190711_130136\\1562821349526.png]]
+
+2019-07-11 13:02:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/EDM/Welcome Mail/button_StartShopping' are matched.
+
+2019-07-11 13:02:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EDM/Welcome Mail/button_StartShopping' are matched.
+
+2019-07-11 13:02:29 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Regards,
+0705st1' and expected text 'Regards' of test object 'Object Repository/EDM/Welcome Mail/textlabel_regards' are NOT matched.
+
+2019-07-11 13:02:30 - [MESSAGE][FAILED] - Actual text 'Regards,
+0705st1' and expected text 'Regards' of test object 'Object Repository/EDM/Welcome Mail/textlabel_regards' are NOT matched.
+[[ATTACHMENT|C:\\Users\\April\\git\\Arctick\\Reports\\Admin\\EDMs\\welcomeMail\\20190711_130136\\1562821349936.png]]]]></system-out>
+         <system-err><![CDATA[2019-07-11 13:01:55 - [TEST_CASE][FAILED] - Test Cases/ADMIN/EDM Verification/Verification/Welcome Mail: Test Cases/ADMIN/EDM Verification/Verification/Welcome Mail FAILED because (of) Actual text 'Hi seller0001,' and expected text 'Hi' of test object 'Object Repository/EDM/Welcome Mail/textlabel_greetings' are NOT matched.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-11 13:01:38 - [TEST_SUITE][FAILED] - welcomeMail: Test Cases/ADMIN/EDM Verification/Verification/Welcome Mail FAILED because (of) Actual text 'Hi seller0001,' and expected text 'Hi' of test object 'Object Repository/EDM/Welcome Mail/textlabel_greetings' are NOT matched.]]></system-out>
+      <system-err><![CDATA[2019-07-11 13:01:38 - [TEST_SUITE][FAILED] - welcomeMail: Test Cases/ADMIN/EDM Verification/Verification/Welcome Mail FAILED because (of) Actual text 'Hi seller0001,' and expected text 'Hi' of test object 'Object Repository/EDM/Welcome Mail/textlabel_greetings' are NOT matched.]]></system-err>
+   </testsuite>
+</testsuites>
