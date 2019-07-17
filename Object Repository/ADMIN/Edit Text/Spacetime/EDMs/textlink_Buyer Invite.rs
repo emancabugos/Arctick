@@ -4,6 +4,12 @@
    <name>textlink_Buyer Invite</name>
    <tag></tag>
    <elementGuidId>a7656bd8-6e81-4afd-ab68-c393dabee313</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'item-name' and (text() = 'Buyer Invite' or . = 'Buyer Invite')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Start Selling</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60ecf841-ca5c-4e34-a7af-dbf27fb359b6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>832fc269-f3e8-416f-810b-00812e3e8a39</id>
+      <masked>false</masked>
+      <name>greetings</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>89a9d854-d15d-4ae9-a54e-6931f970f919</id>
+      <masked>false</masked>
+      <name>content</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>290117c1-b182-4599-b489-b4ed0bf95ad0</id>
+      <masked>false</masked>
+      <name>button</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>df5e83ed-49bb-4ccd-8d3d-74427f6e97a2</id>
+      <masked>false</masked>
+      <name>regards</name>
+   </variable>
+</TestCaseEntity>

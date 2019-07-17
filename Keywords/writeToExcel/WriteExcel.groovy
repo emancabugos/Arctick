@@ -36,50 +36,349 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class WriteExcel {
 
-@Keyword
+	@Keyword
 
-def void writeToExcel(int iRow, int iCell, String iText ){
+	def void writeToExcel(int iRow, int iCell, String iText ){
 
-FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\Stored Variable.xlsx"))
+		FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\Stored Variable.xlsx"))
 
-XSSFWorkbook workbook = new XSSFWorkbook(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
 
-XSSFSheet sheet = workbook.getSheet("Sheet1")
+		XSSFSheet sheet = workbook.getSheet("Sheet1")
 
-//Write data to excel’
+		//Write data to excel’
 
-Row oRow;
+		Row oRow;
 
-oRow = sheet.getRow(iRow);
+		oRow = sheet.getRow(iRow);
 
-if(oRow == null){
+		if(oRow == null){
 
-sheet.createRow(iRow);
+			sheet.createRow(iRow);
 
-oRow = sheet.getRow(iRow);
+			oRow = sheet.getRow(iRow);
+
+		}
+
+		Cell oCell;
+
+		oCell = oRow.getCell(iCell - 1);
+
+		if(oCell == null ){
+
+			oRow.createCell(iCell - 1);
+
+			oCell = oRow.getCell(iCell - 1);
+
+		}
+
+		oCell.setCellValue(iText);
+
+		FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\Stored Variable.xlsx"));
+
+		workbook.write(outFile);
+
+		outFile.close();
+
+	}
 
 }
 
-Cell oCell;
+public class welcomeMail {
 
-oCell = oRow.getCell(iCell - 1);
+	@Keyword
 
-if(oCell == null ){
+	def void getwelcomeMail(int iRow, int iCell, String iText ){
 
-oRow.createCell(iCell - 1);
+		FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\welcomemail.xlsx"))
 
-oCell = oRow.getCell(iCell - 1);
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+
+		XSSFSheet sheet = workbook.getSheet("Sheet1")
+
+		//Write data to excel’
+
+		Row oRow;
+
+		oRow = sheet.getRow(iRow);
+
+		if(oRow == null){
+
+			sheet.createRow(iRow);
+
+			oRow = sheet.getRow(iRow);
+
+		}
+
+		Cell oCell;
+
+		oCell = oRow.getCell(iCell - 1);
+
+		if(oCell == null ){
+
+			oRow.createCell(iCell - 1);
+
+			oCell = oRow.getCell(iCell - 1);
+
+		}
+
+		oCell.setCellValue(iText);
+
+		FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\welcomemail.xlsx"));
+
+		workbook.write(outFile);
+
+		outFile.close();
+
+	}
 
 }
 
-oCell.setCellValue(iText);
+public class startselling {
 
-FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\Stored Variable.xlsx"));
+	@Keyword
 
-workbook.write(outFile);
+	def void getstartSelling(int iRow, int iCell, String iText ){
 
-outFile.close();
+		FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\startselling.xlsx"))
+
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+
+		XSSFSheet sheet = workbook.getSheet("Sheet1")
+
+		//Write data to excel’
+
+		Row oRow;
+
+		oRow = sheet.getRow(iRow);
+
+		if(oRow == null){
+
+			sheet.createRow(iRow);
+
+			oRow = sheet.getRow(iRow);
+
+		}
+
+		Cell oCell;
+
+		oCell = oRow.getCell(iCell - 1);
+
+		if(oCell == null ){
+
+			oRow.createCell(iCell - 1);
+
+			oCell = oRow.getCell(iCell - 1);
+
+		}
+
+		oCell.setCellValue(iText);
+
+		FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\startselling.xlsx"));
+
+		workbook.write(outFile);
+
+		outFile.close();
+
+	}
 
 }
 
+public class accountsuspended {
+
+	@Keyword
+
+	def void getaccountSuspended(int iRow, int iCell, String iText ){
+
+		FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\accountsuspended.xlsx"))
+
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+
+		XSSFSheet sheet = workbook.getSheet("Sheet1")
+
+		//Write data to excel’
+
+		Row oRow;
+
+		oRow = sheet.getRow(iRow);
+
+		if(oRow == null){
+
+			sheet.createRow(iRow);
+
+			oRow = sheet.getRow(iRow);
+
+		}
+
+		Cell oCell;
+
+		oCell = oRow.getCell(iCell - 1);
+
+		if(oCell == null ){
+
+			oRow.createCell(iCell - 1);
+
+			oCell = oRow.getCell(iCell - 1);
+
+		}
+
+		oCell.setCellValue(iText);
+
+		FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\accountsuspended.xlsx"));
+
+		workbook.write(outFile);
+
+		outFile.close();
+
+	}
+
 }
+
+public class resetpassword {
+	
+		@Keyword
+	
+		def void getresetPassword(int iRow, int iCell, String iText ){
+	
+			FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\resetpassword.xlsx"))
+	
+			XSSFWorkbook workbook = new XSSFWorkbook(file);
+	
+			XSSFSheet sheet = workbook.getSheet("Sheet1")
+	
+			//Write data to excel’
+	
+			Row oRow;
+	
+			oRow = sheet.getRow(iRow);
+	
+			if(oRow == null){
+	
+				sheet.createRow(iRow);
+	
+				oRow = sheet.getRow(iRow);
+	
+			}
+	
+			Cell oCell;
+	
+			oCell = oRow.getCell(iCell - 1);
+	
+			if(oCell == null ){
+	
+				oRow.createCell(iCell - 1);
+	
+				oCell = oRow.getCell(iCell - 1);
+	
+			}
+	
+			oCell.setCellValue(iText);
+	
+			FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\resetpassword.xlsx"));
+	
+			workbook.write(outFile);
+	
+			outFile.close();
+	
+		}
+	
+	}
+
+public class neworder {
+	
+		@Keyword
+	
+		def void getnewOrder(int iRow, int iCell, String iText ){
+	
+			FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"))
+	
+			XSSFWorkbook workbook = new XSSFWorkbook(file);
+	
+			XSSFSheet sheet = workbook.getSheet("Sheet1")
+	
+			//Write data to excel’
+	
+			Row oRow;
+	
+			oRow = sheet.getRow(iRow);
+	
+			if(oRow == null){
+	
+				sheet.createRow(iRow);
+	
+				oRow = sheet.getRow(iRow);
+	
+			}
+	
+			Cell oCell;
+	
+			oCell = oRow.getCell(iCell - 1);
+	
+			if(oCell == null ){
+	
+				oRow.createCell(iCell - 1);
+	
+				oCell = oRow.getCell(iCell - 1);
+	
+			}
+	
+			oCell.setCellValue(iText);
+	
+			FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"));
+	
+			workbook.write(outFile);
+	
+			outFile.close();
+	
+		}
+	
+	}
+
+public class receivedorder {
+	
+		@Keyword
+	
+		def void getreceivedOrder(int iRow, int iCell, String iText ){
+	
+			FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"))
+	
+			XSSFWorkbook workbook = new XSSFWorkbook(file);
+	
+			XSSFSheet sheet = workbook.getSheet("Sheet1")
+	
+			//Write data to excel’
+	
+			Row oRow;
+	
+			oRow = sheet.getRow(iRow);
+	
+			if(oRow == null){
+	
+				sheet.createRow(iRow);
+	
+				oRow = sheet.getRow(iRow);
+	
+			}
+	
+			Cell oCell;
+	
+			oCell = oRow.getCell(iCell - 1);
+	
+			if(oCell == null ){
+	
+				oRow.createCell(iCell - 1);
+	
+				oCell = oRow.getCell(iCell - 1);
+	
+			}
+			oCell.setCellValue(iText);
+	
+			FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"));
+	
+			workbook.write(outFile);
+	
+			outFile.close();
+	
+		}
+	
+	}
