@@ -235,150 +235,150 @@ public class accountsuspended {
 }
 
 public class resetpassword {
-	
-		@Keyword
-	
-		def void getresetPassword(int iRow, int iCell, String iText ){
-	
-			FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\resetpassword.xlsx"))
-	
-			XSSFWorkbook workbook = new XSSFWorkbook(file);
-	
-			XSSFSheet sheet = workbook.getSheet("Sheet1")
-	
-			//Write data to excel’
-	
-			Row oRow;
-	
+
+	@Keyword
+
+	def void getresetPassword(int iRow, int iCell, String iText ){
+
+		FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\resetpassword.xlsx"))
+
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+
+		XSSFSheet sheet = workbook.getSheet("Sheet1")
+
+		//Write data to excel’
+
+		Row oRow;
+
+		oRow = sheet.getRow(iRow);
+
+		if(oRow == null){
+
+			sheet.createRow(iRow);
+
 			oRow = sheet.getRow(iRow);
-	
-			if(oRow == null){
-	
-				sheet.createRow(iRow);
-	
-				oRow = sheet.getRow(iRow);
-	
-			}
-	
-			Cell oCell;
-	
-			oCell = oRow.getCell(iCell - 1);
-	
-			if(oCell == null ){
-	
-				oRow.createCell(iCell - 1);
-	
-				oCell = oRow.getCell(iCell - 1);
-	
-			}
-	
-			oCell.setCellValue(iText);
-	
-			FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\resetpassword.xlsx"));
-	
-			workbook.write(outFile);
-	
-			outFile.close();
-	
+
 		}
-	
+
+		Cell oCell;
+
+		oCell = oRow.getCell(iCell - 1);
+
+		if(oCell == null ){
+
+			oRow.createCell(iCell - 1);
+
+			oCell = oRow.getCell(iCell - 1);
+
+		}
+
+		oCell.setCellValue(iText);
+
+		FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\resetpassword.xlsx"));
+
+		workbook.write(outFile);
+
+		outFile.close();
+
 	}
+
+}
 
 public class neworder {
-	
-		@Keyword
-	
-		def void getnewOrder(int iRow, int iCell, String iText ){
-	
-			FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"))
-	
-			XSSFWorkbook workbook = new XSSFWorkbook(file);
-	
-			XSSFSheet sheet = workbook.getSheet("Sheet1")
-	
-			//Write data to excel’
-	
-			Row oRow;
-	
+
+	@Keyword
+
+	def void getnewOrder(int iRow, int iCell, String iText ){
+
+		FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"))
+
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+
+		XSSFSheet sheet = workbook.getSheet("Sheet1")
+
+		//Write data to excel’
+
+		Row oRow;
+
+		oRow = sheet.getRow(iRow);
+
+		if(oRow == null){
+
+			sheet.createRow(iRow);
+
 			oRow = sheet.getRow(iRow);
-	
-			if(oRow == null){
-	
-				sheet.createRow(iRow);
-	
-				oRow = sheet.getRow(iRow);
-	
-			}
-	
-			Cell oCell;
-	
-			oCell = oRow.getCell(iCell - 1);
-	
-			if(oCell == null ){
-	
-				oRow.createCell(iCell - 1);
-	
-				oCell = oRow.getCell(iCell - 1);
-	
-			}
-	
-			oCell.setCellValue(iText);
-	
-			FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"));
-	
-			workbook.write(outFile);
-	
-			outFile.close();
-	
+
 		}
-	
+
+		Cell oCell;
+
+		oCell = oRow.getCell(iCell - 1);
+
+		if(oCell == null ){
+
+			oRow.createCell(iCell - 1);
+
+			oCell = oRow.getCell(iCell - 1);
+
+		}
+
+		oCell.setCellValue(iText);
+
+		FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"));
+
+		workbook.write(outFile);
+
+		outFile.close();
+
 	}
 
+}
+
 public class receivedorder {
-	
-		@Keyword
-	
-		def void getreceivedOrder(int iRow, int iCell, String iText ){
-	
-			FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"))
-	
-			XSSFWorkbook workbook = new XSSFWorkbook(file);
-	
-			XSSFSheet sheet = workbook.getSheet("Sheet1")
-	
-			//Write data to excel’
-	
-			Row oRow;
-	
+
+	@Keyword
+
+	def void getreceivedOrder(int iRow, int iCell, String iText ){
+
+		FileInputStream file = new FileInputStream (new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"))
+
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+
+		XSSFSheet sheet = workbook.getSheet("Sheet1")
+
+		//Write data to excel’
+
+		Row oRow;
+
+		oRow = sheet.getRow(iRow);
+
+		if(oRow == null){
+
+			sheet.createRow(iRow);
+
 			oRow = sheet.getRow(iRow);
-	
-			if(oRow == null){
-	
-				sheet.createRow(iRow);
-	
-				oRow = sheet.getRow(iRow);
-	
-			}
-	
-			Cell oCell;
-	
-			oCell = oRow.getCell(iCell - 1);
-	
-			if(oCell == null ){
-	
-				oRow.createCell(iCell - 1);
-	
-				oCell = oRow.getCell(iCell - 1);
-	
-			}
-			oCell.setCellValue(iText);
-	
-			FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"));
-	
-			workbook.write(outFile);
-	
-			outFile.close();
-	
+
 		}
-	
+
+		Cell oCell;
+
+		oCell = oRow.getCell(iCell - 1);
+
+		if(oCell == null ){
+
+			oRow.createCell(iCell - 1);
+
+			oCell = oRow.getCell(iCell - 1);
+
+		}
+		oCell.setCellValue(iText);
+
+		FileOutputStream outFile =new FileOutputStream(new File("C:\\Katalon\\Excel Files\\EDMs\\neworder.xlsx"));
+
+		workbook.write(outFile);
+
+		outFile.close();
+
 	}
+
+}
