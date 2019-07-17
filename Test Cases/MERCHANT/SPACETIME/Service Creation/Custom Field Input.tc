@@ -3,6 +3,20 @@
    <description></description>
    <name>Custom Field Input</name>
    <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ead48146-bbe1-4ccc-aba7-881ee4a9eb5a</testCaseGuid>
+   <comment>weight
+checkbox
+time
+date
+dropdown
+email
+Video
+URL
+location
+number
+PDF
+percentage
+text editor
+text field edited
+text field</comment>
+   <testCaseGuid>55f3f199-5b25-46c0-8fec-aa2b37a56a9f</testCaseGuid>
 </TestCaseEntity>

@@ -4,24 +4,30 @@
    <name>button_Upload now</name>
    <tag></tag>
    <elementGuidId>86c0a8b6-8f6e-4869-a68f-618f53e72167</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;delivery&quot;]/div/div/div[2]/a[count(. | //*[@class = 'itmupld-loc-upldbtn' and (text() = 'Upload now' or . = 'Upload now')]) = count(//*[@class = 'itmupld-loc-upldbtn' and (text() = 'Upload now' or . = 'Upload now')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -35,10 +41,10 @@
       <value>Upload now</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;delivery&quot;)/div[@class=&quot;itmupld-delivery-sec&quot;]/div[@class=&quot;seller-common-box&quot;]/div[@class=&quot;itmupld-dlvr-upldsec&quot;]/a[@class=&quot;itmupld-loc-upldbtn&quot;]</value>
+      <value>//*[@id=&quot;delivery&quot;]/div/div/div[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

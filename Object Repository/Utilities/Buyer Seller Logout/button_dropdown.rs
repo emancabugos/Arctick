@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;videoBannerBG&quot;]/div[1]/div/div[2]/div/ul/li[7]/a[1]/img</value>
+         <value>//li[8]/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;videoBannerBG&quot;]/div[1]/div/div[2]/div/ul/li[7]/a[1]/img</value>
+      <value>//li[8]/a/img</value>
    </webElementProperties>
 </WebElementEntity>

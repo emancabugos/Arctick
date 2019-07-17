@@ -4,7 +4,7 @@
    <name>Merchant Add Service</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-19T13:47:09</lastRun>
+   <lastRun>2019-07-11T15:32:51</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -144,6 +144,12 @@
          <type>DATA_COLUMN</type>
          <value>SCHEDULE</value>
          <variableId>24af321c-14f7-4286-85fa-0bd65467f5c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2722fb3c-8f59-408e-9d5e-c7eeac472cb2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Delivery</value>
+         <variableId>4365bd16-9b52-4663-8ecd-f798a3544ce0</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

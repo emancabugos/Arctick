@@ -6,12 +6,12 @@
    <elementGuidId>76986126-be69-416e-a062-8bb4dce3d077</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;contactForm&quot;]/div/div[11]/div/div[2]/div/label/span[2]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;contactForm&quot;]/div/div[10]/div/div[2]/div/label/span[2]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;contactForm&quot;]/div/div[11]/div/div[2]/div/label/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,10 +24,17 @@
       <value>DIV</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;contactForm&quot;]/div/div[10]/div/div[2]/div/label/span[2]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>onoffswitch-switch</value>
    </webElementProperties>
 </WebElementEntity>

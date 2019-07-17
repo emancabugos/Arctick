@@ -20,27 +20,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Delivery'), 0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Page_0201bp1/epal'), 0)
+WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Delivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('MERCHANT/Page_0201bp1/epal'))
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textbox_name'), 0)
 
-WebUI.scrollToElement(findTestObject('MERCHANT/Pickup Location/Page_0201bp1/textfield_pickup'), 0)
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textbox_name'), 'Pickup 1')
 
-WebUI.setText(findTestObject('MERCHANT/Pickup Location/Page_0201bp1/textfield_pickup'), '!@#$%^&*()_+[];\'\\./{}:"|<>?')
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/button_Add Pick-up Option'))
 
-String picky = WebUI.getText(findTestObject('MERCHANT/Pickup Location/Page_0201bp1/textfield_pickup'))
+WebUI.delay(1)
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textbox_name'), 'Pickup 2')
 
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/DeliveryOptions/button_Add Pick-up Option'))
-
-KeywordLogger log = new KeywordLogger()
-
-log.logInfo(picky)
-
-WebUI.verifyTextPresent(picky, false)
-
-WebUI.click(findTestObject('MERCHANT/Delivery Settings/DeliveryOptions/button_deletePO'))
+WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/button_Add Pick-up Option'))
 
