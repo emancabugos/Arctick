@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>search_function</name>
+   <tag></tag>
+   <comment>Validation on Homepage
+Verify in Search Result Page</comment>
+   <testCaseGuid>043443b8-76a2-4360-8c82-4e1e9bfe0707</testCaseGuid>
+</TestCaseEntity>
