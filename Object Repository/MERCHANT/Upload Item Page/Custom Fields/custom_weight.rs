@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-name = 'WEIGHT']</value>
+         <value>//*[@id=&quot;customFields&quot;]/div[1]/input[count(. | //*[@data-name = 'WEIGHT(lb/s)']) = count(//*[@data-name = 'WEIGHT(lb/s)'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-name</name>
       <type>Main</type>
-      <value>WEIGHT</value>
+      <value>WEIGHT(lb/s)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <value>required emailOnly</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

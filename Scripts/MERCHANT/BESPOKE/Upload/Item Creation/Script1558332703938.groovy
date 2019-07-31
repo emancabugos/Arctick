@@ -111,7 +111,7 @@ if (varCategory == 'Category 1') {
 
 WebUI.comment('Item Name')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/input_item-name'), varItemName)
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/input_item-name'), varItemName + GlobalVariable.CustomMerchant)
 
 WebUI.comment('Price')
 
@@ -150,6 +150,8 @@ if (varVariants == 'yes') {
 }
 
 WebUI.comment('Custom Fields')
+
+WebUI.delay(1)
 
 WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Upload/Custom Field Input Bespoke'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -78,7 +78,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-email'), 'arcadierteam@gmail.com')
 } else {
-   WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('Video')
