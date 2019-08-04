@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Address tab is present</description>
+   <name>C10020</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd2c5a91-ff4c-4e9e-a8e0-ea1f7cd7c798</testCaseGuid>
+</TestCaseEntity>

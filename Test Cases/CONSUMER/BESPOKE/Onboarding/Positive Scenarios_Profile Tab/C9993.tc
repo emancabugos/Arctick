@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if Contact Number is blank</description>
+   <name>C9993</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31aa0877-8757-4dcd-9996-eb45b8ed277d</testCaseGuid>
+</TestCaseEntity>

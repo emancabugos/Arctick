@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Consumer leaves Addressee Last Name textfield blank. /space characters</description>
+   <name>C10014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b11505e-04ad-47a5-9a25-0620ba20a411</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Profile tab is present</description>
+   <name>C10019</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>087ee1af-e767-45e2-9243-b630c4c96347</testCaseGuid>
+</TestCaseEntity>
