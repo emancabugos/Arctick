@@ -4,10 +4,16 @@
    <name>icon_print</name>
    <tag></tag>
    <elementGuidId>95d25c6d-d6f2-4949-a7ca-6ff7bd396c4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div/div[2]/div/a[1]/i</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-seller seller-items enable-print seller-item-page    pace-done&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;seller-actions&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;pull-right&quot;]/div[@class=&quot;action-btns&quot;]/a[1]/i[@class=&quot;icon icon-print&quot;]</value>
+      <value>/html/body/div[4]/div[2]/div/div/div[2]/div/a[1]/i</value>
    </webElementProperties>
 </WebElementEntity>

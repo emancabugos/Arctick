@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Custom Field Input Bespoke</name>
+   <tag></tag>
+   <comment>weight
+checkbox
+time
+date
+dropdown
+email
+Video
+URL
+location
+number
+PDF
+percentage
+text editor
+text field edited
+text field</comment>
+   <testCaseGuid>83cc7514-b48d-4cb3-bbca-73cff6ea79ef</testCaseGuid>
+</TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[8]/a/img</value>
+         <value>//*[@class = 'icon icon-down']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,17 +20,17 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-angle-down</value>
+      <value>icon icon-down</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[8]/a/img</value>
+      <value>//*[@id=&quot;videoBannerBG&quot;]/div[1]/div/div[2]/div/ul/li[10]/a[1]/img</value>
    </webElementProperties>
 </WebElementEntity>

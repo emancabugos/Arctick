@@ -21,7 +21,7 @@
       <guid>fd5e23d3-e13b-4425-9923-58b5a8b9fd66</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MERCHANT/BESPOKE/Upload/Item Creation</testCaseId>
+      <testCaseId>Test Cases/MERCHANT/BESPOKE/Upload/Other Scenarios/Item Creation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</id>

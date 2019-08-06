@@ -19,19 +19,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 1'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'))
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+
+WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 20'))
 
 WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/input_item-name'), '')
 
 WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-price'), '10')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textarea_item-description'), '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."')
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_sku-field'), 'C9136SKU')
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_BROWSE'))
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textarea_item-description'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
+
+WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/img_upload container'), 'C:\\Katalon\\Image\\drug9.jpg')
+WebUI.uploadFile(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/img_upload container'), 'C:\\\\Katalon\\\\Image\\\\halls.jpg')
 
 WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -39,37 +45,7 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-quantity'), '10')
 
-WebUI.comment('Custom Fields')
+WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 1'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 2'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 3'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 4'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 5'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-time'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-date'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-email'), 'arcadierteam@gmail.com')
-
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-number'), '69')
-
-WebUI.uploadFile(findTestObject('MERCHANT/Upload Item Page/Custom Fields/PDF'), 'C:\\\\Katalon\\\\Image\\\\1mb.pdf')
-
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/percentage'), '98')
-
-WebUI.setText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/p'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
-
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field edited'), 'EDITED CUSTOM FIELD')
-
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field'), 'TEXT FIELD !@#$%^&*()_')
-
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_SAVE'))
-
-WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/Bespoke/Upload Page/input_item-name'), 'value', '', 0)
+WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_category-name'), 'value', '', 0)
 

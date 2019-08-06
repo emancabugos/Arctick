@@ -4,6 +4,12 @@
    <name>img_container</name>
    <tag></tag>
    <elementGuidId>efe077f9-633e-463a-bae4-a74f5859ec38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;a-browse&quot;]/img</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;item-upload-area&quot;)/div[@class=&quot;box-shadow&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;uploded-items&quot;]/div[@class=&quot;add-item-box&quot;]</value>
+      <value>//*[@id=&quot;a-browse&quot;]/img</value>
    </webElementProperties>
 </WebElementEntity>
