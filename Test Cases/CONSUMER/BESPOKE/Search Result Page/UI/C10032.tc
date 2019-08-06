@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Filter is present and functional</description>
+   <name>C10032</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9a663c0-ea2d-444b-a84a-e9454ad379a8</testCaseGuid>
+</TestCaseEntity>

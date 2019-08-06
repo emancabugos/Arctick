@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button _close</name>
+   <tag></tag>
+   <elementGuidId>edf43fd5-7291-4a04-8afb-3618cfdab62b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lb-close</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lightbox&quot;)/div[@class=&quot;lb-dataContainer&quot;]/div[@class=&quot;lb-data&quot;]/div[@class=&quot;lb-closeContainer&quot;]/a[@class=&quot;lb-close&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

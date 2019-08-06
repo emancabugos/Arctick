@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if the pop up will close upon clicking the 'X' button</description>
+   <name>C10055</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05721ed6-2ddf-4004-bd7d-6dfccce558ca</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure that upon clicking an item on the Homepage system will direct the user to Item details page</description>
+   <name>C9962</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>803a39af-0613-4723-81c7-790c8694281b</testCaseGuid>
+</TestCaseEntity>
