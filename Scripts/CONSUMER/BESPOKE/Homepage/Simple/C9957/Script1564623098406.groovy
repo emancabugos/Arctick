@@ -19,3 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Verify if Hide Cateogries button is displayed upon clicking View All Categories button'
+WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Time/Consumer/Homepage/ViewAllCategories_Button'), 0)
+
+WebUI.scrollToElement(findTestObject('Time/Consumer/Homepage/ViewAllCategories_Button'), 0)
+
+WebUI.click(findTestObject('Time/Consumer/Homepage/ViewAllCategories_Button'))
+
+WebUI.waitForElementVisible(findTestObject('Time/Consumer/Homepage/HideCategories_Button'), 0)
+
+WebUI.scrollToElement(findTestObject('Time/Consumer/Homepage/HideCategories_Button'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Time/Consumer/Homepage/HideCategories_Button'))
+

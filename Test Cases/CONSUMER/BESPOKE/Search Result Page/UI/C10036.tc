@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Reset button is present and functional</description>
+   <name>C10036</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18bffe29-7414-418a-9e77-922cb2b65813</testCaseGuid>
+</TestCaseEntity>

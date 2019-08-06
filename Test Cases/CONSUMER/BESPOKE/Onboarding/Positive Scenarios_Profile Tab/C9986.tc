@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure that Display Name is pre populated upon viewing the settings of the consumer</description>
+   <name>C9986</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e75279c3-0116-40e6-9852-bd217a0556c5</testCaseGuid>
+</TestCaseEntity>

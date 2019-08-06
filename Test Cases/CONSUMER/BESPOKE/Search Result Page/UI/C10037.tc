@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Apply button is present and functional</description>
+   <name>C10037</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47037672-fed6-4d5d-a46c-c016feb06c63</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure that Last Name is pre populated if the user is using Google and Facebook as login else Last Name field is empty</description>
+   <name>C9990</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d651d8d3-d1d6-47f7-95cc-e8610f8592c7</testCaseGuid>
+</TestCaseEntity>

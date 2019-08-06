@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify maximum value of the filter bar is equal to the highest item price in the search result page</description>
+   <name>C10022</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1438f231-d443-4d06-97b0-2a5d2a9ebb0d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure that user should be able to change the profile photo upon clicking Change button</description>
+   <name>C9985</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0031c442-aa84-4ba3-a713-33a59c703dd2</testCaseGuid>
+</TestCaseEntity>
