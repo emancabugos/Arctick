@@ -18,21 +18,32 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Your Items'))
 
 WebUI.waitForElementPresent(findTestObject('MERCHANT/Bespoke/Your Items/textbox_search-item'), 0)
 
-WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('MERCHANT/Bespoke/Your Items/textbox_search-item'), 'for edit')
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('MERCHANT/Bespoke/Your Items/icon_search'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('MERCHANT/Bespoke/Your Items/icon_search'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('MERCHANT/Bespoke/Your Items/1st Item Name'), 0)
 
 WebUI.click(findTestObject('MERCHANT/Bespoke/Your Items/Item Info/icon_edit'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/input_item-name'), 'FOR EDIT')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-price'), '20')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Your Items/button_Upload'), 0)
 

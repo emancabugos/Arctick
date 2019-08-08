@@ -43,7 +43,13 @@ WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_im
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-quantity'), '10')
+WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/toggle_variant'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/Variants/textbox_opt1'), 'Color')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/Variants/stock'), '1')
+
+WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/Variants/vSKU1'), '9193')
 
 WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Upload/Other Scenarios/Custom Field Input Bespoke'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
