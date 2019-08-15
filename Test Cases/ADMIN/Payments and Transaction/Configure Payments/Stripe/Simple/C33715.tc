@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the admin will be able to input Publishable Key</description>
+   <name>C33715</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8392380-eb28-44da-a732-3901a6f0396d</testCaseGuid>
+</TestCaseEntity>

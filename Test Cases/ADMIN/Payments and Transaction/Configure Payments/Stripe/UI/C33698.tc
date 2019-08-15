@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;This is where you will link your account with Stripe in order to receive payments.
+
+Retrieve and enter the right details in the respective areas using the guides below!&quot; is present</description>
+   <name>C33698</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4209f47-6f1f-44a9-8a97-f3bcccd0cecb</testCaseGuid>
+</TestCaseEntity>

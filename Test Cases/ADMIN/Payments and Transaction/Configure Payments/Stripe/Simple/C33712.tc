@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if text for step 1 is presen</description>
+   <name>C33712</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd1adbbd-7a45-4ba5-ae26-24a8d5c68c44</testCaseGuid>
+</TestCaseEntity>

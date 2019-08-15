@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Where can I find my Live Secret Key and my Live Publishable Key?&quot; will collapsed</description>
+   <name>C33711</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab40f63c-d363-4451-8f18-556bffad4bf5</testCaseGuid>
+</TestCaseEntity>

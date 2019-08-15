@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>findLive_step2_image</name>
+   <tag></tag>
+   <elementGuidId>8c219d05-6b1b-4023-83ca-aed4e6004511</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/areas/admin/assets/core/images/stripe1.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>goo-img-size</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;payments-content&quot;)/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;analytics-panels&quot;]/div[@class=&quot;panel-box goo-panel-box&quot;]/div[@class=&quot;panel-box-content&quot;]/ul[@class=&quot;ul-display-desimal&quot;]/img[@class=&quot;goo-img-size&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

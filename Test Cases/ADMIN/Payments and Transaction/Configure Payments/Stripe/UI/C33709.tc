@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Where can I find my Live Secret Key and my Live Publishable Key?&quot; dropdown is present</description>
+   <name>C33709</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0aeb54d-4f9b-4f6d-9967-cd40a4e763ff</testCaseGuid>
+</TestCaseEntity>

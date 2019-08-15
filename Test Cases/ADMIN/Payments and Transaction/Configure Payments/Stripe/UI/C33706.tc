@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;LIVE SECRET KEY&quot;label is present</description>
+   <name>C33706</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2d1b495-61ea-4ad4-9c16-61bd644dca26</testCaseGuid>
+</TestCaseEntity>

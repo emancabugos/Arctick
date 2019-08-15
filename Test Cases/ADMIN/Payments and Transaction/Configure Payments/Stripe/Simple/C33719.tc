@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Login to Stripe Button is clickable and will redirect to Stripe Login</description>
+   <name>C33719</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42b56c1c-6810-4527-81df-a7672b371105</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Login to Stripe Button is present</description>
+   <name>C33701</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>270d2f14-e0a9-47b6-b26b-737918f0ef0a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirection of &quot;How do I connect to Stripe&quot; linktext</description>
+   <name>C33718</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8069ef1a-7ab2-4f20-890a-ec64c0de6149</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;1. Link your Stripe account to your Marketplace
+
+If you change your live secret keys, all your merchants will have to re-onboard to your new Stripe account before they can start selling again!&quot; is present</description>
+   <name>C33703</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>816dfb53-f4e0-41c4-83a7-52c37ddcf13f</testCaseGuid>
+</TestCaseEntity>

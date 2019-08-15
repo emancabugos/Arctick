@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the admin will be able to input Secret Key</description>
+   <name>C33716</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab3e87a9-527c-4a20-88bd-3f0d6e64b665</testCaseGuid>
+</TestCaseEntity>
