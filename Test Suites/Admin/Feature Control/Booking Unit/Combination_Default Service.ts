@@ -4,7 +4,7 @@
    <name>Combination_Default Service</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-18T14:04:38</lastRun>
+   <lastRun>2019-08-30T15:21:19</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>3e595637-294e-41eb-be14-80a2c6b8d038</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -206,7 +206,7 @@
    <testCaseLink>
       <guid>52ce4b36-0b82-4218-bbdf-3ddbf7e0d64b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

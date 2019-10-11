@@ -26,13 +26,6 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Onboarding Page/Admin_On
 
 WebUI.comment('Previous Button Test')
 
-WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_PREVIOUS_Step5'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textlabel_Awesome Now tell us more'), 
-    0)
-
-WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark'), 
     0)
 

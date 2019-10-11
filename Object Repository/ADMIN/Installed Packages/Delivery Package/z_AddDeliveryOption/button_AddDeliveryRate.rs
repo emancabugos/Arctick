@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div[3]/div[1]/a[count(. | //*[(text() = 'Add Delivery Rate' or . = 'Add Delivery Rate')]) = count(//*[(text() = 'Add Delivery Rate' or . = 'Add Delivery Rate')])]</value>
+         <value>//div[3]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div[3]/div[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,7 +34,7 @@
       <value>javascript:;</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -45,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div[3]/div[1]/a</value>
+      <value>//div[3]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div[3]/div[1]/a</value>
    </webElementProperties>
 </WebElementEntity>

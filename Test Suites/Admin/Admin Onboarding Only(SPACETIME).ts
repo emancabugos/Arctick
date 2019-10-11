@@ -4,7 +4,7 @@
    <name>Admin Onboarding Only(SPACETIME)</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-09T07:49:08</lastRun>
+   <lastRun>2019-09-04T16:19:15</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -63,6 +63,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>242d7b48-9762-4450-9a52-50951ea26c95</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7d37cfc-0c75-456a-b2ca-a2fd305268bc</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -134,7 +140,7 @@
    <testCaseLink>
       <guid>63e6fa38-556d-4b48-a34a-398c71ab7721</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Onboarding/Take Me There</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

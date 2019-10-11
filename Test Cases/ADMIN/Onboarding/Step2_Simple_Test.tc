@@ -3,24 +3,26 @@
    <description></description>
    <name>Step2_Simple_Test</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Step 2 (editable variables)
+Previous button Test
+Input</comment>
    <testCaseGuid>b0e463ad-6dff-48a1-8594-b4adfadcd6b0</testCaseGuid>
    <variable>
-      <defaultValue>'Malaysia'</defaultValue>
+      <defaultValue>'Italy'</defaultValue>
       <description></description>
       <id>6154a3b9-1d18-4e1e-a363-610f9c4f8e98</id>
       <masked>false</masked>
       <name>varCountry</name>
    </variable>
    <variable>
-      <defaultValue>'Cybersouth, Dengkil, Sepang District'</defaultValue>
+      <defaultValue>'Strada Statale 130'</defaultValue>
       <description></description>
       <id>aead7a56-780b-4552-a152-85f535b9fbcd</id>
       <masked>false</masked>
       <name>varAddress1</name>
    </variable>
    <variable>
-      <defaultValue>'Selangor, Malaysia 43800'</defaultValue>
+      <defaultValue>'Dorzano, Biella 13881'</defaultValue>
       <description></description>
       <id>618181cc-c544-428b-9bb4-6dd70bcd9177</id>
       <masked>false</masked>
@@ -34,17 +36,24 @@
       <name>varContactNumber</name>
    </variable>
    <variable>
-      <defaultValue>'John'</defaultValue>
+      <defaultValue>GlobalVariable.AdminCustom</defaultValue>
       <description></description>
       <id>94f7ad19-0472-44ba-9c08-3dae9b8adcd8</id>
       <masked>false</masked>
       <name>varFName</name>
    </variable>
    <variable>
-      <defaultValue>'Cabug-os'</defaultValue>
+      <defaultValue>'Stripe'</defaultValue>
       <description></description>
       <id>242d7b48-9762-4450-9a52-50951ea26c95</id>
       <masked>false</masked>
       <name>varLName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.AdminEmailNotif</defaultValue>
+      <description></description>
+      <id>c7d37cfc-0c75-456a-b2ca-a2fd305268bc</id>
+      <masked>false</masked>
+      <name>varEmail</name>
    </variable>
 </TestCaseEntity>
