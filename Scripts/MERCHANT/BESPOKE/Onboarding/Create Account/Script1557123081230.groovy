@@ -36,17 +36,17 @@ true) {
 
 WebUI.click(findTestObject('CONSUMER/Homepage/a_BE A SELLER'))
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/button_create-account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/button_create-account'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/textbox_username'), 0)
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_username'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/textbox_username'), GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_username'), GlobalVariable.CustomMerchant)
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/textbox_password'), 'welcome8')
+WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_password'), 'welcome8')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/textbox_reconfirm-password'), 'welcome8')
+WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_reconfirm-password'), 'welcome8')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/textbox_notificationemail'), 'arcadier.tester1@gmail.com')
+WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_notificationemail'), 'arcadier.tester1@gmail.com')
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/button_create account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/button_create account'), FailureHandling.STOP_ON_FAILURE)
 

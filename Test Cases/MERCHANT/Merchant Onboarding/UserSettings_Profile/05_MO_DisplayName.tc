@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05_MO_DisplayName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77cff351-532c-406e-87dd-b1ae20c4be64</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textlabel_DISPLAY NAME')</defaultValue>
+      <description></description>
+      <id>52ab3519-a9ad-4f79-874c-b1b700ed0afe</id>
+      <masked>false</masked>
+      <name>displayname</name>
+   </variable>
+</TestCaseEntity>

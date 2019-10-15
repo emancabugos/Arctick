@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/textlink_Already have an account'), 
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textlink_Already have an account'), 
     0)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/textlink_Already have an account'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textlink_Already have an account'), FailureHandling.CONTINUE_ON_FAILURE)
 

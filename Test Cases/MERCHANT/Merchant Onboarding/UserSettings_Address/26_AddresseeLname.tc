@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>26_AddresseeLname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a2af073-a8a7-474c-9b16-00dd732ff8fb</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textlabel_ADDRESSEE LAST NAME')</defaultValue>
+      <description></description>
+      <id>4b8e3217-ba6a-4e8e-b3fa-e456d0edf81d</id>
+      <masked>false</masked>
+      <name>addlname</name>
+   </variable>
+</TestCaseEntity>

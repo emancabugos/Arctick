@@ -21,27 +21,27 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Your Items'))
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT/Bespoke/Your Items/textbox_search-item'), 0)
+WebUI.waitForElementPresent(findTestObject('Bespoke/Merchant/Your Items/textbox_search-item'), 0)
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Your Items/textbox_search-item'), 'for edit')
+WebUI.setText(findTestObject('Bespoke/Merchant/Your Items/textbox_search-item'), 'for edit')
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Your Items/icon_search'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Bespoke/Merchant/Your Items/icon_search'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT/Bespoke/Your Items/1st Item Name'), 0)
+WebUI.waitForElementPresent(findTestObject('Bespoke/Merchant/Your Items/1st Item Name'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Your Items/Item Info/icon_edit'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Bespoke/Merchant/Your Items/Item Info/icon_edit'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 
 WebUI.setText(findTestObject('MERCHANT/Custom Fields/percentage'), '50')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Your Items/button_Upload'), 0)
+WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Your Items/button_Upload'), 0)
 

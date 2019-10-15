@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>19_SellerLocation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75cd5dea-6550-4938-9ed6-ed7e4e6bf90e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textlabel_Seller Location')</defaultValue>
+      <description></description>
+      <id>928d5c06-2e6c-4d2d-a707-c043617ab9e5</id>
+      <masked>false</masked>
+      <name>sellerlocation</name>
+   </variable>
+</TestCaseEntity>

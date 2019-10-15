@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>13_NotificationEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>efcdde13-2823-49f2-b797-62f4a5b41534</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textlabel_NOTIFICATION EMAIL')</defaultValue>
+      <description></description>
+      <id>3d8702e3-5806-41ee-9912-efa6a9a26d37</id>
+      <masked>false</masked>
+      <name>notifemail</name>
+   </variable>
+</TestCaseEntity>

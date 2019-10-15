@@ -19,6 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/textlink_Already have an account'), 
+WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textlink_Already have an account'), 
     0)
 

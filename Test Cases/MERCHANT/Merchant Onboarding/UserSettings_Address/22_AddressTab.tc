@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>22_AddressTab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e47105d3-0cce-4e9a-9792-0c28c8a71065</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/tab_ADDRESS')</defaultValue>
+      <description></description>
+      <id>4f40f5e3-c054-4598-8ecb-3656aa859ff4</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+</TestCaseEntity>

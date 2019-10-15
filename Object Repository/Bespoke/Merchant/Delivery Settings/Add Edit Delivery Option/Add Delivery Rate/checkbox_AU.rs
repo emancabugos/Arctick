@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_AU</name>
+   <tag></tag>
+   <elementGuidId>e06ecfaa-879d-41e5-9e42-b70aa67e11af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[4]/div[2]/div/div/div/div[2]/div/form/div[2]/div/div[1]/div[3]/div/div[15]/label/input</value>
+   </webElementProperties>
+</WebElementEntity>

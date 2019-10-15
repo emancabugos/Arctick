@@ -73,5 +73,5 @@ if (GlobalVariable.MerchantAccountType == 'custom') {
     WebUI.click(findTestObject('ADMIN/Admin Login Page/Login Facebook/button_login'))
 }
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Dashboard/textlabel_DASHBOARD'), 0)
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Dashboard/textlabel_DASHBOARD'), 0)
 

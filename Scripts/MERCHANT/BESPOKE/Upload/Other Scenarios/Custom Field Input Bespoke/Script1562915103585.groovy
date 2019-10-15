@@ -25,7 +25,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom_weight'), '1')
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('checkbox')
@@ -42,7 +42,7 @@ true) {
 
     WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 5'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('time')
@@ -51,7 +51,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-time'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('date')
@@ -60,7 +60,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-date'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('dropdown')
@@ -69,7 +69,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.selectOptionByLabel(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-dropdown'), 'Select 3', false)
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('email')
@@ -78,7 +78,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-email'), 'arcadierteam@gmail.com')
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('Video')
@@ -87,7 +87,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-video'), '<iframe width="640" height="480" src="https://www.youtube.com/embed/GsbOwc_hWcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('URL')
@@ -96,7 +96,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-URL'), 'www.arcadier.com')
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('location')
@@ -105,7 +105,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-location'), 'Rufino Pacific Tower')
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('number')
@@ -114,7 +114,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-number'), '69')
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('PDF')
@@ -123,7 +123,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.uploadFile(findTestObject('MERCHANT/Upload Item Page/Custom Fields/PDF'), 'C:\\\\Katalon\\\\Image\\\\1mb.pdf')
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('percentage')
@@ -132,7 +132,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/percentage'), '98')
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('text editor')
@@ -157,7 +157,7 @@ true) {
 
     WebUI.click(findTestObject('Utilities/Text Editor Icon/a_InsertRemove Bulleted List'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('text field edited')
@@ -166,7 +166,7 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field edited'), 'EDITED CUSTOM FIELD')
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('text field')
@@ -175,6 +175,6 @@ if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field'), 'TEXT FIELD !@#$%^&*()_')
 } else {
-    WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 

@@ -21,10 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/input_item-name'), '30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharac')
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/input_item-name'), '30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharac')
 
-WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/Bespoke/Upload Page/input_item-name'), 'value', '30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxchara', 
+WebUI.verifyElementAttributeValue(findTestObject('Bespoke/Merchant/Upload Page (1)/input_item-name'), 'value', '30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxcharacter 30maxchara', 
     0)
 
