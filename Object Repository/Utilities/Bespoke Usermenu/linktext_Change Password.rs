@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Change Password</name>
+   <name>linktext_Change Password</name>
    <tag></tag>
    <elementGuidId>dad6856b-f3c5-48c4-b6db-3dd16363ab4f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

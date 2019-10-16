@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>34_City</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3339b30-acac-46b4-aedc-05ff56a55bdc</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textlabel_CITY')</defaultValue>
+      <description></description>
+      <id>4a069363-3872-4a90-9116-be0d5033e8ae</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+</TestCaseEntity>

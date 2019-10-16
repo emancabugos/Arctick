@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>43_DeletepopupCancelbutton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7acee8a4-c1a8-4046-b67c-4592ef17b2d1</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/DeleteModal/button_CancelButton')</defaultValue>
+      <description></description>
+      <id>15ee32c3-216b-421a-a632-1b043622e905</id>
+      <masked>false</masked>
+      <name>cancelbutton</name>
+   </variable>
+</TestCaseEntity>

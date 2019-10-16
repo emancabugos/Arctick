@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>45_NextButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>142c0535-9bd0-4a8b-8463-9e558116e27d</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/button_NEXT address')</defaultValue>
+      <description></description>
+      <id>ca745b95-b2e6-43a2-956a-4eb29b3f911f</id>
+      <masked>false</masked>
+      <name>nextbutton</name>
+   </variable>
+</TestCaseEntity>

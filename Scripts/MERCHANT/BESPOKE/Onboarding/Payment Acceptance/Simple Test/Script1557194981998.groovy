@@ -37,5 +37,5 @@ WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding
 WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Custom Payment/textalbel_Verified'), 
     0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/button_SAVE'))
+WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_SAVE'))
 

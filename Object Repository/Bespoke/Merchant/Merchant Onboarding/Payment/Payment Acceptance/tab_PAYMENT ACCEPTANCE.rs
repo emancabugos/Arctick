@@ -4,6 +4,20 @@
    <name>tab_PAYMENT ACCEPTANCE</name>
    <tag></tag>
    <elementGuidId>38973610-47c9-4e90-87bc-0fc8e0d16fcb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[2]/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '
+PAYMENT ACCEPTANCE
+                        ' or . = '
+PAYMENT ACCEPTANCE
+                        ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -27,6 +41,6 @@ PAYMENT ACCEPTANCE
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;payment-tab&quot;)/span[1]</value>
+      <value>//div[4]/div[2]/ul/li[3]/a</value>
    </webElementProperties>
 </WebElementEntity>

@@ -21,5 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Buyer Seller Logout/Bespoke/dropdown_usermenu'))
 
-WebUI.click(findTestObject('Utilities/Bespoke Usermenu/a_Settings'))
+WebUI.click(findTestObject('Utilities/Bespoke Usermenu/linktext_Settings'))
 

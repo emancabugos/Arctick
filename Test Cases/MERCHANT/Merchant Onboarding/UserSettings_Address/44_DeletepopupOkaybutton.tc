@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>44_DeletepopupOkaybutton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e11625f-71c1-473a-803a-a88f8e49e92f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/DeleteModal/button_OkayButton')</defaultValue>
+      <description></description>
+      <id>4e8ca7d3-206f-4b0d-912a-b0bbab361eaa</id>
+      <masked>false</masked>
+      <name>okaybutton</name>
+   </variable>
+</TestCaseEntity>

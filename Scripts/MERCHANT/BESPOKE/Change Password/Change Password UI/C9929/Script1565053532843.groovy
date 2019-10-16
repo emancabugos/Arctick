@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.mouseOver(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'))
 
-WebUI.click(findTestObject('Utilities/Bespoke Usermenu/a_Change Password'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Utilities/Bespoke Usermenu/linktext_Change Password'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('MERCHANT/Change Password/label_New password'), 0)
 
