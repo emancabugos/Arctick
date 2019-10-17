@@ -20,5 +20,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Schedule/Operating Hours/mon_st'), '7:00 AM')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Schedule/Operating Hours/mon_st'), '7:00 AM')
 

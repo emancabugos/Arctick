@@ -41,7 +41,7 @@ for (int row = 0; row < rows_count; row++) {
 		
 	println newpath;
 		
-	WebUI.modifyObjectProperty(findTestObject('Bespoke/Merchant/Upload Page (1)/Variants/stock'), 'xpath', 'equals', newpath, true)
+	WebUI.modifyObjectProperty(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/Variants/stock'), 'xpath', 'equals', newpath, true)
 		
 	row++;
 	

@@ -25,23 +25,23 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('www.gmail.com')
 
-WebUI.waitForElementVisible(findTestObject('EDM/Gmail Page/textfield_username'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Gmail Page/textfield_username'), 0)
 
-WebUI.setText(findTestObject('EDM/Gmail Page/textfield_username'), 'taylorallison820@gmail.com')
+WebUI.setText(findTestObject('ADMIN/EDM/Gmail Page/textfield_username'), 'taylorallison820@gmail.com')
 
-WebUI.sendKeys(findTestObject('EDM/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/EDM/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('EDM/Gmail Page/textfield_password'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Gmail Page/textfield_password'), 0)
 
-WebUI.setText(findTestObject('EDM/Gmail Page/textfield_password'), 'P@ssw0rd_820')
+WebUI.setText(findTestObject('ADMIN/EDM/Gmail Page/textfield_password'), 'P@ssw0rd_820')
 
-WebUI.sendKeys(findTestObject('EDM/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/EDM/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('EDM/Gmail Page/textfield_searchbar'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Gmail Page/textfield_searchbar'), 0)
 
-WebUI.setText(findTestObject('EDM/Gmail Page/textfield_searchbar'), 'Order Confirmation')
+WebUI.setText(findTestObject('ADMIN/EDM/Gmail Page/textfield_searchbar'), 'Order Confirmation')
 
-WebUI.sendKeys(findTestObject('EDM/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/EDM/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementVisible(findTestObject(null), 0)
 

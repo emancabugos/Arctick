@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/button_CHANGE'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/button_CHANGE'), 0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/button_CHANGE'))
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/button_CHANGE'))
 
 WebUI.callTestCase(findTestCase('Utilities/Upload Image(with cropper)'), [('varImagePath') : 'C:\\\\Katalon\\\\Image\\\\jonel.png'], 
     FailureHandling.CONTINUE_ON_FAILURE)

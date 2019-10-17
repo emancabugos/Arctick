@@ -19,20 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textbox_DisplayName'), 'Junel')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_DisplayName'), 'Junel')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textbox_description'), 'FUCK BOY SA SENADO!')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_description'), 'FUCK BOY SA SENADO!')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textbox_FirstName'), '')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_FirstName'), '')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textbox_LastName'), 'De Lima')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_LastName'), 'De Lima')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textbox_PhoneNumber'), '+6369000000')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_PhoneNumber'), '+6369000000')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textbox_SellerLocation'), 'Makati City')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_SellerLocation'), 'Makati City')
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/button_NEXT profile'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/button_NEXT profile'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementAttributeValue(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textbox_FirstName'), 
+WebUI.verifyElementAttributeValue(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_FirstName'), 
     'value', '', 0)
 

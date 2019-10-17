@@ -304,7 +304,7 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-<filter>
+		<filter>
 			<id>1571099211783</id>
 			<name></name>
 			<type>10</type>

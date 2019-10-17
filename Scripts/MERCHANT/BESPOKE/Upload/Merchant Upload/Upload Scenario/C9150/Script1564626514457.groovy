@@ -21,31 +21,31 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 20'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 20'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/input_item-name'), 'ITEM')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/input_item-name'), 'ITEM')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textbox_item-price'), '10')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textbox_item-price'), '10')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textbox_sku-field'), 'C9136SKU')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textbox_sku-field'), 'C9136SKU')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textarea_item-description'), 'DESCRIPTION')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textarea_item-description'), 'DESCRIPTION')
 
-WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.uploadFile(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/img_upload container'), 'C:\\\\Katalon\\\\Image\\\\halls.jpg')
-
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textbox_item-quantity'), ' ')
+WebUI.uploadFile(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/img_upload container'), 'C:\\\\Katalon\\\\Image\\\\halls.jpg')
 
-WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementAttributeValue(findTestObject('Bespoke/Merchant/Upload Page (1)/textbox_item-quantity'), 'value', '', 0)
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textbox_item-quantity'), ' ')
+
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementAttributeValue(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textbox_item-quantity'), 'value', '', 0)
 

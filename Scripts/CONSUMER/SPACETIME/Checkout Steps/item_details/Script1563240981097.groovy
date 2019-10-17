@@ -21,45 +21,45 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Verify in Item Details Page')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSeller'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_ContactSeller'), 0)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Item Details Page/textlabel_ItemDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textlabel_ItemDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time')) == true) {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
+if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time')) == true) {
+    WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
 
-    WebUI.click(findTestObject('CONSUMER/Item Details Page/datepicker_Date'))
-
-    WebUI.delay(1)
-
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), date)
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'))
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/timepicker_Time'), time)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'), date)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), duration)
-} else if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time')) == 
+    WebUI.delay(1)
+
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'), time)
+
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), duration)
+} else if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time')) == 
 false) {
-    WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
+    WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
+    WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
 
-    WebUI.click(findTestObject('CONSUMER/Item Details Page/datepicker_Date'))
-
-    WebUI.delay(1)
-
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), date)
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'))
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), duration)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'), date)
 
     WebUI.delay(1)
 
-    WebUI.click(findTestObject('CONSUMER/Item Details Page/button_BuyNow'))
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), duration)
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_BuyNow'))
 
     WebUI.delay(1)
 }

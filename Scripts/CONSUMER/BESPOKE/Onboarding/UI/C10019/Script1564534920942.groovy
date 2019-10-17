@@ -20,5 +20,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verification if Profile Tab is displayed'
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Onboarding/Profile Tab/tab_Profile'))
+WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/tab_Profile'))
 

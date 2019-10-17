@@ -23,77 +23,77 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.delay(1)
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), 'Item One')
+WebUI.setText(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 'Item One')
 
-WebUI.sendKeys(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 
 WebUI.comment('Search Result Page')
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Search Results Page/button_Filters'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_Filters'), 0)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Search Results Page/item_Result'))
+WebUI.click(findTestObject('BESPOKE/CONSUMER/Search Results Page/item_Result'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/button_AddtoCart'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/button_AddtoCart'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('Bespoke/Consumer/Item Details Page/dropdown_Quantity'), '10', true)
+WebUI.selectOptionByLabel(findTestObject('BESPOKE/CONSUMER/Item Details Page/dropdown_Quantity'), '10', true)
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('Bespoke/Consumer/Item Details Page/dropdown_Quantity'), '10', true, 0)
+WebUI.verifyOptionSelectedByLabel(findTestObject('BESPOKE/CONSUMER/Item Details Page/dropdown_Quantity'), '10', true, 0)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Item Details Page/button_AddtoCart'))
+WebUI.click(findTestObject('BESPOKE/CONSUMER/Item Details Page/button_AddtoCart'))
 
-WebUI.mouseOver(findTestObject('Bespoke/Consumer/Item Details Page/icon_Cart'))
+WebUI.mouseOver(findTestObject('BESPOKE/CONSUMER/Item Details Page/icon_Cart'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/button_ViewCart'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/button_ViewCart'), 0)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Item Details Page/button_ViewCart'))
+WebUI.click(findTestObject('BESPOKE/CONSUMER/Item Details Page/button_ViewCart'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Cart/button_Checkout'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Cart/button_Checkout'), 0)
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('Bespoke/Consumer/Item Cart/dropdown_Quantity'), '10', true, 0)
+WebUI.verifyOptionSelectedByLabel(findTestObject('BESPOKE/CONSUMER/Item Cart/dropdown_Quantity'), '10', true, 0)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Item Cart/button_Checkout'))
+WebUI.click(findTestObject('BESPOKE/CONSUMER/Item Cart/button_Checkout'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Delivery Details Page/textfield_FirstName'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Delivery Details Page/textfield_FirstName'), 0)
 
 WebUI.delay(1)
 
-WebUI.scrollToElement(findTestObject('Bespoke/Consumer/Delivery Details Page/button_SelectAddress'), 0)
+WebUI.scrollToElement(findTestObject('BESPOKE/CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Delivery Details Page/button_SelectAddress'))
+WebUI.click(findTestObject('BESPOKE/CONSUMER/Delivery Details Page/button_SelectAddress'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Delivery Details Page/button_Selected'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Delivery Details Page/button_Selected'), 0)
 
-WebUI.scrollToElement(findTestObject('Bespoke/Consumer/Delivery Details Page/button_Next'), 0)
+WebUI.scrollToElement(findTestObject('BESPOKE/CONSUMER/Delivery Details Page/button_Next'), 0)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Delivery Details Page/button_Next'))
+WebUI.click(findTestObject('BESPOKE/CONSUMER/Delivery Details Page/button_Next'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Review Details Page/dropdown_SelectDeliveryMethod'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Review Details Page/dropdown_SelectDeliveryMethod'), 0)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Review Details Page/dropdown_SelectDeliveryMethod'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/CONSUMER/Review Details Page/dropdown_SelectDeliveryMethod'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByIndex(findTestObject('Bespoke/Consumer/Review Details Page/dropdown_SelectDeliveryMethod'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('BESPOKE/CONSUMER/Review Details Page/dropdown_SelectDeliveryMethod'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 

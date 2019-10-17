@@ -21,118 +21,118 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('weight')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom_weight'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/custom_weight'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom_weight'), '1')
+    WebUI.setText(findTestObject('Utilities/Upload Item Page/Custom Fields/custom_weight'), '1')
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('checkbox')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 1'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/checkbox 1'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 1'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Upload Item Page/Custom Fields/checkbox 1'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 2'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Upload Item Page/Custom Fields/checkbox 2'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 3'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Upload Item Page/Custom Fields/checkbox 3'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 4'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Upload Item Page/Custom Fields/checkbox 4'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 5'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Upload Item Page/Custom Fields/checkbox 5'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('time')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-time'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-time'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-time'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-time'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('date')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-date'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-date'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-date'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-date'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('dropdown')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-dropdown'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-dropdown'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.selectOptionByLabel(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-dropdown'), 'Select 3', false)
+    WebUI.selectOptionByLabel(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-dropdown'), 'Select 3', false)
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('email')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-email'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-email'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-email'), 'arcadierteam@gmail.com')
+    WebUI.setText(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-email'), 'arcadierteam@gmail.com')
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('Video')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-video'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-video'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-video'), '<iframe width="640" height="480" src="https://www.youtube.com/embed/GsbOwc_hWcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
+    WebUI.setText(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-video'), '<iframe width="640" height="480" src="https://www.youtube.com/embed/GsbOwc_hWcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('URL')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-URL'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-URL'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-URL'), 'www.arcadier.com')
+    WebUI.setText(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-URL'), 'www.arcadier.com')
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('location')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-location'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-location'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-location'), 'Rufino Pacific Tower')
+    WebUI.setText(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-location'), 'Rufino Pacific Tower')
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('number')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-number'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-number'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-number'), '69')
+    WebUI.setText(findTestObject('Utilities/Upload Item Page/Custom Fields/custom-number'), '69')
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('PDF')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/PDF'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/PDF'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.uploadFile(findTestObject('MERCHANT/Upload Item Page/Custom Fields/PDF'), 'C:\\\\Katalon\\\\Image\\\\1mb.pdf')
+    WebUI.uploadFile(findTestObject('Utilities/Upload Item Page/Custom Fields/PDF'), 'C:\\\\Katalon\\\\Image\\\\1mb.pdf')
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('percentage')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/percentage'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/percentage'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/percentage'), '98')
+    WebUI.setText(findTestObject('Utilities/Upload Item Page/Custom Fields/percentage'), '98')
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('text editor')
@@ -157,24 +157,24 @@ true) {
 
     WebUI.click(findTestObject('Utilities/Text Editor Icon/a_InsertRemove Bulleted List'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('text field edited')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field edited'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/input_txt-field edited'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field edited'), 'EDITED CUSTOM FIELD')
+    WebUI.setText(findTestObject('Utilities/Upload Item Page/Custom Fields/input_txt-field edited'), 'EDITED CUSTOM FIELD')
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 
 WebUI.comment('text field')
 
-if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Upload Item Page/Custom Fields/input_txt-field'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field'), 'TEXT FIELD !@#$%^&*()_')
+    WebUI.setText(findTestObject('Utilities/Upload Item Page/Custom Fields/input_txt-field'), 'TEXT FIELD !@#$%^&*()_')
 } else {
-    WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+    WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 }
 

@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], Failu
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 
-WebUI.verifyElementText(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 'Category(s)*')
+WebUI.verifyElementText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 'Category(s)*')
 

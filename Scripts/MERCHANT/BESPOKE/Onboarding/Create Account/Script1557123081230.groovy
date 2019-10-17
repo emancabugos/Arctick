@@ -25,28 +25,28 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Homepage/a_BE A SELLER'), 0)
 
 if (WebUI.verifyElementPresent(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), 3, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
     WebUI.click(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
-    WebUI.verifyElementPresent(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), 0)
+    WebUI.verifyElementPresent(findTestObject('SPACETIME/CONSUMER/Homepage/a_BE A SELLER'), 0)
 }
 
-WebUI.click(findTestObject('CONSUMER/Homepage/a_BE A SELLER'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Homepage/a_BE A SELLER'))
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/button_create-account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/button_create-account'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_username'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_username'), 0)
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_username'), GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_username'), GlobalVariable.CustomMerchant)
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_password'), 'welcome8')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_password'), 'welcome8')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_reconfirm-password'), 'welcome8')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_reconfirm-password'), 'welcome8')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_notificationemail'), 'arcadier.tester1@gmail.com')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_notificationemail'), 'arcadier.tester1@gmail.com')
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/button_create account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/button_create account'), FailureHandling.STOP_ON_FAILURE)
 

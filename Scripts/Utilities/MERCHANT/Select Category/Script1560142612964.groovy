@@ -20,46 +20,46 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 if (varCategory == 'Category 1') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat1'))
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat1'))
 } else if (varCategory == 'Category 2') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat2'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat2'), 0)
 } else if (varCategory == 'Category 3') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat3'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat3'), 0)
 } else if (varCategory == 'Category 4') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat4'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat4'), 0)
 } else if (varCategory == 'Category 5') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat5'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat5'), 0)
 } else if (varCategory == 'Category 6') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat6'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat6'), 0)
 } else if (varCategory == 'Category 7') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat7'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat7'), 0)
 } else if (varCategory == 'Category 8') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat8'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat8'), 0)
 } else if (varCategory == 'Category 9') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat9'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat9'), 0)
 } else if (varCategory == 'Category 10') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat10'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat10'), 0)
 } else if (varCategory == 'Category 11') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat11'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat11'), 0)
 } else if (varCategory == 'Category 12') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat12'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat12'), 0)
 } else if (varCategory == 'Category 13') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat13'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat13'), 0)
 } else if (varCategory == 'Category 14') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat14'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat14'), 0)
 } else if (varCategory == 'Category 15') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat15'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat15'), 0)
 } else if (varCategory == 'Category 16') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat16'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat16'), 0)
 } else if (varCategory == 'Category 17') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat17'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat17'), 0)
 } else if (varCategory == 'Category 18') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat18'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat18'), 0)
 } else if (varCategory == 'Category 19') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat19'), 0)
 
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat19'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat19'), 0)
 } else if (varCategory == 'Category 20') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Category List/checkbox_cat20'), 0)
+    WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat20'), 0)
 }
 

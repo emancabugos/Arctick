@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textlabel_POSTAL CODE'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textlabel_POSTAL CODE'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textlabel_POSTAL CODE'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textlabel_POSTAL CODE'), 
     0)
 
-String postalcode = WebUI.getText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textlabel_POSTAL CODE'))
+String postalcode = WebUI.getText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textlabel_POSTAL CODE'))
 
 WebUI.verifyMatch(postalcode, 'POSTAL CODE', false)
 

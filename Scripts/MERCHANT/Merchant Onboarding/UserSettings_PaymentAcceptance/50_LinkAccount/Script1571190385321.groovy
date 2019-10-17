@@ -21,36 +21,36 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Link Account-Stripe')
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountStripe'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountStripe'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountStripe'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountStripe'))
 
 WebUI.comment('Link Account-Omise')
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountOmise'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountOmise'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountOmise'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountOmise'))
 
 WebUI.comment('Link Account-Paypal')
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountPaypal'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountPaypal'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountPaypal'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountPaypal'))
 
 WebUI.comment('Link Account-COD')
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountCOD'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountCOD'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountCOD'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountCOD'))
 
 WebUI.comment('Link Account-CustomPayment')
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountCustom'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountCustom'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountCustom'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_LinkAccountCustom'))
 

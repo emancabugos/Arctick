@@ -26,33 +26,33 @@ WebUI.navigateToUrl(GlobalVariable.ArcDashboardURL)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/div_brand-logo'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/div_brand-logo'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_Email'), GlobalVariable.ArcDashboardUser)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_Email'), GlobalVariable.ArcDashboardUser)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_Password'), GlobalVariable.ArcDashboardPass)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_Password'), GlobalVariable.ArcDashboardPass)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/input_btn btn-default'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_btn btn-default'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/a_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Announcement'), 0)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Announcement'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Announcement'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
-
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_search'), 'delete')
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
 WebUI.delay(1)
 
-WebUI.sendKeys(findTestObject('ADMIN/Arcadier Dashboard/input_search'), Keys.chord(Keys.ENTER))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/td_time 1st row'), 0)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_search'), 'delete')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Delete'))
+WebUI.sendKeys(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_search'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/td_time 1st row'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Delete'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Delete Announcement/div_Are you sure you want to d'), 
     0)
@@ -61,31 +61,31 @@ WebUI.comment('Click Cancel')
 
 WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Delete Announcement/button_Cancel'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/td_time 1st row'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/td_time 1st row'), 0)
 
 WebUI.delay(1)
 
 WebUI.comment('delete announcement')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Delete'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Delete'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Delete Announcement/button_Delete'), 0)
 
 WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Delete Announcement/button_Delete'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_search'), 'delete')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_search'), 'delete')
 
 WebUI.delay(1)
 
 WebUI.verifyElementNotVisible(findTestObject('ADMIN/Arcadier Dashboard/Delete Announcement/button_Delete'))
 
-WebUI.sendKeys(findTestObject('ADMIN/Arcadier Dashboard/input_search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_search'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/logout_button'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/logout_button'), 0)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/logout_button'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/logout_button'))
 
 WebUI.closeBrowser()
 

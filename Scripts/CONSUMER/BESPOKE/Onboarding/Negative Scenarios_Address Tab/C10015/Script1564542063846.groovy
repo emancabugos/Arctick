@@ -20,23 +20,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Empty Address'
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Onboarding/Address Tab/textfield_AddresseeFirstName'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/textfield_AddresseeFirstName'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Onboarding/Address Tab/textfield_AddresseeFirstName'), 'Jane')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/textfield_AddresseeFirstName'), 'Jane')
 
-WebUI.setText(findTestObject('CONSUMER/Onboarding/Address Tab/textfield_AddresseeLastName'), 'Doe')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/textfield_AddresseeLastName'), 'Doe')
 
-WebUI.setText(findTestObject('CONSUMER/Onboarding/Address Tab/textfield_Address'), '')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/textfield_Address'), '')
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Onboarding/Address Tab/dropdown_Country'), 'Philippines', false)
+WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/dropdown_Country'), 'Philippines', false)
 
-WebUI.setText(findTestObject('CONSUMER/Onboarding/Address Tab/textfield_State'), 'Pandacan')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/textfield_State'), 'Pandacan')
 
-WebUI.setText(findTestObject('CONSUMER/Onboarding/Address Tab/textfield_City'), 'Metro Manila')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/textfield_City'), 'Metro Manila')
 
-WebUI.setText(findTestObject('CONSUMER/Onboarding/Address Tab/textfield_PostalCode'), '1011')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/textfield_PostalCode'), '1011')
 
-WebUI.click(findTestObject('CONSUMER/Onboarding/Address Tab/button_AddAddress'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/button_AddAddress'))
 
-WebUI.verifyElementNotVisible(findTestObject('CONSUMER/Onboarding/Address Tab/button_delete'))
+WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/button_delete'))
 

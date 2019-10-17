@@ -23,5 +23,5 @@ WebUI.mouseOver(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'))
 
 WebUI.click(findTestObject('Utilities/Bespoke Usermenu/linktext_Change Password'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Change Password/a_Save'), 0)
+WebUI.verifyElementPresent(findTestObject('Utilities/Change Password/a_Save'), 0)
 

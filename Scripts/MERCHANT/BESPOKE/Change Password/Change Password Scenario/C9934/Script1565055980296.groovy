@@ -23,11 +23,11 @@ WebUI.mouseOver(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'))
 
 WebUI.click(findTestObject('Utilities/Bespoke Usermenu/linktext_Change Password'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('MERCHANT/Change Password/input_oldpassword'), 'welcome8')
+WebUI.setText(findTestObject('Utilities/Change Password/input_oldpassword'), 'welcome8')
 
-WebUI.setText(findTestObject('MERCHANT/Change Password/input_newpassword'), 'welcome8')
+WebUI.setText(findTestObject('Utilities/Change Password/input_newpassword'), 'welcome8')
 
-WebUI.click(findTestObject('MERCHANT/Change Password/a_Save'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Utilities/Change Password/a_Save'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/Change Password/input_confirmnewpassword'), 'value', '', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Utilities/Change Password/input_confirmnewpassword'), 'value', '', 0)
 

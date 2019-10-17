@@ -22,39 +22,39 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('www.gmail.com')
 
-WebUI.waitForElementVisible(findTestObject('EDM/Gmail Page/textfield_username'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Gmail Page/textfield_username'), 0)
 
-WebUI.setText(findTestObject('EDM/Gmail Page/textfield_username'), 'taylorallison820@gmail.com')
+WebUI.setText(findTestObject('ADMIN/EDM/Gmail Page/textfield_username'), 'taylorallison820@gmail.com')
 
-WebUI.sendKeys(findTestObject('EDM/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/EDM/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('EDM/Gmail Page/textfield_password'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Gmail Page/textfield_password'), 0)
 
-WebUI.setText(findTestObject('EDM/Gmail Page/textfield_password'), 'P@ssw0rd_820')
+WebUI.setText(findTestObject('ADMIN/EDM/Gmail Page/textfield_password'), 'P@ssw0rd_820')
 
-WebUI.sendKeys(findTestObject('EDM/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/EDM/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('EDM/Gmail Page/textfield_searchbar'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Gmail Page/textfield_searchbar'), 0)
 
-WebUI.setText(findTestObject('EDM/Gmail Page/textfield_searchbar'), 'Marketplace Account Suspended')
+WebUI.setText(findTestObject('ADMIN/EDM/Gmail Page/textfield_searchbar'), 'Marketplace Account Suspended')
 
-WebUI.sendKeys(findTestObject('EDM/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/EDM/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('EDM/Account Suspended/linktext_subject'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Account Suspended/linktext_subject'), 0)
 
-WebUI.click(findTestObject('EDM/Account Suspended/linktext_subject'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/EDM/Account Suspended/linktext_subject'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('EDM/Account Suspended/logo_marketplace'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Account Suspended/logo_marketplace'), 0)
 
-WebUI.verifyElementVisible(findTestObject('EDM/Account Suspended/textlabel_greetings'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/EDM/Account Suspended/textlabel_greetings'))
 
-WebUI.verifyElementVisible(findTestObject('EDM/Account Suspended/textlabel_content'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/EDM/Account Suspended/textlabel_content'))
 
-WebUI.verifyElementVisible(findTestObject('EDM/Account Suspended/textlabel_regards'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/EDM/Account Suspended/textlabel_regards'))
 
-WebUI.verifyElementText(findTestObject('EDM/Account Suspended/textlabel_greetings'), greetings, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('ADMIN/EDM/Account Suspended/textlabel_greetings'), greetings, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('EDM/Account Suspended/textlabel_content'), content, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('ADMIN/EDM/Account Suspended/textlabel_content'), content, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('EDM/Account Suspended/textlabel_regards'), regards, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('ADMIN/EDM/Account Suspended/textlabel_regards'), regards, FailureHandling.CONTINUE_ON_FAILURE)
 

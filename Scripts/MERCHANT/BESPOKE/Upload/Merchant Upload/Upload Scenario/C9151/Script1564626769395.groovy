@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/unlimited_onoffswitch-inner'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/unlimited_onoffswitch-inner'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementNotClickable(findTestObject('Bespoke/Merchant/Upload Page (1)/textbox_item-quantity'))
+WebUI.verifyElementNotClickable(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textbox_item-quantity'))
 

@@ -19,6 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.selectOptionByLabel(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/dropdown_(SELECT COUNTRY)'), 
+WebUI.selectOptionByLabel(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/dropdown_(SELECT COUNTRY)'), 
     'Philippines', false)
 

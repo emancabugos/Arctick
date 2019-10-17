@@ -19,22 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/DeleteModal/button_OkayButton'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/DeleteModal/button_OkayButton'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/DeleteModal/button_OkayButton'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/DeleteModal/button_OkayButton'), 
     0)
 
-String okaybutton = WebUI.getText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/DeleteModal/button_OkayButton'))
+String okaybutton = WebUI.getText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/DeleteModal/button_OkayButton'))
 
 WebUI.verifyMatch(okaybutton, 'Okay', false)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/DeleteModal/button_CloseButton'))
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/DeleteModal/button_CloseButton'))
 
 WebUI.delay(0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/button_add address'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/button_add address'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/button_add address'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/button_add address'))
 

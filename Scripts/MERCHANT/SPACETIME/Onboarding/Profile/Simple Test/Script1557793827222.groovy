@@ -21,25 +21,25 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Profile')
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Profile/browse_img'))
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Onboarding/Profile/browse_img'))
 
 WebUI.callTestCase(findTestCase('Utilities/Upload Image(with cropper)'), [('varImagePath') : 'C:\\\\Katalon\\\\Image\\\\victor.jpg'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Profile/textbox_DisplayName'), 'ThorJack')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Profile/textbox_DisplayName'), 'ThorJack')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Profile/textarea_Description'), 'Thor Wannabe')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Profile/textarea_Description'), 'Thor Wannabe')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Profile/textbox_FirstName'), 'Victor')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Profile/textbox_FirstName'), 'Victor')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Profile/textbox_LastName'), 'Magtambol')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Profile/textbox_LastName'), 'Magtambol')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Profile/textbox_PhoneNumber'), '+63123456789')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Profile/textbox_PhoneNumber'), '+63123456789')
 
-WebUI.selectOptionByLabel(findTestObject('MERCHANT/SpaceTime/Onboarding/Profile/dropdown_timezone'), '(GMT+08:00) Kuala Lumpur, Singapore', 
+WebUI.selectOptionByLabel(findTestObject('SPACETIME/MERCHANT/Onboarding/Profile/dropdown_timezone'), '(GMT+08:00) Kuala Lumpur, Singapore', 
     false)
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Profile/textbox_SellerLocation'), 'Makati City')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Profile/textbox_SellerLocation'), 'Makati City')
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Profile/button_Next profile'))
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Onboarding/Profile/button_Next profile'))
 

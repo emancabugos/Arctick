@@ -22,45 +22,45 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('www.gmail.com')
 
-WebUI.waitForElementVisible(findTestObject('EDM/Gmail Page/textfield_username'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Gmail Page/textfield_username'), 0)
 
-WebUI.setText(findTestObject('EDM/Gmail Page/textfield_username'), 'taylorallison820@gmail.com')
+WebUI.setText(findTestObject('ADMIN/EDM/Gmail Page/textfield_username'), 'taylorallison820@gmail.com')
 
-WebUI.sendKeys(findTestObject('EDM/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/EDM/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('EDM/Gmail Page/textfield_password'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Gmail Page/textfield_password'), 0)
 
-WebUI.setText(findTestObject('EDM/Gmail Page/textfield_password'), 'P@ssw0rd_820')
+WebUI.setText(findTestObject('ADMIN/EDM/Gmail Page/textfield_password'), 'P@ssw0rd_820')
 
-WebUI.sendKeys(findTestObject('EDM/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/EDM/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('EDM/Gmail Page/textfield_searchbar'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Gmail Page/textfield_searchbar'), 0)
 
-WebUI.setText(findTestObject('EDM/Gmail Page/textfield_searchbar'), 'Welcome to, 0705st1! We look forward ')
+WebUI.setText(findTestObject('ADMIN/EDM/Gmail Page/textfield_searchbar'), 'Welcome to, 0705st1! We look forward ')
 
-WebUI.sendKeys(findTestObject('EDM/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/EDM/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('EDM/Start Selling/linktext_subject'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Start Selling/linktext_subject'), 0)
 
-WebUI.click(findTestObject('EDM/Start Selling/linktext_subject'))
+WebUI.click(findTestObject('ADMIN/EDM/Start Selling/linktext_subject'))
 
-WebUI.waitForElementVisible(findTestObject('EDM/Start Selling/logo_marketplace'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/EDM/Start Selling/logo_marketplace'), 0)
 
-WebUI.verifyElementVisible(findTestObject('EDM/Start Selling/logo_marketplace'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/EDM/Start Selling/logo_marketplace'))
 
-WebUI.verifyElementVisible(findTestObject('EDM/Start Selling/textlabel_greetings'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/EDM/Start Selling/textlabel_greetings'))
 
-WebUI.verifyElementVisible(findTestObject('EDM/Start Selling/textlabel_content'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/EDM/Start Selling/textlabel_content'))
 
-WebUI.verifyElementVisible(findTestObject('EDM/Start Selling/button_UploadItemNow'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/EDM/Start Selling/button_UploadItemNow'))
 
-WebUI.verifyElementVisible(findTestObject('EDM/Start Selling/textlabel_regards'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/EDM/Start Selling/textlabel_regards'))
 
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/textlabel_greetings'), greetings)
+WebUI.verifyElementText(findTestObject('ADMIN/EDM/Start Selling/textlabel_greetings'), greetings)
 
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/textlabel_content'), content)
+WebUI.verifyElementText(findTestObject('ADMIN/EDM/Start Selling/textlabel_content'), content)
 
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/button_UploadItemNow'), button)
+WebUI.verifyElementText(findTestObject('ADMIN/EDM/Start Selling/button_UploadItemNow'), button)
 
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/textlabel_regards'), regards)
+WebUI.verifyElementText(findTestObject('ADMIN/EDM/Start Selling/textlabel_regards'), regards)
 

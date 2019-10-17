@@ -19,39 +19,39 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/button_SKIP THIS STEP'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/button_SKIP THIS STEP'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/textbox_delivery_name'), 'Delivery 1')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/textbox_delivery_name'), 'Delivery 1')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/textbox_delivery_price'), '1.20')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/textbox_delivery_price'), '1.20')
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/button_Add delivery'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/button_Add delivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/textbox_location_name'), 'Pickup 1')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/textbox_location_name'), 'Pickup 1')
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/buttton_Add pickup'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/buttton_Add pickup'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
 WebUI.comment('2nd Delivery and Pickup')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/textbox_delivery_name'), 'Delivery 2')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/textbox_delivery_name'), 'Delivery 2')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/textbox_delivery_price'), '4.50')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/textbox_delivery_price'), '4.50')
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/button_Add delivery'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/textbox_location_name'), 'Pickup 2')
-
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/buttton_Add pickup'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/button_Add delivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Delivery Method/a_Save'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/textbox_location_name'), 'Pickup 2')
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Listing Page/button_Add listings'), 0)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/buttton_Add pickup'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Onboarding/Delivery Method/a_Save'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Listing Page/button_Add listings'), 0)
 

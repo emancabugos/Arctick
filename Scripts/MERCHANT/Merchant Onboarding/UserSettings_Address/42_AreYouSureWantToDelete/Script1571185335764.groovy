@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/DeleteModal/textlabel_DeleteDesc'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/DeleteModal/textlabel_DeleteDesc'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/DeleteModal/textlabel_DeleteDesc'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/DeleteModal/textlabel_DeleteDesc'), 
     0)
 
-String deletedesc = WebUI.getText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/DeleteModal/textlabel_DeleteDesc'))
+String deletedesc = WebUI.getText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/DeleteModal/textlabel_DeleteDesc'))
 
 WebUI.verifyMatch(deletedesc, 'Are you sure want to delete?', false)
 
