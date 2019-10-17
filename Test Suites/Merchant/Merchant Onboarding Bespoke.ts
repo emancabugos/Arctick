@@ -54,6 +54,30 @@
       <testCaseId>Test Cases/MERCHANT/Merchant Onboarding/UserSettings_Profile/03_MO_UserPicture</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>f1ccf29f-cbde-4c9d-8d62-9fc7204447bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MERCHANT/Merchant Onboarding/Upload_UserImage/54_clickChangeButton</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f74a978e-e036-49bf-8027-0874cab1adea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MERCHANT/Merchant Onboarding/Upload_UserImage/55_UploadModal</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ae3b330-098e-4dcf-8160-daddc917db1b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MERCHANT/Merchant Onboarding/Upload_UserImage/56_selectimage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dfbf1002-5088-49c0-ad61-110a8563a589</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MERCHANT/Merchant Onboarding/Upload_UserImage/57_ImageOnProfileTab</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9015299a-5919-42aa-a7ce-c2a9095a1673</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

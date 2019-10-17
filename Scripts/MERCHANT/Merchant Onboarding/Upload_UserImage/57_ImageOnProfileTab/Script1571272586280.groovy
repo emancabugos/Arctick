@@ -19,12 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/button_CHANGE'), 0)
-
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/button_CHANGE'), 0)
-
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/button_CHANGE'))
-
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Upload Image Popup/upload_Image'), 
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Upload Image Popup/button_OK'), 
     0)
+
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Upload Image Popup/button_Save'), 
+    0)
+
+WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Upload Image Popup/button_Save'))
 
