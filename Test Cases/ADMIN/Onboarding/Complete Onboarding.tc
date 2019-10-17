@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Complete Onboarding</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>604e6ea8-cd24-4051-ba30-00467ad55038</testCaseGuid>
+   <variable>
+      <defaultValue>'Italy'</defaultValue>
+      <description></description>
+      <id>df53115c-b33b-4919-b918-4366dbd42e95</id>
+      <masked>false</masked>
+      <name>varCountry</name>
+   </variable>
+   <variable>
+      <defaultValue>'Strada Statale 130'</defaultValue>
+      <description></description>
+      <id>41282077-4862-4c4e-b97e-b3b00cff4a53</id>
+      <masked>false</masked>
+      <name>varAddress1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dorzano, Biella 13881'</defaultValue>
+      <description></description>
+      <id>332ce3d3-4db1-434c-a0e5-9eecd53d3d5a</id>
+      <masked>false</masked>
+      <name>varAddress2</name>
+   </variable>
+   <variable>
+      <defaultValue>'+631234567890'</defaultValue>
+      <description></description>
+      <id>d41bd923-1a56-4786-9b69-9560da36bdde</id>
+      <masked>false</masked>
+      <name>varContactNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.AdminCustom</defaultValue>
+      <description></description>
+      <id>a562b495-4ad2-4f58-8835-e254b1e25049</id>
+      <masked>false</masked>
+      <name>varFName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Marketplace'</defaultValue>
+      <description></description>
+      <id>f980e8bb-9440-4c91-b78c-2a4da2e43359</id>
+      <masked>false</masked>
+      <name>varLName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.AdminEmailNotif</defaultValue>
+      <description></description>
+      <id>22c1ab47-95e0-4c41-9be8-18c744904c43</id>
+      <masked>false</masked>
+      <name>varEmail</name>
+   </variable>
+</TestCaseEntity>
