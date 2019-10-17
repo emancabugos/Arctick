@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>47_PaymentMethod</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb9f557a-2eae-46ba-9b76-c75b6e015731</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Payment Method')</defaultValue>
+      <description></description>
+      <id>2b944045-ae0e-4edb-ad76-2139f4d9367c</id>
+      <masked>false</masked>
+      <name>paymentmethod</name>
+   </variable>
+</TestCaseEntity>

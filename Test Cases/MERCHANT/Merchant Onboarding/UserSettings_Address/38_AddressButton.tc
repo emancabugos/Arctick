@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>38_AddressButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a916b7b-c1c5-40ec-ac89-8bac7c77b307</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/button_add address')</defaultValue>
+      <description></description>
+      <id>898782a9-d55e-4f59-acfc-fb2696329d68</id>
+      <masked>false</masked>
+      <name>addressbutton</name>
+   </variable>
+</TestCaseEntity>

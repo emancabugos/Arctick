@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Your Items/Item Info/img_item'), 0)
+WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Your Items/Item Info/img_item'), 0)
 

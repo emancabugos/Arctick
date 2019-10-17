@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Up
 
 WebUI.comment('Category')
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 
 if (varCategory == 'Category 1') {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
@@ -111,23 +111,23 @@ if (varCategory == 'Category 1') {
 
 WebUI.comment('Item Name')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/input_item-name'), varItemName + GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/input_item-name'), varItemName + GlobalVariable.CustomMerchant)
 
 WebUI.comment('Price')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-price'), varPrice)
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textbox_item-price'), varPrice)
 
 WebUI.comment('SKU')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_sku-field'), varSKU)
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textbox_sku-field'), varSKU)
 
 WebUI.comment('Item Description')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textarea_item-description'), varItemDescription)
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textarea_item-description'), varItemDescription)
 
 WebUI.comment('Image')
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_BROWSE'))
+WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/button_BROWSE'))
 
 WebUI.delay(1)
 
@@ -140,13 +140,13 @@ WebUI.delay(1)
 WebUI.comment('Variants & Quantity')
 
 if (varVariants == 'yes') {
-    WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/toggle_variant'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/toggle_variant'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/Variants/textbox_opt1'), varVariantOption)
+    WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/Variants/textbox_opt1'), varVariantOption)
 
-    WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/Variants/textbox_choices1'), varVariantChoices)
+    WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/Variants/textbox_choices1'), varVariantChoices)
 } else if (varVariants == 'no') {
-    WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-quantity'), varQuantity)
+    WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textbox_item-quantity'), varQuantity)
 }
 
 WebUI.comment('Custom Fields')
@@ -155,7 +155,7 @@ WebUI.delay(1)
 
 WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Upload/Other Scenarios/Custom Field Input Bespoke'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_SAVE'))
+WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/button_SAVE'))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Your Items/button_Upload'), 0)
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Your Items/button_Upload'), 0)
 

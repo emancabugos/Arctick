@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>48_SelectYourPreferredPaymentMethod</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97c5db50-9d05-4793-82fc-a76ed36d213c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Select your preferred paymen')</defaultValue>
+      <description></description>
+      <id>630ca186-adc1-458d-8d89-740bb78e5249</id>
+      <masked>false</masked>
+      <name>paymentdescription</name>
+   </variable>
+</TestCaseEntity>

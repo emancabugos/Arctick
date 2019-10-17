@@ -21,19 +21,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
 
 WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 20'))
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/input_item-name'), 'C9193')
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/input_item-name'), 'C9193')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-price'), '10')
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textbox_item-price'), '10')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_sku-field'), '9193')
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textbox_sku-field'), '9193')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textarea_item-description'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/textarea_item-description'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -43,15 +43,15 @@ WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_im
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/toggle_variant'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/toggle_variant'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/Variants/textbox_opt1'), 'Color')
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/Variants/textbox_opt1'), 'Color')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/Variants/stock'), '1')
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/Variants/stock'), '1')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/Variants/vSKU1'), '9193')
+WebUI.setText(findTestObject('Bespoke/Merchant/Upload Page (1)/Variants/vSKU1'), '9193')
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Your Items/button_Upload'), 0)
+WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Your Items/button_Upload'), 0)
 

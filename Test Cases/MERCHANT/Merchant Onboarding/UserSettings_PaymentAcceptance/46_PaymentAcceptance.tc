@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>46_PaymentAcceptance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ee83a7a-e72c-44af-9dc8-7af59fda4822</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/tab_PAYMENT ACCEPTANCE')</defaultValue>
+      <description></description>
+      <id>bc84b8d8-2b0e-4487-97d0-d9c439a31fb2</id>
+      <masked>false</masked>
+      <name>paymentacceptance</name>
+   </variable>
+</TestCaseEntity>

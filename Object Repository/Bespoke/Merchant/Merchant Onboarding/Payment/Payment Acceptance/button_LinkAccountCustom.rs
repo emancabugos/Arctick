@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_LinkAccountCustom</name>
+   <tag></tag>
+   <elementGuidId>a74a47d9-c1a4-475f-87c9-2f3951f681cc</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-link-payment</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>60070-adiepot-co2-sdagthg9q6l4pujjgup5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>linkpayment</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-description</name>
+      <type>Main</type>
+      <value>This payment method requires offline settlement with the marketplace adminstrator.Please check with them for more details.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                    Link Account
+                                                </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;payment_acceptance&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;seller-common-box pull-left&quot;]/div[@class=&quot;item-form-group&quot;]/div[@class=&quot;col-md-12 seller-payment-container&quot;]/div[@class=&quot;col-xs-12 col-sm-3 col-md-2&quot;]/div[@id=&quot;60070-adiepot-co2-sdagthg9q6l4pujjgup5&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

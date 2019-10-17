@@ -27,11 +27,11 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), 0)
 
-if (WebUI.verifyElementPresent(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), 3) == true) {
-    WebUI.click(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
-} else {
-    WebUI.verifyElementPresent(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), 0)
-}
+//if (WebUI.verifyElementPresent(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), 3) == true) {
+ //   WebUI.click(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
+//} else {
+//    WebUI.verifyElementPresent(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), 0)
+//}
 
 WebUI.click(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -73,5 +73,5 @@ if (GlobalVariable.MerchantAccountType == 'custom') {
     WebUI.click(findTestObject('ADMIN/Admin Login Page/Login Facebook/button_login'))
 }
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Dashboard/textlabel_DASHBOARD'), 0)
+WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Dashboard/textlabel_DASHBOARD'), 0)
 

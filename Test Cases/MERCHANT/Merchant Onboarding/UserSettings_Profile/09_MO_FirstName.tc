@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>09_MO_FirstName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d547d1ff-6a5d-47c6-92c1-ff457ba22133</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textlabel_FIRST NAME')</defaultValue>
+      <description></description>
+      <id>c4e12c02-d15b-4c0b-a767-fa5f3317c896</id>
+      <masked>false</masked>
+      <name>fname</name>
+   </variable>
+</TestCaseEntity>

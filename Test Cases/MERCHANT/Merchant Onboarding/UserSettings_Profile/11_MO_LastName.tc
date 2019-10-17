@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>11_MO_LastName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48de6aec-dbe9-4593-a49f-1a4e348156a1</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>68bcff64-d96c-4c67-8caa-a1acd773ab7a</id>
+      <masked>false</masked>
+      <name>lname</name>
+   </variable>
+</TestCaseEntity>

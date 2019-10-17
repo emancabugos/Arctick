@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>30_Country</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2bf7398-11d3-46c1-993a-fc156372e949</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textlabel_COUNTRY')</defaultValue>
+      <description></description>
+      <id>1ec77d52-1264-4560-a73f-67d365bd1ee4</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+</TestCaseEntity>

@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Your Items/textbox_search-item'), 'item')
+WebUI.setText(findTestObject('Bespoke/Merchant/Your Items/textbox_search-item'), 'item')
 
-WebUI.sendKeys(findTestObject('MERCHANT/Bespoke/Your Items/textbox_search-item'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Bespoke/Merchant/Your Items/textbox_search-item'), Keys.chord(Keys.ENTER))
 

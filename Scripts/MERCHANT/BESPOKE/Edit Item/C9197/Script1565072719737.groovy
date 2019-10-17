@@ -22,17 +22,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Your Items'))
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT/Bespoke/Your Items/textbox_search-item'), 0)
+WebUI.waitForElementPresent(findTestObject('Bespoke/Merchant/Your Items/textbox_search-item'), 0)
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Your Items/textbox_search-item'), 'for edit')
+WebUI.setText(findTestObject('Bespoke/Merchant/Your Items/textbox_search-item'), 'for edit')
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('MERCHANT/Bespoke/Your Items/icon_search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Bespoke/Merchant/Your Items/icon_search'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT/Bespoke/Your Items/1st Item Name'), 0)
+WebUI.waitForElementPresent(findTestObject('Bespoke/Merchant/Your Items/1st Item Name'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Your Items/Item Info/icon_edit'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Bespoke/Merchant/Your Items/Item Info/icon_edit'), FailureHandling.CONTINUE_ON_FAILURE)
 

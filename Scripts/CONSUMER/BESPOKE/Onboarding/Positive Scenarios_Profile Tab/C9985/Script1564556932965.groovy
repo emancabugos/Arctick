@@ -26,9 +26,9 @@ WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Homepage/textfield_
 
 WebUI.mouseOver(findTestObject('Utilities/Header/BESPOKE/Merchant Header/usermenu'))
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Bespoke Usermenu/a_Settings'), 0)
+WebUI.waitForElementVisible(findTestObject('Utilities/Bespoke Usermenu/linktext_Settings'), 0)
 
-WebUI.click(findTestObject('Utilities/Bespoke Usermenu/a_Settings'))
+WebUI.click(findTestObject('Utilities/Bespoke Usermenu/linktext_Settings'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Onboarding/Profile Tab/button_Change'), 0)
 
