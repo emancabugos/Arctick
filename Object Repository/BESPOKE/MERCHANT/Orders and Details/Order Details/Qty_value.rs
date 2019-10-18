@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Qty_value</name>
+   <tag></tag>
+   <elementGuidId>c1b78709-a373-4a97-9c38-310b52983b36</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ordr-dtls-item-qty</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>QTY:1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MyPrintDiv&quot;)/div[@class=&quot;order-detail-item-sec&quot;]/div[@class=&quot;ordr-dtls-item-body-sec&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row ordr-dtls-item-bodyarea&quot;]/div[@class=&quot;ordr-dtls-item-bodyrow&quot;]/div[@class=&quot;ordr-dtls-item-qty&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

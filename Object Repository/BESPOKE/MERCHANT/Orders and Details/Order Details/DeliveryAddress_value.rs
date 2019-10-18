@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DeliveryAddress_value</name>
+   <tag></tag>
+   <elementGuidId>896d70c8-ccc8-414a-a57b-d0e49150429a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[1]/div[1]/div/div[1]/div[4]/div/div[2]/div[1]/text()</value>
+   </webElementProperties>
+</WebElementEntity>
