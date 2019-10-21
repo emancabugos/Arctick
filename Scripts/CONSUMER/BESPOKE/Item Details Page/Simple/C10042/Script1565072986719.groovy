@@ -22,33 +22,33 @@ import internal.GlobalVariable as GlobalVariable
 'Verify if Show More is displayed'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), '')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), '')
 
-WebUI.click(findTestObject('BESPOKE/CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
-WebUI.verifyElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_Filters'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/button_Filters'))
 
-WebUI.click(findTestObject('BESPOKE/CONSUMER/Search Results Page/item_Result'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/button_AddtoCart'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'), 0)
 
-WebUI.click(findTestObject('BESPOKE/CONSUMER/Item Details Page/linktext_ShowMore'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowMore'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/linktext_ShowLess'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowLess'), 0)
 
-WebUI.scrollToElement(findTestObject('BESPOKE/CONSUMER/Item Details Page/linktext_ShowLess'), 0)
+WebUI.scrollToElement(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowLess'), 0)
 
-WebUI.verifyElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/linktext_ShowLess'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowLess'))
 
-WebUI.click(findTestObject('BESPOKE/CONSUMER/Item Details Page/linktext_ShowLess'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowLess'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/linktext_ShowMore'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowMore'), 0)
 
-WebUI.scrollToElement(findTestObject('BESPOKE/CONSUMER/Item Details Page/linktext_ShowMore'), 0)
+WebUI.scrollToElement(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowMore'), 0)
 
-WebUI.verifyElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/linktext_ShowMore'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowMore'), FailureHandling.CONTINUE_ON_FAILURE)
 

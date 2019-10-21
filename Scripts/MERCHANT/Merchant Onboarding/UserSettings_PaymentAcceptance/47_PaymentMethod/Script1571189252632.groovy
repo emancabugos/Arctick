@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Payment Method'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Payment Method'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Payment Method'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Payment Method'), 
     0)
 
-String paymentmethod = WebUI.getText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Payment Method'))
+String paymentmethod = WebUI.getText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Payment Method'))
 
 WebUI.verifyMatch(paymentmethod, 'Payment Method', false)
 

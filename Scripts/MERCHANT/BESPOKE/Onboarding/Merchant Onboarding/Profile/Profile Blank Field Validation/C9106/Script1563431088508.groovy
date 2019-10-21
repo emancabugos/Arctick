@@ -19,22 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_DisplayName'), 'Junel')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_DisplayName'), 'Junel')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_description'), 'FUCK BOY SA SENADO!')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_description'), 'FUCK BOY SA SENADO!')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_FirstName'), 'Jonel')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_FirstName'), 'Jonel')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_LastName'), 'Delima')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_LastName'), 'Delima')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_Email'), GlobalVariable.MerchantNotif)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_Email'), GlobalVariable.MerchantNotif)
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_PhoneNumber'), '')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_PhoneNumber'), '')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_SellerLocation'), 'Makati City')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_SellerLocation'), 'Makati City')
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/button_NEXT profile'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/button_NEXT profile'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementAttributeValue(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_PhoneNumber'), 
+WebUI.verifyElementAttributeValue(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_PhoneNumber'), 
     'value', '', 0)
 

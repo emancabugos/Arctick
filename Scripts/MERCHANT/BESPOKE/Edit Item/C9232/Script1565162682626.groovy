@@ -21,27 +21,27 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Your Items'))
 
-WebUI.waitForElementPresent(findTestObject('BESPOKE/MERCHANT/Your Items/textbox_search-item'), 0)
+WebUI.waitForElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/textbox_search-item'), 0)
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Your Items/textbox_search-item'), 'for edit')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/textbox_search-item'), 'for edit')
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Your Items/icon_search'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/icon_search'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('BESPOKE/MERCHANT/Your Items/1st Item Name'), 0)
+WebUI.waitForElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/1st Item Name'), 0)
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Your Items/Item Info/icon_edit'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/Item Info/icon_edit'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 
 WebUI.setText(findTestObject('Utilities/Custom Fields/custom-email'), '')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementAttributeValue(findTestObject('Utilities/Custom Fields/custom-email'), 'value', '', 0)
 

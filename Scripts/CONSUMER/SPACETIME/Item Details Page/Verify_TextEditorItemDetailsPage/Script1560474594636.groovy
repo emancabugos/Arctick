@@ -53,39 +53,39 @@ WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textlabel_ItemDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/checkbox_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/checkbox_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/radiobutton_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/radiobutton_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/bold_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/bold_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/italics_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/italics_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/underline_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/underline_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/strikethrough_TextEditor'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/strikethrough_TextEditor'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/number1_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/number1_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/number2_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/number2_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/alignLeft_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/alignLeft_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/center_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/center_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/alignright_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/alignright_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/justified_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/justified_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/table_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/table_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/emoticonHeart_TextEditor'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/emoticonHeart_TextEditor'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/emoticonSad_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/emoticonSad_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/emoticonBlush_TextEditor'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/emoticonBlush_TextEditor'), 
     0)
 
 WebUI.closeBrowser()

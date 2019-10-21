@@ -22,13 +22,13 @@ import internal.GlobalVariable as GlobalVariable
 'Verify category name on Homepage'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.verifyElementText(findTestObject('BESPOKE/CONSUMER/Homepage/linktext_Cat1'), '')
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/linktext_Cat1'), '')
 
-WebUI.verifyElementText(findTestObject('BESPOKE/CONSUMER/Homepage/linktext_Cat2'), '')
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/linktext_Cat2'), '')
 
-WebUI.verifyElementText(findTestObject('BESPOKE/CONSUMER/Homepage/linktext_Cat3'), '')
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/linktext_Cat3'), '')
 
-not_run: WebUI.verifyElementText(findTestObject('BESPOKE/CONSUMER/Homepage/linktext_Cat4'), '')
+not_run: WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/linktext_Cat4'), '')
 

@@ -22,11 +22,11 @@ import internal.GlobalVariable as GlobalVariable
 'Clicking item on homepage'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.scrollToElement(findTestObject('BESPOKE/CONSUMER/Homepage/item_Homepage'), 0)
+WebUI.scrollToElement(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/item_Homepage'), 0)
 
-WebUI.click(findTestObject('BESPOKE/CONSUMER/Homepage/item_Homepage'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/item_Homepage'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/button_AddtoCart'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'), 0)
 

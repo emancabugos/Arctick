@@ -19,6 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementAttributeValue(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_Email'), 
+WebUI.verifyElementAttributeValue(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_Email'), 
     'value', GlobalVariable.MerchantNotif, 0)
 

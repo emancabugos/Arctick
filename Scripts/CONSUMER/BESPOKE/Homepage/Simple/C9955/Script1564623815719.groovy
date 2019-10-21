@@ -22,11 +22,11 @@ import internal.GlobalVariable as GlobalVariable
 'Verify if search function is working'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), '')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), '')
 
-WebUI.click(findTestObject('BESPOKE/CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
-WebUI.verifyElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_Filters'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/button_Filters'))
 

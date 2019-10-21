@@ -19,15 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_username'), 'seller')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Create Account/textbox_username'), 'seller')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_password'), 'welcome8')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Create Account/textbox_password'), 'welcome8')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_reconfirm-password'), 'welcome8')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Create Account/textbox_reconfirm-password'), 'welcome8')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_notificationemail'), ' ')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Create Account/textbox_notificationemail'), ' ')
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/button_create account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Create Account/button_create account'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Please enter valid email address', false)
 

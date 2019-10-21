@@ -21,19 +21,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 
 WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 20'))
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/input_item-name'), 'C9181')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/input_item-name'), 'C9181')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textbox_item-price'), '10')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_item-price'), '10')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textbox_sku-field'), 'C9181SKU')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_sku-field'), 'C9181SKU')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textarea_item-description'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textarea_item-description'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -43,18 +43,18 @@ WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_im
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/toggle_variant'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/toggle_variant'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/Variants/textbox_opt1'), 'Color')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/Variants/textbox_opt1'), 'Color')
 
-WebUI.sendKeys(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/Variants/textbox_choices1'), Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/Variants/textbox_choices1'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/Variants/stock'), '1')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/Variants/stock'), '1')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/Variants/stock2'), '1')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/Variants/stock2'), '1')
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementAttributeValue(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/Variants/textbox_choices1'), 'value', '', 
+WebUI.verifyElementAttributeValue(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/Variants/textbox_choices1'), 'value', '', 
     0)
 

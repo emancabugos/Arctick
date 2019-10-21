@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Your Items/icon_print'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/icon_print'))
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Your Items/button_cancel print'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/button_cancel print'))
 
 WebUI.refresh()
 

@@ -28,12 +28,12 @@ WebUI.maximizeWindow()
 
 WebUI.verifyElementPresent(findTestObject('Time/Consumer/Homepage/BeASeller_Link'), 0)
 
-/*policy = WebUI.verifyElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page/button_Accept Cookies'),0)
+/*policy = WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_Accept Cookies'),0)
 
 if (policy == true)
 {
-	WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page/button_Accept Cookies'),0)
-	WebUI.waitForElementNotVisible(findTestObject('BESPOKE/MERCHANT/Upload Page/button_Accept Cookies'),0)
+	WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_Accept Cookies'),0)
+	WebUI.waitForElementNotVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_Accept Cookies'),0)
 }	
 
 if (policy == false)
@@ -41,7 +41,7 @@ if (policy == false)
 	WebUI.delay(3)
 }
 	
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page/button_Accept Cookies'))*/
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_Accept Cookies'))*/
 WebUI.click(findTestObject('Time/Consumer/Homepage/BeASeller_Link'))
 
 WebUI.waitForElementVisible(findTestObject('Time/Consumer/Register  Sign In/Create Account_button '), 0)
@@ -78,52 +78,52 @@ if (GlobalVariable.merchantcredential == 'custom') {
 
 WebUI.waitForElementPresent(findTestObject('Time/Merchant/Dashboard/label_Dashboard'), 0)
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Header/link_Upload'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Header/link_Upload'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page/dropdown_Category'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/dropdown_Category'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('BESPOKE/MERCHANT/Upload Page/dropdown_Category'), 'Category 1', 
+WebUI.selectOptionByLabel(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/dropdown_Category'), 'Category 1', 
     true)
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page/textfield_ItemName'), 'Item Checkout')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/textfield_ItemName'), 'Item Checkout')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page/textfield_Price'), '10')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/textfield_Price'), '10')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page/textfield_SKU'), 'Item Checkout')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/textfield_SKU'), 'Item Checkout')
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page/textarea_ItemDescription'), 'Item Checkout')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/textarea_ItemDescription'), 'Item Checkout')
 
-WebUI.scrollToElement(findTestObject('BESPOKE/MERCHANT/Upload Page/textarea_ItemDescription'), 0)
+WebUI.scrollToElement(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/textarea_ItemDescription'), 0)
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page/button_BROWSE'))
-
-WebUI.delay(3)
-
-WebUI.uploadFile(findTestObject('BESPOKE/MERCHANT/Upload Page/upload_UploadImage'), 'C:\\Users\\Public\\Pictures\\Sample Pictures\\Tulips.jpg')
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_BROWSE'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page/button_GreenCheck'))
+WebUI.uploadFile(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/upload_UploadImage'), 'C:\\Users\\Public\\Pictures\\Sample Pictures\\Tulips.jpg')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('BESPOKE/MERCHANT/Upload Page/textfield_Quantity'), '20')
-
-WebUI.scrollToElement(findTestObject('BESPOKE/MERCHANT/Upload Page/button_SAVE'), 0)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_GreenCheck'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page/button_SAVE'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/textfield_Quantity'), '20')
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page/button_Later'), 0)
+WebUI.scrollToElement(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_SAVE'), 0)
 
-WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page/button_Later'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page/button_Translate_List'), 0)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_SAVE'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page/textfield_search-item'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_Later'), 0)
+
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_Later'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/button_Translate_List'), 0)
+
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page/textfield_search-item'), 0)
 
 WebUI.mouseOver(findTestObject('Time/Merchant/User Settings/image_Seller'))
 

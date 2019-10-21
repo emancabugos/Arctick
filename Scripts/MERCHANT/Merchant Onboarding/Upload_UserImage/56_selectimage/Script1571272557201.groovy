@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Upload Image Popup/upload_Image'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Upload Image Popup/upload_Image'), 
     0)
 
-WebUI.uploadFile(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Upload Image Popup/upload_Image'), 'C:\\Katalon\\Image\\xander.jpg')
+WebUI.uploadFile(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Upload Image Popup/upload_Image'), 'C:\\Katalon\\Image\\xander.jpg')
 

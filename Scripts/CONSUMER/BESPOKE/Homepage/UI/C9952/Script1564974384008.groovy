@@ -34,11 +34,11 @@ WebUI.scrollToElement(findTestObject('Time/Consumer/Homepage/HideCategories_Butt
 
 WebUI.verifyElementVisible(findTestObject('Time/Consumer/Homepage/HideCategories_Button'))
 
-WebUI.verifyElementText(findTestObject('BESPOKE/CONSUMER/Homepage/linktext_Cat1'), '')
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/linktext_Cat1'), '')
 
-WebUI.verifyElementText(findTestObject('BESPOKE/CONSUMER/Homepage/linktext_Cat2'), '')
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/linktext_Cat2'), '')
 
-WebUI.verifyElementText(findTestObject('BESPOKE/CONSUMER/Homepage/linktext_Cat3'), '')
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/linktext_Cat3'), '')
 
-WebUI.verifyElementText(findTestObject('BESPOKE/CONSUMER/Homepage/linktext_Cat4'), '')
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/linktext_Cat4'), '')
 

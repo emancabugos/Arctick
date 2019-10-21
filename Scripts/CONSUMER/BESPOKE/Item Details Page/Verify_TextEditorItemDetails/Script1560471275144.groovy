@@ -21,59 +21,59 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.delay(1)
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 'Item Text Editor')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'Item Text Editor')
 
-WebUI.sendKeys(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 
 WebUI.comment('Search Result Page')
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_Filters'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/button_Filters'), 0)
 
-WebUI.click(findTestObject('BESPOKE/CONSUMER/Search Results Page/item_Result'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/checkbox_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/checkbox_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/radiobutton_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/radiobutton_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/bold_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/bold_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/italics_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/italics_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/underline_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/underline_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/strikethrough_TextEditor'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/strikethrough_TextEditor'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/number1_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/number1_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/number2_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/number2_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/alignLeft_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/alignLeft_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/center_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/center_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/alignright_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/alignright_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/justified_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/justified_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/table_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/table_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/emoticonHeart_TextEditor'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/emoticonHeart_TextEditor'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/emoticonSad_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/emoticonSad_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/a_TextEditor/emoticonBlush_TextEditor'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/emoticonBlush_TextEditor'), 
     0)
 
 WebUI.closeBrowser()

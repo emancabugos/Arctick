@@ -22,7 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 'Edit Uploaded Image\r\n'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.mouseOver(findTestObject('Utilities/Header/BESPOKE/Merchant Header/usermenu'))
 
