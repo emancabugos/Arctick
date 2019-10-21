@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textlabel_USER SETTINGS'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textlabel_USER SETTINGS'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textlabel_USER SETTINGS'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textlabel_USER SETTINGS'), 
     0)
 
-String usersettings = WebUI.getText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textlabel_USER SETTINGS'))
+String usersettings = WebUI.getText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Profile/textlabel_USER SETTINGS'))
 
 WebUI.verifyMatch(usersettings, 'USER SETTINGS', false)
 

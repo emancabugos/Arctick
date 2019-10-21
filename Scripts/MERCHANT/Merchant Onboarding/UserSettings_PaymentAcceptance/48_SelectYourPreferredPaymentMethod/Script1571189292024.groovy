@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Select your preferred paymen'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Select your preferred paymen'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Select your preferred paymen'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Select your preferred paymen'), 
     0)
 
-String paymentdescription = WebUI.getText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Select your preferred paymen'))
+String paymentdescription = WebUI.getText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/textlabel_Select your preferred paymen'))
 
 WebUI.verifyMatch(paymentdescription, 'Select your preferred payment method.', false)
 

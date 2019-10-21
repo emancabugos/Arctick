@@ -19,23 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textbox_first-name'), 'Jonel')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textbox_first-name'), 'Jonel')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textbox_last-name'), 'De Lima')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textbox_last-name'), 'De Lima')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textbox_myaddress'), '6784 Ayala Avenue cor. V.A. Rufino Street, Legaspi Village, Makati, Philippines')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textbox_myaddress'), '6784 Ayala Avenue cor. V.A. Rufino Street, Legaspi Village, Makati, Philippines')
 
-WebUI.selectOptionByLabel(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/dropdown_(SELECT COUNTRY)'), 
+WebUI.selectOptionByLabel(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/dropdown_(SELECT COUNTRY)'), 
     'Philippines', false)
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textbox_state'), 'Philippines')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textbox_state'), 'Philippines')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textbox_city'), '')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textbox_city'), '')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textbox_postal-code'), '1200')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textbox_postal-code'), '1200')
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/button_add address'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/button_add address'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementAttributeValue(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textbox_city'), 
+WebUI.verifyElementAttributeValue(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textbox_city'), 
     'value', '', 0)
 

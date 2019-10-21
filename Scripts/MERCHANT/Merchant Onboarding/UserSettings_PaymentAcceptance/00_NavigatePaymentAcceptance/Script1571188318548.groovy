@@ -23,10 +23,10 @@ WebUI.delay(1)
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/tab_PAYMENT ACCEPTANCE'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/tab_PAYMENT ACCEPTANCE'), 
     0)
 
 WebUI.delay(0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/tab_PAYMENT ACCEPTANCE'))
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/tab_PAYMENT ACCEPTANCE'))
 

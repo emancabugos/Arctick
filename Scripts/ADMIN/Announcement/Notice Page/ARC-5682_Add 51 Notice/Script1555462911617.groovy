@@ -27,51 +27,51 @@ WebUI.navigateToUrl(GlobalVariable.dashboardurl)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Login Page/logo_Arcadier'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/logo_Arcadier'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Dashboard/Dashboard - Login Page/logo_Arcadier'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/logo_Arcadier'), 0)
 
-WebUI.setText(findTestObject('Dashboard/Dashboard - Login Page/textfield_Email'), GlobalVariable.dashboardusername)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/textfield_Email'), GlobalVariable.dashboardusername)
 
-WebUI.setText(findTestObject('Dashboard/Dashboard - Login Page/textfield_Password'), GlobalVariable.dashboardpassword)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/textfield_Password'), GlobalVariable.dashboardpassword)
 
-WebUI.click(findTestObject('Dashboard/Dashboard - Login Page/button_Login'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/button_Login'))
 
-WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - CS Support Page/link_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - CS Support Page/link_Announcement'), 0)
 
-WebUI.click(findTestObject('Dashboard/Dashboard - CS Support Page/link_Notice'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - CS Support Page/link_Notice'))
 
-WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Notice Page/button_Add New'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/button_Add New'), 0)
 
 for (def rowNum = 1; rowNum <= findTestData('null').getRowNumbers(); rowNum++) {
-    WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/button_Add New'))
+    WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/button_Add New'))
 
     WebUI.delay(2)
 
-    WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Notice Page/popup_label_Title'), 0)
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_label_Title'), 0)
 
-    WebUI.setText(findTestObject('Dashboard/Dashboard - Notice Page/popup_textfield_Title'), findTestData('null').getValue(
+    WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_textfield_Title'), findTestData('null').getValue(
             1, rowNum))
 
-    WebUI.setText(findTestObject('Dashboard/Dashboard - Notice Page/popup_textfield_Hyperlink'), findTestData('null').getValue(
+    WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_textfield_Hyperlink'), findTestData('null').getValue(
             2, rowNum))
 
-    WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/popup_button_Upload'))
+    WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_button_Upload'))
 
     WebUI.delay(3)
 
-    WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Notice Page/button_Delete'), 0)
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/button_Delete'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('Dashboard/Dashboard - Notice Page/button_Add New'), 0)
+    WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/button_Add New'), 0)
 }
 
-WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Notice Page/button_Delete'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/button_Delete'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Dashboard/Dashboard - CS Support Page/button_Logout'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - CS Support Page/button_Logout'), 0)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Dashboard/Dashboard - CS Support Page/button_Logout'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - CS Support Page/button_Logout'))
 
-WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Login Page/textfield_Email'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/textfield_Email'), 0)
 

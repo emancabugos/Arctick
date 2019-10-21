@@ -25,28 +25,27 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Homepage/a_BE A SELLER'), 0)
 
 //if (WebUI.verifyElementPresent(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), 3) == true) {
- //   WebUI.click(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
+//   WebUI.click(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
 //} else {
-//    WebUI.verifyElementPresent(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), 0)
+//    WebUI.verifyElementPresent(findTestObject('SPACETIME/CONSUMER/Homepage/a_BE A SELLER'), 0)
 //}
-
-WebUI.click(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Homepage/a_BE A SELLER'), FailureHandling.CONTINUE_ON_FAILURE)
 
 if (GlobalVariable.MerchantAccountType == 'custom') {
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/input_username'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Login Buyer/input_username'), 0)
 
-    WebUI.setText(findTestObject('CONSUMER/Login Buyer/input_username'), GlobalVariable.CustomMerchant)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Login Buyer/input_username'), GlobalVariable.CustomMerchant)
 
-    WebUI.setText(findTestObject('CONSUMER/Login Buyer/input_password'), GlobalVariable.CustomPass)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Login Buyer/input_password'), GlobalVariable.CustomPass)
 
-    WebUI.click(findTestObject('CONSUMER/Login Buyer/a_Sign In'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Login Buyer/a_Sign In'))
 } else if (GlobalVariable.MerchantAccountType == 'google') {
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/a_Google Login'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Login Buyer/a_Google Login'), 0)
 
-    WebUI.click(findTestObject('CONSUMER/Login Buyer/a_Google Login'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Login Buyer/a_Google Login'))
 
     WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Login Page/Google Accounts/textbox_username'), 0)
 
@@ -62,7 +61,7 @@ if (GlobalVariable.MerchantAccountType == 'custom') {
 
     WebUI.click(findTestObject('ADMIN/Admin Login Page/Google Accounts/button_next_password'))
 } else if (GlobalVariable.MerchantAccountType == 'facebook') {
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/span_Facebook Login'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Login Buyer/span_Facebook Login'), 0)
 
     WebUI.click(findTestObject('MERCHANT/Login Seller/button_Facebook Login'))
 
@@ -73,5 +72,5 @@ if (GlobalVariable.MerchantAccountType == 'custom') {
     WebUI.click(findTestObject('ADMIN/Admin Login Page/Login Facebook/button_login'))
 }
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Dashboard/textlabel_DASHBOARD'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Dashboard/textlabel_DASHBOARD'), 0)
 

@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textbox_city'), 'Makati')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Address Page/Address/textbox_city'), 'Makati')
 

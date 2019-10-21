@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verify if Reset button is displayed'
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Search Results Page/button_close'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_close'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Consumer/Search Results Page/button_Reset'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_Reset'))
 

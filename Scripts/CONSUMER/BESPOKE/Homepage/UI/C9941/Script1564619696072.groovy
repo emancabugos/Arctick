@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verify if Register / Sign In link is displayed on the Homepage'
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Homepage/a_REGISTER  SIGN IN'))
+WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Homepage/a_REGISTER  SIGN IN'))
 

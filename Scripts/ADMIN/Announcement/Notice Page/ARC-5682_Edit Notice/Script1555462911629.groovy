@@ -24,74 +24,74 @@ import org.openqa.selenium.interactions.Actions as Actions
 
 WebUI.navigateToUrl(GlobalVariable.dashboardurl)
 
-WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Login Page/logo_Arcadier'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/logo_Arcadier'), 0)
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('Dashboard/Dashboard - Login Page/logo_Arcadier'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/logo_Arcadier'), 0)
 
-WebUI.setText(findTestObject('Dashboard/Dashboard - Login Page/textfield_Email'), GlobalVariable.dashboardusername)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/textfield_Email'), GlobalVariable.dashboardusername)
 
-WebUI.setText(findTestObject('Dashboard/Dashboard - Login Page/textfield_Password'), GlobalVariable.dashboardpassword)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/textfield_Password'), GlobalVariable.dashboardpassword)
 
-WebUI.click(findTestObject('Dashboard/Dashboard - Login Page/button_Login'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/button_Login'))
 
-WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - CS Support Page/link_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - CS Support Page/link_Announcement'), 0)
 
-WebUI.click(findTestObject('Dashboard/Dashboard - CS Support Page/link_Notice'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - CS Support Page/link_Notice'))
 
-WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Notice Page/button_Add New'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/button_Add New'), 0)
 
-WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/button_Add New'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('Dashboard/Dashboard - Notice Page/popup_textfield_Title'), 'Title No Edit')
-
-WebUI.setText(findTestObject('Dashboard/Dashboard - Notice Page/popup_textfield_Hyperlink'), 'www.google.com')
-
-WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/popup_dropdown_Notice'))
-
-WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/link_News'))
-
-WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/popup_button_Upload'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/button_Add New'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/delete_button_Edit'))
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_textfield_Title'), 'Title No Edit')
+
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_textfield_Hyperlink'), 'www.google.com')
+
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_dropdown_Notice'))
+
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/link_News'))
+
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_button_Upload'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Dashboard/Dashboard - Notice Page/popup_textfield_Title'), 'Title With Edit')
-
-WebUI.setText(findTestObject('Dashboard/Dashboard - Notice Page/popup_textfield_Hyperlink'), 'www.facebook.com')
-
-WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/popup_dropdown_Notice'))
-
-WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/link_News'))
-
-WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/popup_button_Upload'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/delete_button_Edit'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('Dashboard/Dashboard - Notice Page/content_Title'), 'Title With Edit')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_textfield_Title'), 'Title With Edit')
+
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_textfield_Hyperlink'), 'www.facebook.com')
+
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_dropdown_Notice'))
+
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/link_News'))
+
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/popup_button_Upload'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/button_Delete'))
+WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/content_Title'), 'Title With Edit')
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Dashboard/Dashboard - Notice Page/label_Are you sure you want to delete this notice'), 
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/button_Delete'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/label_Are you sure you want to delete this notice'), 
     0)
 
-WebUI.click(findTestObject('Dashboard/Dashboard - Notice Page/delete_button_Delete'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Notice Page/delete_button_Delete'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementClickable(findTestObject('Dashboard/Dashboard - CS Support Page/button_Logout'), 0)
+WebUI.waitForElementClickable(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - CS Support Page/button_Logout'), 0)
 
-WebUI.click(findTestObject('Dashboard/Dashboard - CS Support Page/button_Logout'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - CS Support Page/button_Logout'))
 
-WebUI.waitForElementVisible(findTestObject('Dashboard/Dashboard - Login Page/textfield_Email'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard (1)/Dashboard - Login Page/textfield_Email'), 0)
 

@@ -22,13 +22,13 @@ import internal.GlobalVariable as GlobalVariable
 'Verify search item description is working'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.scrollToElement(findTestObject('Bespoke/Consumer/Homepage/item_Homepage'), 0)
+WebUI.scrollToElement(findTestObject('BESPOKE/CONSUMER/Homepage/item_Homepage'), 0)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Homepage/item_Homepage'))
+WebUI.click(findTestObject('BESPOKE/CONSUMER/Homepage/item_Homepage'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/button_AddtoCart'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/button_AddtoCart'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/button_ContactSeller'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE/CONSUMER/Item Details Page/button_ContactSeller'))
 

@@ -19,24 +19,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_ViewOrder'), 0)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('CONSUMER/Purchase History List/textfield_Search'), invoice)
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Purchase History List/textfield_Search'), invoice)
 
-WebUI.click(findTestObject('CONSUMER/Purchase History List/button_Search'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_Search'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_ViewOrder'), 0)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_ViewOrder'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), 
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), 
     0)
 

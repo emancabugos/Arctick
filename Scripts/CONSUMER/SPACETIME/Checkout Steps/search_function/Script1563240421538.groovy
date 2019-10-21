@@ -23,25 +23,25 @@ WebUI.comment('Validation on Homepage')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Function/textfield_Keyword'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Search Function/textfield_Keyword'), searchItem)
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), searchItem)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CONSUMER/Search Function/button_Search'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Function/button_Search'))
 
 WebUI.comment('Verify in Search Result Page')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/image_Item'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), 0)
 
-rate = WebUI.getText(findTestObject('CONSUMER/Search Result Page/textlabel_SearchResultPageRate'))
+rate = WebUI.getText(findTestObject('SPACETIME/CONSUMER/Search Result Page/textlabel_SearchResultPageRate'))
 
 WebUI.delay(1)
 
 WebUI.verifyElementText(findTestObject(null), '')
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
 

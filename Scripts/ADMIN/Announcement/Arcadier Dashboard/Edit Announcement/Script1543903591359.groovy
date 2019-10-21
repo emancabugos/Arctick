@@ -26,51 +26,51 @@ WebUI.navigateToUrl(GlobalVariable.ArcDashboardURL)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/div_brand-logo'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/div_brand-logo'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_Email'), GlobalVariable.ArcDashboardUser)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_Email'), GlobalVariable.ArcDashboardUser)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_Password'), GlobalVariable.ArcDashboardPass)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_Password'), GlobalVariable.ArcDashboardPass)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/input_btn btn-default'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_btn btn-default'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/a_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Announcement'), 0)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Announcement'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Announcement'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
-
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_search'), 'edit')
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
 WebUI.delay(1)
 
-WebUI.sendKeys(findTestObject('ADMIN/Arcadier Dashboard/input_search'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_search'), 'edit')
 
 WebUI.delay(1)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/td_time 1st row'), 0)
+WebUI.sendKeys(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_search'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Edit'))
+WebUI.delay(1)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/label_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/td_time 1st row'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_title'), 'EDITED')
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Edit'))
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/textarea_description'), 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, ')
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Title'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_hyperlink'), 'youtube.com')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_title'), 'EDITED')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/button_Upload'))
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/textarea_description'), 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, ')
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/td_time 1st row'), 0)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_hyperlink'), 'youtube.com')
 
-WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/td_title 1st row'), 'EDITED')
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/logout_button'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/td_time 1st row'), 0)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/logout_button'))
+WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/td_title 1st row'), 'EDITED')
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/logout_button'), 0)
+
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/logout_button'))
 
 WebUI.closeBrowser()
 

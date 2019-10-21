@@ -21,24 +21,24 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Address')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Address/textbox_myaddress'), '6784 Ayala Avenue cor. V.A. Rufino Street, Legaspi Village, Makati, Philippines')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Address/textbox_myaddress'), '6784 Ayala Avenue cor. V.A. Rufino Street, Legaspi Village, Makati, Philippines')
 
-WebUI.selectOptionByLabel(findTestObject('MERCHANT/SpaceTime/Onboarding/Address/dropdown_(SELECT COUNTRY)'), 'Philippines', 
+WebUI.selectOptionByLabel(findTestObject('SPACETIME/MERCHANT/Onboarding/Address/dropdown_(SELECT COUNTRY)'), 'Philippines', 
     false)
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Address/textbox_state'), 'Philippines')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Address/textbox_state'), 'Philippines')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Address/textbox_city'), 'Makati')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Address/textbox_city'), 'Makati')
 
-WebUI.setText(findTestObject('MERCHANT/SpaceTime/Onboarding/Address/textbox_postal-code'), '1200')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Onboarding/Address/textbox_postal-code'), '1200')
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Address/button_Add Address'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Onboarding/Address/button_Add Address'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Onboarding/Address/container_address'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Onboarding/Address/container_address'), 0)
 
-WebUI.scrollToElement(findTestObject('MERCHANT/SpaceTime/Onboarding/Address/button_NEXT address'), 0)
+WebUI.scrollToElement(findTestObject('SPACETIME/MERCHANT/Onboarding/Address/button_NEXT address'), 0)
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Onboarding/Address/button_NEXT address'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Onboarding/Address/button_NEXT address'), FailureHandling.CONTINUE_ON_FAILURE)
 

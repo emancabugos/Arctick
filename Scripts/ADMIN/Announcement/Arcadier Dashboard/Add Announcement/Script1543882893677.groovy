@@ -26,143 +26,143 @@ WebUI.navigateToUrl(GlobalVariable.ArcDashboardURL)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/div_brand-logo'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/div_brand-logo'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_Email'), GlobalVariable.ArcDashboardUser)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_Email'), GlobalVariable.ArcDashboardUser)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_Password'), GlobalVariable.ArcDashboardPass)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_Password'), GlobalVariable.ArcDashboardPass)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/input_btn btn-default'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_btn btn-default'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/a_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Announcement'), 0)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Announcement'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Announcement'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
 WebUI.comment('Image Only')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Add New'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Add New'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/label_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Title'), 0)
 
-WebUI.uploadFile(findTestObject('ADMIN/Arcadier Dashboard/div_Upload'), 'C:\\\\SeleniumIDE\\\\Image\\\\3412.jpg')
+WebUI.uploadFile(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/div_Upload'), 'C:\\\\SeleniumIDE\\\\Image\\\\3412.jpg')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/button_Upload'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
 WebUI.comment('Title Only')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Add New'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Add New'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/label_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Title'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_title'), 'Announcement ~!@#$%^&*()_+')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_title'), 'Announcement ~!@#$%^&*()_+')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/button_Upload'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
 WebUI.comment('Description only')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Add New'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Add New'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/label_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Title'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/textarea_description'), 'Lorem ipsum dolor sit amet, ad ius assum erant comprehensam, usu ex doctus constituam, movet probatus pertinax cum an. Quot magna disputationi duo ad. Copiosae persecuti eu qui, eam in error populo, nonumes invidunt ne vix. Ut malorum elaboraret ius, vel vero iusto no.')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/textarea_description'), 'Lorem ipsum dolor sit amet, ad ius assum erant comprehensam, usu ex doctus constituam, movet probatus pertinax cum an. Quot magna disputationi duo ad. Copiosae persecuti eu qui, eam in error populo, nonumes invidunt ne vix. Ut malorum elaboraret ius, vel vero iusto no.')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/button_Upload'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
 WebUI.comment('Hyperlink only')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Add New'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Add New'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/label_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Title'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_hyperlink'), 'google.com')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_hyperlink'), 'google.com')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/button_Upload'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
 WebUI.comment('All input')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Add New'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Add New'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/label_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Title'), 0)
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('ADMIN/Arcadier Dashboard/div_Upload'), 'C:\\\\SeleniumIDE\\\\Image\\\\image7.jpg')
+WebUI.uploadFile(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/div_Upload'), 'C:\\\\SeleniumIDE\\\\Image\\\\image7.jpg')
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_title'), 'Announcement ~!@#$%^&*()_+')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_title'), 'Announcement ~!@#$%^&*()_+')
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/textarea_description'), 'Lorem ipsum dolor sit amet, ad ius assum erant comprehensam, usu ex doctus constituam, movet probatus pertinax cum an. Quot magna disputationi duo ad. Copiosae persecuti eu qui, eam in error populo, nonumes invidunt ne vix. Ut malorum elaboraret ius, vel vero iusto no.')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/textarea_description'), 'Lorem ipsum dolor sit amet, ad ius assum erant comprehensam, usu ex doctus constituam, movet probatus pertinax cum an. Quot magna disputationi duo ad. Copiosae persecuti eu qui, eam in error populo, nonumes invidunt ne vix. Ut malorum elaboraret ius, vel vero iusto no.')
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_hyperlink'), 'google.com')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_hyperlink'), 'google.com')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/button_Upload'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
 WebUI.comment('for delete')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Add New'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Add New'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/label_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Title'), 0)
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('ADMIN/Arcadier Dashboard/div_Upload'), 'C:\\\\SeleniumIDE\\\\Image\\\\image3.jpg')
+WebUI.uploadFile(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/div_Upload'), 'C:\\\\SeleniumIDE\\\\Image\\\\image3.jpg')
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_title'), 'Delete this')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_title'), 'Delete this')
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/textarea_description'), 'Lorem ipsum dolor sit amet, ad ius assum erant comprehensam, usu ex doctus constituam, movet probatus pertinax cum an. Quot magna disputationi duo ad. Copiosae persecuti eu qui, eam in error populo, nonumes invidunt ne vix. Ut malorum elaboraret ius, vel vero iusto no.')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/textarea_description'), 'Lorem ipsum dolor sit amet, ad ius assum erant comprehensam, usu ex doctus constituam, movet probatus pertinax cum an. Quot magna disputationi duo ad. Copiosae persecuti eu qui, eam in error populo, nonumes invidunt ne vix. Ut malorum elaboraret ius, vel vero iusto no.')
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_hyperlink'), 'google.com')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_hyperlink'), 'google.com')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/button_Upload'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
 WebUI.comment('for edit')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Add New'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Add New'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/label_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Title'), 0)
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('ADMIN/Arcadier Dashboard/div_Upload'), 'C:\\\\SeleniumIDE\\\\Image\\\\image2.jpg')
+WebUI.uploadFile(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/div_Upload'), 'C:\\\\SeleniumIDE\\\\Image\\\\image2.jpg')
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_title'), 'FOR EDIT')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_title'), 'FOR EDIT')
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/textarea_description'), 'Lorem ipsum dolor sit amet, ad ius assum erant comprehensam, usu ex doctus constituam, movet probatus pertinax cum an. Quot magna disputationi duo ad. Copiosae persecuti eu qui, eam in error populo, nonumes invidunt ne vix. Ut malorum elaboraret ius, vel vero iusto no.')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/textarea_description'), 'Lorem ipsum dolor sit amet, ad ius assum erant comprehensam, usu ex doctus constituam, movet probatus pertinax cum an. Quot magna disputationi duo ad. Copiosae persecuti eu qui, eam in error populo, nonumes invidunt ne vix. Ut malorum elaboraret ius, vel vero iusto no.')
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_hyperlink'), 'google.com')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_hyperlink'), 'google.com')
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/button_Upload'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
 WebUI.comment('Search by title')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_search'), 'announcement')
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_search'), 'announcement')
 
-WebUI.sendKeys(findTestObject('ADMIN/Arcadier Dashboard/input_search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_search'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/td_time 1st row'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/td_time 1st row'), 0)
 
-WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/td_title 1st row'), 'Announcement ~!@#$%^&*()_+')
+WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/td_title 1st row'), 'Announcement ~!@#$%^&*()_+')
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/logout_button'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/logout_button'), 0)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/logout_button'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/logout_button'))
 
 WebUI.closeBrowser()
 

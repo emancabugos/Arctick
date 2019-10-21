@@ -22,5 +22,5 @@ import internal.GlobalVariable as GlobalVariable
 'Verify if Register / Sign In is not visible upon login of consumer'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('CONSUMER/Homepage/a_REGISTER  SIGN IN'))
+WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Homepage/a_REGISTER  SIGN IN'))
 

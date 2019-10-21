@@ -21,21 +21,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Custom Payment')
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Custom Payment/textlabel_No account linked yet'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Custom Payment/textlabel_No account linked yet'), 
     0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Custom Payment/button_Link Account'))
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Custom Payment/button_Link Account'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Custom Payment/popuptext_Custom Payment'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Custom Payment/popuptext_Custom Payment'), 
     0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Custom Payment/button_Okay'))
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Custom Payment/button_Okay'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Custom Payment/icon_verified'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Custom Payment/icon_verified'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Custom Payment/textalbel_Verified'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Custom Payment/textalbel_Verified'), 
     0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_SAVE'))
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_SAVE'))
 

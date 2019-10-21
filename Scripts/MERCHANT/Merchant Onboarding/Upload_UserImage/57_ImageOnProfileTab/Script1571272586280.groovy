@@ -22,8 +22,6 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Upload Image Popup/button_OK'), 
     0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Upload Image Popup/button_OK'))
-
 WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Upload Image Popup/button_Save'), 
     0)
 

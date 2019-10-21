@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_SAVE'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_SAVE'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_SAVE'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_SAVE'), 
     0)
 
-String savebutton = WebUI.getText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_SAVE'))
+String savebutton = WebUI.getText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Payment/Payment Acceptance/button_SAVE'))
 
 WebUI.verifyMatch(savebutton, 'SAVE', false)
 

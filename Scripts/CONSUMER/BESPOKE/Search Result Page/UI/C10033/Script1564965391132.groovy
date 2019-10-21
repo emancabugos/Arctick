@@ -20,11 +20,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verify minimum value is displayed'
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Search Results Page/button_Filters'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_Filters'), 0)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Search Results Page/button_open'))
+WebUI.click(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_open'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Search Results Page/button_close'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_close'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Consumer/Search Results Page/value_minimum'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/value_minimum'))
 

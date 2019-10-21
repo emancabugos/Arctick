@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Bespoke/Merchant/Your Items/button_Upload'))
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Your Items/button_Upload'))
 

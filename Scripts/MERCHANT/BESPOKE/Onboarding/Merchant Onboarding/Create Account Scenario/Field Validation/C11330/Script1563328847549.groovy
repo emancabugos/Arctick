@@ -19,16 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_username'), ' ')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_username'), ' ')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_password'), 'welcome8')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_password'), 'welcome8')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_reconfirm-password'), 'welcome8')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_reconfirm-password'), 'welcome8')
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_notificationemail'), 'arcadier.tester1@gmail.com')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_notificationemail'), 'arcadier.tester1@gmail.com')
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/button_create account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/button_create account'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementAttributeValue(findTestObject('Bespoke/Merchant/Merchant Onboarding/Create Account/textbox_username'), 
+WebUI.verifyElementAttributeValue(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Create Account/textbox_username'), 
     'value', ' ', 0)
 

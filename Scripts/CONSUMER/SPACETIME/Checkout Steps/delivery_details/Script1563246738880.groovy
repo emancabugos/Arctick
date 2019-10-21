@@ -19,45 +19,45 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout')) == true) {
-    WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
+if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout')) == true) {
+    WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
 
     if (delivery == 'delivery1') {
-        WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Delivery1'))
+        WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Delivery1'))
     } else if (delivery == 'delivery2') {
-        WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Delivery2'))
+        WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Delivery2'))
     } else if (delivery == 'pickup1') {
-        WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_PickUp1'))
+        WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_PickUp1'))
     } else if (delivery == 'pickup2') {
-        WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_PickUp2'))
+        WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_PickUp2'))
     }
     
-    WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
-} else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout'))) {
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
+} else if (WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))) {
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 }
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_SelectAddress'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_Selected'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_Selected'), 0)
 
-WebUI.scrollToElement(findTestObject('CONSUMER/Delivery Details Page/buttonDelivery_Next'), 0)
+WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/buttonDelivery_Next'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Delivery Details Page/buttonDelivery_Next'))
-
-WebUI.waitForPageLoad(0)
-
-WebUI.verifyElementText(findTestObject('CONSUMER/Review Details Page/textlabel_ReviewDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Review Details Page/button_Previous'), 0)
-
-WebUI.scrollToElement(findTestObject('CONSUMER/Review Details Page/buttonReview_Next'), 0)
-
-WebUI.click(findTestObject('CONSUMER/Review Details Page/buttonReview_Next'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/buttonDelivery_Next'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 0)
+WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Review Details Page/textlabel_ReviewDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Review Details Page/button_Previous'), 0)
+
+WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Review Details Page/buttonReview_Next'), 0)
+
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Review Details Page/buttonReview_Next'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 0)
 

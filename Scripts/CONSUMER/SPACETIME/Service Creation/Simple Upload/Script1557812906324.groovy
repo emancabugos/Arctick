@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Dashboard/textlabel_DASHBOARD'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Dashboard/textlabel_DASHBOARD'), 0)
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/header_Add Service'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/header_Add Service'), FailureHandling.CONTINUE_ON_FAILURE)
 

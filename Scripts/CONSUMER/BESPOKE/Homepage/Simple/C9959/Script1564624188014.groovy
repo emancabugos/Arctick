@@ -22,11 +22,11 @@ import internal.GlobalVariable as GlobalVariable
 'User clicks Category menu on the homepage'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Homepage/box_CategoryName'))
+WebUI.click(findTestObject('BESPOKE/CONSUMER/Homepage/box_CategoryName'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Search Results Page/button_Filters'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_Filters'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Consumer/Search Results Page/button_Filters'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE/CONSUMER/Search Results Page/button_Filters'))
 

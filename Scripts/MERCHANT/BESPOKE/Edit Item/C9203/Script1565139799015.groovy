@@ -21,37 +21,37 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Your Items'))
 
-WebUI.waitForElementPresent(findTestObject('Bespoke/Merchant/Your Items/textbox_search-item'), 0)
+WebUI.waitForElementPresent(findTestObject('BESPOKE/MERCHANT/Your Items/textbox_search-item'), 0)
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Your Items/textbox_search-item'), 'for edit')
+WebUI.setText(findTestObject('BESPOKE/MERCHANT/Your Items/textbox_search-item'), 'for edit')
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Your Items/icon_search'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Your Items/icon_search'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Bespoke/Merchant/Your Items/1st Item Name'), 0)
+WebUI.waitForElementPresent(findTestObject('BESPOKE/MERCHANT/Your Items/1st Item Name'), 0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Your Items/Item Info/icon_edit'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Your Items/Item Info/icon_edit'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Upload Page (1)/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/delete_image'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.uploadFile(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/img_upload container'), 'C:\\\\Katalon\\\\Image\\\\quick.png')
-
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/delete_image'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.uploadFile(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/img_upload container'), 'C:\\\\Katalon\\\\Image\\\\quick.png')
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Merchant/Your Items/button_Upload'), 0)
+WebUI.click(findTestObject('BESPOKE/MERCHANT/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('BESPOKE/MERCHANT/Your Items/button_Upload'), 0)
 

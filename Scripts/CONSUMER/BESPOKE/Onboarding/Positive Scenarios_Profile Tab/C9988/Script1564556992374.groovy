@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verify data on First Name field\r\n\r\n\r\n'
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Onboarding/Profile Tab/button_Change'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/button_Change'), 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('CONSUMER/Onboarding/Profile Tab/textfield_FirstName'), '', '', 0)
+WebUI.verifyElementAttributeValue(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/textfield_FirstName'), '', '', 0)
 

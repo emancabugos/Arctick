@@ -19,5 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Merchant Onboarding/Profile Page/Upload Image Popup/upload_Image'), 
+    0)
 WebUI.verifyElementVisible(findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Upload Image Popup/upload_Image'))
 

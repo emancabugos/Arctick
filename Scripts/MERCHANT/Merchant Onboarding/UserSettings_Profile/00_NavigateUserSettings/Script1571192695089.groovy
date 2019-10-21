@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Dashboard/textlabel_DASHBOARD'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE/MERCHANT/Dashboard/textlabel_DASHBOARD'), 0)
 
 WebUI.delay(0)
 
