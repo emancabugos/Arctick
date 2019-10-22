@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_BuyerName</name>
+   <tag></tag>
+   <elementGuidId>b0d50989-c4cc-4fe5-8151-af6cd61adfb9</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart-publish-merchant</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buyer001</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;review-list&quot;)/div[@class=&quot;cart-item-row&quot;]/div[@class=&quot;cart-item-box-desc&quot;]/div[@class=&quot;storefront-desc&quot;]/div[@class=&quot;cart-top-sec-left&quot;]/span[@class=&quot;cart-publish-merchant&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
