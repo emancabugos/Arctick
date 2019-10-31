@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add New Page</name>
+   <name>Add New Page_PublishAvailable</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Publish / All Users
+Check Preview
+Validate content</comment>
    <testCaseGuid>d2fa3990-d6c3-4b63-8c20-b6aa4a710df7</testCaseGuid>
    <variable>
       <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
@@ -67,5 +69,12 @@
       <id>a2eeb11c-4494-40da-b704-0d1a37a57a34</id>
       <masked>false</masked>
       <name>afterURL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4754d727-709c-4c90-8679-b1f4866b1ad5</id>
+      <masked>false</masked>
+      <name>actualwebURL</name>
    </variable>
 </TestCaseEntity>

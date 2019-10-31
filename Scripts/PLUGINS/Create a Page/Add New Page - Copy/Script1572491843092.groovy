@@ -18,40 +18,29 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.callTestCase(findTestCase('PLUGINS/Installation/Navigation_Plugins'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/button_CreateAPage'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/tab_Installed'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/Web Page Builder/textlabel_headerWebpageBuilder'), 0)
 
-WebUI.click(findTestObject('ADMIN/Plugins/tab_Available'))
+String beforeURL = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_WebURL'))
 
-WebUI.delay(0)
+KeywordLogger log = new KeywordLogger()
 
-if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP_buttonInstall'), 0, FailureHandling.CONTINUE_ON_FAILURE)) {
-    WebUI.delay(1)
+log.logInfo(beforeURL)
 
-    WebUI.click(findTestObject('ADMIN/Plugins/RRP_buttonInstall'))
+String actualwebURL = beforeURL + PageTitle
 
-    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('ADMIN/Plugins/RRP_buttonInstall'), 30)
+WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'), PageTitle)
 
-    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+afterURL = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_WebURL'))
 
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/button_Install'), 0)
+log.logInfo(afterURL)
 
-    WebUI.click(findTestObject('ADMIN/Plugins/button_Install'))
+WebUI.verifyMatch(afterURL, actualwebURL, false)
 
-    WebUI.waitForElementPresent(findTestObject('ADMIN/Plugins/button_Okay_installconfirmation'), 0)
+WebUI.click(findTestObject('null'))
 
-    WebUI.click(findTestObject('ADMIN/Plugins/button_Okay_installconfirmation'))
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/toaster_successfullyinstalled'), 0)
-} else {
-    WebUI.click(findTestObject('ADMIN/Plugins/tab_Installed'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.delay(0)
-
-    WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'), 0)
-}
+WebUI.sendKeys(findTestObject('null'), Content)
 

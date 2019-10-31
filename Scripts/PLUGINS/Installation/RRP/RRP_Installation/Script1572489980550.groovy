@@ -18,19 +18,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('PLUGINS/Installation/Navigation_Plugins'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/tab_Installed'), 0)
 
-WebUI.click(findTestObject('ADMIN/Plugins/tab_Installed'))
+WebUI.click(findTestObject('ADMIN/Plugins/tab_Available'))
 
 WebUI.delay(0)
 
-if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_InstallRRP'), 3) == true) {
-    WebUI.delay(0)
+if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP_buttonInstall'), 0, FailureHandling.CONTINUE_ON_FAILURE) == 
+true) {
+    WebUI.delay(1)
 
-    WebUI.click(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'))
+    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('ADMIN/Plugins/RRP_buttonInstall'), 30)
+
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
     WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/button_Install'), 0)
 
@@ -42,6 +47,10 @@ if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_InstallR
 
     WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/toaster_successfullyinstalled'), 0)
 } else {
+    WebUI.click(findTestObject('ADMIN/Plugins/tab_Installed'), FailureHandling.CONTINUE_ON_FAILURE)
+
     WebUI.delay(0)
+
+    WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'), 0)
 }
 

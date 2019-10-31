@@ -18,36 +18,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('PLUGINS/Installation/Navigation_Plugins'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/tab_Installed'), 0)
 
-WebUI.click(findTestObject('ADMIN/Plugins/tab_Available'))
+WebUI.click(findTestObject('ADMIN/Plugins/tab_Installed'))
 
 WebUI.delay(0)
 
-TestObject dianatest = WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP_buttonInstall'), 2)
+if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'), 0, FailureHandling.CONTINUE_ON_FAILURE) == 
+true) {
+    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'), 30)
 
-if (WebUI.verifyElementPresent(findTestObject(dianatest), 2, FailureHandling.CONTINUE_ON_FAILURE) == true) {
-    WebUI.delay(1)
-
-    WebUI.click(findTestObject(dianatest))
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/button_Install'), 0)
-
-    WebUI.click(findTestObject('ADMIN/Plugins/button_Install'))
-
-    WebUI.waitForElementPresent(findTestObject('ADMIN/Plugins/button_Okay_installconfirmation'), 0)
-
-    WebUI.click(findTestObject('ADMIN/Plugins/button_Okay_installconfirmation'))
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/toaster_successfullyinstalled'), 0)
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 } else {
-    WebUI.click(findTestObject('ADMIN/Plugins/tab_Installed'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.delay(0)
-
-    WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'), 0)
+    WebUI.callTestCase(findTestCase('PLUGINS/Installation/RRP/RRP_Installation'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 }
 

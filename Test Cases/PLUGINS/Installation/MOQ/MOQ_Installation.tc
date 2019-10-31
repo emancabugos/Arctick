@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RRP_Installed</name>
+   <name>MOQ_Installation</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e764ba25-df67-4f2c-bd2d-c0f225cace7e</testCaseGuid>
+   <testCaseGuid>5365e73e-774a-47da-9676-3db8f9b1d5cf</testCaseGuid>
 </TestCaseEntity>

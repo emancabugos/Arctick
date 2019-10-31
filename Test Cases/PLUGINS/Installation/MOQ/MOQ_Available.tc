@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>MOQ_Installation</name>
+   <name>MOQ_Available</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e5eadf70-d54d-42e5-88ad-c49163893e63</testCaseGuid>
+   <testCaseGuid>56217c6a-10a9-466a-8f09-dc1f7fc9aeeb</testCaseGuid>
 </TestCaseEntity>

@@ -19,6 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+import org.openqa.selenium.Keys as Keys
+
+WebUI.comment('Publish / All Users')
 
 WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/button_CreateAPage'))
 
@@ -36,7 +39,48 @@ afterURL = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfiel
 
 log.logInfo(afterURL)
 
-WebUI.verifyMatch(beforeURL, '', false)
+WebUI.setText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/p'), Content)
 
-WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/texteditor_Content'), Content)
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_Publish'))
+
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_AllUsers'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/button_Edit'))
+
+metatitleactual = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_Metatitle'))
+
+log.logInfo(metatitleactual)
+
+//WebUI.verifyMatch(metatitleactual, PageTitle, false)
+metadescactual = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textarea_meta_desc'))
+
+log.logInfo(metadescactual)
+
+WebUI.verifyMatch(metadescactual, Content, false)
+
+WebUI.comment('Check Preview')
+
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/button_Preview'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.comment('Validate content')
+
+WebUI.verifyTextPresent(PageTitle, false)
+
+WebUI.verifyTextPresent(Content, false)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/Web Page Builder/button_Save'), 0)
+
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/Web Page Builder/toaster_successfulAddofPage'), 0)
+
+WebUI.waitForElementNotVisible(findTestObject('ADMIN/Plugins/Web Page Builder/toaster_successfulAddofPage'), 0)
+
+WebUI.verifyTextPresent(PageTitle, false)
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RRP_Installation</name>
+   <name>New Test Case</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e2ca3791-2bfa-498c-a800-e9ad9ee49597</testCaseGuid>
+   <testCaseGuid>389472bc-4f22-4467-9535-64245406561f</testCaseGuid>
 </TestCaseEntity>
