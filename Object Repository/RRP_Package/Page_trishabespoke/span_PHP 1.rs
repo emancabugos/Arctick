@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ok</name>
+   <name>span_PHP 1</name>
    <tag></tag>
-   <elementGuidId>d082df74-a29c-47b9-9b90-45c5bae5ac02</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'btn btn-success btn-ok']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>3390b755-c4e5-4a0d-96fe-56c2a376bead</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-currency</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>btn btn-success btn-ok</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Ok</value>
+      <value>PHP ₱  </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;_1_1_imagecropperModal&quot;]/div/div/div/div/div[2]/div[5]</value>
+      <value>id(&quot;items-lists&quot;)/a[@class=&quot;get-item-id&quot;]/div[@class=&quot;shop-box col-md-3&quot;]/div[@class=&quot;box-inner&quot;]/div[@class=&quot;shopimg-preview&quot;]/span[@class=&quot;item-price&quot;]/div[@class=&quot;rrp-container multi-currency-val&quot;]/span[@class=&quot;p-currency&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

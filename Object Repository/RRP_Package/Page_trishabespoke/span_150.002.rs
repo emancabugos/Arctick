@@ -1,43 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ok</name>
+   <name>span_150.002</name>
    <tag></tag>
-   <elementGuidId>d082df74-a29c-47b9-9b90-45c5bae5ac02</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'btn btn-success btn-ok']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>b87ade6b-029d-496f-8469-385ed5a3866f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-price</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>set-value</name>
+      <type>Main</type>
+      <value>150.00</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>btn btn-success btn-ok</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Ok</value>
+      <value>150.00</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;_1_1_imagecropperModal&quot;]/div/div/div/div/div[2]/div[5]</value>
+      <value>id(&quot;items-list&quot;)/div[@class=&quot;item-box col-md-3 col-sm-4 col-xs-6&quot;]/div[@class=&quot;item-box-inner&quot;]/div[@class=&quot;item-box-bottom&quot;]/div[@class=&quot;item-price&quot;]/span[@class=&quot;rrp-container multi-currency-val&quot;]/span[@class=&quot;p-price&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

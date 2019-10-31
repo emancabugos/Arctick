@@ -1,43 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ok</name>
+   <name>img_item-preview</name>
    <tag></tag>
-   <elementGuidId>d082df74-a29c-47b9-9b90-45c5bae5ac02</elementGuidId>
+   <elementGuidId>a764ab2a-c6a1-4f0d-b4f6-d62355133af8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'btn btn-success btn-ok']</value>
+         <value>//*[@id=&quot;MyPrintDiv&quot;]/div/div[2]/div/div/div[1]/div/div[1]/div/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-preview</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/images/items/item-62788-637080195816628040-ZgsxXK.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>144</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-success btn-ok</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Ok</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;_1_1_imagecropperModal&quot;]/div/div/div/div/div[2]/div[5]</value>
+      <value>//*[@id=&quot;MyPrintDiv&quot;]/div/div[2]/div/div/div[1]/div/div[1]/div/a/img</value>
    </webElementProperties>
 </WebElementEntity>

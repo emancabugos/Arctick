@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2bb0ecce-dca2-46de-b445-7c89613e4b6f</testCaseGuid>
+   <variable>
+      <defaultValue>'ITEM 1'</defaultValue>
+      <description></description>
+      <id>6444cbe9-a9a1-4c28-8633-a7ea13375c14</id>
+      <masked>false</masked>
+      <name>variable_item</name>
+   </variable>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>98dffa3b-9bf4-4ba1-bc4f-4991081ed609</id>
+      <masked>false</masked>
+      <name>variable_price</name>
+   </variable>
+   <variable>
+      <defaultValue>'SKU'</defaultValue>
+      <description></description>
+      <id>1e22e239-c61f-493a-8017-fad4cea52d82</id>
+      <masked>false</masked>
+      <name>variable_SKU</name>
+   </variable>
+   <variable>
+      <defaultValue>'150'</defaultValue>
+      <description></description>
+      <id>af1c0ba4-9c9b-4fb4-a32f-e4114129edf8</id>
+      <masked>false</masked>
+      <name>variable_RRP</name>
+   </variable>
+   <variable>
+      <defaultValue>'DECRIPTION'</defaultValue>
+      <description></description>
+      <id>44970fc1-7300-4e0a-86c9-56d5c6221913</id>
+      <masked>false</masked>
+      <name>variable_desc</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\Chrysler\\git\\Arctick\\Item Image\\1.png'</defaultValue>
+      <description></description>
+      <id>a0f9b2cb-b743-4292-b504-3255316b4ed2</id>
+      <masked>false</masked>
+      <name>variable_image</name>
+   </variable>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>0b470600-89a9-4641-8585-ffa7558df5a7</id>
+      <masked>false</masked>
+      <name>variable_qty</name>
+   </variable>
+</TestCaseEntity>

@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ok</name>
+   <name>img_Home</name>
    <tag></tag>
-   <elementGuidId>d082df74-a29c-47b9-9b90-45c5bae5ac02</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'btn btn-success btn-ok']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>d830984b-51c8-4c9d-b748-0c33289a07e6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>src</name>
       <type>Main</type>
-      <value>btn btn-success btn-ok</value>
+      <value>/images/logo-trishabespoke.test.arcadier.io.jpeg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>Ok</value>
+      <value>Logo</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;_1_1_imagecropperModal&quot;]/div/div/div/div/div[2]/div[5]</value>
+      <value>id(&quot;videoBannerBG&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;pull-left&quot;]/div[@class=&quot;logo&quot;]/a[1]/img[1]</value>
    </webElementProperties>
 </WebElementEntity>
