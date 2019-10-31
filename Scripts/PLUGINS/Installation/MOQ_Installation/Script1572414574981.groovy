@@ -23,14 +23,14 @@ WebUI.callTestCase(findTestCase('PLUGINS/Installation/Navigation_Plugins'), [:],
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/tab_Installed'), 0)
 
-WebUI.click(findTestObject('ADMIN/Plugins/tab_Installed'))
+WebUI.click(findTestObject('ADMIN/Plugins/tab_Available'))
 
 WebUI.delay(0)
 
-if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_InstallRRP'), 3) == true) {
+if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP_buttonInstall'), 3, FailureHandling.CONTINUE_ON_FAILURE)) {
     WebUI.delay(0)
 
-    WebUI.click(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'))
+    WebUI.click(findTestObject('ADMIN/Plugins/RRP_buttonInstall'))
 
     WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/button_Install'), 0)
 
@@ -42,6 +42,10 @@ if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_InstallR
 
     WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/toaster_successfullyinstalled'), 0)
 } else {
+    WebUI.click(findTestObject('ADMIN/Plugins/tab_Installed'), FailureHandling.CONTINUE_ON_FAILURE)
+
     WebUI.delay(0)
+
+    WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'), 0)
 }
 

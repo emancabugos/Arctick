@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RRP_Available</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cadc3f21-0d99-4c5e-a69d-c99eaa417aaf</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('ADMIN/Plugins/RRP_buttonInstall')</defaultValue>
+      <description></description>
+      <id>e05f811c-84b5-4187-8d5e-0759d7f2f6ac</id>
+      <masked>false</masked>
+      <name>dianatest</name>
+   </variable>
+</TestCaseEntity>

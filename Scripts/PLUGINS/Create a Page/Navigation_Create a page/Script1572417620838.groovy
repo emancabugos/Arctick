@@ -19,29 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('PLUGINS/Installation/Navigation_Plugins'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/tab_Installed'), 0)
+WebUI.waitForElementPresent(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Plug-ins'), 0)
 
-WebUI.click(findTestObject('ADMIN/Plugins/tab_Installed'))
+WebUI.scrollToElement(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Plug-ins'), 0)
 
-WebUI.delay(0)
+WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Plug-ins'))
 
-if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_InstallRRP'), 3) == true) {
-    WebUI.delay(0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/icon_Plugins'), 0)
 
-    WebUI.click(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'))
+WebUI.scrollToElement(findTestObject('ADMIN/Plugins/Web Page Builder/pluginmenu_webpagebuilder'), 0)
 
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/button_Install'), 0)
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/pluginmenu_webpagebuilder'))
 
-    WebUI.click(findTestObject('ADMIN/Plugins/button_Install'))
-
-    WebUI.waitForElementPresent(findTestObject('ADMIN/Plugins/button_Okay_installconfirmation'), 0)
-
-    WebUI.click(findTestObject('ADMIN/Plugins/button_Okay_installconfirmation'))
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/toaster_successfullyinstalled'), 0)
-} else {
-    WebUI.delay(0)
-}
+WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/Web Page Builder/textlabel_headerWebpageBuilder'), 0)
 

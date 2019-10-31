@@ -18,30 +18,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.callTestCase(findTestCase('PLUGINS/Installation/Navigation_Plugins'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/button_CreateAPage'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/tab_Installed'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/Web Page Builder/textlabel_headerWebpageBuilder'), 0)
 
-WebUI.click(findTestObject('ADMIN/Plugins/tab_Installed'))
+String beforeURL = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_WebURL'))
 
-WebUI.delay(0)
+KeywordLogger log = new KeywordLogger()
 
-if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_InstallRRP'), 3) == true) {
-    WebUI.delay(0)
+log.logInfo(beforeURL)
 
-    WebUI.click(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'))
+WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'), PageTitle)
 
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/button_Install'), 0)
+afterURL = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_WebURL'))
 
-    WebUI.click(findTestObject('ADMIN/Plugins/button_Install'))
+log.logInfo(afterURL)
 
-    WebUI.waitForElementPresent(findTestObject('ADMIN/Plugins/button_Okay_installconfirmation'), 0)
+WebUI.verifyMatch(beforeURL, '', false)
 
-    WebUI.click(findTestObject('ADMIN/Plugins/button_Okay_installconfirmation'))
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/toaster_successfullyinstalled'), 0)
-} else {
-    WebUI.delay(0)
-}
+WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/texteditor_Content'), Content)
 

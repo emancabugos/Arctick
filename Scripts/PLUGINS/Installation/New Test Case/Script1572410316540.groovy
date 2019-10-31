@@ -19,29 +19,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('PLUGINS/Installation/Navigation_Plugins'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/tab_Installed'), 0)
-
-WebUI.click(findTestObject('ADMIN/Plugins/tab_Installed'))
-
-WebUI.delay(0)
-
-if (WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/RRP/button_InstallRRP'), 3) == true) {
-    WebUI.delay(0)
-
-    WebUI.click(findTestObject('ADMIN/Plugins/RRP/button_detailsRRP'))
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/button_Install'), 0)
-
-    WebUI.click(findTestObject('ADMIN/Plugins/button_Install'))
-
-    WebUI.waitForElementPresent(findTestObject('ADMIN/Plugins/button_Okay_installconfirmation'), 0)
-
-    WebUI.click(findTestObject('ADMIN/Plugins/button_Okay_installconfirmation'))
-
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/toaster_successfullyinstalled'), 0)
-} else {
-    WebUI.delay(0)
-}
-

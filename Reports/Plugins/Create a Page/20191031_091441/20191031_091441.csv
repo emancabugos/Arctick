@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create a Page,Chrome 77.0.3865.120,,2019-10-31 09:14:42,2019-10-31 09:15:16,34.213s,FAILED
+,,,,,,
+Test Cases/PLUGINS/Create a Page/Add New Page,Chrome 77.0.3865.120,,2019-10-31 09:14:42,2019-10-31 09:15:16,33.973s,FAILED
+click,Chrome 77.0.3865.120,,2019-10-31 09:14:43,2019-10-31 09:14:44,1.884s,PASSED
+waitForElementVisible,Chrome 77.0.3865.120,,2019-10-31 09:14:44,2019-10-31 09:14:45,0.060s,PASSED
+Statement - beforeURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ADMIN/Plugins/Web Page Builder/textfield_WebURL)),Chrome 77.0.3865.120,,2019-10-31 09:14:45,2019-10-31 09:14:45,0.051s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.120,,2019-10-31 09:14:45,2019-10-31 09:14:45,0.000s,PASSED
+Statement - log.logInfo(beforeURL),Chrome 77.0.3865.120,,2019-10-31 09:14:45,2019-10-31 09:14:45,0.001s,PASSED
+setText,Chrome 77.0.3865.120,,2019-10-31 09:14:45,2019-10-31 09:14:45,0.091s,PASSED
+setText,Chrome 77.0.3865.120,,2019-10-31 09:14:45,2019-10-31 09:15:16,31.621s,FAILED
