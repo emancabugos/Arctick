@@ -25,20 +25,20 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementVisible(findTestObject('Time/Consumer/Register  Sign In/Register Sign_Label'), 0)
+WebUI.waitForElementVisible(findTestObject('Coupon_Package/COUPON_PAGE/Page_trishabespoke (2)/a_REGISTER  SIGN IN'), 0)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Time/Consumer/Register  Sign In/Register Sign_Label'))
+WebUI.click(findTestObject('Coupon_Package/COUPON_PAGE/Page_trishabespoke (2)/a_REGISTER  SIGN IN'))
 
 if (GlobalVariable.ConsumerAccountType == 'custom') {
-    WebUI.waitForElementVisible(findTestObject('Time/Consumer/Register  Sign In/Username_field'), 0)
+    WebUI.waitForElementVisible(findTestObject('Utilities/admin_login trish/Username_field'), 0)
 
-    WebUI.setText(findTestObject('Time/Consumer/Register  Sign In/Username_field'), GlobalVariable.CustomConsumer)
+    WebUI.setText(findTestObject('Utilities/admin_login trish/Username_field'), GlobalVariable.CustomConsumer)
 
-    WebUI.setText(findTestObject('Time/Consumer/Register  Sign In/Password_field'), GlobalVariable.CustomPass)
+    WebUI.setText(findTestObject('Utilities/admin_login trish/Password_field'), GlobalVariable.CustomPass)
 
-    WebUI.click(findTestObject('Time/Consumer/Register  Sign In/Login_button'))
+    WebUI.click(findTestObject('Utilities/admin_login trish/Login_button'))
 } else if (GlobalVariable.ConsumerAccountType == 'google') {
     WebUI.click(findTestObject('ADMIN/Admin Login Page/button_Login with Google'))
 

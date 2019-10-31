@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin_Add</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2e93587-740b-43f2-9b8c-06d20ed751bf</testCaseGuid>
+   <variable>
+      <defaultValue>'UNLIMITED'</defaultValue>
+      <description></description>
+      <id>f9c7955b-77b4-4e7b-9386-b46383ec55dc</id>
+      <masked>false</masked>
+      <name>variable_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'789456'</defaultValue>
+      <description></description>
+      <id>bf773d96-1959-4cca-9196-10d53df04798</id>
+      <masked>false</masked>
+      <name>variable_code</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>1386e28e-d123-4b8f-9246-2370f56a93e5</id>
+      <masked>false</masked>
+      <name>variable_value</name>
+   </variable>
+</TestCaseEntity>
