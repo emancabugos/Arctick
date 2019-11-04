@@ -33,7 +33,7 @@ KeywordLogger log = new KeywordLogger()
 
 log.logInfo(beforeURL)
 
-WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'), 'diana0001')
+WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'), 'merchantconsumer')
 
 dianaprofile = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'))
 
@@ -47,7 +47,7 @@ String webcontentdiana = WebUI.getText(findTestObject('Utilities/Text Editor Ico
 
 WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_Publish'))
 
-WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_AllUsers'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_MerchantsAndRegistered'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/button_Edit'))
 
@@ -94,11 +94,11 @@ WebUI.comment('Validate All Users')
 
 WebUI.openBrowser('')
 
-String navigateurl = afterURL + 'diana0001'
+String navigateurl = afterURL + 'merchantconsumer'
 
 log.logInfo(navigateurl)
 
 WebUI.navigateToUrl(navigateurl)
 
-WebUI.verifyTextPresent(webcontentdiana, false)
+WebUI.verifyElementPresent(findTestObject('Utilities/Register_SignIn/textlabel_REGISTER  SIGN IN'), 0)
 

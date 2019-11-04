@@ -33,9 +33,11 @@ KeywordLogger log = new KeywordLogger()
 
 log.logInfo(beforeURL)
 
-WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'), 'diana0001')
+WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'), 'merchantOnly')
 
 dianaprofile = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'))
+
+log.logInfo(dianaprofile)
 
 afterURL = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_WebURL'))
 
@@ -45,7 +47,7 @@ WebUI.setText(findTestObject('Utilities/Text Editor Icon/Text Area/text area obj
 
 String webcontentdiana = WebUI.getText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/p'))
 
-WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_Publish'))
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_Hide'))
 
 WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_Merchant'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -94,15 +96,11 @@ WebUI.comment('Validate All Users')
 
 WebUI.openBrowser('')
 
-String navigateurl = afterURL + 'diana0001'
+navigateurl = (afterURL + 'merchantOnly')
 
 log.logInfo(navigateurl)
 
 WebUI.navigateToUrl(navigateurl)
 
-WebUI.verifyElementPresent(findTestObject('Utilities/Register_SignIn/textlabel_REGISTER  SIGN IN'), 0)
-
-WebUI.acceptAlert()
-
-WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/Web Page Builder/Page_0613bpdiana/img_noresults'), 0)
 

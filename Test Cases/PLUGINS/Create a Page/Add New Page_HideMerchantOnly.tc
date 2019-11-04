@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New Page_HideMerchantOnly</name>
+   <tag></tag>
+   <comment>Publish / All Users
+Check Preview
+Validate content
+Validate All Users</comment>
+   <testCaseGuid>3bd53906-393d-4b43-bb8e-ea79d66e18da</testCaseGuid>
+</TestCaseEntity>

@@ -18,8 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
-import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.logging.KeywordLogger
 
 WebUI.comment('Publish / All Users')
 
@@ -33,15 +32,19 @@ KeywordLogger log = new KeywordLogger()
 
 log.logInfo(beforeURL)
 
-WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'), PageTitle)
+WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'), 'HidetoAll')
+
+dianaprofile = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'))
 
 afterURL = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_WebURL'))
 
 log.logInfo(afterURL)
 
-WebUI.setText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/p'), Content)
+WebUI.setText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/p'), 'diana0001')
 
-WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_Publish'))
+String webcontentdiana = WebUI.getText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/p'))
+
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_Hide'))
 
 WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_AllUsers'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -56,7 +59,7 @@ metadescactual = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/te
 
 log.logInfo(metadescactual)
 
-WebUI.verifyMatch(metadescactual, Content, false)
+WebUI.verifyMatch(metadescactual, webcontentdiana, false)
 
 WebUI.comment('Check Preview')
 
@@ -68,9 +71,11 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.comment('Validate content')
 
-WebUI.verifyTextPresent(PageTitle, false)
+WebUI.verifyTextPresent(dianaprofile, false)
 
-WebUI.verifyTextPresent(Content, false)
+WebUI.verifyTextPresent(webcontentdiana, false)
+
+WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
@@ -82,5 +87,21 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Plugins/Web Page Builder/toast
 
 WebUI.waitForElementNotVisible(findTestObject('ADMIN/Plugins/Web Page Builder/toaster_successfulAddofPage'), 0)
 
-WebUI.verifyTextPresent(PageTitle, false)
+WebUI.verifyTextPresent(dianaprofile, false)
+
+WebUI.comment('Validate All Users')
+
+WebUI.openBrowser('')
+
+String navigateurl = afterURL + 'AvailabletoAll'
+
+log.logInfo(navigateurl)
+
+navigateurl = (afterURL + 'HidetoAll')
+
+log.logInfo(navigateurl)
+
+WebUI.navigateToUrl(navigateurl)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/Web Page Builder/Page_0613bpdiana/img_noresults'), 0)
 

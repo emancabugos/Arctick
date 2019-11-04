@@ -1,79 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add New Page_PublishAvailable</name>
+   <name>Add New Page_PublishMConsumer</name>
    <tag></tag>
    <comment>Publish / All Users
 Check Preview
-Validate content</comment>
-   <testCaseGuid>d2fa3990-d6c3-4b63-8c20-b6aa4a710df7</testCaseGuid>
+Validate content
+Validate All Users</comment>
+   <testCaseGuid>a15ab63e-5b9b-44f5-acb3-cf6b66dcd27c</testCaseGuid>
    <variable>
       <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
       <description></description>
-      <id>16f71ac8-ce11-4f6c-bb9a-075e85586e6a</id>
+      <id>df7f7ae1-48d3-4a18-befb-b60b51f1099d</id>
       <masked>false</masked>
       <name>PageTitle</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
       <description></description>
-      <id>0e8d9d22-89e0-4d0a-93d3-92ad47498e34</id>
+      <id>4f66f821-2de5-40c4-bc81-7eb0d3efde47</id>
       <masked>false</masked>
       <name>WebURL</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
       <description></description>
-      <id>4d70d9d6-03e4-4015-b075-16c89d98899d</id>
+      <id>dea1fb5b-5496-4478-867c-19fb6570c1f5</id>
       <masked>false</masked>
       <name>Content</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
       <description></description>
-      <id>c89d577c-522e-4c68-8611-c21487ea7906</id>
+      <id>4105f62c-b542-4bd2-9485-07482f7a1658</id>
       <masked>false</masked>
       <name>Status</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
       <description></description>
-      <id>19834f63-c4ef-4393-9de5-11fa599678d1</id>
+      <id>b5b6cd4c-9f50-4cdd-8f9f-66ae1fd22fa0</id>
       <masked>false</masked>
       <name>Visibility</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
       <description></description>
-      <id>a42afc1b-d868-486d-a635-a7ca15c8f4eb</id>
+      <id>a492e003-1621-4800-9b74-1e9c21a7cb8a</id>
       <masked>false</masked>
       <name>metatitle</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
       <description></description>
-      <id>f95d90bb-f8d9-4b39-bdd6-7d2ee4e8c3f0</id>
+      <id>eae1712a-2447-4091-91cd-66ef86db3a78</id>
       <masked>false</masked>
       <name>metadesc</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('ADMIN/Plugins/Web Page Builder/textfield_WebURL')</defaultValue>
       <description></description>
-      <id>a363ab75-901e-44b9-bca3-779cd4edc047</id>
+      <id>1e3b0e75-f95d-4a61-beca-befe6b4ff9e4</id>
       <masked>false</masked>
       <name>beforeURL</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('ADMIN/Plugins/Web Page Builder/textfield_WebURL')</defaultValue>
       <description></description>
-      <id>a2eeb11c-4494-40da-b704-0d1a37a57a34</id>
+      <id>a9422c0a-eff2-4a4c-8251-4ebfb868a311</id>
       <masked>false</masked>
       <name>afterURL</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4754d727-709c-4c90-8679-b1f4866b1ad5</id>
+      <id>3db1a981-ef26-43c2-addf-e8bdf4d53cca</id>
       <masked>false</masked>
       <name>actualwebURL</name>
    </variable>

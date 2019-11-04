@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>Add New Page_HideAllusers</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Publish / All Users
+Check Preview
+Validate content
+Validate All Users</comment>
    <testCaseGuid>389472bc-4f22-4467-9535-64245406561f</testCaseGuid>
 </TestCaseEntity>
