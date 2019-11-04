@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Verify</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7e7c4b5-2623-4d06-8665-591b6a7f5354</testCaseGuid>
+   <variable>
+      <defaultValue>'789456'</defaultValue>
+      <description></description>
+      <id>63291a77-3c27-44e2-86b9-8bd651206b3c</id>
+      <masked>false</masked>
+      <name>variable_code</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>bca02f3f-6714-436e-b94b-7e885b5028ee</id>
+      <masked>false</masked>
+      <name>variable_value</name>
+   </variable>
+</TestCaseEntity>

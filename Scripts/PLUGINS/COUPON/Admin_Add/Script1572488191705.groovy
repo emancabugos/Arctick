@@ -31,13 +31,13 @@ WebUI.click(findTestObject('Coupon_Package/ADMIN/a_Plug-ins'))
 
 WebUI.waitForElementVisible(findTestObject('Coupon_Package/COUPON_PAGE/a_Discount Coupon Generator'), 0)
 
-WebUI.setEncryptedText(findTestObject('Coupon_Package/COUPON_PAGE/a_Discount Coupon Generator'), '')
-
 WebUI.click(findTestObject('Coupon_Package/COUPON_PAGE/a_Discount Coupon Generator'))
 
 WebUI.verifyElementVisible(findTestObject('Coupon_Package/COUPON_PAGE/a_Create New Campaign'))
 
 WebUI.click(findTestObject('Coupon_Package/COUPON_PAGE/a_Create New Campaign'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('Coupon_Package/COUPON_PAGE/h4_Campaign Details'))
 
@@ -56,12 +56,4 @@ WebUI.getText(findTestObject('Coupon_Package/COUPON_PAGE/Page_trishabespoke/Page
 WebUI.delay(2)
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
-
-WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.authenticate('', '', '', 0)
 
