@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New Page_HideMConsumer</name>
+   <tag></tag>
+   <comment>Publish / All Users
+Check Preview
+Validate content
+Validate All Users</comment>
+   <testCaseGuid>c7f3b443-52d0-45f4-8c41-85d24c19dd55</testCaseGuid>
+</TestCaseEntity>

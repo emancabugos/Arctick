@@ -18,7 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.comment('Publish / All Users')
 
@@ -32,7 +32,7 @@ KeywordLogger log = new KeywordLogger()
 
 log.logInfo(beforeURL)
 
-WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'), 'HidetoAll')
+WebUI.setText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'), 'merchantonly')
 
 dianaprofile = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfield_PageTitle'))
 
@@ -40,13 +40,13 @@ afterURL = WebUI.getText(findTestObject('ADMIN/Plugins/Web Page Builder/textfiel
 
 log.logInfo(afterURL)
 
-WebUI.setText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/p'), 'diana0001')
+WebUI.setText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/p'), 'merchantonly')
 
 String webcontentdiana = WebUI.getText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/p'))
 
 WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_Hide'))
 
-WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_MerchantsAndRegistered'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/radiobutton_Merchant'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('ADMIN/Plugins/Web Page Builder/button_Edit'))
 
@@ -97,11 +97,11 @@ String navigateurl = afterURL + 'AvailabletoAll'
 
 log.logInfo(navigateurl)
 
-navigateurl = (afterURL + 'HidetoAll')
+navigateurl = (afterURL + 'merchantonly')
 
 log.logInfo(navigateurl)
 
 WebUI.navigateToUrl(navigateurl)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/Web Page Builder/Page_0613bpdiana/img_noresults'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/Web Page Builder/img_noresults'), 0)
 

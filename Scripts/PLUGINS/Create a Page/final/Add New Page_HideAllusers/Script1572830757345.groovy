@@ -103,5 +103,5 @@ log.logInfo(navigateurl)
 
 WebUI.navigateToUrl(navigateurl)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/Web Page Builder/Page_0613bpdiana/img_noresults'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Plugins/Web Page Builder/img_noresults'), 0)
 
