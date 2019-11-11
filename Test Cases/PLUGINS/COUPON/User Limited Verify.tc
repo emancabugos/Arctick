@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Limited Verify</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>100ac9a4-a4f3-425d-893a-1ae5c29a7085</testCaseGuid>
+   <variable>
+      <defaultValue>'KWGX558T2N'</defaultValue>
+      <description></description>
+      <id>bf0f5d44-8305-458b-bdb9-4950f58e6817</id>
+      <masked>false</masked>
+      <name>variable_code</name>
+   </variable>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description></description>
+      <id>3b04cb50-b8ce-459c-a3e5-597dca58c080</id>
+      <masked>false</masked>
+      <name>variable_value</name>
+   </variable>
+</TestCaseEntity>

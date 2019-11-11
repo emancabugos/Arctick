@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin_Limited</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc53831f-dbba-49de-a069-516c42c9a263</testCaseGuid>
+   <variable>
+      <defaultValue>'Limited'</defaultValue>
+      <description></description>
+      <id>c911e5dd-5cf8-405e-bd13-75b5db745af5</id>
+      <masked>false</masked>
+      <name>variable_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>bcb4ceaf-94b9-4624-ba66-c5e074ab433e</id>
+      <masked>false</masked>
+      <name>variable_redeem</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>0e5f0b99-fdc7-4773-af9f-5e14de919fb2</id>
+      <masked>false</masked>
+      <name>variable_value</name>
+   </variable>
+</TestCaseEntity>

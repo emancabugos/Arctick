@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'price_amt']</value>
+         <value>//*[@id=&quot;price_amt&quot;][count(. | //span[@id = 'price_amt']) = count(//span[@id = 'price_amt'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,11 +34,11 @@
       <value>350.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;price_amt&quot;)</value>
+      <value>//*[@id=&quot;price_amt&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'total-cost']</value>
+         <value>//span[@class = 'total-cost']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-package  delievry-settings  pace-done&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;checkout-detail grey_section&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;delivery_white_section&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3 col-xs-12&quot;]/div[@class=&quot;last_stage_box&quot;]/div[@class=&quot;l_box total_area&quot;]/h4[1]/span[@class=&quot;pull-right&quot;]/span[@class=&quot;total-cost&quot;]</value>
+      <value>/html/body/div[4]/div[2]/div/div/div/div[3]/div/div[3]/h4/span/span</value>
    </webElementProperties>
 </WebElementEntity>
