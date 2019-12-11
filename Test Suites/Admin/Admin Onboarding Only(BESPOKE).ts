@@ -4,7 +4,7 @@
    <name>Admin Onboarding Only(BESPOKE)</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-09-06T09:52:48</lastRun>
+   <lastRun>2019-12-06T13:50:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,129 +18,129 @@
       <testCaseId>Test Cases/ADMIN/Onboarding/Admin_Onboarding_Create_Account</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a512ba39-372a-40c7-8ba5-f7f28e824e08</guid>
+      <guid>b6418fd8-52af-4b77-b403-b79220f8cda0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Onboarding/Admin_Onboarding_Step1_Simple_Test</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8376bc2c-03d2-4dcf-af38-2ac537eb6eb3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Onboarding/Step2_Simple_Test</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Onboarding/Complete Onboarding</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6154a3b9-1d18-4e1e-a363-610f9c4f8e98</variableId>
+         <variableId>df53115c-b33b-4919-b918-4366dbd42e95</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>aead7a56-780b-4552-a152-85f535b9fbcd</variableId>
+         <variableId>41282077-4862-4c4e-b97e-b3b00cff4a53</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>618181cc-c544-428b-9bb4-6dd70bcd9177</variableId>
+         <variableId>332ce3d3-4db1-434c-a0e5-9eecd53d3d5a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c441ba02-bc58-405e-976b-f8049281db8f</variableId>
+         <variableId>d41bd923-1a56-4786-9b69-9560da36bdde</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>94f7ad19-0472-44ba-9c08-3dae9b8adcd8</variableId>
+         <variableId>a562b495-4ad2-4f58-8835-e254b1e25049</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>242d7b48-9762-4450-9a52-50951ea26c95</variableId>
+         <variableId>f980e8bb-9440-4c91-b78c-2a4da2e43359</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c7d37cfc-0c75-456a-b2ca-a2fd305268bc</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>949f7ea3-04c3-4e1d-beae-27fc4abfb1ff</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Onboarding/Step3_Simple_Test</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1bd8ba80-1bae-4ea6-bc23-d789d45c03ad</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Onboarding/Step4_Simple_Test</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1746c316-e775-451b-9ec0-a528eafcbe06</variableId>
+         <variableId>22c1ab47-95e0-4c41-9be8-18c744904c43</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7c75a60d-2911-4684-b8fa-be1c6d17f684</variableId>
+         <variableId>6c3de02f-cd53-4bdf-8ea4-887edf26c07f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f37e0fa5-ec5b-47b7-b4d7-176ac2787d70</variableId>
+         <variableId>1ac36231-48a9-4d15-9164-b570c476b59b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>75075131-9fcf-4753-b661-fb470068c7f8</variableId>
+         <variableId>33d1bbad-5334-456c-a546-a05e98e25825</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>98268b0b-8de9-4624-9bc2-c5e0ab397550</variableId>
+         <variableId>331a0c48-3ee6-4819-b5f4-876432d734cd</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>994fa613-5d47-4a85-be60-bd8f14943082</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Onboarding/Step5_Simple_Test_Bespoke</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8305d740-b8b9-4a4e-ac16-90359ec9d8f8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Onboarding/Step6_Simple_Test</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fb70001b-a913-4744-935a-23cc3c646f67</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Onboarding/Step7_Simple_Test</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7dffdcc7-966e-46b3-91cb-5f73fbfbcb44</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Onboarding/Step8_Simple_Test</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>63e6fa38-556d-4b48-a34a-398c71ab7721</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Onboarding/Take Me There</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7b26605f-911e-4591-ad8d-47d0e6cbc10a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0df9001a-11a5-4b6b-96a5-8ca3fcec6f91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a8b8e51c-67f4-4880-a863-091b4ad5e730</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4ca630b1-79be-49a3-8d5a-13802e7670a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>93b18a9c-0eb6-44f6-b3dd-57e49e8415e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6badb04c-23c6-4bba-b1ea-1630545aabdb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9a43551a-23d7-4c1c-97e5-c8b751dcb076</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a4686fac-04f1-4664-84e2-b0596f0f2f66</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ca0fbbc-a1bb-427e-93dd-909d1b87d36a</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_3.1.1</name>
+   <tag></tag>
+   <elementGuidId>79b5402b-1722-4a91-b2fe-fed6173cc803</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;pcateglist&quot;]/li[3]/ul/li[1]/ul/li[1]/div/label</value>
+   </webElementProperties>
+</WebElementEntity>
