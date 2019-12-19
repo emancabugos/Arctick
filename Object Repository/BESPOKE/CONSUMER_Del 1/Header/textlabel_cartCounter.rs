@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_cartCounter</name>
+   <tag></tag>
+   <elementGuidId>6c2d32b5-bfaf-4fbc-9478-61727950a3f1</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart-item cart-item-counter</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    4
+    </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;videoBannerBG&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;pull-right&quot;]/div[@class=&quot;main-nav consumer-main-menu&quot;]/ul[@class=&quot;navigation&quot;]/li[@class=&quot;cart-menu hover&quot;]/a[@class=&quot;hidden-xs cart_anchor&quot;]/span[@class=&quot;cart-item cart-item-counter&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

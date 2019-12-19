@@ -25,241 +25,241 @@ WebUI.comment('Validation on Homepage')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Function/textfield_Keyword'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Search Function/textfield_Keyword'), 'Unit and Duration')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), 'Unit and Duration')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CONSUMER/Search Function/button_Search'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Function/button_Search'))
 
 WebUI.comment('Verify in Search Result Page')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/image_Item'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), 0)
 
-rate = WebUI.getText(findTestObject('CONSUMER/Search Result Page/textlabel_SearchResultPageRate'))
+rate = WebUI.getText(findTestObject('SPACETIME/CONSUMER/Search Result Page/textlabel_SearchResultPageRate'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Verify in Item Details Page')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSeller'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_ContactSeller'), 0)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Item Details Page/textlabel_ItemDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textlabel_ItemDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time')) == true) {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
+if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time')) == true) {
+    WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
 
-    WebUI.click(findTestObject('CONSUMER/Item Details Page/datepicker_Date'))
-
-    WebUI.delay(1)
-
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '23/04/2021')
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'))
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/timepicker_Time'), '10:15 AM')
-
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Unit'), '2')
-} else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))) {
-    WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
-
-    WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
-
-    WebUI.click(findTestObject('CONSUMER/Item Details Page/datepicker_Date'))
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'), '23/04/2021')
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '23/04/2021')
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'), '10:15 AM')
+
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Unit'), '2')
+} else if (WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))) {
+    WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
+
+    WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
+
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'))
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Unit'), '2')
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'), '23/04/2021')
+
+    WebUI.delay(1)
+
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Unit'), '2')
 }
 
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), '2')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), '2')
 
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Unit'), '2')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Unit'), '2')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CONSUMER/Item Details Page/button_BuyNow'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_BuyNow'))
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout')) == true) {
-    WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
+if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout')) == true) {
+    WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
 
-    WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Delivery1'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Delivery1'))
 
     WebUI.delay(1)
 
-    WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
-} else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout'))) {
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
+} else if (WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))) {
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 }
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_SelectAddress'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_Selected'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_Selected'), 0)
 
-WebUI.scrollToElement(findTestObject('CONSUMER/Delivery Details Page/buttonDelivery_Next'), 0)
+WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/buttonDelivery_Next'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Delivery Details Page/buttonDelivery_Next'))
-
-WebUI.waitForPageLoad(0)
-
-WebUI.verifyElementText(findTestObject('CONSUMER/Review Details Page/textlabel_ReviewDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Review Details Page/button_Previous'), 0)
-
-WebUI.scrollToElement(findTestObject('CONSUMER/Review Details Page/buttonReview_Next'), 0)
-
-WebUI.click(findTestObject('CONSUMER/Review Details Page/buttonReview_Next'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/buttonDelivery_Next'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 0)
+WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Review Details Page/textlabel_ReviewDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Review Details Page/button_Previous'), 0)
+
+WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Review Details Page/buttonReview_Next'), 0)
+
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Review Details Page/buttonReview_Next'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 0)
 
 if (GlobalVariable.payment == 'stripe') {
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.selectOptionByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Stripe', true)
+    WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Stripe', true)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Stripe', true, 
+    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Stripe', true, 
         0)
 
-    WebUI.scrollToElement(findTestObject('CONSUMER/Payment Details Page/button_PayNow'), 0)
+    WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), 0)
 
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/button_PayNow'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'))
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Payment Details Page/Stripe Payment/textfield_Email'), 'test321@gmail.com')
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/textfield_Email'), 'test321@gmail.com')
 
-    WebUI.sendKeys(findTestObject('CONSUMER/Payment Details Page/Stripe Payment/textfield_CardNumber'), '4242424242424242')
+    WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/textfield_CardNumber'), '4242424242424242')
 
-    WebUI.sendKeys(findTestObject('CONSUMER/Payment Details Page/Stripe Payment/textfield_Date'), '1120')
+    WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/textfield_Date'), '1120')
 
-    WebUI.sendKeys(findTestObject('CONSUMER/Payment Details Page/Stripe Payment/textfield_cvc'), '123')
+    WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/textfield_cvc'), '123')
 
     WebUI.delay(0.5)
 
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/Stripe Payment/button_Pay'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/button_Pay'))
 } else if (GlobalVariable.payment == 'paypal') {
-    WebUI.selectOptionByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'PayPal', true)
+    WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'PayPal', true)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'PayPal', true, 
+    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'PayPal', true, 
         0)
 
-    WebUI.scrollToElement(findTestObject('CONSUMER/Payment Details Page/button_PayNow'), 0)
+    WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), 0)
 
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/button_PayNow'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'))
 
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Details Page/Paypal/tab_Paypal'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Paypal/tab_Paypal'), 0)
 
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/Paypal/tab_Paypal'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Paypal/tab_Paypal'))
 
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Details Page/Paypal/textfield_Email'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Paypal/textfield_Email'), 0)
 
-    WebUI.setText(findTestObject('CONSUMER/Payment Details Page/Paypal/textfield_Email'), 'hiveboxstaging03@yopmail.com')
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Paypal/textfield_Email'), 'hiveboxstaging03@yopmail.com')
 
-    WebUI.setText(findTestObject('CONSUMER/Payment Details Page/Paypal/textfield_Password'), 'welcome8')
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Paypal/textfield_Password'), 'welcome8')
 
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/Paypal/button_Login'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Paypal/button_Login'))
 
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Details Page/Paypal/button_Pay'), 0)
-
-    WebUI.delay(0.5)
-
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/Paypal/button_Pay'))
-
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Details Page/Paypal/button_Return'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Paypal/button_Pay'), 0)
 
     WebUI.delay(0.5)
 
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/Paypal/button_Return'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Paypal/button_Pay'))
+
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Paypal/button_Return'), 0)
+
+    WebUI.delay(0.5)
+
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Paypal/button_Return'))
 } else if (GlobalVariable.payment == 'omise') {
-    WebUI.selectOptionByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Omise', true)
+    WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Omise', true)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Omise', true, 0)
+    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Omise', true, 0)
 
-    WebUI.scrollToElement(findTestObject('CONSUMER/Payment Details Page/button_PayNow'), 0)
+    WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), 0)
 
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/button_PayNow'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'))
 
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Details Page/Omise/popupWindow_Omise'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Omise/popupWindow_Omise'), 0)
 
-    WebUI.sendKeys(findTestObject('CONSUMER/Payment Details Page/Omise/textfield_cardnumber'), '4242424242424242')
+    WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Omise/textfield_cardnumber'), '4242424242424242')
 
-    WebUI.sendKeys(findTestObject('CONSUMER/Payment Details Page/Omise/textfield_name'), 'John Doe')
+    WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Omise/textfield_name'), 'John Doe')
 
-    WebUI.sendKeys(findTestObject('CONSUMER/Payment Details Page/Omise/textfield_date'), '1120')
+    WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Omise/textfield_date'), '1120')
 
-    WebUI.sendKeys(findTestObject('CONSUMER/Payment Details Page/Omise/textfield_code'), '123')
+    WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Omise/textfield_code'), '123')
 
     WebUI.delay(0.5)
 
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/Omise/button_Pay'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Omise/button_Pay'))
 } else if (GlobalVariable.payment == 'custom') {
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.selectOptionByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Handshake', true)
+    WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Handshake', true)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Payment Details Page/dropdown_Payment'), 'Handshake', true, 
+    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Handshake', true, 
         0)
 
-    WebUI.scrollToElement(findTestObject('CONSUMER/Payment Details Page/button_PayNow'), 0)
+    WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), 0)
 
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/button_PayNow'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Payment Details Page/Custom Payment/button_Accept'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Custom Payment/button_Accept'), 0)
 
-    WebUI.setText(findTestObject('CONSUMER/Payment Details Page/Custom Payment/textfield_Note'), 'test')
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Custom Payment/textfield_Note'), 'test')
 
     WebUI.delay(1)
 
-    WebUI.click(findTestObject('CONSUMER/Payment Details Page/Custom Payment/button_Accept'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Custom Payment/button_Accept'))
 }
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Thank You Page/button_PurchaseHistory'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Thank You Page/button_PurchaseHistory'), 0)
 
-String invoice = WebUI.getText(findTestObject('CONSUMER/Thank You Page/textlabel_Invoice'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('CONSUMER/Thank You Page/button_PurchaseHistory'))
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'), 0)
+String invoice = WebUI.getText(findTestObject('SPACETIME/CONSUMER/Thank You Page/textlabel_Invoice'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('CONSUMER/Purchase History List/textfield_Search'), invoice)
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Thank You Page/button_PurchaseHistory'))
 
-WebUI.click(findTestObject('CONSUMER/Purchase History List/button_Search'))
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_ViewOrder'), 0)
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Purchase History List/textfield_Search'), invoice)
+
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_Search'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_ViewOrder'), 0)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CONSUMER/Purchase History List/button_ViewOrder'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_ViewOrder'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), 
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), 
     0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), rate, 
+WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), rate, 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.STOP_ON_FAILURE)

@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-price'), '10.10')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_item-price'), '10.10')
 
-WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-price'), 'value', '10.10', 0)
+WebUI.verifyElementAttributeValue(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_item-price'), 'value', '10.10', 0)
 

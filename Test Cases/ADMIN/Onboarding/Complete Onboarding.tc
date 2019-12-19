@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Complete Onboarding</name>
+   <tag></tag>
+   <comment>Create Account
+Step 1
+Step 2
+Step 3
+Step 4
+Step 5
+Step 6
+Step 7 (editable variables)
+Step 8
+Checkbox Return Policy
+Terms and Condition</comment>
+   <testCaseGuid>604e6ea8-cd24-4051-ba30-00467ad55038</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>1ca0fbbc-a1bb-427e-93dd-909d1b87d36a</id>
+      <masked>false</masked>
+      <name>varServer</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>6c3de02f-cd53-4bdf-8ea4-887edf26c07f</id>
+      <masked>false</masked>
+      <name>varAccountType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>33d1bbad-5334-456c-a546-a05e98e25825</id>
+      <masked>false</masked>
+      <name>varGoogle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>331a0c48-3ee6-4819-b5f4-876432d734cd</id>
+      <masked>false</masked>
+      <name>varFacebook</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>7b26605f-911e-4591-ad8d-47d0e6cbc10a</id>
+      <masked>false</masked>
+      <name>varGooglePass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>0df9001a-11a5-4b6b-96a5-8ca3fcec6f91</id>
+      <masked>false</masked>
+      <name>varFacebookPass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>1ac36231-48a9-4d15-9164-b570c476b59b</id>
+      <masked>false</masked>
+      <name>varUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>df53115c-b33b-4919-b918-4366dbd42e95</id>
+      <masked>false</masked>
+      <name>varCountry</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>41282077-4862-4c4e-b97e-b3b00cff4a53</id>
+      <masked>false</masked>
+      <name>varAddress1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>332ce3d3-4db1-434c-a0e5-9eecd53d3d5a</id>
+      <masked>false</masked>
+      <name>varAddress2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>d41bd923-1a56-4786-9b69-9560da36bdde</id>
+      <masked>false</masked>
+      <name>varContactNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>a562b495-4ad2-4f58-8835-e254b1e25049</id>
+      <masked>false</masked>
+      <name>varFName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>f980e8bb-9440-4c91-b78c-2a4da2e43359</id>
+      <masked>false</masked>
+      <name>varLName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>22c1ab47-95e0-4c41-9be8-18c744904c43</id>
+      <masked>false</masked>
+      <name>varEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>a8b8e51c-67f4-4880-a863-091b4ad5e730</id>
+      <masked>false</masked>
+      <name>varTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>4ca630b1-79be-49a3-8d5a-13802e7670a4</id>
+      <masked>false</masked>
+      <name>varTheme</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>93b18a9c-0eb6-44f6-b3dd-57e49e8415e3</id>
+      <masked>false</masked>
+      <name>varCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>6badb04c-23c6-4bba-b1ea-1630545aabdb</id>
+      <masked>false</masked>
+      <name>varCoverImage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>9a43551a-23d7-4c1c-97e5-c8b751dcb076</id>
+      <masked>false</masked>
+      <name>varLogo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Onboarding/Complete Onboarding')</defaultValue>
+      <description></description>
+      <id>a4686fac-04f1-4664-84e2-b0596f0f2f66</id>
+      <masked>false</masked>
+      <name>varAdminFee</name>
+   </variable>
+</TestCaseEntity>

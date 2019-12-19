@@ -115,9 +115,9 @@ WebUI.click(findTestObject('ADMIN/Admin Users/a_Login'))
 
 WebUI.click(findTestObject('ADMIN/Admin Users/Login Popup/input_mybtn btn-blue'))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Listing Page/textlabel_Your listings'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Listing Page/textlabel_Your listings'), 0)
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/User Menu/img_usermenu'))
+WebUI.click(findTestObject('SPACETIME/MERCHANT/User Menu/img_usermenu'))
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/User Menu/a_Logout'))
+WebUI.click(findTestObject('SPACETIME/MERCHANT/User Menu/a_Logout'))
 

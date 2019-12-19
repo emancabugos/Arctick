@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>17_OpenidLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6866f1f9-8fa3-4d20-85ef-4a2656f62eab</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textlabel_OPENID LOGIN')</defaultValue>
+      <description></description>
+      <id>b9a7aec9-2a2f-43d4-924d-39d75bcca5b9</id>
+      <masked>false</masked>
+      <name>openidlogin</name>
+   </variable>
+</TestCaseEntity>

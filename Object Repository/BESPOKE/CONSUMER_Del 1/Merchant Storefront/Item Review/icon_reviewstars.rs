@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_reviewstars</name>
+   <tag></tag>
+   <elementGuidId>879f5df9-dc54-4c87-872a-249c12ba566b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;review-list&quot;)/div[@class=&quot;cart-item-row&quot;]/div[@class=&quot;cart-item-box-desc&quot;]/div[@class=&quot;storefront-desc&quot;]/div[@class=&quot;cart-top-sec-left&quot;]/div[@class=&quot;store-rating&quot;]/span[@class=&quot;stars&quot;]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textfield_opt1</name>
+   <tag></tag>
+   <elementGuidId>6afa0bfe-eaee-4e83-b119-9e041e0a696e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div[1]/div[2]/div/form/div/div[9]/div/ul/li[1]/div/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div[1]/div[2]/div/form/div/div[9]/div/ul/li[1]/div/div[2]/input</value>
+   </webElementProperties>
+</WebElementEntity>

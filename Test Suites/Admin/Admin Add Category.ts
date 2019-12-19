@@ -4,7 +4,7 @@
    <name>Admin Add Category</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-08-08T13:50:48</lastRun>
+   <lastRun>2019-12-10T10:23:40</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -29,24 +29,24 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ADMIN/Category List</testDataId>
+         <testDataId>Data Files/ADMIN/Category/Category List</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Category</value>
+         <value>CategoryNametext</value>
          <variableId>fd5b9795-dcf6-46ff-8085-93363eddcaeb</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Parent</value>
+         <value>ParentName</value>
          <variableId>cd3ae8ef-a872-48c6-8212-ca6c297816a4</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Image</value>
+         <value>CategoryImageUpload</value>
          <variableId>67677f2d-5ad2-4e2a-8ba4-e0543cbd5f4a</variableId>
       </variableLink>
       <variableLink>

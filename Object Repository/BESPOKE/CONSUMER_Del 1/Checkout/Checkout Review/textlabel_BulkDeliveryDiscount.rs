@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_BulkDeliveryDiscount</name>
+   <tag></tag>
+   <elementGuidId>8961d2cd-25fc-413c-b8d9-6ff00f886b51</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkout-totline-left</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bulk Delivery Discount</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;order-summary&quot;)/div[@class=&quot;checkout-payment-inner&quot;]/div[@class=&quot;checkout-itm-total-sec&quot;]/div[@class=&quot;checkout-total-line1&quot;]/div[@class=&quot;checkout-totline-left&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

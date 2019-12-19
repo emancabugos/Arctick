@@ -22,29 +22,29 @@ import internal.GlobalVariable as GlobalVariable
 'Edit Uploaded Image\r\n'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.mouseOver(findTestObject('Utilities/Header/BESPOKE/Merchant Header/usermenu'))
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Bespoke Usermenu/a_Settings'), 0)
+WebUI.waitForElementVisible(findTestObject('Utilities/Bespoke Usermenu/linktext_Settings'), 0)
 
-WebUI.click(findTestObject('Utilities/Bespoke Usermenu/a_Settings'))
+WebUI.click(findTestObject('Utilities/Bespoke Usermenu/linktext_Settings'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Onboarding/Profile Tab/button_Change'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/button_Change'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Onboarding/Profile Tab/button_Change'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/button_Change'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Onboarding/Profile Tab/Upload Image/popup_upload'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/Upload Image/popup_upload'), 0)
 
-WebUI.uploadFile(findTestObject('CONSUMER/Onboarding/Profile Tab/Upload Image/popup_upload'), 'C:\\Katalon\\Image\\photo8.jpg')
+WebUI.uploadFile(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/Upload Image/popup_upload'), 'C:\\Katalon\\Image\\photo8.jpg')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Onboarding/Profile Tab/Upload Image/button_zoomOut'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/Upload Image/button_zoomOut'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Onboarding/Profile Tab/Upload Image/button_ok'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/Upload Image/button_ok'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Onboarding/Profile Tab/Upload Image/button_Save'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/Upload Image/button_Save'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Onboarding/Profile Tab/Upload Image/button_Save'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/Upload Image/button_Save'))
 
 WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

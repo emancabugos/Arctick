@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Edit Display Name\r\n'
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Onboarding/Profile Tab/button_Change'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/button_Change'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Onboarding/Profile Tab/textfield_DisplayName'), '')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Onboarding/Profile Tab/textfield_DisplayName'), '')
 

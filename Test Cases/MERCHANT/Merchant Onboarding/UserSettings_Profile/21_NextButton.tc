@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>21_NextButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54e7dc6b-7e71-4626-9c0d-83c46c275964</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/button_NEXT profile')</defaultValue>
+      <description></description>
+      <id>b4856b2b-72cc-451a-9c5c-3ecd3f8259c7</id>
+      <masked>false</masked>
+      <name>nextbutton</name>
+   </variable>
+</TestCaseEntity>

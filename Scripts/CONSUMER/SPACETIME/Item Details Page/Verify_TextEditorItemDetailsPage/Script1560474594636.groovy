@@ -25,67 +25,67 @@ WebUI.comment('Validation on Homepage')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Function/textfield_Keyword'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Search Function/textfield_Keyword'), 'Item Text Editor')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), 'Item Text Editor')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CONSUMER/Search Function/button_Search'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Function/button_Search'))
 
 WebUI.comment('Verify in Search Result Page')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/image_Item'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), 0)
 
-rate = WebUI.getText(findTestObject('CONSUMER/Search Result Page/textlabel_SearchResultPageRate'))
+rate = WebUI.getText(findTestObject('SPACETIME/CONSUMER/Search Result Page/textlabel_SearchResultPageRate'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Verify in Item Details Page')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSeller'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_ContactSeller'), 0)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Item Details Page/textlabel_ItemDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textlabel_ItemDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/checkbox_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/checkbox_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/radiobutton_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/radiobutton_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/bold_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/bold_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/italics_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/italics_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/underline_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/underline_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/strikethrough_TextEditor'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/strikethrough_TextEditor'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/number1_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/number1_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/number2_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/number2_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/alignLeft_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/alignLeft_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/center_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/center_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/alignright_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/alignright_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/justified_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/justified_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/table_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/table_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/emoticonHeart_TextEditor'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/emoticonHeart_TextEditor'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/emoticonSad_TextEditor'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/emoticonSad_TextEditor'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/a_TextEditor/emoticonBlush_TextEditor'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/a_TextEditor/emoticonBlush_TextEditor'), 
     0)
 
 WebUI.closeBrowser()

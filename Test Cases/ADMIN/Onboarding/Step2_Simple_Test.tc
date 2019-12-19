@@ -15,14 +15,14 @@ Input</comment>
       <name>varCountry</name>
    </variable>
    <variable>
-      <defaultValue>'Strada Statale 130, Dorzano'</defaultValue>
+      <defaultValue>'Strada Statale 130'</defaultValue>
       <description></description>
       <id>aead7a56-780b-4552-a152-85f535b9fbcd</id>
       <masked>false</masked>
       <name>varAddress1</name>
    </variable>
    <variable>
-      <defaultValue>'Biella, Italy, 13881'</defaultValue>
+      <defaultValue>'Dorzano, Biella 13881'</defaultValue>
       <description></description>
       <id>618181cc-c544-428b-9bb4-6dd70bcd9177</id>
       <masked>false</masked>

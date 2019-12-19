@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_panelwCalltoAction</name>
+   <tag></tag>
+   <elementGuidId>4784aa96-b461-40ce-8cdf-3e6b3f5d43a1</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>panel-4ffd31cf-ce43-e911-80f9-000d3aa00236</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>section section-banner</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Panel TitleLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue ipsum ac purus imperdiet, a sollicitudin ligula sagittis. Fusce pretium sapien erat, tempus lacinia ante efficitur id. Integer porttitor fringilla mauris ac gravida. Sed faucibus vestibulum arcu, mattis vulputate quam pharetra sed. Maecenas sed sagittis nisi.Learn More</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel-4ffd31cf-ce43-e911-80f9-000d3aa00236&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -23,68 +23,68 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Header/BESPOKE/Merchant He
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Delivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/icon_delivery settings'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/icon_delivery settings'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/button_Add Delivery Option'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/button_Add Delivery Option'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/icon_addedit'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/icon_addedit'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Define the locations availab'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Define the locations availab'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Delivery option settings'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Delivery option settings'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Delivery option name'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Delivery option name'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textbox_delivery option name'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textbox_delivery option name'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Delivers to'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Delivers to'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/dd_coutnry'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/dd_coutnry'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Minimum lead time'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Minimum lead time'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textbox_minimumLeadTime'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textbox_minimumLeadTime'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Where are you delivering'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Where are you delivering'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textbox_deliveryFrom'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textbox_deliveryFrom'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Select if you would like'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Select if you would like'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/radiobutton_Weight (kg)'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/radiobutton_Weight (kg)'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/radiobutton_Price'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/radiobutton_Price'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Delivery Rate(s)'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Delivery Rate(s)'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Name'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Name'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Range (kg)'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Range (kg)'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/textlabel_Delivery Cost'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textlabel_Delivery Cost'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/button_Add Delivery Rate'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/button_Add Delivery Rate'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/button_Cancel'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/button_Cancel'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Add Edit Delivery Option/button_Save'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/button_Save'), 0)
 

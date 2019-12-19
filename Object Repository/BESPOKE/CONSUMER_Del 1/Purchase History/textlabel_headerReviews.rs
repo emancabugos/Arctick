@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_headerReviews</name>
+   <tag></tag>
+   <elementGuidId>2f7db2e2-5a95-44cb-baeb-2b0d59eb3a81</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ordrhist-status-col</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>REVIEWS</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HLQLSHTL0UMH&quot;)/div[1]/div[@class=&quot;ordrhist-list-heading&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ordrhist-list-tit-sec&quot;]/div[@class=&quot;ordrhist-status-col&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

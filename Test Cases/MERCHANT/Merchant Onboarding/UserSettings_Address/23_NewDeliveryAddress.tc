@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23_NewDeliveryAddress</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8b4bdc4-d205-4fa2-b97e-ed17888f4451</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textlabel_NEW DELIVERY ADDRESS')</defaultValue>
+      <description></description>
+      <id>bece5a47-d2f9-4567-b495-6a658a1e7a33</id>
+      <masked>false</masked>
+      <name>newdeladdress</name>
+   </variable>
+</TestCaseEntity>

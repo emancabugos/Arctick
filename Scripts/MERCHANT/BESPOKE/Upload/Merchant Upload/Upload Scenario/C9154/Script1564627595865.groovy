@@ -21,15 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/img_container'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/img_container'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/img_upload container'), 'C:\\\\Katalon\\\\Image\\\\halls.jpg')
+WebUI.uploadFile(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/img_upload container'), 'C:\\\\Katalon\\\\Image\\\\halls.jpg')
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 

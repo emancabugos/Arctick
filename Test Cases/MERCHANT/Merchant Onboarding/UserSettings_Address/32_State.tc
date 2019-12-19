@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>32_State</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>badc8ae2-bdd3-470a-ab8f-db0ad8d66e77</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textlabel_STATE')</defaultValue>
+      <description></description>
+      <id>031b06ad-ccc4-4d0f-a38c-2b436d6b3d82</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+</TestCaseEntity>

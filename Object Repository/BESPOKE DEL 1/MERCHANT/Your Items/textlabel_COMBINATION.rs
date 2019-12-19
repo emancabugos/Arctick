@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_COMBINATION</name>
+   <tag></tag>
+   <elementGuidId>6dadae6c-f267-4f9e-9041-2df12f4688e9</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>COMBINATION</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MyPrintDiv&quot;)/div[@class=&quot;seller-itemlist&quot;]/div[@class=&quot;itemlist-body&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;itemlist-body-r&quot;]/div[@class=&quot;item-row&quot;]/div[@class=&quot;item-stock&quot;]/span[@class=&quot;across-sec&quot;]/span[3]</value>
+   </webElementProperties>
+</WebElementEntity>

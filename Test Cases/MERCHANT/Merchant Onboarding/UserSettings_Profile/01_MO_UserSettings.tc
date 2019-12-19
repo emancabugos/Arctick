@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_MO_UserSettings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0343336c-c730-4bbc-af13-45e1affdc59a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/textlabel_USER SETTINGS')</defaultValue>
+      <description></description>
+      <id>a5f2766a-f76a-4f6f-a316-6bbb7995abc1</id>
+      <masked>false</masked>
+      <name>usersettings</name>
+   </variable>
+</TestCaseEntity>

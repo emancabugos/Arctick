@@ -58,33 +58,33 @@ if (GlobalVariable.buyercredential == 'custom') {
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Login_Facebook'))
 }
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Item Details Page/textfield_searchbar'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textfield_searchbar'), 0)
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Item Details Page/textfield_searchbar'), 'Item B')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textfield_searchbar'), 'Item B')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Item Details Page/button_search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/button_search'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Item Details Page/searchresult_Image'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/searchresult_Image'), 0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Item Details Page/searchresult_Image'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/searchresult_Image'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Item Details Page/button_Contact seller'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/button_Contact seller'), 0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Item Details Page/button_Contact seller'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/button_Contact seller'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.switchToWindowIndex(2)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Item Details Page/textarea_message'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textarea_message'), 0)
 
-WebUI.waitForElementClickable(findTestObject('Bespoke/Merchant/Item Details Page/textarea_message'), 0)
+WebUI.waitForElementClickable(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textarea_message'), 0)
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Item Details Page/textarea_message'), 'test consumer')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textarea_message'), 'test consumer')
 
-WebUI.sendKeys(findTestObject('Bespoke/Merchant/Item Details Page/textarea_message'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textarea_message'), Keys.chord(Keys.ENTER))
 
 WebUI.mouseOver(findTestObject('Time/Merchant/User Settings/image_Seller'))
 
@@ -126,21 +126,21 @@ if (GlobalVariable.merchantcredential == 'custom') {
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Login_Facebook'))
 }
 
-WebUI.click(findTestObject('Bespoke/Merchant/Merchant Header/icon_Inbox'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Header/icon_Inbox'))
 
-WebUI.click(findTestObject('Bespoke/Merchant/Item Details Page/link_Buyers'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/link_Buyers'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Item Details Page/content_Buyer'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/content_Buyer'), 0)
 
-WebUI.click(findTestObject('Bespoke/Merchant/Item Details Page/content_Buyer'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/content_Buyer'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Merchant/Item Details Page/textarea_message'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textarea_message'), 0)
 
-WebUI.waitForElementClickable(findTestObject('Bespoke/Merchant/Item Details Page/textarea_message'), 0)
+WebUI.waitForElementClickable(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textarea_message'), 0)
 
-WebUI.setText(findTestObject('Bespoke/Merchant/Item Details Page/textarea_message'), 'test merchant')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textarea_message'), 'test merchant')
 
-WebUI.sendKeys(findTestObject('Bespoke/Merchant/Item Details Page/textarea_message'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textarea_message'), Keys.chord(Keys.ENTER))
 
 WebUI.mouseOver(findTestObject('Time/Merchant/User Settings/image_Seller'))
 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_totalSalesCurrency</name>
+   <tag></tag>
+   <elementGuidId>099d2f3b-ac7d-46ac-bd5b-a160b750f7f9</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>currency</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AUD $</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HLQLNIB1HDC0&quot;)/div[1]/div[@class=&quot;dashboard-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;dashboard-content&quot;]/div[@class=&quot;dashboard-board&quot;]/ul[1]/li[@class=&quot;total-sale&quot;]/div[@class=&quot;total-value&quot;]/div[@class=&quot;item-price&quot;]/span[@class=&quot;currency&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_MO_ChangeButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd9561d3-5efb-49a6-a71c-cb8808c91afd</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/button_CHANGE')</defaultValue>
+      <description></description>
+      <id>8c906b2b-6915-4ea3-be45-6119d4e3b03d</id>
+      <masked>false</masked>
+      <name>changebutton</name>
+   </variable>
+</TestCaseEntity>

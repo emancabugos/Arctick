@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>36_PostalCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8986cb62-e27f-4d54-96ef-0bf6edfc335d</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textlabel_POSTAL CODE')</defaultValue>
+      <description></description>
+      <id>0c4fe48f-ef76-4b7a-93cc-450b3f974ba5</id>
+      <masked>false</masked>
+      <name>postalcode</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_reviewStars</name>
+   <tag></tag>
+   <elementGuidId>1298e08c-0a3b-4c48-82fe-cfeabb5ee289</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>stars</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;item-review-main-section&quot;)/div[@class=&quot;item-detail-left-inner&quot;]/div[@class=&quot;item-review-wrap&quot;]/div[@class=&quot;item-review-l&quot;]/div[@class=&quot;review-item-star&quot;]/span[@class=&quot;stars&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

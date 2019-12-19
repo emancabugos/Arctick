@@ -3,6 +3,7 @@
    <description></description>
    <name>Step5_Simple_Test_Bespoke</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Step 5
+Previous Button Test</comment>
    <testCaseGuid>397a47cd-9176-4f5c-8718-ad20a25121ca</testCaseGuid>
 </TestCaseEntity>

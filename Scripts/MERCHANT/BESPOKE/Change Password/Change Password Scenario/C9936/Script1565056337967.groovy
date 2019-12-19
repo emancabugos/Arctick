@@ -21,15 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.mouseOver(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'))
 
-WebUI.click(findTestObject('Utilities/Bespoke Usermenu/a_Change Password'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Utilities/Bespoke Usermenu/linktext_Change Password'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('MERCHANT/Change Password/input_oldpassword'), 'welcome8')
+WebUI.setText(findTestObject('Utilities/Change Password/input_oldpassword'), 'welcome8')
 
-WebUI.setText(findTestObject('MERCHANT/Change Password/input_newpassword'), 'invalid')
+WebUI.setText(findTestObject('Utilities/Change Password/input_newpassword'), 'invalid')
 
-WebUI.setText(findTestObject('MERCHANT/Change Password/input_confirmnewpassword'), 'welcome8')
+WebUI.setText(findTestObject('Utilities/Change Password/input_confirmnewpassword'), 'welcome8')
 
-WebUI.click(findTestObject('MERCHANT/Change Password/a_Save'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Utilities/Change Password/a_Save'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Change Password/error_not match'), 0)
+WebUI.verifyElementPresent(findTestObject('Utilities/Change Password/error_not match'), 0)
 

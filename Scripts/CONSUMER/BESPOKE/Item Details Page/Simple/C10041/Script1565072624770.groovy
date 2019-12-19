@@ -22,25 +22,25 @@ import internal.GlobalVariable as GlobalVariable
 'Verify if Show Less linktext is displayed\r\n'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), '')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), '')
 
-WebUI.click(findTestObject('Bespoke/Consumer/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Consumer/Search Results Page/button_Filters'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/button_Filters'))
 
-WebUI.click(findTestObject('Bespoke/Consumer/Search Results Page/item_Result'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/button_AddtoCart'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'), 0)
 
-WebUI.click(findTestObject('Bespoke/Consumer/Item Details Page/linktext_ShowMore'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowMore'))
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/linktext_ShowLess'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowLess'), 0)
 
-WebUI.scrollToElement(findTestObject('Bespoke/Consumer/Item Details Page/linktext_ShowLess'), 0)
+WebUI.scrollToElement(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowLess'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Bespoke/Consumer/Item Details Page/linktext_ShowLess'))
+WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/linktext_ShowLess'))
 

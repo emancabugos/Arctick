@@ -24,15 +24,15 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Header/BESPOKE/Merchant He
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Delivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textbox_name'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textbox_name'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textbox_name'), 'Pickup 1')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textbox_name'), 'Pickup 1')
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/button_Add Pick-up Option'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/button_Add Pick-up Option'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textbox_name'), 'Pickup 2')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textbox_name'), 'Pickup 2')
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/button_Add Pick-up Option'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/button_Add Pick-up Option'))
 

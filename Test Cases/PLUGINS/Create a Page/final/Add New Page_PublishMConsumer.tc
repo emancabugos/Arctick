@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New Page_PublishMConsumer</name>
+   <tag></tag>
+   <comment>Publish / All Users
+Check Preview
+Validate content
+Validate All Users</comment>
+   <testCaseGuid>a15ab63e-5b9b-44f5-acb3-cf6b66dcd27c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
+      <description></description>
+      <id>df7f7ae1-48d3-4a18-befb-b60b51f1099d</id>
+      <masked>false</masked>
+      <name>PageTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
+      <description></description>
+      <id>4f66f821-2de5-40c4-bc81-7eb0d3efde47</id>
+      <masked>false</masked>
+      <name>WebURL</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
+      <description></description>
+      <id>dea1fb5b-5496-4478-867c-19fb6570c1f5</id>
+      <masked>false</masked>
+      <name>Content</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
+      <description></description>
+      <id>4105f62c-b542-4bd2-9485-07482f7a1658</id>
+      <masked>false</masked>
+      <name>Status</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
+      <description></description>
+      <id>b5b6cd4c-9f50-4cdd-8f9f-66ae1fd22fa0</id>
+      <masked>false</masked>
+      <name>Visibility</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
+      <description></description>
+      <id>a492e003-1621-4800-9b74-1e9c21a7cb8a</id>
+      <masked>false</masked>
+      <name>metatitle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Plugins/CreateAPage')</defaultValue>
+      <description></description>
+      <id>eae1712a-2447-4091-91cd-66ef86db3a78</id>
+      <masked>false</masked>
+      <name>metadesc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('ADMIN/Plugins/Web Page Builder/textfield_WebURL')</defaultValue>
+      <description></description>
+      <id>1e3b0e75-f95d-4a61-beca-befe6b4ff9e4</id>
+      <masked>false</masked>
+      <name>beforeURL</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('ADMIN/Plugins/Web Page Builder/textfield_WebURL')</defaultValue>
+      <description></description>
+      <id>a9422c0a-eff2-4a4c-8251-4ebfb868a311</id>
+      <masked>false</masked>
+      <name>afterURL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3db1a981-ef26-43c2-addf-e8bdf4d53cca</id>
+      <masked>false</masked>
+      <name>actualwebURL</name>
+   </variable>
+</TestCaseEntity>

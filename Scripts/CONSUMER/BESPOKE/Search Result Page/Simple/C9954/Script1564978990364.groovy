@@ -22,19 +22,19 @@ import internal.GlobalVariable as GlobalVariable
 'Verify no result on search result page'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('Bespoke/Consumer/Homepage/textfield_Search'), '')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), '')
 
-WebUI.click(findTestObject('Bespoke/Consumer/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.waitForElementVisible(findTestObject('Bespoke/Consumer/Search Results Page/textlabel_sorry'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/textlabel_sorry'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Consumer/Search Results Page/textlabel_sorry'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/textlabel_sorry'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Consumer/Search Results Page/image_noresultfound'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/image_noresultfound'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Bespoke/Consumer/Search Results Page/textlabel_noresultfound'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/textlabel_noresultfound'), 0)
 

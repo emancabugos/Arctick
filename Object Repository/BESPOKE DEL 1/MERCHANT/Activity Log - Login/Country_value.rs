@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Country_value</name>
+   <tag></tag>
+   <elementGuidId>e4f61f3f-3194-4cce-8116-b9e13bd0dfc2</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-column</name>
+      <type>Main</type>
+      <value>Country</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>column-country</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Philippines</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-login&quot;)/div[@class=&quot;order-list list-auto-activity x-table-responsive&quot;]/div[@class=&quot;order-list-body-sec&quot;]/div[@class=&quot;data-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;order-read-box&quot;]/div[@class=&quot;column-country&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

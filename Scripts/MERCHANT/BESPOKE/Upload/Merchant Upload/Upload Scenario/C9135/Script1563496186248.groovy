@@ -23,5 +23,5 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Header/BESPOKE/Merchant He
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 

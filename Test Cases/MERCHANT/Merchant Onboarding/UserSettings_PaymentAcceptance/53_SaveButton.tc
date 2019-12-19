@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>53_SaveButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d88d78ce-8b72-4b2c-8ab4-c04e6c33a3de</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Payment/Payment Acceptance/button_SAVE')</defaultValue>
+      <description></description>
+      <id>d17175f9-5c02-471c-81b0-0dc319d2c0c5</id>
+      <masked>false</masked>
+      <name>savebutton</name>
+   </variable>
+</TestCaseEntity>

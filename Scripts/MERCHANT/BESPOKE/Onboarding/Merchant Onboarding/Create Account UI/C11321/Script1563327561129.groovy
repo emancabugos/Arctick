@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/textlabel_Reconfirm password'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Create Account/textlabel_Reconfirm password'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Merchant Onboarding/Create Account/textbox_reconfirm-password'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Create Account/textbox_reconfirm-password'), 
     0)
 

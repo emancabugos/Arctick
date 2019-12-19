@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[2]/div/div[2]/div/div/div[2]/a[count(. | //*[(text() = 'Add Delivery Option' or . = 'Add Delivery Option')]) = count(//*[(text() = 'Add Delivery Option' or . = 'Add Delivery Option')])]</value>
+         <value>//*[@class = 'black-btn pull-right' and (text() = 'Add Delivery Option' or . = 'Add Delivery Option')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -48,7 +48,7 @@
       <value>Add Delivery Option</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

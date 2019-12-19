@@ -23,29 +23,29 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Header/BESPOKE/Merchant He
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Delivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/icon_delivery settings'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/icon_delivery settings'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textlabel_DELIVERY SETTINGS'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textlabel_DELIVERY SETTINGS'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textlabel_Add delivery andor pick-up o'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textlabel_Add delivery andor pick-up o'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textlabel_DELIVERY OPTIONS'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textlabel_DELIVERY OPTIONS'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textlabel_Name'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textlabel_Name'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textlabel_DELIVERS TO'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textlabel_DELIVERS TO'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/button_Add Delivery Option'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/button_Add Delivery Option'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textlabel_PICK-UP OPTIONS'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textlabel_PICK-UP OPTIONS'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textlabel_Define the full address wher'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textlabel_Define the full address wher'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textlabel_Name (1)'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textlabel_Name (1)'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/textbox_name'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/textbox_name'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Bespoke/Delivery Settings/Settings/button_Add Pick-up Option'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/button_Add Pick-up Option'), 0)
 

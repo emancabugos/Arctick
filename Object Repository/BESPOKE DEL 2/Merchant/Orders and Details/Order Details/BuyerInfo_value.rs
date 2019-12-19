@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BuyerInfo_value</name>
+   <tag></tag>
+   <elementGuidId>a4ebf039-683e-40f1-af23-08e4543287ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[1]/div[1]/div/div[1]/div[4]/div/div[1]/div[1]/text()</value>
+   </webElementProperties>
+</WebElementEntity>

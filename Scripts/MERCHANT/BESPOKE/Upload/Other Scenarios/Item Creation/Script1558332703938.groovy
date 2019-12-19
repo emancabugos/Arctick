@@ -25,128 +25,128 @@ WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Up
 
 WebUI.comment('Category')
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Upload Page/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
 
 if (varCategory == 'Category 1') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 1'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 1'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 2') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 2'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 2'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 3') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 3'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 3'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 4') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 4'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 4'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 5') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 5'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 5'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 6') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 6'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 6'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 7') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 7'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 7'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 8') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 8'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 8'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 9') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 9'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 9'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 10') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 10'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 10'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 11') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 11'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 11'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 12') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 12'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 12'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 13') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 13'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 13'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 14') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 14'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 14'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 15') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 15'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 15'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 16') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 16'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 16'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 17') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 17'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 17'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 18') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 18'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 18'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 19') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 19'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 19'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category 20') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
-    WebUI.click(findTestObject('MERCHANT/Category/Bespoke/Category 20'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Utilities/Category/Bespoke/Category 20'), FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 WebUI.comment('Item Name')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/input_item-name'), varItemName + GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/input_item-name'), varItemName + GlobalVariable.CustomMerchant)
 
 WebUI.comment('Price')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-price'), varPrice)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_item-price'), varPrice)
 
 WebUI.comment('SKU')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_sku-field'), varSKU)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_sku-field'), varSKU)
 
 WebUI.comment('Item Description')
 
-WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textarea_item-description'), varItemDescription)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textarea_item-description'), varItemDescription)
 
 WebUI.comment('Image')
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_BROWSE'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/button_BROWSE'))
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/img_upload container'), varImage)
+WebUI.uploadFile(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/img_upload container'), varImage)
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
 WebUI.comment('Variants & Quantity')
 
 if (varVariants == 'yes') {
-    WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/toggle_variant'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/toggle_variant'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/Variants/textbox_opt1'), varVariantOption)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/Variants/textbox_opt1'), varVariantOption)
 
-    WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/Variants/textbox_choices1'), varVariantChoices)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/Variants/textbox_choices1'), varVariantChoices)
 } else if (varVariants == 'no') {
-    WebUI.setText(findTestObject('MERCHANT/Bespoke/Upload Page/textbox_item-quantity'), varQuantity)
+    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_item-quantity'), varQuantity)
 }
 
 WebUI.comment('Custom Fields')
@@ -155,7 +155,7 @@ WebUI.delay(1)
 
 WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Upload/Other Scenarios/Custom Field Input Bespoke'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('MERCHANT/Bespoke/Upload Page/button_SAVE'))
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/button_SAVE'))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Bespoke/Your Items/button_Upload'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/button_Upload'), 0)
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>39_SavedAddress</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>006837b2-9093-4b95-9ebb-76b110b1b18e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Address Page/Address/textlabel_SAVED ADDRESSES')</defaultValue>
+      <description></description>
+      <id>6390f494-63b8-4f6b-9117-962709e0018d</id>
+      <masked>false</masked>
+      <name>savedaddress</name>
+   </variable>
+</TestCaseEntity>

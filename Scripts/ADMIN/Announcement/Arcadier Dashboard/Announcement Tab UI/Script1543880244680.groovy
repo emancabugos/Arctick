@@ -25,69 +25,69 @@ WebUI.navigateToUrl(GlobalVariable.ArcDashboardURL)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/div_brand-logo'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/div_brand-logo'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_Email'), GlobalVariable.ArcDashboardUser)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_Email'), GlobalVariable.ArcDashboardUser)
 
-WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/input_Password'), GlobalVariable.ArcDashboardPass)
+WebUI.setText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_Password'), GlobalVariable.ArcDashboardPass)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/input_btn btn-default'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_btn btn-default'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/a_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Announcement'), 0)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Announcement'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Announcement'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/h1_Announcement'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/h1_Announcement'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/a_Add New'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Add New'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/input_search'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_search'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/td_UPLOADED ON'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/td_UPLOADED ON'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/td_TITLE'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/td_TITLE'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/previous_page button'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/previous_page button'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/page1'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/page1'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/next_page button'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/next_page button'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/logout_button'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/logout_button'), 0)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/a_Add New'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/a_Add New'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/div_Upload'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/div_Upload'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/div_Upload'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/div_Upload'), 0)
 
-WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/label_Title'), 'Title')
+WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Title'), 'Title')
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/input_title'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_title'), 0)
 
-WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/label_Description'), 'Description')
+WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Description'), 'Description')
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/textarea_description'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/textarea_description'), 0)
 
-WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/label_Hyperlink'), 'Hyperlink')
+WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Hyperlink'), 'Hyperlink')
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/input_hyperlink'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/input_hyperlink'), 0)
 
-WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/label_Show NEW tag on this sta'), 'Show NEW tag on this status')
+WebUI.verifyElementText(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/label_Show NEW tag on this sta'), 'Show NEW tag on this status')
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/span_onoffswitch-inner'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/span_onoffswitch-inner'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/button_Cancel'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Cancel'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/button_Upload'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Upload'), 0)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/button_Cancel'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/button_Cancel'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/logout_button'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/logout_button'), 0)
 
-WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/logout_button'))
+WebUI.click(findTestObject('ADMIN/Arcadier Dashboard/Dashboard/logout_button'))
 
 WebUI.closeBrowser()
 

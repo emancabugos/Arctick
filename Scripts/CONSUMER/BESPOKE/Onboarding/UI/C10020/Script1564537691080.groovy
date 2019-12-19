@@ -20,5 +20,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verification if Address Tab is displayed'
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Onboarding/Address Tab/tab_Address'))
+WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Onboarding/Address Tab/tab_Address'))
 

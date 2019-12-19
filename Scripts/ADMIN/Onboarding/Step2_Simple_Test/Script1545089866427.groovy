@@ -42,7 +42,9 @@ WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2
 
 WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'), varLName)
 
-WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'), GlobalVariable.AdminEmailNotif)
+WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'), varEmail)
+
+WebUI.delay(1)
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown'), varCountry, 
     false)

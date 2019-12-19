@@ -23,74 +23,74 @@ WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], Failu
 
 WebUI.comment('Validation on Homepage')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Function/button_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/button_Search'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Function/textfield_Location'))
+WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Location'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Function/textfield_Keyword'))
+WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Function/datepicker'))
+WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/datepicker'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CONSUMER/Search Function/button_Search'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Function/button_Search'))
 
 WebUI.comment('Verify in Search Result Page')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/image_Item'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Function/perPage_Location'))
+WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/perPage_Location'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Function/perPage_Keyword'))
+WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/perPage_Keyword'))
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 
 WebUI.comment('Verify in Item Details Page')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSeller'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_ContactSeller'), 0)
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time')) == true)
+if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time')) == true)
  {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
+    WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
 
-    WebUI.click(findTestObject('CONSUMER/Item Details Page/datepicker_Date'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'))
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '23/05/2019')
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'), '23/05/2019')
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/timepicker_Time'), '10:15 AM')
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'), '10:15 AM')
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), '2')
-} else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))) {
-    WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Item Details Page/timepicker_Time'))
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), '2')
+} else if (WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))) {
+    WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/datepicker_Date'), '')
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'), '')
 
-    WebUI.setText(findTestObject('CONSUMER/Item Details Page/textfield_Duration'), '')
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), '')
 }
 
 WebUI.delay(0.5)
 
-WebUI.click(findTestObject('CONSUMER/Item Details Page/button_BuyNow'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_BuyNow'))
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout')) == true) {
-    WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
+if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout')) == true) {
+    WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
 
-    WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Delivery1'))
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Delivery1'))
 
     WebUI.delay(0.5)
 
-    WebUI.click(findTestObject('CONSUMER/Delivery Popup Window/button_Checkout'))
-} else if (WebUI.verifyElementNotVisible(findTestObject('Object Repository/CONSUMER/Delivery Popup Window/button_Checkout'))) {
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
+} else if (WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))) {
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 }
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 

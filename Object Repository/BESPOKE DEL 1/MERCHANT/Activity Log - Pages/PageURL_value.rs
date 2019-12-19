@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PageURL_value</name>
+   <tag></tag>
+   <elementGuidId>0871d89f-2882-41b3-a8d4-bb49430c8b53</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-column</name>
+      <type>Main</type>
+      <value>Page URL</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>column-url</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>https://bespoke5.test.arcadier.io/User/MerchantAccount/ActivityLogLogin</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-pages&quot;)/div[@class=&quot;order-list list-auto-activity x-table-responsive&quot;]/div[@class=&quot;order-list-body-sec&quot;]/div[@class=&quot;data-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;order-read-box&quot;]/div[@class=&quot;column-url&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

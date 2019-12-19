@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_MO_ProfileTab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73f26b04-0c23-4fe6-9085-157cbf10f093</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Bespoke/Merchant/Merchant Onboarding/Profile Page/Profile/tab_PROFILE')</defaultValue>
+      <description></description>
+      <id>2ddd467d-7efa-4a1a-be56-3b52998cc3e2</id>
+      <masked>false</masked>
+      <name>Profile</name>
+   </variable>
+</TestCaseEntity>

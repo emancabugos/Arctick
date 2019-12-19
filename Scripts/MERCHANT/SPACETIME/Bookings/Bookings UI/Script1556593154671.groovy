@@ -25,19 +25,19 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Header/SPACETIME/header_Bo
 
 WebUI.click(findTestObject('Utilities/Header/SPACETIME/header_Bookings'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Bookings/img_your bookings'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Bookings/img_your bookings'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Bookings/dropdown_AllUpcomingOngoingpast'), 0)
+WebUI.verifyElementPresent(findTestObject('SPACETIME/MERCHANT/Bookings/dropdown_AllUpcomingOngoingpast'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Bookings/textbox_search-item'), 0)
+WebUI.verifyElementPresent(findTestObject('SPACETIME/MERCHANT/Bookings/textbox_search-item'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Bookings/button_Export CSV'), 0)
+WebUI.verifyElementPresent(findTestObject('SPACETIME/MERCHANT/Bookings/button_Export CSV'), 0)
 
-WebUI.verifyElementText(findTestObject('MERCHANT/SpaceTime/Bookings/textlabel_FILTER SERVICE START DAT'), 'FILTER SERVICE START DATE FROM')
+WebUI.verifyElementText(findTestObject('SPACETIME/MERCHANT/Bookings/textlabel_FILTER SERVICE START DAT'), 'FILTER SERVICE START DATE FROM')
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Bookings/textbox_booking-date'), 0)
+WebUI.verifyElementPresent(findTestObject('SPACETIME/MERCHANT/Bookings/textbox_booking-date'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/SpaceTime/Bookings/button_Apply'), 0)
+WebUI.verifyElementPresent(findTestObject('SPACETIME/MERCHANT/Bookings/button_Apply'), 0)
 
 WebUI.click(findTestObject('Utilities/Buyer Seller Logout/button_dropdown'))
 
