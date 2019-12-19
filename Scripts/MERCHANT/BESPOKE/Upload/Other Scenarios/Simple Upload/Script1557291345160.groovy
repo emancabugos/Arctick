@@ -19,11 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header/linktext_Upload'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textlabel_Category(s)'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), 0)
+
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
 
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/checkbox_cat1'), 0)
 
@@ -41,13 +41,19 @@ WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Utilities/Upload Image(with cropper) - Spacetime Merchant'), [('varImagePath') : varImage], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(1)
+
+WebUI.uploadFile(findTestObject('Utilities/Image Cropper/image_container'), varImage)
+
+WebUI.waitForElementVisible(findTestObject('Utilities/Image Cropper/button_ok'), 0)
+
+WebUI.click(findTestObject('Utilities/Image Cropper/button_ok'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_item-quantity'), varQuantity)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/button_Upload'), 0)
-
-WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

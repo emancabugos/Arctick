@@ -20,7 +20,7 @@
    <testCaseLink>
       <guid>fd5e23d3-e13b-4425-9923-58b5a8b9fd66</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MERCHANT/BESPOKE/Upload/Other Scenarios/Item Creation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -97,5 +97,62 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/bespoke_logout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a6cd1c89-7924-483e-9553-ddddd965be45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MERCHANT/BESPOKE/Upload/Other Scenarios/Simple Upload</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c5f15e04-e7e6-4422-8f0c-f74d885de53d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/MERCHANT/Bespoke/Add Item</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CATEGORY</value>
+         <variableId>609b3bef-6752-4b11-b1bc-f23ab2461351</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ITEM NAME</value>
+         <variableId>70b6e3c1-687c-4646-83f5-65d39e23b952</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PRICE</value>
+         <variableId>cb2a65aa-022c-411e-b179-54a1bf6e643f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SKU</value>
+         <variableId>29212876-632d-4cf1-b392-1ebb53dbd80f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ITEM DESCRIPTION</value>
+         <variableId>4e5fcff5-a377-4956-949f-1b60581fe5d1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>IMAGE</value>
+         <variableId>83fd36cb-040b-4adf-a2f9-ba9d458ced76</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>QUANTITY</value>
+         <variableId>963edf50-0601-483a-b12c-532980ca98ab</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
