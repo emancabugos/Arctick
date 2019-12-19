@@ -289,23 +289,7 @@ WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/textb
 
 WebUI.setText(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/textbox_postalcode'), varPostalCode)
 
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/button_Next location'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.comment('Delivery Method')
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/SpaceTime/Service Creation/Delivery/textlabel_Delivery'), 0)
-
-if (varDelivery == 'Delivery 1') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Delivery/delivery1'), FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varDelivery == 'Delivery 2') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Delivery/delivery2'), FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varDelivery == 'Pickup 1') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Delivery/pickup1'), FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varDelivery == 'Pickup 2') {
-    WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Delivery/pickup2'), FailureHandling.CONTINUE_ON_FAILURE)
-}
-
-WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Delivery/button_Upload now'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT/SpaceTime/Service Creation/Location/button_Upload now'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('END')
 

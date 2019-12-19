@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;a-browse&quot;][count(. | //*[@id = 'a-browse' and (text() = 'Browse' or . = 'Browse')]) = count(//*[@id = 'a-browse' and (text() = 'Browse' or . = 'Browse')])]</value>
+         <value>//*[@id=&quot;a-browse&quot;][count(. | //a[@id = 'a-browse' and @class = 'btn btn-grey btn-browse model-btn' and (text() = 'Browse' or . = 'Browse')]) = count(//a[@id = 'a-browse' and @class = 'btn btn-grey btn-browse model-btn' and (text() = 'Browse' or . = 'Browse')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,7 +34,7 @@
       <value>a-browse</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

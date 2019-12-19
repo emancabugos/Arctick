@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if icon is present</description>
+   <name>C33672</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f5ac882-813d-48fd-96cb-2f7dfdbec15f</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Ensure that Register / Sign In is displayed upon viewing the marketplace</description>
-   <name>C9941</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b5887752-138a-40f4-a656-54eca57e6a7c</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify icon and &quot;Contact information for buyers and sellers .
+Toggle yes to make 'Contact Us' page available in the marketplace&quot; is present.</description>
+   <name>C33674</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3c65bf7-c54a-4c53-8d0e-48e4d4d0ee05</testCaseGuid>
+</TestCaseEntity>

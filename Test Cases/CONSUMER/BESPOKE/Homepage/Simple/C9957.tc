@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Ensure that upon clicking &quot;Browse All Categories&quot; system will display &quot;Hide Categories&quot; button and all the added categories by the admin</description>
-   <name>C9957</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ec7b0ce1-f022-407d-b5e7-5d9456fbcb95</testCaseGuid>
-</TestCaseEntity>

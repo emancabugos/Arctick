@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify first 4 categories(based on admin) are displayed in Categories section</description>
-   <name>C9951</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>7a0b3e4f-fdf4-4721-93fb-c0fa8390e510</testCaseGuid>
-</TestCaseEntity>

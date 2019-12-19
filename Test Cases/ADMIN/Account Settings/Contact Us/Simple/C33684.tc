@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if admin will be able to toggle the button to YES.</description>
+   <name>C33684</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3fef82ed-368b-4317-aed1-af7ca9d643f7</testCaseGuid>
+</TestCaseEntity>

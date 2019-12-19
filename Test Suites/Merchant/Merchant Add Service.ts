@@ -145,17 +145,11 @@
          <value>SCHEDULE</value>
          <variableId>24af321c-14f7-4286-85fa-0bd65467f5c6</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId>2722fb3c-8f59-408e-9d5e-c7eeac472cb2</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Delivery</value>
-         <variableId>4365bd16-9b52-4663-8ecd-f798a3544ce0</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>68db0f98-806d-4942-bd0d-54f76d1c5afe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

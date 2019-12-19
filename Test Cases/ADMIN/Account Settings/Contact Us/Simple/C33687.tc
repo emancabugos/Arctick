@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if user will be able to save without contact information.</description>
+   <name>C33687</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95287dab-bb0f-45ad-997c-c0b79d045c9f</testCaseGuid>
+</TestCaseEntity>

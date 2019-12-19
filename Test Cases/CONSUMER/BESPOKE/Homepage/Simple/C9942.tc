@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Ensure that Register / Sign In button will not be displayed upon login of consumer and be replaced by the consumer avatar</description>
-   <name>C9942</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>13829109-f5f0-4123-ac49-783945988b2e</testCaseGuid>
-</TestCaseEntity>

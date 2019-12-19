@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Ensure that &quot;Be a Seller&quot; button is displayed upon login of consumer</description>
-   <name>C9940</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2aebcdca-9116-4f2b-ab87-765417a0639c</testCaseGuid>
-</TestCaseEntity>

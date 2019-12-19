@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;location&quot;]/div/div/div/div[5]/div[2]/a</value>
+         <value>//*[@id=&quot;location&quot;]/div/div/div/div[5]/div[2]/a[count(. | //*[@class = 'itmupld-loc-upldbtn' and (text() = 'Upload now' or . = 'Upload now')]) = count(//*[@class = 'itmupld-loc-upldbtn' and (text() = 'Upload now' or . = 'Upload now')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,14 +27,14 @@
       <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>itmupld-loc-upldbtn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
