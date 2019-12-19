@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Ensure that if the item is set to &quot;Non-Purchasable&quot; on the admin portal and &quot;Purchasable&quot; on the sellers portal the item should not be displayed on the homepage and cannot be search by the consumer</description>
-   <name>C9971</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>0a28d703-26fc-4c69-a627-d4f4187c2184</testCaseGuid>
-</TestCaseEntity>

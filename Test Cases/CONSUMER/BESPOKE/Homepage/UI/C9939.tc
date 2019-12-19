@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Ensure that &quot;Be a Seller&quot; button is displayed upon viewing the marketplace</description>
-   <name>C9939</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>df709ebc-73c7-41e4-aa9c-2acfb8f42c6c</testCaseGuid>
-</TestCaseEntity>

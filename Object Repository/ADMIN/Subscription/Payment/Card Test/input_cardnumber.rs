@@ -6,18 +6,18 @@
    <elementGuidId>b76bc3e3-1fc0-40d4-87f5-31d1ba63433e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'InputElement is-empty Input Input--empty' and @ref_element = 'Object Repository/ADMIN/Subscription/Payment/Card Test/iframe___privateStripeFrame5']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;root&quot;]/form/div/div[2]/span[1]/span[2]/span/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@class = 'InputElement is-empty Input Input--empty' and @name = 'cardnumber' and @placeholder = 'Card number' and @id = 'card-element' and @ref_element = 'Object Repository/ADMIN/Subscription/Payment/Card Test/iframe___privateStripeFrame5']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -52,7 +52,7 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -73,7 +73,7 @@
       <value>Credit or debit card number</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -101,7 +101,7 @@
       <value>//*[@id=&quot;root&quot;]/form/div/div[2]/span[1]/span[2]/span/input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

@@ -64,12 +64,6 @@
          <value></value>
          <variableId>242d7b48-9762-4450-9a52-50951ea26c95</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c7d37cfc-0c75-456a-b2ca-a2fd305268bc</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>949f7ea3-04c3-4e1d-beae-27fc4abfb1ff</guid>
@@ -140,7 +134,7 @@
    <testCaseLink>
       <guid>63e6fa38-556d-4b48-a34a-398c71ab7721</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Onboarding/Take Me There</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

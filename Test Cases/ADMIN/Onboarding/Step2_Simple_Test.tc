@@ -36,24 +36,17 @@ Input</comment>
       <name>varContactNumber</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.AdminCustom</defaultValue>
+      <defaultValue>'John'</defaultValue>
       <description></description>
       <id>94f7ad19-0472-44ba-9c08-3dae9b8adcd8</id>
       <masked>false</masked>
       <name>varFName</name>
    </variable>
    <variable>
-      <defaultValue>'Stripe'</defaultValue>
+      <defaultValue>'Cabug-os'</defaultValue>
       <description></description>
       <id>242d7b48-9762-4450-9a52-50951ea26c95</id>
       <masked>false</masked>
       <name>varLName</name>
-   </variable>
-   <variable>
-      <defaultValue>GlobalVariable.AdminEmailNotif</defaultValue>
-      <description></description>
-      <id>c7d37cfc-0c75-456a-b2ca-a2fd305268bc</id>
-      <masked>false</masked>
-      <name>varEmail</name>
    </variable>
 </TestCaseEntity>

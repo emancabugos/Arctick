@@ -11,6 +11,7 @@ Image
 Add Ons
 Custom Fields
 Location
+Delivery Method
 END</comment>
    <testCaseGuid>d5f531ad-694a-42d5-98f7-887befc9533c</testCaseGuid>
    <variable>
@@ -145,12 +146,5 @@ END</comment>
       <id>24af321c-14f7-4286-85fa-0bd65467f5c6</id>
       <masked>false</masked>
       <name>varSchedule</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
-      <description></description>
-      <id>4365bd16-9b52-4663-8ecd-f798a3544ce0</id>
-      <masked>false</masked>
-      <name>varDelivery</name>
    </variable>
 </TestCaseEntity>

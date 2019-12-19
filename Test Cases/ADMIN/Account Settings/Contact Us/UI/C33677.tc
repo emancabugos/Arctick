@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Marketplace contact no. textbox</description>
+   <name>C33677</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8fefa43-a610-4ccd-acc0-58072100db17</testCaseGuid>
+</TestCaseEntity>

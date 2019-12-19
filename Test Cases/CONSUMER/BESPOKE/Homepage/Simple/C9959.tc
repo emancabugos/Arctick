@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Ensure that upon clicking any category box on the Homepage system will redirect the user to Search Results page displaying all th items under the selected category</description>
-   <name>C9959</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bb0b39d0-5cb6-446e-aa37-e75b8a261fea</testCaseGuid>
-</TestCaseEntity>

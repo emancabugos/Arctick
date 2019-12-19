@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify marketplace contact email textbox</description>
+   <name>C33679</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff49e351-c686-4639-82bb-a005a74aefd3</testCaseGuid>
+</TestCaseEntity>
