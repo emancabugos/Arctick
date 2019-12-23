@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify Minimum value label is present and functional</description>
-   <name>C10033</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a401913b-a7ee-4f00-a077-d07fddd0790f</testCaseGuid>
-</TestCaseEntity>

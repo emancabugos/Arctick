@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify Maximum value label is present and functional</description>
-   <name>C10034</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c4843d89-590a-4a68-973c-7a384868d4d7</testCaseGuid>
-</TestCaseEntity>

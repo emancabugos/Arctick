@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User search for an item with no results found.</description>
-   <name>C9954</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>34e3964c-648d-451c-8770-43d03483859c</testCaseGuid>
-</TestCaseEntity>

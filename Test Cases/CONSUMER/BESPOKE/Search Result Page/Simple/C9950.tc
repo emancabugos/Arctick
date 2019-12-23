@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User inputs item description in search textfield</description>
-   <name>C9950</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d4b68536-1dde-4390-a8a5-98be63813cfa</testCaseGuid>
-</TestCaseEntity>
