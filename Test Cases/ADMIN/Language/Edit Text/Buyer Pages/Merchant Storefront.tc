@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Merchant Storefront</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08fa2114-77a7-458b-9c55-fdf7fa68e08f</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>5fc342e6-216d-4f9f-b887-c8f41d2a7d79</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

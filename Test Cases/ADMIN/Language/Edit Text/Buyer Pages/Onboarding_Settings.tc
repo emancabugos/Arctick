@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Onboarding_Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be25b2f3-d975-492d-8b7b-e57428d09a97</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>e37aab7b-b68d-45bf-beb1-b6421e2853ba</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

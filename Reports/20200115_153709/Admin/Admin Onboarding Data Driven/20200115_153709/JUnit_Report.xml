@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin Onboarding Data Driven" time="185.982" tests="5" failures="0" errors="0">
+   <testsuite name="Admin Onboarding Data Driven" tests="5" failures="0" errors="0" time="185.982" timestamp="2020-01-15 15:37:11" hostname="Arcadier - Arcadier-PC" id="Test Suites/Admin/Admin Onboarding Data Driven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Arctick\\Reports\\20200115_153709\\Admin\\Admin Onboarding Data Driven\\20200115_153709"/>
+         <property name="logFiles" value="C:\\Katalon\\Arctick\\Reports\\20200115_153709\\Admin\\Admin Onboarding Data Driven\\20200115_153709\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Arcadier - Arcadier-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.117"/>
+         <property name="hostAddress" value="10.10.39.148"/>
+         <property name="sessionId" value="42d7133eb081ea64744dc36544cbcd72"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/Onboarding/Complete Onboarding" time="43.159" classname="Test Cases/ADMIN/Onboarding/Complete Onboarding" status="PASSED">
+         <system-out><![CDATA[2020-01-15 15:37:12 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Onboarding/Complete Onboarding: Test Cases/ADMIN/Onboarding/Complete Onboarding
+
+2020-01-15 15:37:15 - [TEST_STEP][PASSED] - comment("Create Account"): Create Account
+
+2020-01-15 15:37:15 - [MESSAGE][INFO] - Create Account
+
+2020-01-15 15:37:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-15 15:37:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-15 15:37:16 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2020-01-15 15:37:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-15 15:37:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-15 15:37:18 - [TEST_STEP][PASSED] - if (varServer == "Test"): Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:37:18 - [TEST_STEP][PASSED] - navigateToUrl("https://www.test.arcadier.io"): Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:37:21 - [MESSAGE][PASSED] - Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:37:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-15 15:37:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-15 15:37:21 - [TEST_STEP][PASSED] - if (varAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:37:21 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account' is clicked on
+
+2020-01-15 15:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account' is clicked on
+
+2020-01-15 15:37:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username' is present
+
+2020-01-15 15:37:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:37:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username' is present
+
+2020-01-15 15:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username"), varUsername): Text '0115ST1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'
+
+2020-01-15 15:37:22 - [MESSAGE][PASSED] - Text '0115ST1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'
+
+2020-01-15 15:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password"), "welcome8"): Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password'
+
+2020-01-15 15:37:23 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password'
+
+2020-01-15 15:37:23 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password"), "welcome8"): Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'
+
+2020-01-15 15:37:23 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'
+
+2020-01-15 15:37:23 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:37:26 - [TEST_STEP][PASSED] - comment("Step 1"): Step 1
+
+2020-01-15 15:37:26 - [MESSAGE][INFO] - Step 1
+
+2020-01-15 15:37:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im"), "I’m managing them offline", false): All options with label 'I’m managing them offline' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im' 
+
+2020-01-15 15:37:26 - [MESSAGE][PASSED] - All options with label 'I’m managing them offline' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im' 
+
+2020-01-15 15:37:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don"), "Something else!", false): All options with label 'Something else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don' 
+
+2020-01-15 15:37:27 - [MESSAGE][PASSED] - All options with label 'Something else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don' 
+
+2020-01-15 15:37:27 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType"), "Marketplace"): Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType'
+
+2020-01-15 15:37:27 - [MESSAGE][PASSED] - Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType'
+
+2020-01-15 15:37:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work"), "Someone else!", false): All options with label 'Someone else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work' 
+
+2020-01-15 15:37:27 - [MESSAGE][PASSED] - All options with label 'Someone else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work' 
+
+2020-01-15 15:37:27 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType"), "Business Man"): Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:37:28 - [MESSAGE][PASSED] - Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:37:28 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType"), "Business Man"): Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:37:28 - [MESSAGE][PASSED] - Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:37:28 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1' is clicked on
+
+2020-01-15 15:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1' is clicked on
+
+2020-01-15 15:37:30 - [TEST_STEP][PASSED] - comment("Step 2"): Step 2
+
+2020-01-15 15:37:30 - [MESSAGE][INFO] - Step 2
+
+2020-01-15 15:37:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor' is visible
+
+2020-01-15 15:37:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor' is visible
+
+2020-01-15 15:37:30 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName"), varFName): Text '0115ST1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName'
+
+2020-01-15 15:37:31 - [MESSAGE][PASSED] - Text '0115ST1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName'
+
+2020-01-15 15:37:31 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName"), varLName): Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'
+
+2020-01-15 15:37:31 - [MESSAGE][PASSED] - Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'
+
+2020-01-15 15:37:31 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email"), varEmail): Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'
+
+2020-01-15 15:37:32 - [MESSAGE][PASSED] - Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'
+
+2020-01-15 15:37:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:37:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:37:33 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown"), varCountry, false): All options with label 'Italy' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown' 
+
+2020-01-15 15:37:33 - [MESSAGE][PASSED] - All options with label 'Italy' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown' 
+
+2020-01-15 15:37:33 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1"), varAddress1): Text 'Strada Statale 130' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1'
+
+2020-01-15 15:37:33 - [MESSAGE][PASSED] - Text 'Strada Statale 130' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1'
+
+2020-01-15 15:37:33 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2"), varAddress2): Text 'Dorzano, Biella 13881' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2'
+
+2020-01-15 15:37:34 - [MESSAGE][PASSED] - Text 'Dorzano, Biella 13881' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2'
+
+2020-01-15 15:37:34 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber"), varContactNumber): Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber'
+
+2020-01-15 15:37:34 - [MESSAGE][PASSED] - Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber'
+
+2020-01-15 15:37:34 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2' is clicked on
+
+2020-01-15 15:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2' is clicked on
+
+2020-01-15 15:37:36 - [TEST_STEP][PASSED] - comment("Step 3"): Step 3
+
+2020-01-15 15:37:36 - [MESSAGE][INFO] - Step 3
+
+2020-01-15 15:37:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace' is visible
+
+2020-01-15 15:37:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:37:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace' is visible
+
+2020-01-15 15:37:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:37:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:37:37 - [TEST_STEP][PASSED] - if (varTemplate == "Bespoke"): null
+
+2020-01-15 15:37:37 - [TEST_STEP][PASSED] - else if (varTemplate == "ServiceBookings(TIME)"): null
+
+2020-01-15 15:37:37 - [TEST_STEP][PASSED] - else if (varTemplate == "RentalGoods(TIME)"): null
+
+2020-01-15 15:37:37 - [TEST_STEP][PASSED] - else if (varTemplate == "Space"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:37:37 - [TEST_STEP][PASSED] - mouseOver(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent' is hovered
+
+2020-01-15 15:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent' is hovered
+
+2020-01-15 15:37:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:37:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:37:39 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:37:40 - [TEST_STEP][PASSED] - comment("Step 4"): Step 4
+
+2020-01-15 15:37:40 - [MESSAGE][INFO] - Step 4
+
+2020-01-15 15:37:40 - [TEST_STEP][PASSED] - uploadFile(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4"), varLogo): File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\logo2.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4'
+
+2020-01-15 15:37:40 - [MESSAGE][PASSED] - File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\logo2.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4'
+
+2020-01-15 15:37:40 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name"), varUsername): Text '0115ST1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name'
+
+2020-01-15 15:37:40 - [MESSAGE][PASSED] - Text '0115ST1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name'
+
+2020-01-15 15:37:40 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan"), varTheme): Text 'Theme 1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan'
+
+2020-01-15 15:37:41 - [MESSAGE][PASSED] - Text 'Theme 1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan'
+
+2020-01-15 15:37:41 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber"), varContactNumber): Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber'
+
+2020-01-15 15:37:41 - [MESSAGE][PASSED] - Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber'
+
+2020-01-15 15:37:41 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail"), varEmail): Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail'
+
+2020-01-15 15:37:42 - [MESSAGE][PASSED] - Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail'
+
+2020-01-15 15:37:42 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4' is clicked on
+
+2020-01-15 15:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4' is clicked on
+
+2020-01-15 15:37:42 - [TEST_STEP][PASSED] - comment("Step 5"): Step 5
+
+2020-01-15 15:37:42 - [MESSAGE][INFO] - Step 5
+
+2020-01-15 15:37:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark' is visible
+
+2020-01-15 15:37:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:37:43 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark' is visible
+
+2020-01-15 15:37:43 - [TEST_STEP][PASSED] - if (varTemplate == "Bespoke"): null
+
+2020-01-15 15:37:43 - [TEST_STEP][PASSED] - else if (varTemplate == "Space"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:37:43 - [TEST_STEP][PASSED] - if (varTheme == "Theme 1"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:37:43 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:37:43 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5' is clicked on
+
+2020-01-15 15:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5' is clicked on
+
+2020-01-15 15:37:44 - [TEST_STEP][PASSED] - comment("Step 6"): Step 6
+
+2020-01-15 15:37:44 - [MESSAGE][INFO] - Step 6
+
+2020-01-15 15:37:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace' is visible
+
+2020-01-15 15:37:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:37:45 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace' is visible
+
+2020-01-15 15:37:45 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6' is clicked on
+
+2020-01-15 15:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6' is clicked on
+
+2020-01-15 15:37:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-15 15:37:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-15 15:37:47 - [TEST_STEP][PASSED] - uploadFile(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container"), varCoverImage): File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\coverimage3.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container'
+
+2020-01-15 15:37:47 - [MESSAGE][PASSED] - File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\coverimage3.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container'
+
+2020-01-15 15:37:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is visible
+
+2020-01-15 15:37:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:37:47 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is visible
+
+2020-01-15 15:37:47 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is clicked on
+
+2020-01-15 15:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is clicked on
+
+2020-01-15 15:37:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is visible
+
+2020-01-15 15:37:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is visible
+
+2020-01-15 15:37:48 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is clicked on
+
+2020-01-15 15:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is clicked on
+
+2020-01-15 15:37:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:37:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:37:49 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6' is clicked on
+
+2020-01-15 15:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6' is clicked on
+
+2020-01-15 15:37:49 - [TEST_STEP][PASSED] - comment("Step 7 (editable variables)"): Step 7 (editable variables)
+
+2020-01-15 15:37:49 - [MESSAGE][INFO] - Step 7 (editable variables)
+
+2020-01-15 15:37:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t' is visible
+
+2020-01-15 15:37:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:37:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t' is visible
+
+2020-01-15 15:37:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency"), varCurrency, false): All options with label 'SGD' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency' 
+
+2020-01-15 15:37:51 - [MESSAGE][PASSED] - All options with label 'SGD' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency' 
+
+2020-01-15 15:37:51 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee"), varAdminFee): Text '20' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'
+
+2020-01-15 15:37:51 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'
+
+2020-01-15 15:37:51 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7' is clicked on
+
+2020-01-15 15:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7' is clicked on
+
+2020-01-15 15:37:52 - [TEST_STEP][PASSED] - comment("Step 8"): Step 8
+
+2020-01-15 15:37:52 - [MESSAGE][INFO] - Step 8
+
+2020-01-15 15:37:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol' is visible
+
+2020-01-15 15:37:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:37:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol' is visible
+
+2020-01-15 15:37:52 - [TEST_STEP][PASSED] - comment("Checkbox Return Policy"): Checkbox Return Policy
+
+2020-01-15 15:37:52 - [MESSAGE][INFO] - Checkbox Return Policy
+
+2020-01-15 15:37:52 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy' is clicked on
+
+2020-01-15 15:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy' is clicked on
+
+2020-01-15 15:37:52 - [TEST_STEP][PASSED] - comment("Terms and Condition"): Terms and Condition
+
+2020-01-15 15:37:52 - [MESSAGE][INFO] - Terms and Condition
+
+2020-01-15 15:37:52 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed' is clicked on
+
+2020-01-15 15:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed' is clicked on
+
+2020-01-15 15:37:53 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8' is clicked on
+
+2020-01-15 15:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Onboarding/Complete Onboarding" time="36.118" classname="Test Cases/ADMIN/Onboarding/Complete Onboarding" status="PASSED">
+         <system-out><![CDATA[2020-01-15 15:37:55 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Onboarding/Complete Onboarding: Test Cases/ADMIN/Onboarding/Complete Onboarding
+
+2020-01-15 15:37:56 - [TEST_STEP][PASSED] - comment("Create Account"): Create Account
+
+2020-01-15 15:37:56 - [MESSAGE][INFO] - Create Account
+
+2020-01-15 15:37:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-15 15:37:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-15 15:37:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-15 15:37:57 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2020-01-15 15:37:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-15 15:37:58 - [TEST_STEP][PASSED] - if (varServer == "Test"): Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:37:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.test.arcadier.io"): Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:38:02 - [MESSAGE][PASSED] - Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:38:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-15 15:38:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-15 15:38:02 - [TEST_STEP][PASSED] - if (varAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:38:02 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account' is clicked on
+
+2020-01-15 15:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account' is clicked on
+
+2020-01-15 15:38:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username' is present
+
+2020-01-15 15:38:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username' is present
+
+2020-01-15 15:38:03 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username"), varUsername): Text '0115ST2' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'
+
+2020-01-15 15:38:03 - [MESSAGE][PASSED] - Text '0115ST2' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'
+
+2020-01-15 15:38:03 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password"), "welcome8"): Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password'
+
+2020-01-15 15:38:04 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password'
+
+2020-01-15 15:38:04 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password"), "welcome8"): Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'
+
+2020-01-15 15:38:04 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'
+
+2020-01-15 15:38:04 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:38:06 - [TEST_STEP][PASSED] - comment("Step 1"): Step 1
+
+2020-01-15 15:38:06 - [MESSAGE][INFO] - Step 1
+
+2020-01-15 15:38:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im"), "I’m managing them offline", false): All options with label 'I’m managing them offline' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im' 
+
+2020-01-15 15:38:06 - [MESSAGE][PASSED] - All options with label 'I’m managing them offline' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im' 
+
+2020-01-15 15:38:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don"), "Something else!", false): All options with label 'Something else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don' 
+
+2020-01-15 15:38:07 - [MESSAGE][PASSED] - All options with label 'Something else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don' 
+
+2020-01-15 15:38:07 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType"), "Marketplace"): Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType'
+
+2020-01-15 15:38:07 - [MESSAGE][PASSED] - Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType'
+
+2020-01-15 15:38:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work"), "Someone else!", false): All options with label 'Someone else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work' 
+
+2020-01-15 15:38:07 - [MESSAGE][PASSED] - All options with label 'Someone else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work' 
+
+2020-01-15 15:38:07 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType"), "Business Man"): Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:38:07 - [MESSAGE][PASSED] - Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:38:07 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType"), "Business Man"): Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:38:08 - [MESSAGE][PASSED] - Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:38:08 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1' is clicked on
+
+2020-01-15 15:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1' is clicked on
+
+2020-01-15 15:38:09 - [TEST_STEP][PASSED] - comment("Step 2"): Step 2
+
+2020-01-15 15:38:09 - [MESSAGE][INFO] - Step 2
+
+2020-01-15 15:38:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor' is visible
+
+2020-01-15 15:38:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor' is visible
+
+2020-01-15 15:38:09 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName"), varFName): Text '0115ST2' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName'
+
+2020-01-15 15:38:09 - [MESSAGE][PASSED] - Text '0115ST2' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName'
+
+2020-01-15 15:38:09 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName"), varLName): Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'
+
+2020-01-15 15:38:09 - [MESSAGE][PASSED] - Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'
+
+2020-01-15 15:38:09 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email"), varEmail): Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'
+
+2020-01-15 15:38:10 - [MESSAGE][PASSED] - Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'
+
+2020-01-15 15:38:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:38:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:38:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown"), varCountry, false): All options with label 'Italy' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown' 
+
+2020-01-15 15:38:11 - [MESSAGE][PASSED] - All options with label 'Italy' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown' 
+
+2020-01-15 15:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1"), varAddress1): Text 'Strada Statale 130' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1'
+
+2020-01-15 15:38:11 - [MESSAGE][PASSED] - Text 'Strada Statale 130' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1'
+
+2020-01-15 15:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2"), varAddress2): Text 'Dorzano, Biella 13881' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2'
+
+2020-01-15 15:38:12 - [MESSAGE][PASSED] - Text 'Dorzano, Biella 13881' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2'
+
+2020-01-15 15:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber"), varContactNumber): Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber'
+
+2020-01-15 15:38:12 - [MESSAGE][PASSED] - Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber'
+
+2020-01-15 15:38:12 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2' is clicked on
+
+2020-01-15 15:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2' is clicked on
+
+2020-01-15 15:38:13 - [TEST_STEP][PASSED] - comment("Step 3"): Step 3
+
+2020-01-15 15:38:13 - [MESSAGE][INFO] - Step 3
+
+2020-01-15 15:38:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace' is visible
+
+2020-01-15 15:38:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace' is visible
+
+2020-01-15 15:38:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:38:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:38:14 - [TEST_STEP][PASSED] - if (varTemplate == "Bespoke"): null
+
+2020-01-15 15:38:14 - [TEST_STEP][PASSED] - else if (varTemplate == "ServiceBookings(TIME)"): null
+
+2020-01-15 15:38:14 - [TEST_STEP][PASSED] - else if (varTemplate == "RentalGoods(TIME)"): null
+
+2020-01-15 15:38:14 - [TEST_STEP][PASSED] - else if (varTemplate == "Space"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:38:14 - [TEST_STEP][PASSED] - mouseOver(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent' is hovered
+
+2020-01-15 15:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent' is hovered
+
+2020-01-15 15:38:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:38:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:38:16 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:38:17 - [TEST_STEP][PASSED] - comment("Step 4"): Step 4
+
+2020-01-15 15:38:17 - [MESSAGE][INFO] - Step 4
+
+2020-01-15 15:38:17 - [TEST_STEP][PASSED] - uploadFile(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4"), varLogo): File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\logo2.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4'
+
+2020-01-15 15:38:17 - [MESSAGE][PASSED] - File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\logo2.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4'
+
+2020-01-15 15:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name"), varUsername): Text '0115ST2' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name'
+
+2020-01-15 15:38:17 - [MESSAGE][PASSED] - Text '0115ST2' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name'
+
+2020-01-15 15:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan"), varTheme): Text 'Theme 1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan'
+
+2020-01-15 15:38:17 - [MESSAGE][PASSED] - Text 'Theme 1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan'
+
+2020-01-15 15:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber"), varContactNumber): Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber'
+
+2020-01-15 15:38:18 - [MESSAGE][PASSED] - Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber'
+
+2020-01-15 15:38:18 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail"), varEmail): Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail'
+
+2020-01-15 15:38:18 - [MESSAGE][PASSED] - Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail'
+
+2020-01-15 15:38:18 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4' is clicked on
+
+2020-01-15 15:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4' is clicked on
+
+2020-01-15 15:38:18 - [TEST_STEP][PASSED] - comment("Step 5"): Step 5
+
+2020-01-15 15:38:18 - [MESSAGE][INFO] - Step 5
+
+2020-01-15 15:38:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark' is visible
+
+2020-01-15 15:38:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark' is visible
+
+2020-01-15 15:38:20 - [TEST_STEP][PASSED] - if (varTemplate == "Bespoke"): null
+
+2020-01-15 15:38:20 - [TEST_STEP][PASSED] - else if (varTemplate == "Space"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:38:20 - [TEST_STEP][PASSED] - if (varTheme == "Theme 1"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:38:20 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:38:20 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5' is clicked on
+
+2020-01-15 15:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5' is clicked on
+
+2020-01-15 15:38:21 - [TEST_STEP][PASSED] - comment("Step 6"): Step 6
+
+2020-01-15 15:38:21 - [MESSAGE][INFO] - Step 6
+
+2020-01-15 15:38:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace' is visible
+
+2020-01-15 15:38:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace' is visible
+
+2020-01-15 15:38:21 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6' is clicked on
+
+2020-01-15 15:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6' is clicked on
+
+2020-01-15 15:38:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-15 15:38:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-15 15:38:23 - [TEST_STEP][PASSED] - uploadFile(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container"), varCoverImage): File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\coverimage3.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container'
+
+2020-01-15 15:38:23 - [MESSAGE][PASSED] - File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\coverimage3.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container'
+
+2020-01-15 15:38:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is visible
+
+2020-01-15 15:38:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is visible
+
+2020-01-15 15:38:24 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is clicked on
+
+2020-01-15 15:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is clicked on
+
+2020-01-15 15:38:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is visible
+
+2020-01-15 15:38:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is visible
+
+2020-01-15 15:38:24 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is clicked on
+
+2020-01-15 15:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is clicked on
+
+2020-01-15 15:38:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:38:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:38:25 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6' is clicked on
+
+2020-01-15 15:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6' is clicked on
+
+2020-01-15 15:38:25 - [TEST_STEP][PASSED] - comment("Step 7 (editable variables)"): Step 7 (editable variables)
+
+2020-01-15 15:38:25 - [MESSAGE][INFO] - Step 7 (editable variables)
+
+2020-01-15 15:38:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t' is visible
+
+2020-01-15 15:38:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t' is visible
+
+2020-01-15 15:38:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency"), varCurrency, false): All options with label 'SGD' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency' 
+
+2020-01-15 15:38:27 - [MESSAGE][PASSED] - All options with label 'SGD' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency' 
+
+2020-01-15 15:38:27 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee"), varAdminFee): Text '20' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'
+
+2020-01-15 15:38:27 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'
+
+2020-01-15 15:38:27 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7' is clicked on
+
+2020-01-15 15:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7' is clicked on
+
+2020-01-15 15:38:28 - [TEST_STEP][PASSED] - comment("Step 8"): Step 8
+
+2020-01-15 15:38:28 - [MESSAGE][INFO] - Step 8
+
+2020-01-15 15:38:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol' is visible
+
+2020-01-15 15:38:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol' is visible
+
+2020-01-15 15:38:28 - [TEST_STEP][PASSED] - comment("Checkbox Return Policy"): Checkbox Return Policy
+
+2020-01-15 15:38:28 - [MESSAGE][INFO] - Checkbox Return Policy
+
+2020-01-15 15:38:28 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy' is clicked on
+
+2020-01-15 15:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy' is clicked on
+
+2020-01-15 15:38:29 - [TEST_STEP][PASSED] - comment("Terms and Condition"): Terms and Condition
+
+2020-01-15 15:38:29 - [MESSAGE][INFO] - Terms and Condition
+
+2020-01-15 15:38:29 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed' is clicked on
+
+2020-01-15 15:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed' is clicked on
+
+2020-01-15 15:38:29 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8' is clicked on
+
+2020-01-15 15:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Onboarding/Complete Onboarding" time="35.101" classname="Test Cases/ADMIN/Onboarding/Complete Onboarding" status="PASSED">
+         <system-out><![CDATA[2020-01-15 15:38:32 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Onboarding/Complete Onboarding: Test Cases/ADMIN/Onboarding/Complete Onboarding
+
+2020-01-15 15:38:32 - [TEST_STEP][PASSED] - comment("Create Account"): Create Account
+
+2020-01-15 15:38:32 - [MESSAGE][INFO] - Create Account
+
+2020-01-15 15:38:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-15 15:38:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-15 15:38:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-15 15:38:33 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2020-01-15 15:38:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-15 15:38:35 - [TEST_STEP][PASSED] - if (varServer == "Test"): Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:38:35 - [TEST_STEP][PASSED] - navigateToUrl("https://www.test.arcadier.io"): Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:38:37 - [MESSAGE][PASSED] - Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:38:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-15 15:38:38 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-15 15:38:38 - [TEST_STEP][PASSED] - if (varAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:38:38 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account' is clicked on
+
+2020-01-15 15:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account' is clicked on
+
+2020-01-15 15:38:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username' is present
+
+2020-01-15 15:38:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username' is present
+
+2020-01-15 15:38:38 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username"), varUsername): Text '0115ST3' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'
+
+2020-01-15 15:38:39 - [MESSAGE][PASSED] - Text '0115ST3' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'
+
+2020-01-15 15:38:39 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password"), "welcome8"): Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password'
+
+2020-01-15 15:38:39 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password'
+
+2020-01-15 15:38:39 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password"), "welcome8"): Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'
+
+2020-01-15 15:38:39 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'
+
+2020-01-15 15:38:39 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:38:41 - [TEST_STEP][PASSED] - comment("Step 1"): Step 1
+
+2020-01-15 15:38:41 - [MESSAGE][INFO] - Step 1
+
+2020-01-15 15:38:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im"), "I’m managing them offline", false): All options with label 'I’m managing them offline' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im' 
+
+2020-01-15 15:38:41 - [MESSAGE][PASSED] - All options with label 'I’m managing them offline' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im' 
+
+2020-01-15 15:38:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don"), "Something else!", false): All options with label 'Something else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don' 
+
+2020-01-15 15:38:42 - [MESSAGE][PASSED] - All options with label 'Something else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don' 
+
+2020-01-15 15:38:42 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType"), "Marketplace"): Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType'
+
+2020-01-15 15:38:42 - [MESSAGE][PASSED] - Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType'
+
+2020-01-15 15:38:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work"), "Someone else!", false): All options with label 'Someone else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work' 
+
+2020-01-15 15:38:42 - [MESSAGE][PASSED] - All options with label 'Someone else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work' 
+
+2020-01-15 15:38:42 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType"), "Business Man"): Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:38:42 - [MESSAGE][PASSED] - Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:38:42 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType"), "Business Man"): Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:38:43 - [MESSAGE][PASSED] - Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:38:43 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1' is clicked on
+
+2020-01-15 15:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1' is clicked on
+
+2020-01-15 15:38:44 - [TEST_STEP][PASSED] - comment("Step 2"): Step 2
+
+2020-01-15 15:38:44 - [MESSAGE][INFO] - Step 2
+
+2020-01-15 15:38:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor' is visible
+
+2020-01-15 15:38:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:44 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor' is visible
+
+2020-01-15 15:38:44 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName"), varFName): Text '0115ST3' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName'
+
+2020-01-15 15:38:44 - [MESSAGE][PASSED] - Text '0115ST3' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName'
+
+2020-01-15 15:38:44 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName"), varLName): Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'
+
+2020-01-15 15:38:45 - [MESSAGE][PASSED] - Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'
+
+2020-01-15 15:38:45 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email"), varEmail): Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'
+
+2020-01-15 15:38:45 - [MESSAGE][PASSED] - Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'
+
+2020-01-15 15:38:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:38:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:38:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown"), varCountry, false): All options with label 'Italy' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown' 
+
+2020-01-15 15:38:46 - [MESSAGE][PASSED] - All options with label 'Italy' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown' 
+
+2020-01-15 15:38:46 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1"), varAddress1): Text 'Strada Statale 130' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1'
+
+2020-01-15 15:38:47 - [MESSAGE][PASSED] - Text 'Strada Statale 130' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1'
+
+2020-01-15 15:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2"), varAddress2): Text 'Dorzano, Biella 13881' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2'
+
+2020-01-15 15:38:47 - [MESSAGE][PASSED] - Text 'Dorzano, Biella 13881' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2'
+
+2020-01-15 15:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber"), varContactNumber): Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber'
+
+2020-01-15 15:38:47 - [MESSAGE][PASSED] - Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber'
+
+2020-01-15 15:38:47 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2' is clicked on
+
+2020-01-15 15:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2' is clicked on
+
+2020-01-15 15:38:49 - [TEST_STEP][PASSED] - comment("Step 3"): Step 3
+
+2020-01-15 15:38:49 - [MESSAGE][INFO] - Step 3
+
+2020-01-15 15:38:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace' is visible
+
+2020-01-15 15:38:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace' is visible
+
+2020-01-15 15:38:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:38:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:38:50 - [TEST_STEP][PASSED] - if (varTemplate == "Bespoke"): null
+
+2020-01-15 15:38:50 - [TEST_STEP][PASSED] - else if (varTemplate == "ServiceBookings(TIME)"): null
+
+2020-01-15 15:38:50 - [TEST_STEP][PASSED] - else if (varTemplate == "RentalGoods(TIME)"): null
+
+2020-01-15 15:38:50 - [TEST_STEP][PASSED] - else if (varTemplate == "Space"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:38:50 - [TEST_STEP][PASSED] - mouseOver(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent' is hovered
+
+2020-01-15 15:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent' is hovered
+
+2020-01-15 15:38:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:38:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:38:51 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:38:52 - [TEST_STEP][PASSED] - comment("Step 4"): Step 4
+
+2020-01-15 15:38:52 - [MESSAGE][INFO] - Step 4
+
+2020-01-15 15:38:52 - [TEST_STEP][PASSED] - uploadFile(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4"), varLogo): File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\logo2.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4'
+
+2020-01-15 15:38:52 - [MESSAGE][PASSED] - File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\logo2.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4'
+
+2020-01-15 15:38:52 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name"), varUsername): Text '0115ST3' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name'
+
+2020-01-15 15:38:53 - [MESSAGE][PASSED] - Text '0115ST3' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name'
+
+2020-01-15 15:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan"), varTheme): Text 'Theme 1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan'
+
+2020-01-15 15:38:53 - [MESSAGE][PASSED] - Text 'Theme 1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan'
+
+2020-01-15 15:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber"), varContactNumber): Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber'
+
+2020-01-15 15:38:53 - [MESSAGE][PASSED] - Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber'
+
+2020-01-15 15:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail"), varEmail): Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail'
+
+2020-01-15 15:38:54 - [MESSAGE][PASSED] - Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail'
+
+2020-01-15 15:38:54 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4' is clicked on
+
+2020-01-15 15:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4' is clicked on
+
+2020-01-15 15:38:54 - [TEST_STEP][PASSED] - comment("Step 5"): Step 5
+
+2020-01-15 15:38:54 - [MESSAGE][INFO] - Step 5
+
+2020-01-15 15:38:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark' is visible
+
+2020-01-15 15:38:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark' is visible
+
+2020-01-15 15:38:55 - [TEST_STEP][PASSED] - if (varTemplate == "Bespoke"): null
+
+2020-01-15 15:38:55 - [TEST_STEP][PASSED] - else if (varTemplate == "Space"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:38:55 - [TEST_STEP][PASSED] - if (varTheme == "Theme 1"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:38:55 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:38:55 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5' is clicked on
+
+2020-01-15 15:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5' is clicked on
+
+2020-01-15 15:38:56 - [TEST_STEP][PASSED] - comment("Step 6"): Step 6
+
+2020-01-15 15:38:56 - [MESSAGE][INFO] - Step 6
+
+2020-01-15 15:38:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace' is visible
+
+2020-01-15 15:38:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:57 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace' is visible
+
+2020-01-15 15:38:57 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6' is clicked on
+
+2020-01-15 15:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6' is clicked on
+
+2020-01-15 15:38:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-15 15:38:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-15 15:38:59 - [TEST_STEP][PASSED] - uploadFile(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container"), varCoverImage): File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\coverimage3.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container'
+
+2020-01-15 15:38:59 - [MESSAGE][PASSED] - File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\coverimage3.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container'
+
+2020-01-15 15:38:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is visible
+
+2020-01-15 15:38:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is visible
+
+2020-01-15 15:38:59 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is clicked on
+
+2020-01-15 15:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is clicked on
+
+2020-01-15 15:38:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is visible
+
+2020-01-15 15:38:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is visible
+
+2020-01-15 15:39:00 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is clicked on
+
+2020-01-15 15:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is clicked on
+
+2020-01-15 15:39:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:39:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:39:01 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6' is clicked on
+
+2020-01-15 15:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6' is clicked on
+
+2020-01-15 15:39:01 - [TEST_STEP][PASSED] - comment("Step 7 (editable variables)"): Step 7 (editable variables)
+
+2020-01-15 15:39:01 - [MESSAGE][INFO] - Step 7 (editable variables)
+
+2020-01-15 15:39:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t' is visible
+
+2020-01-15 15:39:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t' is visible
+
+2020-01-15 15:39:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency"), varCurrency, false): All options with label 'SGD' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency' 
+
+2020-01-15 15:39:02 - [MESSAGE][PASSED] - All options with label 'SGD' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency' 
+
+2020-01-15 15:39:02 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee"), varAdminFee): Text '20' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'
+
+2020-01-15 15:39:02 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'
+
+2020-01-15 15:39:02 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7' is clicked on
+
+2020-01-15 15:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7' is clicked on
+
+2020-01-15 15:39:03 - [TEST_STEP][PASSED] - comment("Step 8"): Step 8
+
+2020-01-15 15:39:03 - [MESSAGE][INFO] - Step 8
+
+2020-01-15 15:39:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol' is visible
+
+2020-01-15 15:39:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol' is visible
+
+2020-01-15 15:39:04 - [TEST_STEP][PASSED] - comment("Checkbox Return Policy"): Checkbox Return Policy
+
+2020-01-15 15:39:04 - [MESSAGE][INFO] - Checkbox Return Policy
+
+2020-01-15 15:39:04 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy' is clicked on
+
+2020-01-15 15:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy' is clicked on
+
+2020-01-15 15:39:04 - [TEST_STEP][PASSED] - comment("Terms and Condition"): Terms and Condition
+
+2020-01-15 15:39:04 - [MESSAGE][INFO] - Terms and Condition
+
+2020-01-15 15:39:04 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed' is clicked on
+
+2020-01-15 15:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed' is clicked on
+
+2020-01-15 15:39:04 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8' is clicked on
+
+2020-01-15 15:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Onboarding/Complete Onboarding" time="33.781" classname="Test Cases/ADMIN/Onboarding/Complete Onboarding" status="PASSED">
+         <system-out><![CDATA[2020-01-15 15:39:07 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Onboarding/Complete Onboarding: Test Cases/ADMIN/Onboarding/Complete Onboarding
+
+2020-01-15 15:39:07 - [TEST_STEP][PASSED] - comment("Create Account"): Create Account
+
+2020-01-15 15:39:07 - [MESSAGE][INFO] - Create Account
+
+2020-01-15 15:39:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-15 15:39:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-15 15:39:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-15 15:39:08 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2020-01-15 15:39:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-15 15:39:10 - [TEST_STEP][PASSED] - if (varServer == "Test"): Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:39:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.test.arcadier.io"): Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:39:12 - [MESSAGE][PASSED] - Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:39:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-15 15:39:12 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-15 15:39:12 - [TEST_STEP][PASSED] - if (varAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:39:12 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account' is clicked on
+
+2020-01-15 15:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account' is clicked on
+
+2020-01-15 15:39:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username' is present
+
+2020-01-15 15:39:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username' is present
+
+2020-01-15 15:39:13 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username"), varUsername): Text '0115ST4' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'
+
+2020-01-15 15:39:13 - [MESSAGE][PASSED] - Text '0115ST4' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'
+
+2020-01-15 15:39:13 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password"), "welcome8"): Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password'
+
+2020-01-15 15:39:14 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password'
+
+2020-01-15 15:39:14 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password"), "welcome8"): Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'
+
+2020-01-15 15:39:14 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'
+
+2020-01-15 15:39:14 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:39:16 - [TEST_STEP][PASSED] - comment("Step 1"): Step 1
+
+2020-01-15 15:39:16 - [MESSAGE][INFO] - Step 1
+
+2020-01-15 15:39:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im"), "I’m managing them offline", false): All options with label 'I’m managing them offline' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im' 
+
+2020-01-15 15:39:16 - [MESSAGE][PASSED] - All options with label 'I’m managing them offline' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im' 
+
+2020-01-15 15:39:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don"), "Something else!", false): All options with label 'Something else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don' 
+
+2020-01-15 15:39:17 - [MESSAGE][PASSED] - All options with label 'Something else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don' 
+
+2020-01-15 15:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType"), "Marketplace"): Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType'
+
+2020-01-15 15:39:17 - [MESSAGE][PASSED] - Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType'
+
+2020-01-15 15:39:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work"), "Someone else!", false): All options with label 'Someone else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work' 
+
+2020-01-15 15:39:17 - [MESSAGE][PASSED] - All options with label 'Someone else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work' 
+
+2020-01-15 15:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType"), "Business Man"): Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:39:18 - [MESSAGE][PASSED] - Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType"), "Business Man"): Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:39:18 - [MESSAGE][PASSED] - Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:39:18 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1' is clicked on
+
+2020-01-15 15:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1' is clicked on
+
+2020-01-15 15:39:19 - [TEST_STEP][PASSED] - comment("Step 2"): Step 2
+
+2020-01-15 15:39:19 - [MESSAGE][INFO] - Step 2
+
+2020-01-15 15:39:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor' is visible
+
+2020-01-15 15:39:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor' is visible
+
+2020-01-15 15:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName"), varFName): Text '0115ST4' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName'
+
+2020-01-15 15:39:19 - [MESSAGE][PASSED] - Text '0115ST4' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName'
+
+2020-01-15 15:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName"), varLName): Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'
+
+2020-01-15 15:39:19 - [MESSAGE][PASSED] - Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'
+
+2020-01-15 15:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email"), varEmail): Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'
+
+2020-01-15 15:39:20 - [MESSAGE][PASSED] - Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'
+
+2020-01-15 15:39:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:39:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:39:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown"), varCountry, false): All options with label 'Italy' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown' 
+
+2020-01-15 15:39:21 - [MESSAGE][PASSED] - All options with label 'Italy' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown' 
+
+2020-01-15 15:39:21 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1"), varAddress1): Text 'Strada Statale 130' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1'
+
+2020-01-15 15:39:21 - [MESSAGE][PASSED] - Text 'Strada Statale 130' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1'
+
+2020-01-15 15:39:21 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2"), varAddress2): Text 'Dorzano, Biella 13881' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2'
+
+2020-01-15 15:39:22 - [MESSAGE][PASSED] - Text 'Dorzano, Biella 13881' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2'
+
+2020-01-15 15:39:22 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber"), varContactNumber): Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber'
+
+2020-01-15 15:39:22 - [MESSAGE][PASSED] - Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber'
+
+2020-01-15 15:39:22 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2' is clicked on
+
+2020-01-15 15:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2' is clicked on
+
+2020-01-15 15:39:23 - [TEST_STEP][PASSED] - comment("Step 3"): Step 3
+
+2020-01-15 15:39:23 - [MESSAGE][INFO] - Step 3
+
+2020-01-15 15:39:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace' is visible
+
+2020-01-15 15:39:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace' is visible
+
+2020-01-15 15:39:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:39:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:39:24 - [TEST_STEP][PASSED] - if (varTemplate == "Bespoke"): null
+
+2020-01-15 15:39:24 - [TEST_STEP][PASSED] - else if (varTemplate == "ServiceBookings(TIME)"): null
+
+2020-01-15 15:39:24 - [TEST_STEP][PASSED] - else if (varTemplate == "RentalGoods(TIME)"): null
+
+2020-01-15 15:39:24 - [TEST_STEP][PASSED] - else if (varTemplate == "Space"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:39:24 - [TEST_STEP][PASSED] - mouseOver(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent' is hovered
+
+2020-01-15 15:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent' is hovered
+
+2020-01-15 15:39:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:39:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:39:26 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:39:27 - [TEST_STEP][PASSED] - comment("Step 4"): Step 4
+
+2020-01-15 15:39:27 - [MESSAGE][INFO] - Step 4
+
+2020-01-15 15:39:27 - [TEST_STEP][PASSED] - uploadFile(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4"), varLogo): File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\logo2.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4'
+
+2020-01-15 15:39:27 - [MESSAGE][PASSED] - File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\logo2.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4'
+
+2020-01-15 15:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name"), varUsername): Text '0115ST4' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name'
+
+2020-01-15 15:39:27 - [MESSAGE][PASSED] - Text '0115ST4' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name'
+
+2020-01-15 15:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan"), varTheme): Text 'Theme 1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan'
+
+2020-01-15 15:39:27 - [MESSAGE][PASSED] - Text 'Theme 1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan'
+
+2020-01-15 15:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber"), varContactNumber): Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber'
+
+2020-01-15 15:39:28 - [MESSAGE][PASSED] - Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber'
+
+2020-01-15 15:39:28 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail"), varEmail): Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail'
+
+2020-01-15 15:39:28 - [MESSAGE][PASSED] - Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail'
+
+2020-01-15 15:39:28 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4' is clicked on
+
+2020-01-15 15:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4' is clicked on
+
+2020-01-15 15:39:28 - [TEST_STEP][PASSED] - comment("Step 5"): Step 5
+
+2020-01-15 15:39:28 - [MESSAGE][INFO] - Step 5
+
+2020-01-15 15:39:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark' is visible
+
+2020-01-15 15:39:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark' is visible
+
+2020-01-15 15:39:29 - [TEST_STEP][PASSED] - if (varTemplate == "Bespoke"): null
+
+2020-01-15 15:39:29 - [TEST_STEP][PASSED] - else if (varTemplate == "Space"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:39:29 - [TEST_STEP][PASSED] - if (varTheme == "Theme 1"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:39:29 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:39:29 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5' is clicked on
+
+2020-01-15 15:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5' is clicked on
+
+2020-01-15 15:39:31 - [TEST_STEP][PASSED] - comment("Step 6"): Step 6
+
+2020-01-15 15:39:31 - [MESSAGE][INFO] - Step 6
+
+2020-01-15 15:39:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace' is visible
+
+2020-01-15 15:39:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:31 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace' is visible
+
+2020-01-15 15:39:31 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6' is clicked on
+
+2020-01-15 15:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6' is clicked on
+
+2020-01-15 15:39:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-15 15:39:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-15 15:39:34 - [TEST_STEP][PASSED] - uploadFile(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container"), varCoverImage): File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\coverimage3.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container'
+
+2020-01-15 15:39:34 - [MESSAGE][PASSED] - File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\coverimage3.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container'
+
+2020-01-15 15:39:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is visible
+
+2020-01-15 15:39:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is visible
+
+2020-01-15 15:39:34 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is clicked on
+
+2020-01-15 15:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is clicked on
+
+2020-01-15 15:39:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is visible
+
+2020-01-15 15:39:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is visible
+
+2020-01-15 15:39:34 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is clicked on
+
+2020-01-15 15:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is clicked on
+
+2020-01-15 15:39:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:39:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:39:35 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6' is clicked on
+
+2020-01-15 15:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6' is clicked on
+
+2020-01-15 15:39:36 - [TEST_STEP][PASSED] - comment("Step 7 (editable variables)"): Step 7 (editable variables)
+
+2020-01-15 15:39:36 - [MESSAGE][INFO] - Step 7 (editable variables)
+
+2020-01-15 15:39:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t' is visible
+
+2020-01-15 15:39:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t' is visible
+
+2020-01-15 15:39:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency"), varCurrency, false): All options with label 'SGD' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency' 
+
+2020-01-15 15:39:37 - [MESSAGE][PASSED] - All options with label 'SGD' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency' 
+
+2020-01-15 15:39:37 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee"), varAdminFee): Text '20' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'
+
+2020-01-15 15:39:37 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'
+
+2020-01-15 15:39:37 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7' is clicked on
+
+2020-01-15 15:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7' is clicked on
+
+2020-01-15 15:39:38 - [TEST_STEP][PASSED] - comment("Step 8"): Step 8
+
+2020-01-15 15:39:38 - [MESSAGE][INFO] - Step 8
+
+2020-01-15 15:39:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol' is visible
+
+2020-01-15 15:39:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol' is visible
+
+2020-01-15 15:39:38 - [TEST_STEP][PASSED] - comment("Checkbox Return Policy"): Checkbox Return Policy
+
+2020-01-15 15:39:38 - [MESSAGE][INFO] - Checkbox Return Policy
+
+2020-01-15 15:39:38 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy' is clicked on
+
+2020-01-15 15:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy' is clicked on
+
+2020-01-15 15:39:39 - [TEST_STEP][PASSED] - comment("Terms and Condition"): Terms and Condition
+
+2020-01-15 15:39:39 - [MESSAGE][INFO] - Terms and Condition
+
+2020-01-15 15:39:39 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed' is clicked on
+
+2020-01-15 15:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed' is clicked on
+
+2020-01-15 15:39:39 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8' is clicked on
+
+2020-01-15 15:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Onboarding/Complete Onboarding" time="36.504" classname="Test Cases/ADMIN/Onboarding/Complete Onboarding" status="PASSED">
+         <system-out><![CDATA[2020-01-15 15:39:41 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Onboarding/Complete Onboarding: Test Cases/ADMIN/Onboarding/Complete Onboarding
+
+2020-01-15 15:39:41 - [TEST_STEP][PASSED] - comment("Create Account"): Create Account
+
+2020-01-15 15:39:41 - [MESSAGE][INFO] - Create Account
+
+2020-01-15 15:39:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-15 15:39:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-15 15:39:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-15 15:39:42 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2020-01-15 15:39:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-15 15:39:43 - [TEST_STEP][PASSED] - if (varServer == "Test"): Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:39:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.test.arcadier.io"): Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:39:47 - [MESSAGE][PASSED] - Navigate to 'https://www.test.arcadier.io' successfully
+
+2020-01-15 15:39:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-15 15:39:47 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-15 15:39:47 - [TEST_STEP][PASSED] - if (varAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:39:47 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account' is clicked on
+
+2020-01-15 15:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account' is clicked on
+
+2020-01-15 15:39:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username' is present
+
+2020-01-15 15:39:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:48 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username' is present
+
+2020-01-15 15:39:48 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username"), varUsername): Text '0115ST5' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'
+
+2020-01-15 15:39:48 - [MESSAGE][PASSED] - Text '0115ST5' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username'
+
+2020-01-15 15:39:48 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password"), "welcome8"): Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password'
+
+2020-01-15 15:39:48 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password'
+
+2020-01-15 15:39:48 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password"), "welcome8"): Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'
+
+2020-01-15 15:39:49 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'
+
+2020-01-15 15:39:49 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up' is clicked on
+
+2020-01-15 15:39:51 - [TEST_STEP][PASSED] - comment("Step 1"): Step 1
+
+2020-01-15 15:39:51 - [MESSAGE][INFO] - Step 1
+
+2020-01-15 15:39:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im"), "I’m managing them offline", false): All options with label 'I’m managing them offline' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im' 
+
+2020-01-15 15:39:51 - [MESSAGE][PASSED] - All options with label 'I’m managing them offline' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im' 
+
+2020-01-15 15:39:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don"), "Something else!", false): All options with label 'Something else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don' 
+
+2020-01-15 15:39:52 - [MESSAGE][PASSED] - All options with label 'Something else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don' 
+
+2020-01-15 15:39:52 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType"), "Marketplace"): Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType'
+
+2020-01-15 15:39:53 - [MESSAGE][PASSED] - Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType'
+
+2020-01-15 15:39:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work"), "Someone else!", false): All options with label 'Someone else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work' 
+
+2020-01-15 15:39:53 - [MESSAGE][PASSED] - All options with label 'Someone else!' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work' 
+
+2020-01-15 15:39:53 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType"), "Business Man"): Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:39:53 - [MESSAGE][PASSED] - Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:39:53 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType"), "Business Man"): Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:39:54 - [MESSAGE][PASSED] - Text 'Business Man' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType'
+
+2020-01-15 15:39:54 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1' is clicked on
+
+2020-01-15 15:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1' is clicked on
+
+2020-01-15 15:39:55 - [TEST_STEP][PASSED] - comment("Step 2"): Step 2
+
+2020-01-15 15:39:55 - [MESSAGE][INFO] - Step 2
+
+2020-01-15 15:39:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor' is visible
+
+2020-01-15 15:39:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor' is visible
+
+2020-01-15 15:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName"), varFName): Text '0115ST5' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName'
+
+2020-01-15 15:39:55 - [MESSAGE][PASSED] - Text '0115ST5' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName'
+
+2020-01-15 15:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName"), varLName): Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'
+
+2020-01-15 15:39:55 - [MESSAGE][PASSED] - Text 'Marketplace' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName'
+
+2020-01-15 15:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email"), varEmail): Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'
+
+2020-01-15 15:39:56 - [MESSAGE][PASSED] - Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email'
+
+2020-01-15 15:39:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:39:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:39:57 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown"), varCountry, false): All options with label 'Italy' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown' 
+
+2020-01-15 15:39:57 - [MESSAGE][PASSED] - All options with label 'Italy' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown' 
+
+2020-01-15 15:39:57 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1"), varAddress1): Text 'Strada Statale 130' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1'
+
+2020-01-15 15:39:57 - [MESSAGE][PASSED] - Text 'Strada Statale 130' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1'
+
+2020-01-15 15:39:57 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2"), varAddress2): Text 'Dorzano, Biella 13881' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2'
+
+2020-01-15 15:39:58 - [MESSAGE][PASSED] - Text 'Dorzano, Biella 13881' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2'
+
+2020-01-15 15:39:58 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber"), varContactNumber): Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber'
+
+2020-01-15 15:39:58 - [MESSAGE][PASSED] - Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber'
+
+2020-01-15 15:39:58 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2' is clicked on
+
+2020-01-15 15:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2' is clicked on
+
+2020-01-15 15:39:59 - [TEST_STEP][PASSED] - comment("Step 3"): Step 3
+
+2020-01-15 15:39:59 - [MESSAGE][INFO] - Step 3
+
+2020-01-15 15:39:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace' is visible
+
+2020-01-15 15:39:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:39:59 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace' is visible
+
+2020-01-15 15:39:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:40:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:40:00 - [TEST_STEP][PASSED] - if (varTemplate == "Bespoke"): null
+
+2020-01-15 15:40:00 - [TEST_STEP][PASSED] - else if (varTemplate == "ServiceBookings(TIME)"): null
+
+2020-01-15 15:40:00 - [TEST_STEP][PASSED] - else if (varTemplate == "RentalGoods(TIME)"): null
+
+2020-01-15 15:40:00 - [TEST_STEP][PASSED] - else if (varTemplate == "Space"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:40:00 - [TEST_STEP][PASSED] - mouseOver(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent' is hovered
+
+2020-01-15 15:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Preview/div_ Preview Select Space Rent' is hovered
+
+2020-01-15 15:40:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:40:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:40:02 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Select/a_Select_Space Rental' is clicked on
+
+2020-01-15 15:40:02 - [TEST_STEP][PASSED] - comment("Step 4"): Step 4
+
+2020-01-15 15:40:02 - [MESSAGE][INFO] - Step 4
+
+2020-01-15 15:40:02 - [TEST_STEP][PASSED] - uploadFile(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4"), varLogo): File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\logo2.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4'
+
+2020-01-15 15:40:03 - [MESSAGE][PASSED] - File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\logo2.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4'
+
+2020-01-15 15:40:03 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name"), varUsername): Text '0115ST5' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name'
+
+2020-01-15 15:40:03 - [MESSAGE][PASSED] - Text '0115ST5' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name'
+
+2020-01-15 15:40:03 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan"), varTheme): Text 'Theme 1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan'
+
+2020-01-15 15:40:03 - [MESSAGE][PASSED] - Text 'Theme 1' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan'
+
+2020-01-15 15:40:03 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber"), varContactNumber): Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber'
+
+2020-01-15 15:40:04 - [MESSAGE][PASSED] - Text '+631234567890' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber'
+
+2020-01-15 15:40:04 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail"), varEmail): Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail'
+
+2020-01-15 15:40:04 - [MESSAGE][PASSED] - Text 'arcadierteam@gmail.com' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail'
+
+2020-01-15 15:40:04 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4' is clicked on
+
+2020-01-15 15:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4' is clicked on
+
+2020-01-15 15:40:04 - [TEST_STEP][PASSED] - comment("Step 5"): Step 5
+
+2020-01-15 15:40:04 - [MESSAGE][INFO] - Step 5
+
+2020-01-15 15:40:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark' is visible
+
+2020-01-15 15:40:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark' is visible
+
+2020-01-15 15:40:05 - [TEST_STEP][PASSED] - if (varTemplate == "Bespoke"): null
+
+2020-01-15 15:40:05 - [TEST_STEP][PASSED] - else if (varTemplate == "Space"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:40:05 - [TEST_STEP][PASSED] - if (varTheme == "Theme 1"): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:40:05 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Theme1_Select' is clicked on
+
+2020-01-15 15:40:06 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5' is clicked on
+
+2020-01-15 15:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5' is clicked on
+
+2020-01-15 15:40:07 - [TEST_STEP][PASSED] - comment("Step 6"): Step 6
+
+2020-01-15 15:40:07 - [MESSAGE][INFO] - Step 6
+
+2020-01-15 15:40:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace' is visible
+
+2020-01-15 15:40:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace' is visible
+
+2020-01-15 15:40:07 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6' is clicked on
+
+2020-01-15 15:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6' is clicked on
+
+2020-01-15 15:40:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-15 15:40:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-15 15:40:09 - [TEST_STEP][PASSED] - uploadFile(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container"), varCoverImage): File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\coverimage3.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container'
+
+2020-01-15 15:40:09 - [MESSAGE][PASSED] - File 'C:\\Users\\Arcadier\\git\\Arctick\\Images\\LogoLayout\\coverimage3.jpg' sent to object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container'
+
+2020-01-15 15:40:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is visible
+
+2020-01-15 15:40:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:40:10 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is visible
+
+2020-01-15 15:40:10 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is clicked on
+
+2020-01-15 15:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok' is clicked on
+
+2020-01-15 15:40:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is visible
+
+2020-01-15 15:40:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:40:10 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is visible
+
+2020-01-15 15:40:10 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is clicked on
+
+2020-01-15 15:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/a_Save Photo' is clicked on
+
+2020-01-15 15:40:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-01-15 15:40:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-15 15:40:11 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6' is clicked on
+
+2020-01-15 15:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Next_Step6' is clicked on
+
+2020-01-15 15:40:11 - [TEST_STEP][PASSED] - comment("Step 7 (editable variables)"): Step 7 (editable variables)
+
+2020-01-15 15:40:11 - [MESSAGE][INFO] - Step 7 (editable variables)
+
+2020-01-15 15:40:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t' is visible
+
+2020-01-15 15:40:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:40:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textlabel_7. Now how would you like t' is visible
+
+2020-01-15 15:40:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency"), varCurrency, false): All options with label 'SGD' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency' 
+
+2020-01-15 15:40:13 - [MESSAGE][PASSED] - All options with label 'SGD' are selected in object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Dropdown_Currency' 
+
+2020-01-15 15:40:13 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee"), varAdminFee): Text '20' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'
+
+2020-01-15 15:40:13 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Textbox_TransactionFee'
+
+2020-01-15 15:40:13 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7' is clicked on
+
+2020-01-15 15:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step7/Button_Next_Step7' is clicked on
+
+2020-01-15 15:40:14 - [TEST_STEP][PASSED] - comment("Step 8"): Step 8
+
+2020-01-15 15:40:14 - [MESSAGE][INFO] - Step 8
+
+2020-01-15 15:40:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol"), 0): Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol' is visible
+
+2020-01-15 15:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-01-15 15:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Textlabel_Review your marketplace pol' is visible
+
+2020-01-15 15:40:14 - [TEST_STEP][PASSED] - comment("Checkbox Return Policy"): Checkbox Return Policy
+
+2020-01-15 15:40:14 - [MESSAGE][INFO] - Checkbox Return Policy
+
+2020-01-15 15:40:14 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy' is clicked on
+
+2020-01-15 15:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_ReturnPolicy' is clicked on
+
+2020-01-15 15:40:15 - [TEST_STEP][PASSED] - comment("Terms and Condition"): Terms and Condition
+
+2020-01-15 15:40:15 - [MESSAGE][INFO] - Terms and Condition
+
+2020-01-15 15:40:15 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed' is clicked on
+
+2020-01-15 15:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Checkbox_IsAgreed' is clicked on
+
+2020-01-15 15:40:15 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8")): Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8' is clicked on
+
+2020-01-15 15:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step8/Button_Next_Step8' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-15 15:37:11 - [TEST_SUITE][PASSED] - Admin Onboarding Data Driven: Test Cases/ADMIN/Onboarding/Complete Onboarding]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

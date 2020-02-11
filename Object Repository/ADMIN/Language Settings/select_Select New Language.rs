@@ -7,202 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//select[@id = 'drpLanguage' and (text() = '
-                        Select New Language
-                                    Afrikaans
-                                    Albanian
-                                    Arabic
-                                    Armenian
-                                    Azerbaijani
-                                    Basque
-                                    Belarusian
-                                    Bengali
-                                    Bosnian
-                                    Bulgarian
-                                    Catalan
-                                    Cebuano
-                                    Chichewa
-                                    Chinese (Simplified)
-                                    Chinese (Traditional)
-                                    Croatian
-                                    Czech
-                                    Danish
-                                    Dutch
-                                    English
-                                    Esperanto
-                                    Estonian
-                                    Filipino
-                                    Finnish
-                                    French
-                                    Galician
-                                    Georgian
-                                    German
-                                    Greek
-                                    Gujarati
-                                    Haitian Creole
-                                    Hausa
-                                    Hebrew
-                                    Hindi
-                                    Hmong
-                                    Hungarian
-                                    Icelandic
-                                    Igbo
-                                    Indonesian
-                                    Irish
-                                    Italian
-                                    Japanese
-                                    Javanese
-                                    Kannada
-                                    Kazakh
-                                    Khmer
-                                    Korean
-                                    Lao
-                                    Latin
-                                    Latvian
-                                    Lithuanian
-                                    Macedonian
-                                    Malagasy
-                                    Malay
-                                    Malayalam
-                                    Maltese
-                                    Maori
-                                    Marathi
-                                    Mongolian
-                                    Myanmar (Burmese)
-                                    Nepali
-                                    Norwegian
-                                    Persian
-                                    Polish
-                                    Portuguese
-                                    Punjabi
-                                    Romanian
-                                    Russian
-                                    Serbian
-                                    Sesotho
-                                    Sinhala
-                                    Slovak
-                                    Slovenian
-                                    Somali
-                                    Spanish
-                                    Sudanese
-                                    Swahili
-                                    Swedish
-                                    Tajik
-                                    Tamil
-                                    Telugu
-                                    Thai
-                                    Turkish
-                                    Ukrainian
-                                    Urdu
-                                    Uzbek
-                                    Vietnamese
-                                    Welsh
-                                    Yiddish
-                                    Yoruba
-                                    Zulu
-
-                    ' or . = '
-                        Select New Language
-                                    Afrikaans
-                                    Albanian
-                                    Arabic
-                                    Armenian
-                                    Azerbaijani
-                                    Basque
-                                    Belarusian
-                                    Bengali
-                                    Bosnian
-                                    Bulgarian
-                                    Catalan
-                                    Cebuano
-                                    Chichewa
-                                    Chinese (Simplified)
-                                    Chinese (Traditional)
-                                    Croatian
-                                    Czech
-                                    Danish
-                                    Dutch
-                                    English
-                                    Esperanto
-                                    Estonian
-                                    Filipino
-                                    Finnish
-                                    French
-                                    Galician
-                                    Georgian
-                                    German
-                                    Greek
-                                    Gujarati
-                                    Haitian Creole
-                                    Hausa
-                                    Hebrew
-                                    Hindi
-                                    Hmong
-                                    Hungarian
-                                    Icelandic
-                                    Igbo
-                                    Indonesian
-                                    Irish
-                                    Italian
-                                    Japanese
-                                    Javanese
-                                    Kannada
-                                    Kazakh
-                                    Khmer
-                                    Korean
-                                    Lao
-                                    Latin
-                                    Latvian
-                                    Lithuanian
-                                    Macedonian
-                                    Malagasy
-                                    Malay
-                                    Malayalam
-                                    Maltese
-                                    Maori
-                                    Marathi
-                                    Mongolian
-                                    Myanmar (Burmese)
-                                    Nepali
-                                    Norwegian
-                                    Persian
-                                    Polish
-                                    Portuguese
-                                    Punjabi
-                                    Romanian
-                                    Russian
-                                    Serbian
-                                    Sesotho
-                                    Sinhala
-                                    Slovak
-                                    Slovenian
-                                    Somali
-                                    Spanish
-                                    Sudanese
-                                    Swahili
-                                    Swedish
-                                    Tajik
-                                    Tamil
-                                    Telugu
-                                    Thai
-                                    Turkish
-                                    Ukrainian
-                                    Urdu
-                                    Uzbek
-                                    Vietnamese
-                                    Welsh
-                                    Yiddish
-                                    Yoruba
-                                    Zulu
-
-                    ')]</value>
+         <value>//select[@id = 'drpLanguage']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>/html/body/div[3]/div[2]/div[2]/div/div[1]/div[2]/select</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -226,7 +38,7 @@
       <value>drpLanguage</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

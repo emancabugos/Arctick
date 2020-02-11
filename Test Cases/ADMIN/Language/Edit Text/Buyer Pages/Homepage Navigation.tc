@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Homepage Navigation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>670ebabe-c41d-47c2-91fb-0111d057a91b</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>d45c926b-17b8-4494-9854-7201518e02cf</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

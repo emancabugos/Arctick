@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Language Settings/a_Language'), 0)
 
 WebUI.click(findTestObject('ADMIN/Language Settings/a_Language'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -115,6 +113,4 @@ WebUI.verifyElementText(findTestObject('ADMIN/Language Settings/Success Toaster 
 
 WebUI.waitForElementNotPresent(findTestObject('ADMIN/Language Settings/Success Toaster Message/div_New language was successfu'), 
     0)
-
-WebUI.click(findTestObject('ADMIN/Admin Permission/Admin Activity Log/a_Logout'))
 
