@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc904337-d01f-4319-af3f-416b076d9626</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>aafd6dd1-1c3d-4950-bd5f-6968cbf1ac0a</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

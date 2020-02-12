@@ -15,3 +15,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Language/sidemenu_Language'), 0)
+
+WebUI.click(findTestObject('ADMIN/Language/sidemenu_Language'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Language/sidemenu_Edit Text'), 0)
+
+WebUI.click(findTestObject('ADMIN/Language/sidemenu_Edit Text'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/icon_dd'), 0)
+
+WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/icon_dd'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/textlink_Cart'), 0)
+
+WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/textlink_Cart'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/dd_language'), 0)
+

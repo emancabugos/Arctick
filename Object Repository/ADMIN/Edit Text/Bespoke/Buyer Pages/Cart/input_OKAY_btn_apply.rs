@@ -4,6 +4,12 @@
    <name>input_OKAY_btn_apply</name>
    <tag></tag>
    <elementGuidId>c329349e-b1c8-4922-b0a7-3f11f405d613</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[5]/div/div/div[4]/div[2]/div[2]/input[count(. | //*[@type = 'text' and @name = 'btn_apply']) = count(//*[@type = 'text' and @name = 'btn_apply'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -56,11 +62,11 @@
       <value>OKAY</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;language-page&quot;]/div[@class=&quot;main template-sidebar&quot;]/div[@class=&quot;col-sm-9 main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;panel-box language-section&quot;]/div[@class=&quot;language-row&quot;]/div[@class=&quot;col-sm-3&quot;]/div[@class=&quot;btn-wrapper&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[5]/div/div/div[4]/div[2]/div[2]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
