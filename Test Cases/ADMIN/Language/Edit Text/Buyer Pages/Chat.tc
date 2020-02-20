@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Chat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9d722d8-5385-45a4-84f2-374336bd3876</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>0f40fe87-c26e-46f9-b5d1-dd463caa35f1</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

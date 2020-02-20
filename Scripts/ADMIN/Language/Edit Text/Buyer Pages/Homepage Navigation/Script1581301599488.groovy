@@ -23,13 +23,13 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Language/sidemenu_Edit Text'),
 
 WebUI.click(findTestObject('ADMIN/Language/sidemenu_Edit Text'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/icon_dd'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd'), 0)
 
-WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/icon_dd'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/textlink_Homepage'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Homepage'), 0)
 
-WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/textlink_Homepage'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Homepage'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/dd_language'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language'), 0)
 

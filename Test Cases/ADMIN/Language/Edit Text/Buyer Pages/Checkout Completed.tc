@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout Completed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14e1c94b-064f-4b07-b825-fa3f706f7d17</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>97c4099a-fc41-4edb-b3c8-43ed0b34a47e</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

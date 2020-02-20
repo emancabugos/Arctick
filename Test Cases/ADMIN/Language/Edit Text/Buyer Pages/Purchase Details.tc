@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Purchase Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a144ea6b-5a5e-42a9-a86f-377599724f87</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>1fbbd5ce-ceb6-4e23-af45-b24582f3d76d</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/dd_language'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Bespoke/Navigation/dd_language'), varLanguage, false)
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language'), varLanguage, false)
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Item Details/input_Positive Feedback_item-feedbak'), 
     '*')
