@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Bespoke Pages" time="324.291" tests="17" failures="0" errors="0">
+   <testsuite name="Bespoke Pages" tests="17" failures="0" errors="0" time="324.291" timestamp="2020-02-21 15:26:28" hostname="Arcadier - Arcadier-PC" id="Test Suites/Admin/Language/Buyer Pages/Bespoke Pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Arctick\\Reports\\20200221_152625\\Admin\\Language\\Buyer Pages\\Bespoke Pages\\20200221_152625"/>
+         <property name="logFiles" value="C:\\Katalon\\Arctick\\Reports\\20200221_152625\\Admin\\Language\\Buyer Pages\\Bespoke Pages\\20200221_152625\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Arcadier - Arcadier-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.116"/>
+         <property name="hostAddress" value="10.10.39.148"/>
+         <property name="sessionId" value="a527e74a847f096b1f9e05967e5fd35e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage Navigation" time="9.965" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage Navigation" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:26:28 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage Navigation: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage Navigation
+
+2020-02-21 15:26:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Language"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-02-21 15:26:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:26:31 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-02-21 15:26:31 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Language"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-02-21 15:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-02-21 15:26:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Edit Text"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-02-21 15:26:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:26:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-02-21 15:26:33 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Edit Text"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-02-21 15:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-02-21 15:26:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd' is visible
+
+2020-02-21 15:26:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:26:35 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd' is visible
+
+2020-02-21 15:26:35 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd' is clicked on
+
+2020-02-21 15:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd' is clicked on
+
+2020-02-21 15:26:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Homepage"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Homepage' is visible
+
+2020-02-21 15:26:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:26:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Homepage' is visible
+
+2020-02-21 15:26:36 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Homepage"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Homepage' is clicked on
+
+2020-02-21 15:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Homepage' is clicked on
+
+2020-02-21 15:26:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:26:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="25.11" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:26:38 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:26:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:26:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:26:39 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:26:39 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:26:40 - [MESSAGE][PASSED] - All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:26:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:26:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:26:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:26:42 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:26:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:26:42 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:26:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:26:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:26:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:26:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:26:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:26:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:26:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:26:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:26:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:26:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:26:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:26:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:26:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:26:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:26:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:26:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:26:45 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:26:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:26:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:26:47 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:26:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:27:03 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="25.755" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:27:03 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:27:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:27:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:27:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:27:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Spanish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:27:05 - [MESSAGE][PASSED] - All options with label 'Spanish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:27:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:27:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:27:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:27:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:27:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:27:08 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:27:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:27:08 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:27:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:27:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:27:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:27:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:27:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:27:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:27:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:27:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:27:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:27:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:27:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:27:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:27:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:27:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:27:11 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:27:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:27:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:27:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:27:13 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:27:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:27:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="18.119" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:27:29 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:27:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:27:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:27:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Hindi' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:27:31 - [MESSAGE][PASSED] - All options with label 'Hindi' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:27:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:27:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:27:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:27:33 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:27:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:27:33 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:27:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:27:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:27:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:27:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:27:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:27:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:27:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:27:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:27:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:27:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:27:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:27:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:27:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:27:37 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:27:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:27:37 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:27:37 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:27:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:27:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:27:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:27:38 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:27:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:27:47 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="13.803" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:27:47 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:27:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:27:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:27:48 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:27:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'German' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:27:50 - [MESSAGE][PASSED] - All options with label 'German' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:27:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:27:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:27:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:27:51 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:27:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:27:51 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:27:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:27:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:27:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:27:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:27:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:27:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:27:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:27:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:27:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:27:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:27:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:27:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:27:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:27:55 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:27:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:27:55 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:27:55 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:27:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:27:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:27:57 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:27:57 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:27:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:01 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="13.482" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:28:01 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:28:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:28:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:28:01 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Japanese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:28:03 - [MESSAGE][PASSED] - All options with label 'Japanese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:28:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:28:04 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:28:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:28:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:28:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:28:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:28:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:28:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:28:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:28:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:28:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:28:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:28:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:28:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:28:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:28:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:28:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:28:08 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:28:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:28:08 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:28:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:28:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:28:09 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:28:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:28:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:11 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:28:11 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:28:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:15 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="13.514" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:28:15 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:28:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:28:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:15 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:28:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Chinese (Traditional)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:28:17 - [MESSAGE][PASSED] - All options with label 'Chinese (Traditional)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:28:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:28:18 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:28:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:28:18 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:28:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:28:18 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:28:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:28:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:28:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:28:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:28:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:28:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:28:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:28:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:28:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:28:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:28:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:28:22 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:28:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:28:22 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:28:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:28:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:28:23 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:28:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:28:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:28:24 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:28:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="13.572" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:28:28 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:28:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:28:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:28:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Portuguese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:28:31 - [MESSAGE][PASSED] - All options with label 'Portuguese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:28:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:28:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:28:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:28:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:28:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:28:33 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:28:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:28:33 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:28:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:28:33 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:28:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:28:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:28:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:28:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:28:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:28:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:28:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:28:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:28:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:28:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:28:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:28:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:28:36 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:28:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:28:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:28:38 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:28:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="14.887" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:28:42 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:28:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:28:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:28:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Indonesian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:28:44 - [MESSAGE][PASSED] - All options with label 'Indonesian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:28:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:28:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:28:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:28:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:28:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:28:46 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:28:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:28:46 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:28:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:28:46 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:28:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:28:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:28:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:28:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:28:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:28:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:28:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:28:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:28:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:28:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:28:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:28:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:28:49 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:28:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:28:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:50 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:28:50 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:28:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="23.41" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:28:57 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:28:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:28:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:28:57 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:28:57 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Russian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:28:59 - [MESSAGE][PASSED] - All options with label 'Russian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:28:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:29:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:29:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:29:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:29:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:29:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:29:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:29:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:29:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:29:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:29:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:29:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:29:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:29:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:29:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:29:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:29:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:29:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:29:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:29:04 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:29:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:29:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:29:05 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:29:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:29:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:29:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:29:06 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:29:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:29:20 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="23.797" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:29:20 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:29:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:29:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:29:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:29:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Italian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:29:23 - [MESSAGE][PASSED] - All options with label 'Italian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:29:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:29:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:29:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:29:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:29:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:29:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:29:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:29:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:29:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:29:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:29:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:29:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:29:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:29:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:29:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:29:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:29:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:29:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:29:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:29:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:29:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:29:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:29:28 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:29:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:29:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:29:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:29:29 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:29:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:29:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="14.431" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:29:44 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:29:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:29:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:29:44 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:29:44 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Arabic' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:29:46 - [MESSAGE][PASSED] - All options with label 'Arabic' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:29:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:29:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:29:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:29:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:29:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:29:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:29:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:29:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:29:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:29:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:29:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:29:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:29:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:29:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:29:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:29:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:29:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:29:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:29:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:29:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:29:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:29:51 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:29:51 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:29:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:29:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:29:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:29:52 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:29:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:29:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="14.371" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:29:58 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:29:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:29:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:29:59 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:29:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Dutch' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:30:00 - [MESSAGE][PASSED] - All options with label 'Dutch' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:30:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:30:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:30:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:30:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:30:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:30:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:30:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:30:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:30:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:30:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:30:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:30:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:30:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:30:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:30:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:30:04 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:30:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:30:04 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:30:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:30:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:30:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:30:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:30:05 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:30:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:30:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:30:07 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:30:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:30:13 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="11.905" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:30:13 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:30:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:30:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:30:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:30:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Swedish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:30:14 - [MESSAGE][PASSED] - All options with label 'Swedish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:30:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:30:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:30:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:30:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:30:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:30:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:30:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:30:17 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:30:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:30:17 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:30:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:30:18 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:30:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:30:18 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:30:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:30:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:30:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:30:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:30:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:30:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:30:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:30:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:30:20 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:30:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:30:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:30:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:30:21 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:30:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:30:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="37.58" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:30:24 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:30:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:30:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:30:25 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:30:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Chinese (Simplified)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:30:27 - [MESSAGE][PASSED] - All options with label 'Chinese (Simplified)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:30:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:30:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:30:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:30:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:30:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:30:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:30:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:30:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:30:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:30:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:30:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:30:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:30:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:30:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:30:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:30:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:30:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:30:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:30:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:30:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:30:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:30:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:30:32 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:30:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:30:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:30:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:30:34 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:30:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:31:02 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="18.973" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:31:02 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:31:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:31:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:31:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:31:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Hebrew' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:31:05 - [MESSAGE][PASSED] - All options with label 'Hebrew' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:31:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:31:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:31:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:31:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:31:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:31:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:31:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:31:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:31:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:31:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:31:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:31:08 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:31:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:31:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:31:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:31:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:31:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:31:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:31:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:31:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:31:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:31:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:31:11 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:31:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:31:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:31:12 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:31:12 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:31:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:31:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" time="30.956" classname="Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage" status="PASSED">
+         <system-out><![CDATA[2020-02-21 15:31:21 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage
+
+2020-02-21 15:31:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:31:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:31:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-02-21 15:31:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'English' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:31:26 - [MESSAGE][PASSED] - All options with label 'English' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-02-21 15:31:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:31:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_(Source is editable)_slider-panel-title'
+
+2020-02-21 15:31:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:31:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find and schedule a service'
+
+2020-02-21 15:31:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:31:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Scroll down for more_scroll-down'
+
+2020-02-21 15:31:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:31:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'
+
+2020-02-21 15:31:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:31:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'
+
+2020-02-21 15:31:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:31:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'
+
+2020-02-21 15:31:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:31:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'
+
+2020-02-21 15:31:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:31:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'
+
+2020-02-21 15:31:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:31:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR LATEST ITEMS_our_listings'
+
+2020-02-21 15:31:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:31:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_Find the best items to suit your needs_best_service'
+
+2020-02-21 15:31:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:31:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_VIEW ALL ITEMS_view_cat_btn'
+
+2020-02-21 15:31:31 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-02-21 15:31:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:31:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:31:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-02-21 15:31:33 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)
+
+2020-02-21 15:31:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-21 15:31:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' located by 'By.xpath: //div[@class = 'toast-message' and (text() = 'Translations saved successfully.' or . = 'Translations saved successfully.')]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-21 15:26:28 - [TEST_SUITE][PASSED] - Bespoke Pages: Test Cases/ADMIN/Language/Edit Text/Buyer Pages/Homepage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

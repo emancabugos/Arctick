@@ -29,9 +29,11 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_S
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_CHANGE_btn_upload'), '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_DISPLAY NAME_display-name'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_DISPLAY NAME_display-name'), 
+    '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_DESCRIPTION_description'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_DESCRIPTION_description'), 
+    '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_FIRST NAME_first-name'), '*')
 
@@ -43,7 +45,8 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_S
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_CONTACT NUMBER_contact-number'), 
     '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_OPENID LOGIN_open-id-login'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_OPENID LOGIN_open-id-login'), 
+    '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_SELLER LOCATION_seller_location'), 
     '*')
@@ -69,7 +72,8 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_S
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_SELECT COUNTRY_select-country'), 
     '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_COUNTRY_address-country'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_COUNTRY_address-country'), 
+    '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_STATE_address-state'), '*')
 
@@ -107,7 +111,8 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_S
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_next3'), '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_DELIVERY METHODS_tab-title1'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_DELIVERY METHODS_tab-title1'), 
+    '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_DELIVERY OPTIONS_delivery-option'), 
     '*')
@@ -151,7 +156,8 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_S
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_Okay_btn_okay'), '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_REMOVE ITEM_popup-title'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_REMOVE ITEM_popup-title'), 
+    '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_concat(Are you sure about removing this item from your list (It  ll be gone forever))_popup-title'), 
     '*')
@@ -177,16 +183,16 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_S
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_Corporate_tab-title'), '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_Bank  branch code_tab-title'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_Bank  branch code_tab-title'), 
+    '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_Bank account number_tab-title'), 
     '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_Bank account name_tab-title'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Seller Pages/Onboarding_Settings/input_Bank account name_tab-title'), 
+    '*')
 
 WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success'), 0)
-
-WebUI.waitForElementNotPresent(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success'), 0)
 

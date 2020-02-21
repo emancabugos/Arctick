@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>927d13ee-3826-489d-9602-4cf3db200e7d</testCaseGuid>
    <variable>
-      <defaultValue>'French'</defaultValue>
+      <defaultValue>findTestData('ADMIN/Language/Language')</defaultValue>
       <description></description>
       <id>f05f7f75-52e6-4a05-8cc6-ffcffc63b4e9</id>
       <masked>false</masked>

@@ -4,6 +4,12 @@
    <name>span_About Us</name>
    <tag></tag>
    <elementGuidId>5b40602c-3e8a-43e1-9075-7704ec6656ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[2]/div/div[2]/ul/li[4]/div[2]/ul/li[4]/div/div[1]/div/a/span</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,18 +27,18 @@
       <value>item-name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>About Us</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sortable-list&quot;)/li[@class=&quot;has-subitems ui-sortable-handle active&quot;]/div[@class=&quot;sub-items-wrapper&quot;]/ul[@class=&quot;sub-items&quot;]/li[4]/div[@class=&quot;row-wrapper&quot;]/div[@class=&quot;row-details pull-left&quot;]/div[@class=&quot;name-area&quot;]/a[1]/span[@class=&quot;item-name&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[2]/div/div[2]/ul/li[4]/div[2]/ul/li[4]/div/div[1]/div/a/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

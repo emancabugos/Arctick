@@ -4,6 +4,12 @@
    <name>dd_icon</name>
    <tag></tag>
    <elementGuidId>59f3c879-06c0-41b4-97ba-9ddd2bb03414</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[2]/div/div[2]/ul/li[4]/div[1]/div[1]/div[1]/a/i</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sortable-list&quot;)/li[@class=&quot;has-subitems ui-sortable-handle&quot;]/div[@class=&quot;row-wrapper&quot;]/div[@class=&quot;row-details pull-left&quot;]/div[1]/a[@class=&quot;toggle-subcate&quot;]/i[@class=&quot;icon icon-toggle active&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[2]/div/div[2]/ul/li[4]/div[1]/div[1]/div[1]/a/i</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
