@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Bespoke Admin Pages" time="11.813" tests="2" failures="0" errors="1">
+   <testsuite name="Bespoke Admin Pages" tests="2" failures="0" errors="1" time="11.813" timestamp="2020-03-23 13:37:16" hostname="ARCADIER03 - 192.168.254.104" id="Test Suites/Admin/Language/Edit Text/Bespoke/Admin Pages/Bespoke Admin Pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Arctick\\Reports\\20200323_133713\\Admin\\Language\\Edit Text\\Bespoke\\Admin Pages\\Bespoke Admin Pages\\20200323_133713"/>
+         <property name="logFiles" value="C:\\Katalon\\Arctick\\Reports\\20200323_133713\\Admin\\Language\\Edit Text\\Bespoke\\Admin Pages\\Bespoke Admin Pages\\20200323_133713\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ARCADIER03 - 192.168.254.104"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.254.104"/>
+         <property name="sessionId" value="25dc5a30df3b618400b753e3dd9cb8a2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login Navigation" time="9.299" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login Navigation" status="PASSED">
+         <system-out><![CDATA[2020-03-23 13:37:17 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login Navigation: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login Navigation
+
+2020-03-23 13:37:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Language"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-23 13:37:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 13:37:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-23 13:37:20 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Language"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-23 13:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-23 13:37:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Edit Text"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-23 13:37:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 13:37:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-23 13:37:20 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Edit Text"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-23 13:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-23 13:37:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is visible
+
+2020-03-23 13:37:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 13:37:23 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is visible
+
+2020-03-23 13:37:23 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is clicked on
+
+2020-03-23 13:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is clicked on
+
+2020-03-23 13:37:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/span_Login"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Login' is visible
+
+2020-03-23 13:37:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 13:37:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Login' is visible
+
+2020-03-23 13:37:24 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/span_Login"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Login' is clicked on
+
+2020-03-23 13:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Login' is clicked on
+
+2020-03-23 13:37:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 13:37:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 13:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login" time="1.885" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testdata.reader.SheetPOI, java.lang.Boolean) values: [TestObject - 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language', ...]
+Possible solutions: selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at Login.run(Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941833750.run(TempTestSuite1584941833750.groovy:36)
+"/>
+         <system-out><![CDATA[2020-03-23 13:37:26 - [TEST_CASE][ERROR] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testdata.reader.SheetPOI, java.lang.Boolean) values: [TestObject - 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language', ...]
+Possible solutions: selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at Login.run(Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941833750.run(TempTestSuite1584941833750.groovy:36)
+
+
+2020-03-23 13:37:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 13:37:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 13:37:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 13:37:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): null]]></system-out>
+         <system-err><![CDATA[2020-03-23 13:37:26 - [TEST_CASE][ERROR] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testdata.reader.SheetPOI, java.lang.Boolean) values: [TestObject - 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language', ...]
+Possible solutions: selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at Login.run(Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941833750.run(TempTestSuite1584941833750.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-23 13:37:16 - [TEST_SUITE][ERROR] - Bespoke Admin Pages: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testdata.reader.SheetPOI, java.lang.Boolean) values: [TestObject - 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language', ...]
+Possible solutions: selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at Login.run(Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941833750.run(TempTestSuite1584941833750.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-03-23 13:37:16 - [TEST_SUITE][ERROR] - Bespoke Admin Pages: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.testdata.reader.SheetPOI, java.lang.Boolean) values: [TestObject - 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language', ...]
+Possible solutions: selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at Login.run(Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584941833750.run(TempTestSuite1584941833750.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

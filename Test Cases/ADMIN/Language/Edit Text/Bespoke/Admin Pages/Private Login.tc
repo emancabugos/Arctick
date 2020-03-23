@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Private Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa7d142c-4169-4450-a55c-cc11ad10f733</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Language/Language')</defaultValue>
+      <description></description>
+      <id>50588f64-d91a-4119-b0ea-a7cf9a6ba289</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

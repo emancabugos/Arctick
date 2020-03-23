@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Bespoke Admin Pages" time="58.792" tests="17" failures="0" errors="0">
+   <testsuite name="Bespoke Admin Pages" tests="17" failures="0" errors="0" time="58.792" timestamp="2020-03-23 09:24:05" hostname="ARCADIER03 - 192.168.254.104" id="Test Suites/Admin/Language/Edit Text/Bespoke/Admin Pages/Bespoke Admin Pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Arctick\\Reports\\20200323_092402\\Admin\\Language\\Edit Text\\Bespoke\\Admin Pages\\Bespoke Admin Pages\\20200323_092402"/>
+         <property name="logFiles" value="C:\\Katalon\\Arctick\\Reports\\20200323_092402\\Admin\\Language\\Edit Text\\Bespoke\\Admin Pages\\Bespoke Admin Pages\\20200323_092402\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ARCADIER03 - 192.168.254.104"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.254.104"/>
+         <property name="sessionId" value="e8072f960e423ddce73611622cd03bb4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us Navigation" time="8.358" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us Navigation" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:05 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us Navigation: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us Navigation
+
+2020-03-23 09:24:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Language"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-23 09:24:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-23 09:24:07 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Language"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-23 09:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-23 09:24:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Edit Text"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-23 09:24:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-23 09:24:08 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Edit Text"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-23 09:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-23 09:24:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is visible
+
+2020-03-23 09:24:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:11 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is visible
+
+2020-03-23 09:24:11 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is clicked on
+
+2020-03-23 09:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is clicked on
+
+2020-03-23 09:24:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/span_Contact"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Contact' is visible
+
+2020-03-23 09:24:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:11 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Contact' is visible
+
+2020-03-23 09:24:11 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/span_Contact"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Contact' is clicked on
+
+2020-03-23 09:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Contact' is clicked on
+
+2020-03-23 09:24:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="3.391" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:13 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:15 - [MESSAGE][PASSED] - All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:16 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:17 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="3.243" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:17 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:17 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Spanish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:18 - [MESSAGE][PASSED] - All options with label 'Spanish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:19 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="2.909" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:20 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Hindi' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:22 - [MESSAGE][PASSED] - All options with label 'Hindi' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:22 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:22 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:22 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:23 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="3.05" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:23 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:23 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'German' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:24 - [MESSAGE][PASSED] - All options with label 'German' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:25 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="3.649" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:26 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Japanese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:28 - [MESSAGE][PASSED] - All options with label 'Japanese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:28 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="2.905" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:30 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Chinese (Traditional)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:31 - [MESSAGE][PASSED] - All options with label 'Chinese (Traditional)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:32 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="3.039" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:33 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:33 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Portuguese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:34 - [MESSAGE][PASSED] - All options with label 'Portuguese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:35 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="2.851" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:36 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:36 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Indonesian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:37 - [MESSAGE][PASSED] - All options with label 'Indonesian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:38 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:38 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:38 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="3.256" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:38 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:39 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:39 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Russian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:40 - [MESSAGE][PASSED] - All options with label 'Russian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:41 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="2.681" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:42 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Italian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:43 - [MESSAGE][PASSED] - All options with label 'Italian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:44 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:44 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="2.984" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:44 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:45 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Arabic' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:46 - [MESSAGE][PASSED] - All options with label 'Arabic' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:47 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:47 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="3.013" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:47 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:48 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Dutch' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:49 - [MESSAGE][PASSED] - All options with label 'Dutch' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:50 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:50 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="3.292" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:51 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Swedish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:52 - [MESSAGE][PASSED] - All options with label 'Swedish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:53 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="3.671" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:54 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Chinese (Simplified)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:55 - [MESSAGE][PASSED] - All options with label 'Chinese (Simplified)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:24:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:24:56 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:24:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:24:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:57 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="2.822" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:24:57 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:24:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:24:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:24:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Hebrew' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:59 - [MESSAGE][PASSED] - All options with label 'Hebrew' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:24:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:25:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:25:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:25:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:25:00 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:25:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:25:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:25:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" time="2.977" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us" status="PASSED">
+         <system-out><![CDATA[2020-03-23 09:25:00 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us
+
+2020-03-23 09:25:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:25:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-23 09:25:01 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'English' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:25:02 - [MESSAGE][PASSED] - All options with label 'English' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-23 09:25:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:25:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/input_Contact Us_marketplace-name'
+
+2020-03-23 09:25:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:25:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Contact Us/textarea_If you have any enquiries do contact us via our contact details below'
+
+2020-03-23 09:25:03 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-23 09:25:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-23 09:25:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-23 09:25:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-23 09:24:05 - [TEST_SUITE][PASSED] - Bespoke Admin Pages: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
