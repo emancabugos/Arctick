@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Bespoke Admin Pages" time="19.55" tests="2" failures="0" errors="0">
+   <testsuite name="Bespoke Admin Pages" tests="2" failures="0" errors="0" time="19.55" timestamp="2020-03-20 12:21:56" hostname="ARCADIER03 - 192.168.254.105" id="Test Suites/Admin/Language/Edit Text/Bespoke/Admin Pages/Bespoke Admin Pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Arctick\\Reports\\20200320_122153\\Admin\\Language\\Edit Text\\Bespoke\\Admin Pages\\Bespoke Admin Pages\\20200320_122153"/>
+         <property name="logFiles" value="C:\\Katalon\\Arctick\\Reports\\20200320_122153\\Admin\\Language\\Edit Text\\Bespoke\\Admin Pages\\Bespoke Admin Pages\\20200320_122153\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ARCADIER03 - 192.168.254.105"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.254.105"/>
+         <property name="sessionId" value="36d01542543bc6b7e6541b3e6dcbd8a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer Navigation" time="8.908" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer Navigation" status="PASSED">
+         <system-out><![CDATA[2020-03-20 12:21:57 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer Navigation: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer Navigation
+
+2020-03-20 12:21:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Language"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-20 12:21:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 12:21:59 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-20 12:21:59 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Language"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-20 12:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-20 12:21:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Edit Text"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-20 12:21:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 12:22:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-20 12:22:00 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Edit Text"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-20 12:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-20 12:22:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is visible
+
+2020-03-20 12:22:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 12:22:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is visible
+
+2020-03-20 12:22:02 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is clicked on
+
+2020-03-20 12:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/dd_icon' is clicked on
+
+2020-03-20 12:22:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/span_Marketplace Header  Footer"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Marketplace Header  Footer' is visible
+
+2020-03-20 12:22:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 12:22:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Marketplace Header  Footer' is visible
+
+2020-03-20 12:22:03 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Admin Navigation/span_Marketplace Header  Footer"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Marketplace Header  Footer' is clicked on
+
+2020-03-20 12:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Navigation/span_Marketplace Header  Footer' is clicked on
+
+2020-03-20 12:22:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 12:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 12:22:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer" time="10.183" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer" status="PASSED">
+         <system-out><![CDATA[2020-03-20 12:22:06 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer
+
+2020-03-20 12:22:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 12:22:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 12:22:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 12:22:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 12:22:07 - [MESSAGE][PASSED] - All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 12:22:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Search_search'
+
+2020-03-20 12:22:08 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Search_search'
+
+2020-03-20 12:22:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_BE A SELLER_be_seller"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_BE A SELLER_be_seller'
+
+2020-03-20 12:22:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_BE A SELLER_be_seller'
+
+2020-03-20 12:22:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_MORE_more"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_MORE_more'
+
+2020-03-20 12:22:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_MORE_more'
+
+2020-03-20 12:22:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_VIEW CART_btn_next"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_VIEW CART_btn_next'
+
+2020-03-20 12:22:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_VIEW CART_btn_next'
+
+2020-03-20 12:22:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_REGISTER  SIGN IN_register_signin"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_REGISTER  SIGN IN_register_signin'
+
+2020-03-20 12:22:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_REGISTER  SIGN IN_register_signin'
+
+2020-03-20 12:22:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_SELLER_sell"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_SELLER_sell'
+
+2020-03-20 12:22:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_SELLER_sell'
+
+2020-03-20 12:22:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_PROFILE_profile"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_PROFILE_profile'
+
+2020-03-20 12:22:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_PROFILE_profile'
+
+2020-03-20 12:22:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Dashboard_Dashboard"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Dashboard_Dashboard'
+
+2020-03-20 12:22:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Dashboard_Dashboard'
+
+2020-03-20 12:22:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Purchases_Purchases"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Purchases_Purchases'
+
+2020-03-20 12:22:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Purchases_Purchases'
+
+2020-03-20 12:22:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Your Items_Your Items"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Your Items_Your Items'
+
+2020-03-20 12:22:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Your Items_Your Items'
+
+2020-03-20 12:22:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Settings_Settings"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Settings_Settings'
+
+2020-03-20 12:22:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Settings_Settings'
+
+2020-03-20 12:22:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Upload_Upload"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Upload_Upload'
+
+2020-03-20 12:22:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Upload_Upload'
+
+2020-03-20 12:22:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Logout_Logout"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Logout_Logout'
+
+2020-03-20 12:22:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Logout_Logout'
+
+2020-03-20 12:22:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Orders_Orders"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Orders_Orders'
+
+2020-03-20 12:22:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Orders_Orders'
+
+2020-03-20 12:22:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Sub-accounts_Sub-accounts"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Sub-accounts_Sub-accounts'
+
+2020-03-20 12:22:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Sub-accounts_Sub-accounts'
+
+2020-03-20 12:22:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Sales_Sales"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Sales_Sales'
+
+2020-03-20 12:22:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Sales_Sales'
+
+2020-03-20 12:22:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Browse_Browse"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Browse_Browse'
+
+2020-03-20 12:22:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Browse_Browse'
+
+2020-03-20 12:22:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_SELLER_sell1"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_SELLER_sell1'
+
+2020-03-20 12:22:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_SELLER_sell1'
+
+2020-03-20 12:22:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_PROFILE_profile1"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_PROFILE_profile1'
+
+2020-03-20 12:22:13 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_PROFILE_profile1'
+
+2020-03-20 12:22:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Dashboard_Dashboard1"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Dashboard_Dashboard1'
+
+2020-03-20 12:22:13 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Dashboard_Dashboard1'
+
+2020-03-20 12:22:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Purchases_Purchases1"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Purchases_Purchases1'
+
+2020-03-20 12:22:13 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Purchases_Purchases1'
+
+2020-03-20 12:22:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Your Items_Your Items1"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Your Items_Your Items1'
+
+2020-03-20 12:22:13 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Your Items_Your Items1'
+
+2020-03-20 12:22:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Settings_Settings1"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Settings_Settings1'
+
+2020-03-20 12:22:13 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Settings_Settings1'
+
+2020-03-20 12:22:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Upload_Upload1"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Upload_Upload1'
+
+2020-03-20 12:22:13 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Upload_Upload1'
+
+2020-03-20 12:22:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Logout_Logout1"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Logout_Logout1'
+
+2020-03-20 12:22:13 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Logout_Logout1'
+
+2020-03-20 12:22:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Orders_Orders1"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Orders_Orders1'
+
+2020-03-20 12:22:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Orders_Orders1'
+
+2020-03-20 12:22:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Sales_Sales1"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Sales_Sales1'
+
+2020-03-20 12:22:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Sales_Sales1'
+
+2020-03-20 12:22:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_ABOUT US_ABOUT US"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_ABOUT US_ABOUT US'
+
+2020-03-20 12:22:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_ABOUT US_ABOUT US'
+
+2020-03-20 12:22:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_SERVICE TERMS_SERVICE TERMS"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_SERVICE TERMS_SERVICE TERMS'
+
+2020-03-20 12:22:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_SERVICE TERMS_SERVICE TERMS'
+
+2020-03-20 12:22:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_PRIVACY_PRIVACY"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_PRIVACY_PRIVACY'
+
+2020-03-20 12:22:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_PRIVACY_PRIVACY'
+
+2020-03-20 12:22:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_RETURNS_RETURNS"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_RETURNS_RETURNS'
+
+2020-03-20 12:22:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_RETURNS_RETURNS'
+
+2020-03-20 12:22:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_FAQ_FAQ"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_FAQ_FAQ'
+
+2020-03-20 12:22:15 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_FAQ_FAQ'
+
+2020-03-20 12:22:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_CONTACT_CONTACT"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_CONTACT_CONTACT'
+
+2020-03-20 12:22:15 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_CONTACT_CONTACT'
+
+2020-03-20 12:22:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_All rights reserved _foot_copyright"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_All rights reserved _foot_copyright'
+
+2020-03-20 12:22:15 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_All rights reserved _foot_copyright'
+
+2020-03-20 12:22:15 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 12:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 12:22:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 12:22:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 12:22:16 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-20 12:21:56 - [TEST_SUITE][PASSED] - Bespoke Admin Pages: Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

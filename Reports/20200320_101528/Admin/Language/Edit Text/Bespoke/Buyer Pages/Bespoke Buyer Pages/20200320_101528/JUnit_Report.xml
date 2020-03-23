@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Bespoke Buyer Pages" time="84.396" tests="17" failures="0" errors="0">
+   <testsuite name="Bespoke Buyer Pages" tests="17" failures="0" errors="0" time="84.396" timestamp="2020-03-20 10:15:31" hostname="ARCADIER03 - 192.168.254.105" id="Test Suites/Admin/Language/Edit Text/Bespoke/Buyer Pages/Bespoke Buyer Pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Arctick\\Reports\\20200320_101528\\Admin\\Language\\Edit Text\\Bespoke\\Buyer Pages\\Bespoke Buyer Pages\\20200320_101528"/>
+         <property name="logFiles" value="C:\\Katalon\\Arctick\\Reports\\20200320_101528\\Admin\\Language\\Edit Text\\Bespoke\\Buyer Pages\\Bespoke Buyer Pages\\20200320_101528\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ARCADIER03 - 192.168.254.105"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.254.105"/>
+         <property name="sessionId" value="36d01542543bc6b7e6541b3e6dcbd8a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History Navigation" time="8.937" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History Navigation" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:15:31 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History Navigation: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History Navigation
+
+2020-03-20 10:15:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Language"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-20 10:15:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-20 10:15:33 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Language"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-20 10:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-20 10:15:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Edit Text"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-20 10:15:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-20 10:15:34 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Edit Text"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-20 10:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-20 10:15:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd' is visible
+
+2020-03-20 10:15:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd' is visible
+
+2020-03-20 10:15:36 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd' is clicked on
+
+2020-03-20 10:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/icon_dd' is clicked on
+
+2020-03-20 10:15:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Purchase History"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Purchase History' is visible
+
+2020-03-20 10:15:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Purchase History' is visible
+
+2020-03-20 10:15:37 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Purchase History"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Purchase History' is clicked on
+
+2020-03-20 10:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/textlink_Purchase History' is clicked on
+
+2020-03-20 10:15:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:15:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:40 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="5.165" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:15:40 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:15:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:15:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:41 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:15:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:15:42 - [MESSAGE][PASSED] - All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:15:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:15:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:15:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:15:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:15:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:15:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:15:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:15:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:15:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:15:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:15:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:15:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:15:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:15:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:15:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:15:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:15:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:15:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:15:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:15:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:15:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:15:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:15:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:15:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:15:45 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:15:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:15:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:45 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="5.316" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:15:45 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:15:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:15:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:15:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Spanish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:15:47 - [MESSAGE][PASSED] - All options with label 'Spanish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:15:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:15:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:15:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:15:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:15:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:15:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:15:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:15:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:15:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:15:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:15:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:15:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:15:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:15:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:15:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:15:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:15:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:15:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:15:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:15:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:15:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:15:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:15:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:15:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:15:50 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:15:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.513" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:15:51 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:15:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:15:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:15:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Hindi' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:15:52 - [MESSAGE][PASSED] - All options with label 'Hindi' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:15:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:15:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:15:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:15:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:15:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:15:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:15:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:15:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:15:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:15:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:15:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:15:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:15:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:15:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:15:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:15:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:15:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:15:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:15:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:15:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:15:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:15:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:15:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:15:55 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:15:55 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:15:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.331" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:15:55 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:15:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:15:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:15:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'German' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:15:57 - [MESSAGE][PASSED] - All options with label 'German' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:15:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:15:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:15:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:15:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:15:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:15:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:15:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:15:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:15:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:15:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:15:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:15:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:15:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:15:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:15:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:15:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:15:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:15:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:15:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:15:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:15:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:15:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:15:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:15:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:15:59 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:15:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:15:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.368" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:00 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:00 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Japanese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:01 - [MESSAGE][PASSED] - All options with label 'Japanese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:03 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:03 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.916" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:04 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Chinese (Traditional)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:05 - [MESSAGE][PASSED] - All options with label 'Chinese (Traditional)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:08 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:08 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:08 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:08 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:08 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.873" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:09 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:09 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Portuguese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:10 - [MESSAGE][PASSED] - All options with label 'Portuguese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:13 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:13 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:13 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="5.164" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:14 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Indonesian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:16 - [MESSAGE][PASSED] - All options with label 'Indonesian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:17 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:17 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:17 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:17 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:17 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:18 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:18 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:18 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:18 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:18 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:18 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.736" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:19 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Russian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:20 - [MESSAGE][PASSED] - All options with label 'Russian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:22 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:22 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:22 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:22 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:22 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:22 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:23 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.573" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:24 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Italian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:26 - [MESSAGE][PASSED] - All options with label 'Italian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:28 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.309" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:28 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Arabic' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:30 - [MESSAGE][PASSED] - All options with label 'Arabic' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:32 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.517" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:33 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:33 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Dutch' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:34 - [MESSAGE][PASSED] - All options with label 'Dutch' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:36 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.503" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:37 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Swedish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:39 - [MESSAGE][PASSED] - All options with label 'Swedish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:39 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:41 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.684" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:42 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Chinese (Simplified)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:43 - [MESSAGE][PASSED] - All options with label 'Chinese (Simplified)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:46 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:46 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.752" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:46 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Hebrew' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:48 - [MESSAGE][PASSED] - All options with label 'Hebrew' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:50 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" time="4.285" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:16:51 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History
+
+2020-03-20 10:16:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:16:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'English' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:52 - [MESSAGE][PASSED] - All options with label 'English' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:16:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_PURCHASE HISTORY_item_name'
+
+2020-03-20 10:16:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Manage all'
+
+2020-03-20 10:16:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by Invoice ID_search-by-txt'
+
+2020-03-20 10:16:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_INVOICE NO_search-by-invid'
+
+2020-03-20 10:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_TIMESTAMP_search-by-tmstmp'
+
+2020-03-20 10:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_NO OF ITEM(S)_search-by-itm'
+
+2020-03-20 10:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_ORDER TOTAL_search-by-qty'
+
+2020-03-20 10:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Delivery_search-by-dlrvy'
+
+2020-03-20 10:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'
+
+2020-03-20 10:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'
+
+2020-03-20 10:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'
+
+2020-03-20 10:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:55 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'
+
+2020-03-20 10:16:55 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:16:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:16:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:16:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-20 10:15:31 - [TEST_SUITE][PASSED] - Bespoke Buyer Pages: Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

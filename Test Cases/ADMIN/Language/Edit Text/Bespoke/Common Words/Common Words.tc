@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Common Words</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ed6b57d-4776-447a-aad2-e0ee3f4be3c4</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Language/Language')</defaultValue>
+      <description></description>
+      <id>dc345695-8c15-4ba2-ae92-38de7022f19b</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

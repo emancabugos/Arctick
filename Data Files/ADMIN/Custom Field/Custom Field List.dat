@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>cddec4d0-48c7-4e2d-b72e-3fd246a4af10</dataFileGUID>
-   <dataSourceUrl>C:\Users\Arcadier\git\Arctick\Data Files\Test Data.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Katalon\Arctick\Data Files\Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

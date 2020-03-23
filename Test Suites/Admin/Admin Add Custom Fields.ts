@@ -4,7 +4,6 @@
    <name>Admin Add Custom Fields</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-12-17T10:45:07</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +13,7 @@
    <testCaseLink>
       <guid>10ab58b6-5d24-4a10-9fce-35de014c5eb0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>

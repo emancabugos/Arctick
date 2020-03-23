@@ -1,0 +1,2407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-19T07:14:01</date>
+  <millis>1584573241930</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Admin/Admin Onboarding Data Driven</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Admin Onboarding Data Driven</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Admin/Admin Onboarding Data Driven</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:01</date>
+  <millis>1584573241946</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ARCADIER03 - 192.168.254.105</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">ARCADIER03 - 192.168.254.105</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:01</date>
+  <millis>1584573241946</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:01</date>
+  <millis>1584573241947</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.254.105</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.254.105</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:01</date>
+  <millis>1584573241947</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.6.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.6.1</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:02</date>
+  <millis>1584573242704</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ADMIN/Onboarding/Complete Onboarding</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/ADMIN/Onboarding/Complete Onboarding</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ADMIN/Onboarding/Complete Onboarding</property>
+  <property name="source">C:\\Katalon\\Arctick\\Test Cases\\ADMIN\\Onboarding\\Complete Onboarding.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:02</date>
+  <millis>1584573242877</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varServer = Test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:02</date>
+  <millis>1584573242877</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varAccountType = custom</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244152</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) varGoogle = com.kms.katalon.core.testdata.reader.SheetPOI@7eb01b12</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244448</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) varFacebook = com.kms.katalon.core.testdata.reader.SheetPOI@7a11c4c7</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244588</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) varGooglePass = com.kms.katalon.core.testdata.reader.SheetPOI@59a67c3a</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244769</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) varFacebookPass = com.kms.katalon.core.testdata.reader.SheetPOI@466cf502</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244770</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varUsername = 0319BasicMonthly</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244770</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varCountry = Italy</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244771</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varAddress1 = Strada Statale 130</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244772</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varAddress2 = Dorzano, Biella 13881</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244773</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varContactNumber = +631234567890</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244774</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varFName = 0319BasicDaily</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244775</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varLName = Marketplace</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244776</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varEmail = arcadierteam@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244776</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varTemplate = Bespoke</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244777</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varTheme = Theme 2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244777</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varCurrency = SGD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244777</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varCoverImage = C:\\\\Katalon\\\\Arctick\\\\Images\\\\LogoLayout\\\\lcoverimage3.jpg</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244778</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varLogo = C:\\\\Katalon\\\\Arctick\\\\Images\\\\LogoLayout\\\\logo2.jpg</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:04</date>
+  <millis>1584573244778</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>varAdminFee = 100</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:05</date>
+  <millis>1584573245437</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Create Account\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:05</date>
+  <millis>1584573245492</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Create Account</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:05</date>
+  <millis>1584573245493</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Create Account\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:05</date>
+  <millis>1584573245494</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:05</date>
+  <millis>1584573245722</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:05</date>
+  <millis>1584573245738</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;args&amp;apos;, &amp;apos;[--incognito]&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:05</date>
+  <millis>1584573245858</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:08</date>
+  <millis>1584573248287</millis>
+  <sequence>53</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 666f8f49aa5fa6a45f2189619eb308e2</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">666f8f49aa5fa6a45f2189619eb308e2</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:08</date>
+  <millis>1584573248307</millis>
+  <sequence>54</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 80.0.3987.132</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 80.0.3987.132</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:08</date>
+  <millis>1584573248308</millis>
+  <sequence>55</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 7</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 7</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:08</date>
+  <millis>1584573248308</millis>
+  <sequence>56</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:08</date>
+  <millis>1584573248309</millis>
+  <sequence>57</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:08</date>
+  <millis>1584573248325</millis>
+  <sequence>58</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:08</date>
+  <millis>1584573248326</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:08</date>
+  <millis>1584573248326</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (varServer == \&amp;quot;Test\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:08</date>
+  <millis>1584573248328</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://www.test.arcadier.io\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:10</date>
+  <millis>1584573250506</millis>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.test.arcadier.io&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:10</date>
+  <millis>1584573250507</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://www.test.arcadier.io\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:10</date>
+  <millis>1584573250507</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (varServer == \&amp;quot;Test\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:10</date>
+  <millis>1584573250508</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:10</date>
+  <millis>1584573250775</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:10</date>
+  <millis>1584573250776</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:10</date>
+  <millis>1584573250776</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (varAccountType == \&amp;quot;custom\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:10</date>
+  <millis>1584573250777</millis>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:11</date>
+  <millis>1584573251974</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:11</date>
+  <millis>1584573251975</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Create_Account\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:11</date>
+  <millis>1584573251975</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username\&amp;quot;), 0)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:12</date>
+  <millis>1584573252052</millis>
+  <sequence>88</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:12</date>
+  <millis>1584573252168</millis>
+  <sequence>92</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:12</date>
+  <millis>1584573252169</millis>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username\&amp;quot;), 0)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:12</date>
+  <millis>1584573252169</millis>
+  <sequence>94</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username\&amp;quot;), varUsername)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:12</date>
+  <millis>1584573252523</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;0319BasicMonthly&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:12</date>
+  <millis>1584573252523</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Username\&amp;quot;), varUsername)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:12</date>
+  <millis>1584573252524</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password\&amp;quot;), \&amp;quot;welcome8\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:12</date>
+  <millis>1584573252868</millis>
+  <sequence>118</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;welcome8&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:12</date>
+  <millis>1584573252869</millis>
+  <sequence>119</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Password\&amp;quot;), \&amp;quot;welcome8\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:12</date>
+  <millis>1584573252869</millis>
+  <sequence>120</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password\&amp;quot;), \&amp;quot;welcome8\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:13</date>
+  <millis>1584573253277</millis>
+  <sequence>131</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;welcome8&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:13</date>
+  <millis>1584573253278</millis>
+  <sequence>132</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password\&amp;quot;), \&amp;quot;welcome8\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:13</date>
+  <millis>1584573253279</millis>
+  <sequence>133</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:15</date>
+  <millis>1584573255297</millis>
+  <sequence>142</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:15</date>
+  <millis>1584573255298</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:15</date>
+  <millis>1584573255299</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (varAccountType == \&amp;quot;custom\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:15</date>
+  <millis>1584573255299</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Step 1\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">73</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:15</date>
+  <millis>1584573255303</millis>
+  <sequence>146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Step 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:15</date>
+  <millis>1584573255304</millis>
+  <sequence>147</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Step 1\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:15</date>
+  <millis>1584573255305</millis>
+  <sequence>148</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByLabel(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im\&amp;quot;), \&amp;quot;I\u2019m managing them offline\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:15</date>
+  <millis>1584573255790</millis>
+  <sequence>159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;I\u2019m managing them offline&amp;apos; are selected in object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im&amp;apos; </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:15</date>
+  <millis>1584573255790</millis>
+  <sequence>160</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByLabel(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im\&amp;quot;), \&amp;quot;I\u2019m managing them offline\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:15</date>
+  <millis>1584573255790</millis>
+  <sequence>161</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByLabel(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don\&amp;quot;), \&amp;quot;Something else!\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:16</date>
+  <millis>1584573256337</millis>
+  <sequence>172</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;Something else!&amp;apos; are selected in object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don&amp;apos; </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:16</date>
+  <millis>1584573256339</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByLabel(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2ndDropdown_Please select one...Don\&amp;quot;), \&amp;quot;Something else!\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:16</date>
+  <millis>1584573256339</millis>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType\&amp;quot;), \&amp;quot;Marketplace\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">81</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:16</date>
+  <millis>1584573256600</millis>
+  <sequence>185</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Marketplace&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:16</date>
+  <millis>1584573256601</millis>
+  <sequence>186</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/2nddropdown_textbox_OtherMarketplaceType\&amp;quot;), \&amp;quot;Marketplace\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:16</date>
+  <millis>1584573256601</millis>
+  <sequence>187</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByLabel(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work\&amp;quot;), \&amp;quot;Someone else!\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">84</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:16</date>
+  <millis>1584573256751</millis>
+  <sequence>198</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;Someone else!&amp;apos; are selected in object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work&amp;apos; </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:16</date>
+  <millis>1584573256752</millis>
+  <sequence>199</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByLabel(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rdDropdown_Im an individualIm work\&amp;quot;), \&amp;quot;Someone else!\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:16</date>
+  <millis>1584573256752</millis>
+  <sequence>200</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType\&amp;quot;), \&amp;quot;Business Man\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">87</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:17</date>
+  <millis>1584573257096</millis>
+  <sequence>211</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Business Man&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:17</date>
+  <millis>1584573257097</millis>
+  <sequence>212</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType\&amp;quot;), \&amp;quot;Business Man\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:17</date>
+  <millis>1584573257098</millis>
+  <sequence>213</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType\&amp;quot;), \&amp;quot;Business Man\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">90</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:17</date>
+  <millis>1584573257275</millis>
+  <sequence>224</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Business Man&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:17</date>
+  <millis>1584573257275</millis>
+  <sequence>225</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/3rddropdown_textbox_OtherEntityType\&amp;quot;), \&amp;quot;Business Man\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:17</date>
+  <millis>1584573257275</millis>
+  <sequence>226</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">93</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:18</date>
+  <millis>1584573258230</millis>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:18</date>
+  <millis>1584573258230</millis>
+  <sequence>236</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/Button_NEXT_Step1\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:18</date>
+  <millis>1584573258231</millis>
+  <sequence>237</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Step 2\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">95</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:18</date>
+  <millis>1584573258232</millis>
+  <sequence>238</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Step 2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:18</date>
+  <millis>1584573258232</millis>
+  <sequence>239</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Step 2\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:18</date>
+  <millis>1584573258232</millis>
+  <sequence>240</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">97</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:18</date>
+  <millis>1584573258324</millis>
+  <sequence>244</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:18</date>
+  <millis>1584573258673</millis>
+  <sequence>250</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:18</date>
+  <millis>1584573258673</millis>
+  <sequence>251</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementVisible(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textlabel_We will like to know mor\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:18</date>
+  <millis>1584573258673</millis>
+  <sequence>252</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName\&amp;quot;), varFName)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">100</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:19</date>
+  <millis>1584573259099</millis>
+  <sequence>263</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;0319BasicDaily&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:19</date>
+  <millis>1584573259100</millis>
+  <sequence>264</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_FirstName\&amp;quot;), varFName)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:19</date>
+  <millis>1584573259100</millis>
+  <sequence>265</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName\&amp;quot;), varLName)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">102</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:19</date>
+  <millis>1584573259417</millis>
+  <sequence>276</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Marketplace&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:19</date>
+  <millis>1584573259417</millis>
+  <sequence>277</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_LastName\&amp;quot;), varLName)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:19</date>
+  <millis>1584573259417</millis>
+  <sequence>278</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email\&amp;quot;), varEmail)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">104</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:19</date>
+  <millis>1584573259787</millis>
+  <sequence>289</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;arcadierteam@gmail.com&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:19</date>
+  <millis>1584573259787</millis>
+  <sequence>290</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_Email\&amp;quot;), varEmail)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:19</date>
+  <millis>1584573259788</millis>
+  <sequence>291</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">106</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:20</date>
+  <millis>1584573260794</millis>
+  <sequence>293</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:20</date>
+  <millis>1584573260794</millis>
+  <sequence>294</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:20</date>
+  <millis>1584573260795</millis>
+  <sequence>295</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByLabel(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown\&amp;quot;), varCountry, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">108</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:20</date>
+  <millis>1584573260982</millis>
+  <sequence>306</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;Italy&amp;apos; are selected in object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown&amp;apos; </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:20</date>
+  <millis>1584573260983</millis>
+  <sequence>307</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByLabel(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Country_Dropdown\&amp;quot;), varCountry, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:20</date>
+  <millis>1584573260983</millis>
+  <sequence>308</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1\&amp;quot;), varAddress1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">111</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:21</date>
+  <millis>1584573261347</millis>
+  <sequence>319</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Strada Statale 130&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:21</date>
+  <millis>1584573261348</millis>
+  <sequence>320</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line1\&amp;quot;), varAddress1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:21</date>
+  <millis>1584573261348</millis>
+  <sequence>321</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2\&amp;quot;), varAddress2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">113</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:21</date>
+  <millis>1584573261909</millis>
+  <sequence>332</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Dorzano, Biella 13881&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:21</date>
+  <millis>1584573261910</millis>
+  <sequence>333</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Address_Line2\&amp;quot;), varAddress2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:21</date>
+  <millis>1584573261910</millis>
+  <sequence>334</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber\&amp;quot;), varContactNumber)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">115</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:22</date>
+  <millis>1584573262142</millis>
+  <sequence>345</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;+631234567890&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:22</date>
+  <millis>1584573262143</millis>
+  <sequence>346</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Textbox_PhoneNumber\&amp;quot;), varContactNumber)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:22</date>
+  <millis>1584573262143</millis>
+  <sequence>347</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2\&amp;quot;), CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">117</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:23</date>
+  <millis>1584573263370</millis>
+  <sequence>356</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:23</date>
+  <millis>1584573263371</millis>
+  <sequence>357</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step2/Button_Next_Step2\&amp;quot;), CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:23</date>
+  <millis>1584573263373</millis>
+  <sequence>358</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Step 3\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">119</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:23</date>
+  <millis>1584573263382</millis>
+  <sequence>359</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Step 3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:23</date>
+  <millis>1584573263383</millis>
+  <sequence>360</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Step 3\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:23</date>
+  <millis>1584573263383</millis>
+  <sequence>361</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">121</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:23</date>
+  <millis>1584573263427</millis>
+  <sequence>365</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:23</date>
+  <millis>1584573263651</millis>
+  <sequence>371</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:23</date>
+  <millis>1584573263652</millis>
+  <sequence>372</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementVisible(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/TextLabel_What type of marketplace\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:23</date>
+  <millis>1584573263652</millis>
+  <sequence>373</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">124</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:24</date>
+  <millis>1584573264655</millis>
+  <sequence>375</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:24</date>
+  <millis>1584573264655</millis>
+  <sequence>376</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:24</date>
+  <millis>1584573264656</millis>
+  <sequence>377</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (varTemplate == \&amp;quot;Bespoke\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">126</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:24</date>
+  <millis>1584573264656</millis>
+  <sequence>378</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Textlabel_Retail Goods\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">127</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:24</date>
+  <millis>1584573264937</millis>
+  <sequence>388</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Textlabel_Retail Goods&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:24</date>
+  <millis>1584573264939</millis>
+  <sequence>389</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Textlabel_Retail Goods\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:24</date>
+  <millis>1584573264939</millis>
+  <sequence>390</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">129</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:25</date>
+  <millis>1584573265942</millis>
+  <sequence>392</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:25</date>
+  <millis>1584573265943</millis>
+  <sequence>393</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:25</date>
+  <millis>1584573265943</millis>
+  <sequence>394</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Button_Retail_Goods_Select\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">131</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:26</date>
+  <millis>1584573266754</millis>
+  <sequence>403</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Button_Retail_Goods_Select&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:26</date>
+  <millis>1584573266754</millis>
+  <sequence>404</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step3/Button_Retail_Goods_Select\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:26</date>
+  <millis>1584573266755</millis>
+  <sequence>405</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (varTemplate == \&amp;quot;Bespoke\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:26</date>
+  <millis>1584573266755</millis>
+  <sequence>406</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Step 4\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">158</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:26</date>
+  <millis>1584573266756</millis>
+  <sequence>407</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Step 4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:26</date>
+  <millis>1584573266757</millis>
+  <sequence>408</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Step 4\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:26</date>
+  <millis>1584573266757</millis>
+  <sequence>409</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : uploadFile(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4\&amp;quot;), varLogo)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">160</property>
+  <property name="stepIndex">38</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:27</date>
+  <millis>1584573267169</millis>
+  <sequence>418</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>File &amp;apos;C:\\\\Katalon\\\\Arctick\\\\Images\\\\LogoLayout\\\\logo2.jpg&amp;apos; sent to object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:27</date>
+  <millis>1584573267169</millis>
+  <sequence>419</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : uploadFile(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Browse_Step4\&amp;quot;), varLogo)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:27</date>
+  <millis>1584573267170</millis>
+  <sequence>420</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name\&amp;quot;), varUsername)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">162</property>
+  <property name="stepIndex">39</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:27</date>
+  <millis>1584573267477</millis>
+  <sequence>431</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;0319BasicMonthly&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:27</date>
+  <millis>1584573267478</millis>
+  <sequence>432</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Marketplace_Name\&amp;quot;), varUsername)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:27</date>
+  <millis>1584573267478</millis>
+  <sequence>433</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan\&amp;quot;), varTheme)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">164</property>
+  <property name="stepIndex">40</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:27</date>
+  <millis>1584573267706</millis>
+  <sequence>444</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Theme 2&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:27</date>
+  <millis>1584573267707</millis>
+  <sequence>445</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_Slogan\&amp;quot;), varTheme)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:27</date>
+  <millis>1584573267707</millis>
+  <sequence>446</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber\&amp;quot;), varContactNumber)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">166</property>
+  <property name="stepIndex">41</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268073</millis>
+  <sequence>457</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;+631234567890&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268073</millis>
+  <sequence>458</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactNumber\&amp;quot;), varContactNumber)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268073</millis>
+  <sequence>459</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail\&amp;quot;), varEmail)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">168</property>
+  <property name="stepIndex">42</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268334</millis>
+  <sequence>470</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;arcadierteam@gmail.com&amp;apos; is set on object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268335</millis>
+  <sequence>471</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Textbox_ContactEmail\&amp;quot;), varEmail)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268335</millis>
+  <sequence>472</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4\&amp;quot;), CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">170</property>
+  <property name="stepIndex">43</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268489</millis>
+  <sequence>481</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268489</millis>
+  <sequence>482</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step4/Button_Next_Step4\&amp;quot;), CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268490</millis>
+  <sequence>483</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Step 5\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">172</property>
+  <property name="stepIndex">44</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268492</millis>
+  <sequence>484</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Step 5</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268492</millis>
+  <sequence>485</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Step 5\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268492</millis>
+  <sequence>486</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">174</property>
+  <property name="stepIndex">45</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:28</date>
+  <millis>1584573268537</millis>
+  <sequence>490</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:30</date>
+  <millis>1584573270749</millis>
+  <sequence>496</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:30</date>
+  <millis>1584573270749</millis>
+  <sequence>497</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementVisible(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/h1_5. Preview  pick out a mark\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:30</date>
+  <millis>1584573270749</millis>
+  <sequence>498</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (varTemplate == \&amp;quot;Bespoke\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">177</property>
+  <property name="stepIndex">46</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:30</date>
+  <millis>1584573270751</millis>
+  <sequence>499</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (varTheme == \&amp;quot;Theme 1\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">178</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:30</date>
+  <millis>1584573270752</millis>
+  <sequence>500</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (varTheme == \&amp;quot;Theme 1\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:30</date>
+  <millis>1584573270752</millis>
+  <sequence>501</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else if (varTheme == \&amp;quot;Theme 2\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">180</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:30</date>
+  <millis>1584573270752</millis>
+  <sequence>502</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Bespoke_Theme_Selection/Theme2_select\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">181</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:31</date>
+  <millis>1584573271206</millis>
+  <sequence>511</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Bespoke_Theme_Selection/Theme2_select&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:31</date>
+  <millis>1584573271207</millis>
+  <sequence>512</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Bespoke_Theme_Selection/Theme2_select\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:31</date>
+  <millis>1584573271207</millis>
+  <sequence>513</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else if (varTheme == \&amp;quot;Theme 2\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:31</date>
+  <millis>1584573271207</millis>
+  <sequence>514</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (varTemplate == \&amp;quot;Bespoke\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:31</date>
+  <millis>1584573271207</millis>
+  <sequence>515</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">201</property>
+  <property name="stepIndex">48</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:32</date>
+  <millis>1584573272977</millis>
+  <sequence>524</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:32</date>
+  <millis>1584573272979</millis>
+  <sequence>525</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step5/Button_Next_Step5\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:32</date>
+  <millis>1584573272979</millis>
+  <sequence>526</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Step 6\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">203</property>
+  <property name="stepIndex">49</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:32</date>
+  <millis>1584573272982</millis>
+  <sequence>527</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Step 6</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:32</date>
+  <millis>1584573272982</millis>
+  <sequence>528</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Step 6\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:32</date>
+  <millis>1584573272982</millis>
+  <sequence>529</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">205</property>
+  <property name="stepIndex">50</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:33</date>
+  <millis>1584573273035</millis>
+  <sequence>533</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:33</date>
+  <millis>1584573273246</millis>
+  <sequence>539</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:33</date>
+  <millis>1584573273248</millis>
+  <sequence>540</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementVisible(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Textlabel_Select your marketplace\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:33</date>
+  <millis>1584573273248</millis>
+  <sequence>541</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6\&amp;quot;), CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">208</property>
+  <property name="stepIndex">51</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:33</date>
+  <millis>1584573273464</millis>
+  <sequence>550</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:33</date>
+  <millis>1584573273465</millis>
+  <sequence>551</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Button_Browse_Step6\&amp;quot;), CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:33</date>
+  <millis>1584573273465</millis>
+  <sequence>552</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">210</property>
+  <property name="stepIndex">52</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:35</date>
+  <millis>1584573275468</millis>
+  <sequence>554</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:35</date>
+  <millis>1584573275468</millis>
+  <sequence>555</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:35</date>
+  <millis>1584573275468</millis>
+  <sequence>556</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : uploadFile(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container\&amp;quot;), varCoverImage)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">212</property>
+  <property name="stepIndex">53</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:36</date>
+  <millis>1584573276085</millis>
+  <sequence>568</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to upload file &amp;apos;C:\\\\Katalon\\\\Arctick\\\\Images\\\\LogoLayout\\\\lcoverimage3.jpg&amp;apos; to object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file &amp;apos;C:\\\\Katalon\\\\Arctick\\\\Images\\\\LogoLayout\\\\lcoverimage3.jpg&amp;apos; to object &amp;apos;Object Repository/ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2971)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)\r\n\tat Complete Onboarding.run(Complete Onboarding:212)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1584573238562.run(TempTestSuite1584573238562.groovy:36)\r\nCaused by: org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\\\Katalon\\\\Arctick\\\\Images\\\\LogoLayout\\\\lcoverimage3.jpg\n  (Session info: chrome=80.0.3987.132)\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;ARCADIER-03&amp;apos;, ip: &amp;apos;192.168.254.105&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\ARCADI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:43179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 666f8f49aa5fa6a45f2189619eb308e2\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)\r\n\tat com.sun.proxy.$Proxy9.sendKeys(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2971)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)\r\n\tat Script1570757127844.run(Script1570757127844.groovy:212)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.openqa.selenium.InvalidArgumentException</property>
+  <property name="attachment">1584573275563.png</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\\\\Katalon\\\\Arctick\\\\Images\\\\LogoLayout\\\\lcoverimage3.jpg\n  (Session info: chrome=80.0.3987.132)\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;ARCADIER-03&apos;, ip: &apos;192.168.254.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\ARCADI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:43179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 666f8f49aa5fa6a45f2189619eb308e2\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)\r\n\tat com.sun.proxy.$Proxy9.sendKeys(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2971)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)\r\n\tat Complete Onboarding.run(Complete Onboarding:212)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1584573238562.run(TempTestSuite1584573238562.groovy:36)\r\n</property>
+  <property name="failed.exception.message">invalid argument: File not found : C:\\\\Katalon\\\\Arctick\\\\Images\\\\LogoLayout\\\\lcoverimage3.jpg\n  (Session info: chrome=80.0.3987.132)\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;ARCADIER-03&apos;, ip: &apos;192.168.254.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\ARCADI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:43179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 666f8f49aa5fa6a45f2189619eb308e2</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:36</date>
+  <millis>1584573276099</millis>
+  <sequence>569</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : uploadFile(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image_Container\&amp;quot;), varCoverImage)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-19T07:14:36</date>
+  <millis>1584573276103</millis>
+  <sequence>570</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible(findTestObject(\&amp;quot;ADMIN/Admin Onboarding Page/Admin_Onboarding_Step6/Image Cropper/div_btn btn-success btn-ok\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">214</property>
+  <property name="stepIndex">54</property>
+</record>
+<record>
+  <date>2020-03-19T07:14:36</date>
+  <millis>1584573276141</millis>
+  <sequence>574</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>

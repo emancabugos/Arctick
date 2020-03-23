@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Bespoke Seller Pages" time="89.341" tests="17" failures="0" errors="0">
+   <testsuite name="Bespoke Seller Pages" tests="17" failures="0" errors="0" time="89.341" timestamp="2020-03-20 10:25:59" hostname="ARCADIER03 - 192.168.254.105" id="Test Suites/Admin/Language/Edit Text/Bespoke/Seller Pages/Bespoke Seller Pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Arctick\\Reports\\20200320_102556\\Admin\\Language\\Edit Text\\Bespoke\\Seller Pages\\Bespoke Seller Pages\\20200320_102556"/>
+         <property name="logFiles" value="C:\\Katalon\\Arctick\\Reports\\20200320_102556\\Admin\\Language\\Edit Text\\Bespoke\\Seller Pages\\Bespoke Seller Pages\\20200320_102556\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ARCADIER03 - 192.168.254.105"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.254.105"/>
+         <property name="sessionId" value="36d01542543bc6b7e6541b3e6dcbd8a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales Navigation" time="9.219" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales Navigation" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:25:59 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales Navigation: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales Navigation
+
+2020-03-20 10:25:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Language"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-20 10:26:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-20 10:26:02 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Language"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-20 10:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-20 10:26:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Edit Text"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-20 10:26:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-20 10:26:03 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Edit Text"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-20 10:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-20 10:26:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Seller Navigation/dd_icon seller"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Navigation/dd_icon seller' is visible
+
+2020-03-20 10:26:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Navigation/dd_icon seller' is visible
+
+2020-03-20 10:26:06 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Seller Navigation/dd_icon seller"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Navigation/dd_icon seller' is clicked on
+
+2020-03-20 10:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Navigation/dd_icon seller' is clicked on
+
+2020-03-20 10:26:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Seller Navigation/span_Sales Page"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Navigation/span_Sales Page' is visible
+
+2020-03-20 10:26:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Navigation/span_Sales Page' is visible
+
+2020-03-20 10:26:06 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Seller Navigation/span_Sales Page"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Navigation/span_Sales Page' is clicked on
+
+2020-03-20 10:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Navigation/span_Sales Page' is clicked on
+
+2020-03-20 10:26:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="4.503" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:08 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:09 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:10 - [MESSAGE][PASSED] - All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:12 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="4.558" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:13 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Spanish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:14 - [MESSAGE][PASSED] - All options with label 'Spanish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:15 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:16 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:17 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="4.317" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:17 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:17 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Hindi' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:19 - [MESSAGE][PASSED] - All options with label 'Hindi' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:21 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="4.052" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:22 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'German' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:23 - [MESSAGE][PASSED] - All options with label 'German' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:25 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="3.727" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:26 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Japanese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:27 - [MESSAGE][PASSED] - All options with label 'Japanese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:29 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="3.809" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:30 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Chinese (Traditional)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:31 - [MESSAGE][PASSED] - All options with label 'Chinese (Traditional)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:32 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:33 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:33 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="4.067" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:33 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Portuguese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:35 - [MESSAGE][PASSED] - All options with label 'Portuguese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:37 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:37 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:37 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="4.385" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:37 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:38 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Indonesian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:39 - [MESSAGE][PASSED] - All options with label 'Indonesian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:41 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="3.818" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:42 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:42 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Russian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:44 - [MESSAGE][PASSED] - All options with label 'Russian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:45 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="4.265" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:46 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Italian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:47 - [MESSAGE][PASSED] - All options with label 'Italian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:49 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:50 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="3.997" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:50 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:50 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Arabic' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:51 - [MESSAGE][PASSED] - All options with label 'Arabic' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:53 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:54 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="3.804" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:54 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:54 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Dutch' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:55 - [MESSAGE][PASSED] - All options with label 'Dutch' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:26:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:26:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:26:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:26:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:26:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:26:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:26:57 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:26:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:26:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="4.024" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:26:58 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:26:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:26:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:26:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Swedish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:59 - [MESSAGE][PASSED] - All options with label 'Swedish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:26:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:27:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:27:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:27:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:27:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:27:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:27:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:27:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:27:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:27:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:27:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:27:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:27:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:27:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:27:01 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:27:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:27:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:27:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="4.711" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:27:02 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:27:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:27:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:27:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:27:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Chinese (Simplified)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:27:05 - [MESSAGE][PASSED] - All options with label 'Chinese (Simplified)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:27:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:27:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:27:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:27:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:27:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:27:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:27:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:27:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:27:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:27:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:27:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:27:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:27:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:27:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:27:06 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:27:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:27:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:27:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="7.684" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:27:06 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:27:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:27:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:27:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Hebrew' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:27:09 - [MESSAGE][PASSED] - All options with label 'Hebrew' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:27:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:27:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:27:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:27:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:27:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:27:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:27:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:27:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:27:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:27:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:27:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:27:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:27:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:27:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:27:11 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:27:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:27:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:27:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" time="13.701" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales" status="PASSED">
+         <system-out><![CDATA[2020-03-20 10:27:14 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales
+
+2020-03-20 10:27:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:27:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:27:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 10:27:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'English' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:27:26 - [MESSAGE][PASSED] - All options with label 'English' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 10:27:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:27:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_YOUR SALES_item_name'
+
+2020-03-20 10:27:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:27:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Keep track of the items that you have sold_item_details'
+
+2020-03-20 10:27:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:27:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Search by item name_search-by-txt'
+
+2020-03-20 10:27:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:27:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_Total items sold_total-item-sold'
+
+2020-03-20 10:27:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:27:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_ITEM_purchase-item-txt'
+
+2020-03-20 10:27:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:27:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_SOLD_purchase-sold-txt'
+
+2020-03-20 10:27:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:27:27 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Seller Pages/Sales page/input_TOTAL EARNED_purchase-total-earned-txt'
+
+2020-03-20 10:27:27 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 10:27:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 10:27:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 10:27:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-20 10:25:59 - [TEST_SUITE][PASSED] - Bespoke Seller Pages: Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

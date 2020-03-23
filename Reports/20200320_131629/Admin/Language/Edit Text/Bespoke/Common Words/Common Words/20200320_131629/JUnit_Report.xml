@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Common Words" time="88.711" tests="17" failures="0" errors="0">
+   <testsuite name="Common Words" tests="17" failures="0" errors="0" time="88.711" timestamp="2020-03-20 13:16:32" hostname="ARCADIER03 - 192.168.254.105" id="Test Suites/Admin/Language/Edit Text/Bespoke/Common Words/Common Words">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Arctick\\Reports\\20200320_131629\\Admin\\Language\\Edit Text\\Bespoke\\Common Words\\Common Words\\20200320_131629"/>
+         <property name="logFiles" value="C:\\Katalon\\Arctick\\Reports\\20200320_131629\\Admin\\Language\\Edit Text\\Bespoke\\Common Words\\Common Words\\20200320_131629\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ARCADIER03 - 192.168.254.105"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.254.105"/>
+         <property name="sessionId" value="8f60cb98c5fe61fbeae5020b924eb1be"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words Navigation" time="7.983" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words Navigation" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:16:32 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words Navigation: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words Navigation
+
+2020-03-20 13:16:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Language"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-20 13:16:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:35 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Language' is visible
+
+2020-03-20 13:16:35 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Language"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-20 13:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Language' is clicked on
+
+2020-03-20 13:16:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Language/sidemenu_Edit Text"), 0): Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-20 13:16:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is visible
+
+2020-03-20 13:16:36 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Language/sidemenu_Edit Text"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-20 13:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Language/sidemenu_Edit Text' is clicked on
+
+2020-03-20 13:16:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/dd_icon"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/dd_icon' is visible
+
+2020-03-20 13:16:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/dd_icon' is visible
+
+2020-03-20 13:16:37 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/dd_icon"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/dd_icon' is clicked on
+
+2020-03-20 13:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/dd_icon' is clicked on
+
+2020-03-20 13:16:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/textlink_common words"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/textlink_common words' is visible
+
+2020-03-20 13:16:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:38 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/textlink_common words' is visible
+
+2020-03-20 13:16:38 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/textlink_common words"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/textlink_common words' is clicked on
+
+2020-03-20 13:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/textlink_common words' is clicked on
+
+2020-03-20 13:16:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:16:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:40 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="6.132" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:16:40 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:16:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:16:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:41 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:16:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:16:42 - [MESSAGE][PASSED] - All options with label 'French' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:16:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:16:42 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:16:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:16:42 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:16:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:16:42 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:16:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:16:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:16:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:16:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:16:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:16:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:16:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:16:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:16:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:16:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:16:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:16:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:16:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:16:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:16:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:16:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:16:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:16:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:16:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:16:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:16:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:16:46 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:16:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:16:46 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:16:46 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:16:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:16:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="5.334" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:16:46 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:16:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:16:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:16:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Spanish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:16:47 - [MESSAGE][PASSED] - All options with label 'Spanish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:16:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:16:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:16:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:16:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:16:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:16:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:16:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:16:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:16:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:16:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:16:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:16:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:16:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:16:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:16:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:16:51 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:16:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:16:51 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:16:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:16:51 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:16:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:16:51 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:16:51 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:16:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:16:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="5.931" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:16:52 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:16:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:16:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:52 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:16:52 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Hindi' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:16:53 - [MESSAGE][PASSED] - All options with label 'Hindi' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:16:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:16:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:16:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:16:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:16:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:16:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:16:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:16:55 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:16:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:16:55 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:16:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:16:55 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:16:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:16:55 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:16:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:16:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:16:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:16:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:16:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:16:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:16:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:16:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:16:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:16:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:16:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:16:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:16:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:16:56 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:16:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:16:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:16:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:16:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:16:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:16:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:16:57 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:16:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:16:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="4.863" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:16:58 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:16:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:16:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:16:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:16:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'German' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:16:59 - [MESSAGE][PASSED] - All options with label 'German' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:16:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:16:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:16:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:16:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:16:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:16:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:16:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:00 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:01 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:02 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:02 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="4.851" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:03 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Japanese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:04 - [MESSAGE][PASSED] - All options with label 'Japanese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:04 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:04 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:04 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:04 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:04 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:04 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:05 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:06 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:07 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:07 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="4.976" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:07 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Chinese (Traditional)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:09 - [MESSAGE][PASSED] - All options with label 'Chinese (Traditional)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:09 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:10 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:11 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:12 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:12 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:12 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="5.045" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:12 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Portuguese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:14 - [MESSAGE][PASSED] - All options with label 'Portuguese' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:14 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:15 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:15 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:15 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:15 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:15 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:15 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:16 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:17 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:17 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:17 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:17 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="4.386" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:17 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:18 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Indonesian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:19 - [MESSAGE][PASSED] - All options with label 'Indonesian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:19 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:20 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:21 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:21 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="5.387" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:22 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Russian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:23 - [MESSAGE][PASSED] - All options with label 'Russian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:23 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:24 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:25 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:26 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:26 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="4.584" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:27 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Italian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:28 - [MESSAGE][PASSED] - All options with label 'Italian' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:28 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:29 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:30 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:31 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:31 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:32 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="4.668" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:32 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:32 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:32 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Arabic' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:33 - [MESSAGE][PASSED] - All options with label 'Arabic' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:33 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:33 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:33 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:34 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:35 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:36 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:36 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="4.751" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:37 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Dutch' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:38 - [MESSAGE][PASSED] - All options with label 'Dutch' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:38 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:38 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:38 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:38 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:38 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:38 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:39 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:39 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:39 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:39 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:39 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:39 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:39 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:40 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:41 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:41 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:41 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="4.282" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:41 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:41 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Swedish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:42 - [MESSAGE][PASSED] - All options with label 'Swedish' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:42 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:42 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:43 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:44 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:45 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:45 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="5.013" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:46 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Chinese (Simplified)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:47 - [MESSAGE][PASSED] - All options with label 'Chinese (Simplified)' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:47 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:48 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:49 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:50 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:50 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="4.627" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:51 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'Hebrew' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:52 - [MESSAGE][PASSED] - All options with label 'Hebrew' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:52 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:53 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:54 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:54 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:17:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:17:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" time="5.302" classname="Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words" status="PASSED">
+         <system-out><![CDATA[2020-03-20 13:17:55 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words
+
+2020-03-20 13:17:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:17:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' is visible
+
+2020-03-20 13:17:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language"), varLanguage, false): All options with label 'English' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:56 - [MESSAGE][PASSED] - All options with label 'English' are selected in object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language' 
+
+2020-03-20 13:17:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Cash on delivery_cash-delivery'
+
+2020-03-20 13:17:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_paidcod'
+
+2020-03-20 13:17:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_To be collected_to_be_collected'
+
+2020-03-20 13:17:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivery_delivery'
+
+2020-03-20 13:17:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pick up_pickup'
+
+2020-03-20 13:17:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_SKU_sku'
+
+2020-03-20 13:17:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:57 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Save_sku'
+
+2020-03-20 13:17:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Drop your image here or click to add one_sku'
+
+2020-03-20 13:17:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Search_search"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Search_search'
+
+2020-03-20 13:17:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Acknowledged_Acknowledged'
+
+2020-03-20 13:17:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Processing_Processing'
+
+2020-03-20 13:17:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Pending_Pending'
+
+2020-03-20 13:17:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:58 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Paid_Paid'
+
+2020-03-20 13:17:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Waiting for payments_Waitingforpayments'
+
+2020-03-20 13:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Created_Created'
+
+2020-03-20 13:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Fully Paid_FullyPaid'
+
+2020-03-20 13:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Delivered_Delivered'
+
+2020-03-20 13:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Ready for Pick-up_ReadyforPick-up'
+
+2020-03-20 13:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Collected_Collected'
+
+2020-03-20 13:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_Refunded_Refunded'
+
+2020-03-20 13:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_MERCHANT ACCESS DENIED_merchant-access'
+
+2020-03-20 13:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_concat(Your action is not allowed Please contact the site  s administrator)_action-not-allowed'
+
+2020-03-20 13:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed"), "*"): Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:59 - [MESSAGE][PASSED] - Keys '*' sent to object: 'Object Repository/ADMIN/Edit Text/Bespoke/Common Words/input_No email allowed_no-email-allowed'
+
+2020-03-20 13:17:59 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save' is clicked on
+
+2020-03-20 13:18:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success"), 0): Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible
+
+2020-03-20 13:18:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-20 13:18:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-20 13:16:32 - [TEST_SUITE][PASSED] - Common Words: Test Cases/ADMIN/Language/Edit Text/Bespoke/Common Words/Common Words]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
