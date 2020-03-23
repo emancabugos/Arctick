@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Check the days and specify the times you will be available</name>
+   <name>textlable_CheckSpecifyDates</name>
    <tag></tag>
    <elementGuidId>51d8f2bb-0f79-4c3e-af7e-ef84b0598ee3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

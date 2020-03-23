@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Set a datetime range that you want to make unavailable_time_range</name>
+   <name>textfield_SetDateRange</name>
    <tag></tag>
    <elementGuidId>06791d19-11ec-42d0-85c7-5b2e9f366e22</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

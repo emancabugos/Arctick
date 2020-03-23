@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_(Custom) Specify your service duration</name>
+   <name>textlabel_SpecifyDuration</name>
    <tag></tag>
    <elementGuidId>dac0ff07-73a4-4fa3-a06d-e57d1d7e10e7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

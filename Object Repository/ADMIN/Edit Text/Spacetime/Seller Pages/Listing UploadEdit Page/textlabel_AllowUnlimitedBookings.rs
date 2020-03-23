@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Allow unlimited bookings</name>
+   <name>textlable_AllowUnlimitedBookings</name>
    <tag></tag>
    <elementGuidId>e7f335d4-3779-4ae0-aae8-911ca72e083b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

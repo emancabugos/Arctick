@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_AVAILABILITY CALENDAR</name>
+   <name>textlabel_AvailabilityCalendar</name>
    <tag></tag>
    <elementGuidId>57d08dba-ee22-4c4e-809a-724ed3c6ce31</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

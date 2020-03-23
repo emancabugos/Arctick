@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Enter the time your customers will be able to check-in and check-out</name>
+   <name>textlabel_EnterYourTime</name>
    <tag></tag>
    <elementGuidId>61213415-4e6a-4058-a61e-aa2b6589a8e5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

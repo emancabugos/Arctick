@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Images</name>
+   <name>tabLabel_Images</name>
    <tag></tag>
    <elementGuidId>f5dc2b21-7e4c-47c2-a766-f8d89b89d80d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_SERVICE IMAGE</name>
+   <name>textlabel_ServiceImage</name>
    <tag></tag>
    <elementGuidId>2c37ac4d-5936-4bed-ad36-d00bc8ce123b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

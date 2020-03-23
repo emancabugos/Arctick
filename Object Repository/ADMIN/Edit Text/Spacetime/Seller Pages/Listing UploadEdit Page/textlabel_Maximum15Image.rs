@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Set a datetime range that you want to make unavailable</name>
+   <name>textlabel_Maximum15Image</name>
    <tag></tag>
-   <elementGuidId>2a2562a4-0e55-4990-b596-92b31bb12bc1</elementGuidId>
+   <elementGuidId>a196e118-5711-484f-8df4-d92bc00a47e0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Set a date/time range that you want to make unavailable. </value>
+      <value>MAXIMUM 15 IMAGES</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,41 +32,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AVAILABILITY CALENDAR'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SERVICE IMAGE'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CHECK-OUT TIME'])[1]/following::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IMAGES'])[2]/following::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BLOCK THIS DATE/TIME'])[1]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Images must be in a ratio of 3:2 and no larger than 2MB (recommended 720px x 480px)'])[1]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Images'])[1]/preceding::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BROWSE'])[1]/preceding::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Set a date/time range that you want to make unavailable.']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='MAXIMUM 15 IMAGES']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div[7]/div/div/label</value>
+      <value>//div[7]/div[3]/div/div/label</value>
    </webElementXpaths>
 </WebElementEntity>

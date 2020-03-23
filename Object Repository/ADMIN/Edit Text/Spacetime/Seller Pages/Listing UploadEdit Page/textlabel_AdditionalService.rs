@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_ADDITIONAL SERVICE DETAILS</name>
+   <name>textlabel_AdditionalService</name>
    <tag></tag>
    <elementGuidId>a25042ff-e33f-4a9b-82b7-107caff2e2aa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

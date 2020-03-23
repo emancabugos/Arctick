@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ADD-ON NAME_add_on_name</name>
+   <name>textfield_AddOnName</name>
    <tag></tag>
    <elementGuidId>12a25595-a687-4405-9ca2-bb7ec7b9b9a1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

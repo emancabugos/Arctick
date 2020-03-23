@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Images must be in a ratio of 32 and no larger than 2MB (recommended 720px x 480px)_images_ratio_description</name>
+   <name>textfield_ImageRatio</name>
    <tag></tag>
    <elementGuidId>3db60f3e-6ce0-4ae4-8aba-d4f6861d1125</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

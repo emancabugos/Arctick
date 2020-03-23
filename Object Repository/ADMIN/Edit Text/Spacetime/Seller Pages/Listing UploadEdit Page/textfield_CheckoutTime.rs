@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_CHECK-OUT TIME_check-out</name>
+   <name>textfield_CheckoutTime</name>
    <tag></tag>
    <elementGuidId>cf2f6c88-3559-4222-81b1-d66ac894fd2e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_AVAILABILITY CALENDAR_availability_calendar</name>
+   <name>textfield_AvailabilityCalendar</name>
    <tag></tag>
    <elementGuidId>8e792a13-289a-48f3-b26b-37e0b6403409</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

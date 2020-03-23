@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_BROWSE</name>
+   <name>textlabel_Browse</name>
    <tag></tag>
    <elementGuidId>339cd8aa-60bc-4b12-8a7f-3ba408f60c93</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

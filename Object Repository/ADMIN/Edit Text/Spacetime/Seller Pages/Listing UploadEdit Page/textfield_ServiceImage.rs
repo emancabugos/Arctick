@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_SERVICE IMAGE_service_image</name>
+   <name>textfield_ServiceImage</name>
    <tag></tag>
    <elementGuidId>19565f1a-5408-4142-a033-a3c5cfdf818d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

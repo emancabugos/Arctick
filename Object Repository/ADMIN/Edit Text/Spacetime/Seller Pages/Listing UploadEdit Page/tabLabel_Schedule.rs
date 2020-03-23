@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_Schedule</name>
+   <name>tabLabel_Schedule</name>
    <tag></tag>
    <elementGuidId>46310f22-4a71-415a-9b20-9c55b72f0196</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

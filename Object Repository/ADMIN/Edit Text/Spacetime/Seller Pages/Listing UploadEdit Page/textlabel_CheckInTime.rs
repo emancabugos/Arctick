@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_CHECK-IN TIME</name>
+   <name>textlabel_CheckInTime</name>
    <tag></tag>
    <elementGuidId>3dfaaf8a-655f-4391-a1fd-278f27268eb0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
