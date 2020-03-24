@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Images must be in a ratio of 32 and no larger than 2MB (recommended 720px x 480px)</name>
+   <name>textlabel_ImageRatio</name>
    <tag></tag>
    <elementGuidId>170c520c-985a-4f2e-8d94-3cfd4a52ffd0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

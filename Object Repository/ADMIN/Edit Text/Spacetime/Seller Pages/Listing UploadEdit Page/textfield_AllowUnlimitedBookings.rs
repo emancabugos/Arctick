@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Allow unlimited bookings_allow_unlimited_bookings</name>
+   <name>textfield_AllowUnlimitedBookings</name>
    <tag></tag>
    <elementGuidId>707b5b97-d84b-48f2-b448-71fd1b698632</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

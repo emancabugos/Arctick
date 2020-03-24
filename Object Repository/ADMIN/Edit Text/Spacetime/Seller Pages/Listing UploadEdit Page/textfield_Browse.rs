@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_BROWSE_browse_btn</name>
+   <name>textfield_Browse</name>
    <tag></tag>
    <elementGuidId>58a69fc3-c2d5-41b7-9abb-645e45968429</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

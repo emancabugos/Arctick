@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Maximum bookings per session_maximum_booking_session</name>
+   <name>textfield_MaximumBookingPerSession</name>
    <tag></tag>
    <elementGuidId>dedea13d-1e59-4c1e-8f05-8b58c6416d18</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

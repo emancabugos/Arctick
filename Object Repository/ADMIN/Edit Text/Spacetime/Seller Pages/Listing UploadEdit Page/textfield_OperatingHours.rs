@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_OPERATING HOURS_operating_hours</name>
+   <name>textfield_OperatingHours</name>
    <tag></tag>
    <elementGuidId>a78097e1-e6a8-4291-b3bd-de5c48c5146f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

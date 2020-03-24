@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_SURCHARGE_surcharge</name>
+   <name>textfield_Surcharge</name>
    <tag></tag>
    <elementGuidId>ffb73bc9-26c1-412f-b179-0a8a3cefe2b5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

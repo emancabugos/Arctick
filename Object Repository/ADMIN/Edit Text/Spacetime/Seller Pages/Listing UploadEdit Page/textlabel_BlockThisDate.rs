@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_BLOCK THIS DATETIME</name>
+   <name>textlabel_BlockThisDate</name>
    <tag></tag>
    <elementGuidId>c58b14cb-fa7e-4bdf-a35b-d050a30e106f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

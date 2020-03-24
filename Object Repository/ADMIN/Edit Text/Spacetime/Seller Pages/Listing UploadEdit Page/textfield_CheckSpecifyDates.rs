@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Check the days and specify the times you will be available_days_available_description</name>
+   <name>textfield_CheckSpecifyDates</name>
    <tag></tag>
    <elementGuidId>123fa22f-35cd-436b-8bfe-496d321d4dcb</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

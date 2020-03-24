@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ADDITIONAL SERVICE DETAILS_additional_services_details</name>
+   <name>textfield_AdditionalService</name>
    <tag></tag>
    <elementGuidId>83996806-07e0-4658-8348-f8a66351054e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

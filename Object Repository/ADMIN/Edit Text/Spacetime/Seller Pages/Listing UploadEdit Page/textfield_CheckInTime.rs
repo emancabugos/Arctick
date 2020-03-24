@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_CHECK-IN TIME_check-in</name>
+   <name>textfield_CheckInTime</name>
    <tag></tag>
    <elementGuidId>3c77e03a-f7bc-46db-8d15-e07f14386d70</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

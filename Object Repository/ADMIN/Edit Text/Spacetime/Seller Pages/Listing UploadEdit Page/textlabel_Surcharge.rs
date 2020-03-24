@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_SURCHARGE</name>
+   <name>textlabel_Surcharge</name>
    <tag></tag>
    <elementGuidId>2d7112c6-90d7-480e-b855-a4ca9dd7bdda</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
