@@ -4,6 +4,12 @@
    <name>textarea_0210BP1 does not store</name>
    <tag></tag>
    <elementGuidId>3ac6b2d1-9fc0-4241-bad8-49b9c1392e29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div[13]/div[2]/div[2]/div/textarea[count(. | //*[@name = 'about-us']) = count(//*[@name = 'about-us'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,18 +41,18 @@
       <value>readonly</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>0210BP1 does not store nor handle any credit card details on our site. Our PCI level 1 compliant partners hold all your financial data securely; no one can access it, not even us!</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;language-page&quot;]/div[@class=&quot;main template-sidebar&quot;]/div[@class=&quot;col-sm-9 main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;language-section&quot;]/div[@class=&quot;language-row mt-10&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;form-group&quot;]/textarea[@class=&quot;lng-faq-big-text-area source-editable-readonly-if-english&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div[13]/div[2]/div[2]/div/textarea</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

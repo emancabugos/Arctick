@@ -19,6 +19,8 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Naviga
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language'), varLanguage, false)
 
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/FAQ'), '*')
+
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/input_How do I sign up_lbl_title'), '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/textarea_This marketplace uses Facebook or Google open ID for all your logins'), 
@@ -91,7 +93,8 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/input_I d
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/textarea_If you did not receive an i'), '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/textarea_If there are any significant dis'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/input_The item condition has significant discrepancies'), 
+    '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/textarea_If there are any significant dis'), '*')
 
@@ -162,7 +165,7 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/input_How
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/textarea_Stripe will automatically'), '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/textarea_Stripe submits transfers every'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/input_Stripe states that a transfer'), '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/textarea_Stripe submits transfers every'), '*')
 

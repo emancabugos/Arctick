@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Returns Policy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2033010b-53ab-4921-90bc-613d9b291f90</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Language/Language')</defaultValue>
+      <description></description>
+      <id>50b2811a-a416-4ddd-b435-06abcef51260</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

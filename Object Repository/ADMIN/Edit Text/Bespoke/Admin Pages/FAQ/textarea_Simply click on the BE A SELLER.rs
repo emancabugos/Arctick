@@ -4,6 +4,12 @@
    <name>textarea_Simply click on the BE A SELLER</name>
    <tag></tag>
    <elementGuidId>6ea24de8-9fca-4c7a-8334-f440e931be93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div[18]/div[2]/div[2]/div/textarea[count(. | //*[@name = 'about-us']) = count(//*[@name = 'about-us'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,18 +41,18 @@
       <value>readonly</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Simply click on the “BE A SELLER” tab on the top menu bar. 1. Sign up by using either your Facebook or Google+ account2. Fill up your profile details3. Add a delivery address (your item will be sent to this delivery address when you purchase an item from 0210BP1 as a buyer)4. Link with your Stripe account (this is the account that you will receive your payments with)5. Add your delivery options and/or your preferred pick-up location 6. Click save Congratulations, you are now a seller on 0210BP1 and can start uploading your first item. &lt;</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;language-page&quot;]/div[@class=&quot;main template-sidebar&quot;]/div[@class=&quot;col-sm-9 main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;language-section&quot;]/div[@class=&quot;language-row mt-10&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;form-group&quot;]/textarea[@class=&quot;lng-faq-big-text-area source-editable-readonly-if-english&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div[18]/div[2]/div[2]/div/textarea</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

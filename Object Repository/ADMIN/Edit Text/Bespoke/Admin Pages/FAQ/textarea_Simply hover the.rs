@@ -4,6 +4,12 @@
    <name>textarea_Simply hover the</name>
    <tag></tag>
    <elementGuidId>b18ad24f-0ccd-4d93-a85e-ae0a3a5b72d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div[11]/div[2]/div[2]/div/textarea[count(. | //*[@name = 'about-us']) = count(//*[@name = 'about-us'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,18 +41,18 @@
       <value>readonly</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Simply hover the cursor over your profile to activate the drop down bar and click on “Purchases”. This opens up your Purchase History page where you can access details of orders that you have placed, including invoice ID, timestamp, item, qty, delivery method and order status.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;language-page&quot;]/div[@class=&quot;main template-sidebar&quot;]/div[@class=&quot;col-sm-9 main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;language-section&quot;]/div[@class=&quot;language-row mt-10&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;form-group&quot;]/textarea[@class=&quot;lng-faq-big-text-area source-editable-readonly-if-english&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div[11]/div[2]/div[2]/div/textarea</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

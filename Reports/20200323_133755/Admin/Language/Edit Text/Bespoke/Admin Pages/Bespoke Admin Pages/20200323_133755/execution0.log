@@ -18720,3 +18720,205 @@
   <nestedLevel>0</nestedLevel>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-24T12:48:07</date>
+  <millis>1585025287401</millis>
+  <sequence>1947</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/ADMIN/Language/Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:48:07</date>
+  <millis>1585025287447</millis>
+  <sequence>1948</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:48:07</date>
+  <millis>1585025287448</millis>
+  <sequence>1949</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Katalon\\Arctick\\Data Files\\Test Data.xlsx&amp;apos; and sheet name &amp;apos;Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:48:11</date>
+  <millis>1585025291283</millis>
+  <sequence>1950</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/ADMIN/Language/Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:48:11</date>
+  <millis>1585025291288</millis>
+  <sequence>1951</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:48:11</date>
+  <millis>1585025291289</millis>
+  <sequence>1952</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Katalon\\Arctick\\Data Files\\Test Data.xlsx&amp;apos; and sheet name &amp;apos;Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:48:41</date>
+  <millis>1585025321779</millis>
+  <sequence>1953</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/ADMIN/Language/Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:48:41</date>
+  <millis>1585025321793</millis>
+  <sequence>1954</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:48:41</date>
+  <millis>1585025321793</millis>
+  <sequence>1955</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Katalon\\Arctick\\Data Files\\Test Data.xlsx&amp;apos; and sheet name &amp;apos;Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:49:01</date>
+  <millis>1585025341263</millis>
+  <sequence>1956</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>661</thread>
+  <message>Finding test data with id &amp;apos;Data Files/ADMIN/Language/Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:49:01</date>
+  <millis>1585025341268</millis>
+  <sequence>1957</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>661</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T12:49:01</date>
+  <millis>1585025341268</millis>
+  <sequence>1958</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>661</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Katalon\\Arctick\\Data Files\\Test Data.xlsx&amp;apos; and sheet name &amp;apos;Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T13:00:44</date>
+  <millis>1585026044103</millis>
+  <sequence>3040</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/ADMIN/Language/Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T13:00:44</date>
+  <millis>1585026044107</millis>
+  <sequence>3041</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T13:00:44</date>
+  <millis>1585026044108</millis>
+  <sequence>3042</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Katalon\\Arctick\\Data Files\\Test Data.xlsx&amp;apos; and sheet name &amp;apos;Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T13:00:50</date>
+  <millis>1585026050217</millis>
+  <sequence>3043</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>817</thread>
+  <message>Finding test data with id &amp;apos;Data Files/ADMIN/Language/Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T13:00:50</date>
+  <millis>1585026050218</millis>
+  <sequence>3044</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>817</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-24T13:00:50</date>
+  <millis>1585026050219</millis>
+  <sequence>3045</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>817</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Katalon\\Arctick\\Data Files\\Test Data.xlsx&amp;apos; and sheet name &amp;apos;Language&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
