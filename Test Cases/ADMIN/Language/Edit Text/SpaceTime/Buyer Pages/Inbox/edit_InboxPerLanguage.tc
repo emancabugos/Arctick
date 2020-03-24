@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>edit_InboxPerLanguage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9163425-4375-4ee1-86a0-8e69ca187cce</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8392d598-d34d-4f37-8dca-d6f84dd11c1a</id>
+      <masked>false</masked>
+      <name>selectLanguage</name>
+   </variable>
+</TestCaseEntity>
