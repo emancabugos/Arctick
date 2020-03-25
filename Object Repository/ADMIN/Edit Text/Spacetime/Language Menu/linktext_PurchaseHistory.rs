@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>texllabel_Last30Days</name>
+   <name>linktext_PurchaseHistory</name>
    <tag></tag>
-   <elementGuidId>bb01bcb0-aaa6-4f8b-aa81-065204d49e33</elementGuidId>
+   <elementGuidId>2d771483-b318-44a7-bdcd-9ac5a2be3dc5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,62 +11,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>LAST 30 DAYS</value>
+      <value>Purchase History</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;language-page&quot;]/div[@class=&quot;main template-sidebar&quot;]/div[@class=&quot;col-sm-9 main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;language-section&quot;]/div[@class=&quot;language-row&quot;]/div[@class=&quot;col-sm-4&quot;]/div[1]/label[1]</value>
+      <value>id(&quot;sortable-list&quot;)/li[@class=&quot;has-subitems ui-sortable-handle active&quot;]/div[@class=&quot;sub-items-wrapper&quot;]/ul[@class=&quot;sub-items&quot;]/li[5]/div[@class=&quot;row-wrapper&quot;]/div[@class=&quot;row-details pull-left&quot;]/div[@class=&quot;name-area&quot;]/a[1]/span[@class=&quot;item-name&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LAST 7 DAYS'])[1]/following::label[1]</value>
+      <value>//ul[@id='sortable-list']/li/div[2]/ul/li[5]/div/div/div/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TODAY'])[1]/following::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item Details'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Sales'])[1]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Result Page'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Orders'])[1]/preceding::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inbox'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='LAST 30 DAYS']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chat'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Purchase History']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/label</value>
+      <value>//li[5]/div/div/div/a/span</value>
    </webElementXpaths>
 </WebElementEntity>
