@@ -15,3 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/linkMenu_Language'), 0)
+
+WebUI.click(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/linkMenu_Language'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/subMenu_EditText'), 0)
+
+WebUI.click(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/subMenu_EditText'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/collapseButton_BuyerPages'), 0)
+
+WebUI.click(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/collapseButton_BuyerPages'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/linktext_MerchantStorefront'), 0)
+
+WebUI.click(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/linktext_MerchantStorefront'), FailureHandling.CONTINUE_ON_FAILURE)
+

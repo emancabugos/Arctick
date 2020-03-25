@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>edit_ListingUpoaldEditPerLangauge</name>
+   <tag></tag>
+   <comment>Seller Service Upload</comment>
+   <testCaseGuid>3d0a136f-8101-4aff-b3d5-96402ca2181b</testCaseGuid>
+</TestCaseEntity>
