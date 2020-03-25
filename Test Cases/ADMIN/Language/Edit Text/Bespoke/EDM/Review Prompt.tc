@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Review Prompt</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95c62118-8f86-44be-9abc-f6731ea8810d</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>e84309f1-93f6-40a4-b5db-445f95545e31</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

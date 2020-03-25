@@ -11,42 +11,15 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>46c97cab-f7cc-4be7-893a-82d7f9996caf</testSuiteGuid>
    <testCaseLink>
-      <guid>c13bfa31-94ff-4829-9c7d-8008a369954e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/About Us Navigation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>42f0bb3c-1027-4e7a-b191-dff66c6356fe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/About Us</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>0f380483-ca39-4015-856e-f3f5860ae3c4</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/ADMIN/Language/Language</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>0f380483-ca39-4015-856e-f3f5860ae3c4</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Language</value>
-         <variableId>5c3c0723-feb1-4aeb-a193-f71cce9ec0d4</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>110383c8-3462-4efb-bf1b-1803c84c5ca4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fc517378-4f23-40e5-9580-efb1f2ff6746</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Header_Footer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -65,15 +38,42 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>c13bfa31-94ff-4829-9c7d-8008a369954e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/About Us Navigation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42f0bb3c-1027-4e7a-b191-dff66c6356fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/About Us</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0f380483-ca39-4015-856e-f3f5860ae3c4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ADMIN/Language/Language</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0f380483-ca39-4015-856e-f3f5860ae3c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Language</value>
+         <variableId>5c3c0723-feb1-4aeb-a193-f71cce9ec0d4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>7c1fa18c-51bb-4062-82f5-279f84ca4892</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Terms Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>61d737da-ac06-4a3f-ad3c-54e1048339a9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Terms</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -92,19 +92,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6539d339-99c5-4d6b-8f7d-0b4416634154</guid>
+      <guid>284faf98-d9f5-4337-a0ea-62fa40798796</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/About Us Navigation</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Privacy Policy Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e254ac28-3a8b-4bd7-b9a1-f0537704a0bf</guid>
+      <guid>a58095ed-49f4-4c55-8573-7da757bababa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/About Us</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Privacy Policy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>aa5aaf8f-fc69-4b65-88ea-8bcb5069b141</id>
+         <id>bbad7d44-b191-4f16-949b-88f9f5fc19ed</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -112,22 +112,76 @@
          <testDataId>Data Files/ADMIN/Language/Language</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>aa5aaf8f-fc69-4b65-88ea-8bcb5069b141</testDataLinkId>
+         <testDataLinkId>bbad7d44-b191-4f16-949b-88f9f5fc19ed</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Language</value>
-         <variableId>5c3c0723-feb1-4aeb-a193-f71cce9ec0d4</variableId>
+         <variableId>02808a11-840b-41d9-bfbe-e7099b16e057</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8432a6ba-00b3-4952-9d2a-845ac46d96bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Returns Policy Navigation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20d7508a-d02b-441f-8bf4-7bfca26fbc2c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Returns Policy</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6c1dccfc-21cd-4bf7-b8d7-287ca0e8c26a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ADMIN/Language/Language</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6c1dccfc-21cd-4bf7-b8d7-287ca0e8c26a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Language</value>
+         <variableId>50b2811a-a416-4ddd-b435-06abcef51260</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa744cf8-e778-49f0-a07a-bfd3aa8cc636</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/FAQ Navigation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>310fd6ee-ac47-416a-a984-a1c6aa663815</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/FAQ</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>518f06a2-67b7-4da2-9435-33e7c34f7d9a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ADMIN/Language/Language</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>518f06a2-67b7-4da2-9435-33e7c34f7d9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Language</value>
+         <variableId>998730ba-7c9f-4d28-970e-70cf5a2fab73</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>72a2782e-e246-47d6-9a7e-ab1e4fe32880</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f1ee09b9-fdd9-4ad8-afde-1fd50ebdae89</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -148,13 +202,13 @@
    <testCaseLink>
       <guid>37b1d2ca-8647-4ffa-9162-e20bd5f85f10</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Private Login Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bf51747f-f64f-4b4c-83f0-dd1bb006ff11</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Private Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

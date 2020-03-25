@@ -4,6 +4,12 @@
    <name>textarea_For pick up the order</name>
    <tag></tag>
    <elementGuidId>2630568f-d0f9-4d49-abbe-9d47e5c2e9a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div[29]/div[2]/div[2]/div/textarea[count(. | //*[@name = 'about-us']) = count(//*[@name = 'about-us'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,18 +41,18 @@
       <value>readonly</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>For pick up, the order statuses are:1. Paid – after the buyer has successfully made a payment, an invoice ID and order ID would automatically be created and each item order status would be tagged as paid.2. Ready for pick-up – after you have picked and packed, you can change the item’s order status to “Ready for pick-up”. The buyer will receive an email notification to remind him to pick-up his item at his selected pick-up location. 3. Completed – once the buyer has picked-up his item, you can set the item’s order status to “Completed”.4. Refunded – you can set the item’s order status to “Refunded” when you have made a refund to the buyer.For delivery, the order statuses are:1. Paid – after the buyer has successfully make a payment, an invoice ID and order ID would be automatically created, and each item order status would be tagged as paid.2. Delivered – after you have shipped/couriered/delivered the item, you can set the item’s order status to “Delivered”. The buyer will then receive an email notification that his item is on its way.3. Refunded– you can set the item order status to “Refunded” when you have made a refund to the buyer.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;language-page&quot;]/div[@class=&quot;main template-sidebar&quot;]/div[@class=&quot;col-sm-9 main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;language-section&quot;]/div[@class=&quot;language-row mt-10&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;form-group&quot;]/textarea[@class=&quot;lng-faq-big-text-area source-editable-readonly-if-english&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div[29]/div[2]/div[2]/div/textarea</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

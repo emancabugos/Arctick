@@ -4,6 +4,12 @@
    <name>textarea_If you did not receive an i</name>
    <tag></tag>
    <elementGuidId>14450035-c95a-407f-800b-742dde1cccf0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div[16]/div[2]/div[2]/div/textarea[count(. | //*[@name = 'about-us']) = count(//*[@name = 'about-us'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,18 +41,18 @@
       <value>readonly</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>If you did not receive an item, you need to make a report to the seller by contacting him/her directly. The seller should address your concern and provide updates on the delivery of the item and its tracking information. If you find that the seller’s response is unsatisfactory, 0210BP1 will step in to mediate. You should always communicate through the admin so that you will be protected by our Terms of Service.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;language-page&quot;]/div[@class=&quot;main template-sidebar&quot;]/div[@class=&quot;col-sm-9 main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;language-section&quot;]/div[@class=&quot;language-row mt-10&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;form-group&quot;]/textarea[@class=&quot;lng-faq-big-text-area source-editable-readonly-if-english&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div[16]/div[2]/div[2]/div/textarea</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

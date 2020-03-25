@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Privacy Policy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18505fb1-c527-4b27-843d-e713b3c287f6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Language/Language')</defaultValue>
+      <description></description>
+      <id>02808a11-840b-41d9-bfbe-e7099b16e057</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

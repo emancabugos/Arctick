@@ -4,6 +4,12 @@
    <name>input_I did not receive my item what am I supposed to do_lbl_title</name>
    <tag></tag>
    <elementGuidId>9a07ddfe-148f-439e-b34d-beff42fe1a8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div[16]/div[1]/div[1]/div[2]/input[count(. | //*[@type = 'text' and @name = 'lbl_title']) = count(//*[@type = 'text' and @name = 'lbl_title'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -70,11 +76,11 @@
       <value>readonly</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;language-page&quot;]/div[@class=&quot;main template-sidebar&quot;]/div[@class=&quot;col-sm-9 main-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;language-section&quot;]/div[@class=&quot;language-row mt-10&quot;]/div[@class=&quot;col-sm-6 pull-right&quot;]/div[@class=&quot;form-group mt-10&quot;]/input[@class=&quot;source-editable-readonly-if-english form-control&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div[16]/div[1]/div[1]/div[2]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

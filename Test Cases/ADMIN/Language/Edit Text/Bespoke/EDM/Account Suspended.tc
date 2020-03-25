@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Account Suspended</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80136a0a-d967-4bfb-879b-082bf9fbbf12</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>2e18922d-1586-42db-a185-0d74a5172ace</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

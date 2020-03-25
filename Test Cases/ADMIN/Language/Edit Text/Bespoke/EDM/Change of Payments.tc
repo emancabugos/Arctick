@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change of Payments</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c270b21d-5126-483d-932a-97d095b9890b</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>fa3c4744-b902-426b-b66e-1328bb446e32</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

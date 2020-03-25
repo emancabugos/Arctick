@@ -4,6 +4,12 @@
    <name>span_Categories</name>
    <tag></tag>
    <elementGuidId>3c6782fb-15d4-419e-b4d0-97bc04a5c782</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[2]/div/div[2]/ul/li[4]/div[2]/ul/li[1]/div/div[1]/div/a/span[count(. | //*[(text() = 'Categories' or . = 'Categories')]) = count(//*[(text() = 'Categories' or . = 'Categories')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,11 +34,11 @@
       <value>Categories</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sortable-list&quot;)/li[@class=&quot;has-subitems ui-sortable-handle active&quot;]/div[@class=&quot;sub-items-wrapper&quot;]/ul[@class=&quot;sub-items&quot;]/li[1]/div[@class=&quot;row-wrapper&quot;]/div[@class=&quot;row-details pull-left&quot;]/div[@class=&quot;name-area&quot;]/a[1]/span[@class=&quot;item-name&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[2]/div/div[2]/ul/li[4]/div[2]/ul/li[1]/div/div[1]/div/a/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
