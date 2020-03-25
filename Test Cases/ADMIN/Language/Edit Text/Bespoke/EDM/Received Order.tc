@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Received Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8434c58-4e52-4a70-857e-03adef67c1c2</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>b9bdd30d-4d45-4c3f-ab1a-06bd3ea22e6f</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

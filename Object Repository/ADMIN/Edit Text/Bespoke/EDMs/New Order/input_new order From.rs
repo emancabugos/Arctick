@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_ORDER ID</name>
+   <name>input_new order From</name>
    <tag></tag>
-   <elementGuidId>8e7d28ee-b26c-4847-aed1-f8b362592ce8</elementGuidId>
+   <elementGuidId>e9e442d0-033b-442f-b1d2-318ed74d6d68</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[3]/div[1]/div[2]/input</value>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[2]/div[1]/div[2]/input[count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>type</name>
       <type>Main</type>
-      <value>
-                        ORDER ID
-                    </value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[3]/div[1]/div[2]/input</value>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[2]/div[1]/div[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

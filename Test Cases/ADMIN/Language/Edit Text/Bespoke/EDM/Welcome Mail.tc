@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Welcome Mail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76561731-f192-459a-9d3d-401f7eaa9533</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>1d4f473d-f116-4cbc-a40b-dc1c57b6df65</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>
