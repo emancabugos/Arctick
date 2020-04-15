@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Message from Seller</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf91a5d3-b0b7-40aa-ab47-6c1732d7aeca</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Language/Language')</defaultValue>
+      <description></description>
+      <id>6ccdb524-6b94-4075-bb0e-bb8c61e72123</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

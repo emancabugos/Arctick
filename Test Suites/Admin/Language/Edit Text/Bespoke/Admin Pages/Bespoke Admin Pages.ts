@@ -253,4 +253,31 @@
          <variableId>bfab38a1-982d-4bcb-8e11-42f13207e784</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9d73bff3-cb72-488d-81eb-ee56788622cf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Categories Navigation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>483bed46-0617-45d2-a48d-4d73ce78eb07</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Categories</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7008a20a-c178-4485-b7ed-1c96ccf19104</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ADMIN/Language/Language</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7008a20a-c178-4485-b7ed-1c96ccf19104</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Language</value>
+         <variableId>aa9940c1-def7-4f85-93e7-4580fddb03a4</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

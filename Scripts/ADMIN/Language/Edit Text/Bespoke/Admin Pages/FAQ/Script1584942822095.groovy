@@ -182,5 +182,5 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/FAQ/textarea_
 
 WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success FAQ'), 0)
 

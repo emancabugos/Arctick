@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Offer Declined</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b180f100-1b9b-4d36-b383-ef2acffdb4f4</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>9e0c7676-e063-4f02-80c1-60ce10798be1</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

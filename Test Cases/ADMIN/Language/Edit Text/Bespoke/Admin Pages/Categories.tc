@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>831974a3-9455-4ee7-9102-31f09f92eedf</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Language/Language')</defaultValue>
+      <description></description>
+      <id>aa9940c1-def7-4f85-93e7-4580fddb03a4</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
 </TestCaseEntity>

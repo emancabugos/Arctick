@@ -4,7 +4,6 @@
    <name>Admin Onboarding Data Driven</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-12-17T09:08:59</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Buyer Invite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62fd8f5d-8b1e-4954-8208-baaccb6396e0</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Language/Language')</defaultValue>
+      <description></description>
+      <id>aef177d5-81db-4ded-a8dc-577e8d3bf443</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

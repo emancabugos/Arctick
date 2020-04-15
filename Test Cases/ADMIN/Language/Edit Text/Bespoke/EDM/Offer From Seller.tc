@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Offer From Seller</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a66ada8-017a-4957-8e66-3cb94b51ddc5</testCaseGuid>
+   <variable>
+      <defaultValue>'French'</defaultValue>
+      <description></description>
+      <id>3d933ce5-d7cb-4f4d-8eb6-984105cb8fcf</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

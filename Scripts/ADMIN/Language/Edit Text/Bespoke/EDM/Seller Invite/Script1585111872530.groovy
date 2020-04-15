@@ -19,7 +19,17 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Naviga
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language'), varLanguage, false)
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/EDMs/Change of Payment/input_welcome-to'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/EDMs/Seller Invite/input_seller_invite'), '*')
+
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/EDMs/Seller Invite/input_seller_invite_hi'), '*')
+
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/EDMs/Seller Invite/input_invited_becomde_seller'), '*')
+
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/EDMs/Seller Invite/input_follow_link_below'), '*')
+
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/EDMs/Seller Invite/input_btn_create_account'), '*')
+
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/EDMs/Seller Invite/input_best-txt'), '*')
 
 WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save'), FailureHandling.CONTINUE_ON_FAILURE)
 

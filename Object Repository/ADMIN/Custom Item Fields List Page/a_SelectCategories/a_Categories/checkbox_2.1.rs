@@ -6,24 +6,28 @@
    <elementGuidId>14035e0b-ad78-49a6-95cf-5c557ca1a97b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div/div[2]/div/div[1]/div/div[2]/ul/li[2]/ul/li[1]/div/label</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[2]/ul/li[2]/ul/li[1]/div/label</value>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div/div[2]/div/div[1]/div/div[2]/ul/li[2]/ul/li[1]/div/label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>DIV</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1557897224609</value>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div/div[2]/div/div[1]/div/div[2]/ul/li[2]/ul/li[1]/div/label</value>
    </webElementProperties>
 </WebElementEntity>
