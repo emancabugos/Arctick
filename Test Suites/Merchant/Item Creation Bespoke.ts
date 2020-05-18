@@ -4,7 +4,6 @@
    <name>Item Creation Bespoke</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-05-22T15:27:54</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -115,19 +114,19 @@
       <variableLink>
          <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CATEGORY</value>
+         <value>Category</value>
          <variableId>609b3bef-6752-4b11-b1bc-f23ab2461351</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>ITEM NAME</value>
+         <value>Item Name</value>
          <variableId>70b6e3c1-687c-4646-83f5-65d39e23b952</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>PRICE</value>
+         <value>Price</value>
          <variableId>cb2a65aa-022c-411e-b179-54a1bf6e643f</variableId>
       </variableLink>
       <variableLink>
@@ -139,19 +138,19 @@
       <variableLink>
          <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>ITEM DESCRIPTION</value>
+         <value>Description</value>
          <variableId>4e5fcff5-a377-4956-949f-1b60581fe5d1</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>IMAGE</value>
+         <value>Image</value>
          <variableId>83fd36cb-040b-4adf-a2f9-ba9d458ced76</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>QUANTITY</value>
+         <value>Quantity</value>
          <variableId>963edf50-0601-483a-b12c-532980ca98ab</variableId>
       </variableLink>
    </testCaseLink>

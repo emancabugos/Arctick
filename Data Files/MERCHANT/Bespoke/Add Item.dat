@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>0e069ca3-8902-488a-bcb0-f9a40e40f36a</dataFileGUID>
-   <dataSourceUrl>C:\Katalon\Excel Files\Add Item.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Katalon\Arctick\Excel Files\Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName>Add Item No Variants</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

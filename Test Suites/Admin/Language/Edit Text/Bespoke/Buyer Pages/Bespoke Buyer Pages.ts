@@ -403,7 +403,7 @@
    <testCaseLink>
       <guid>90bb9d12-995f-4b99-a7c2-3f680a5ee6f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

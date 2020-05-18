@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC101</name>
+   <tag></tag>
+   <comment>verify highlight</comment>
+   <testCaseGuid>b580dbff-0b5f-46fb-a790-3d30ce30fc6a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC081</name>
+   <tag></tag>
+   <comment>Range from must be empty</comment>
+   <testCaseGuid>b630fad9-4ce4-480a-9baf-054838b8d9bf</testCaseGuid>
+</TestCaseEntity>
